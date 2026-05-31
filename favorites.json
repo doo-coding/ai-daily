@@ -73,5 +73,30 @@
       "_icon": "🚀",
       "_section": "모델 · 출시"
     }
+  },
+  "c1": {
+    "id": "c1",
+    "date": "2026-05-31",
+    "slot": "pm",
+    "ts": "2026-05-31T22:39:52.739Z",
+    "item": {
+      "id": "c1",
+      "cat": "research",
+      "title": "딥시크 '시각 원시값으로 사고하기' 프레임워크",
+      "meta": "DeepSeek-AI (보도: devFlokers)",
+      "date_local": "2026-04-30 (CST)",
+      "date_kst": "KST 5/1",
+      "warn": false,
+      "bullets": [
+        "이미지를 <b>시각 원시값(visual primitives)</b>으로 분해해 추론하는 'Thinking with Visual Primitives' 프레임워크 공개, 5월 초 확산",
+        "<b>위상(topological) 추론 벤치마크에서 프런티어 경쟁 모델 대비 17점</b> 격차로 우위",
+        "텍스트 사고사슬을 넘어 <b>시각적 추론 구조</b>를 직접 설계하는 멀티모달 연구 방향 제시"
+      ],
+      "you": null,
+      "url": "https://www.devflokers.com/blog/ai-news-may-2026-models-papers-open-source",
+      "source": "devFlokers (DeepSeek-AI 논문 보도)",
+      "_icon": "🔬",
+      "_section": "연구"
+    }
   }
 }
