@@ -1,1 +1,27 @@
-{}
+{
+  "d2": {
+    "id": "d2",
+    "date": "2026-05-31",
+    "slot": "pm",
+    "ts": "2026-05-31T10:20:58.817Z",
+    "item": {
+      "id": "d2",
+      "cat": "dev",
+      "title": "Claude Code, 출시 8개월 만에 코딩툴 1위 등극",
+      "meta": "Pragmatic Engineer · 2026 AI 툴링",
+      "date_local": "2026-05",
+      "date_kst": "KST 5월",
+      "warn": false,
+      "bullets": [
+        "2025년 5월 출시한 <b>Claude Code</b>가 깃허브 코파일럿·커서를 제치고 가장 많이 쓰는 코딩툴로 부상, <b>'가장 사랑받는 툴' 46%</b>(커서 19%·코파일럿 9%)",
+        "에이전트가 단발 프롬프트응답을 넘어 <b>수 분~수 시간</b> 단위로 자율 실행하는 방식으로 전환된 것이 분기점",
+        "앤트로픽 <b>Claude Code</b>·OpenAI <b>Codex CLI</b>·xAI <b>Grok Build</b>의 3파전 구도 형성"
+      ],
+      "you": "바이브코딩 사용자 — 본인이 쓰는 Claude Code의 시장 위상·경쟁 구도 변화 직접 관련",
+      "url": "https://newsletter.pragmaticengineer.com/p/ai-tooling-2026",
+      "source": "The Pragmatic Engineer",
+      "_icon": "🛠",
+      "_section": "도구 · 개발"
+    }
+  }
+}
