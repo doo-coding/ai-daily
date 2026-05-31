@@ -98,5 +98,30 @@
       "_icon": "🔬",
       "_section": "연구"
     }
+  },
+  "p1": {
+    "id": "p1",
+    "date": "2026-05-31",
+    "slot": "pm",
+    "ts": "2026-05-31T22:41:23.152Z",
+    "item": {
+      "id": "p1",
+      "cat": "policy",
+      "title": "EU, AI법 첫 개정 '디지털 옴니버스' 잠정 합의",
+      "meta": "EU 이사회·의회·집행위",
+      "date_local": "2026-05-07 (CET)",
+      "date_kst": "KST 5/8",
+      "warn": false,
+      "bullets": [
+        "2024년 6월 채택 이후 <b>AI법 첫 개정</b> — 이사회·의회·집행위가 잠정 합의, 단순화·시한 완화 중심",
+        "<b>고위험 AI(HRAIS) 의무 시행을 2026.8 → 2027.12로 16개월 연기</b>해 산업 부담 경감",
+        "<b>비동의 성적이미지·아동성착취물(CSAM) 생성</b>을 신규 금지행위로 추가하는 실질 규제 강화 병행"
+      ],
+      "you": null,
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/",
+      "source": "Consilium (EU Council)",
+      "_icon": "🏛",
+      "_section": "정책 · 거버넌스"
+    }
   }
 }
