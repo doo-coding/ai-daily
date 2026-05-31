@@ -1,15 +1,1 @@
-{
-  "__conntest__": {
-    "id": "__conntest__",
-    "date": "2026-05-31",
-    "slot": "am",
-    "ts": "2026-05-31T09:52:21.874Z",
-    "item": {
-      "id": "__conntest__",
-      "title": "conn test",
-      "bullets": [
-        "x"
-      ]
-    }
-  }
-}
+{}
