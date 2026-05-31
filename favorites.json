@@ -23,5 +23,30 @@
       "_icon": "🛠",
       "_section": "도구 · 개발"
     }
+  },
+  "d4": {
+    "id": "d4",
+    "date": "2026-05-31",
+    "slot": "pm",
+    "ts": "2026-05-31T10:22:11.219Z",
+    "item": {
+      "id": "d4",
+      "cat": "dev",
+      "title": "\"AI 없이는 일 안 한다\" 개발자 의존 심화 경고",
+      "meta": "TechCrunch",
+      "date_local": "2026-05-29 (ET)",
+      "date_kst": "KST 5/30",
+      "warn": true,
+      "bullets": [
+        "다수 개발자가 <b>AI 보조 없이는 일부 작업조차 거부</b>하는 단계에 도달했다는 조사 보도",
+        "생산성 이득 이면에 <b>기초 역량 약화·과의존 리스크</b>가 부메랑이 될 수 있다는 경고",
+        "에이전트가 장시간 자율 실행으로 확장되며 <b>검증·책임 소재</b> 문제로 직결되는 쟁점"
+      ],
+      "you": null,
+      "url": "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/",
+      "source": "TechCrunch",
+      "_icon": "🛠",
+      "_section": "도구 · 개발"
+    }
   }
 }
