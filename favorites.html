@@ -130,6 +130,8 @@
   const FAV_API = "https://ai-daily-fav.rechdo.workers.dev";
   const esc = s => String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
   const rich = s => esc(s).replace(/&lt;b&gt;/g,"<b>").replace(/&lt;\/b&gt;/g,"</b>");
+  // 쓰기 암호 — 이 기기에 한 번만 입력받아 localStorage 보관(소스엔 없음)
+  function favSecret(){ let s=""; try{ s=localStorage.getItem("ai_daily_fav_secret")||""; }catch(e){} if(!s){ s=(window.prompt("즐겨찾기 암호 (이 기기에 한 번만 입력)")||"").trim(); if(s){ try{localStorage.setItem("ai_daily_fav_secret",s);}catch(e){} } } return s; }
 
   // 헤더를 '즐겨찾기 모드'로
   document.getElementById("kicker-text").textContent = "AI 데일리 · ★ 즐겨찾기 (실시간)";
@@ -192,8 +194,9 @@
         e.stopPropagation();
         const c = st.closest(".card"), id = c.dataset.id;
         st.textContent = "…";
-        try{ await fetch(FAV_API, { method:"POST", headers:{"Content-Type":"application/json"}, body: JSON.stringify({ id, fav:false }) }); }catch(err){}
-        c.style.transition = "opacity .25s"; c.style.opacity = "0"; setTimeout(()=>c.remove(), 250);
+        let ok=false;
+        try{ const r=await fetch(FAV_API, { method:"POST", headers:{"Content-Type":"application/json"}, body: JSON.stringify({ id, fav:false, secret: favSecret() }) }); if(r.status===401){ try{localStorage.removeItem("ai_daily_fav_secret");}catch(e){} alert("즐겨찾기 암호가 틀렸습니다. 다시 시도하세요."); st.textContent="★"; return; } ok=r.ok; }catch(err){}
+        if(ok){ c.style.transition = "opacity .25s"; c.style.opacity = "0"; setTimeout(()=>c.remove(), 250); } else { st.textContent="★"; }
       });
     });
   }
