@@ -98,30 +98,5 @@
       "_icon": "🔬",
       "_section": "연구"
     }
-  },
-  "c3": {
-    "id": "c3",
-    "date": "2026-05-31",
-    "slot": "pm",
-    "ts": "2026-05-31T22:40:23.331Z",
-    "item": {
-      "id": "c3",
-      "cat": "research",
-      "title": "CiteVQA — '출처 환각' 잡는 문서이해 벤치마크",
-      "meta": "Top AI Papers · pocketLab",
-      "date_local": "2026-05",
-      "date_kst": "KST 5월",
-      "warn": false,
-      "bullets": [
-        "모델이 답과 함께 <b>요소 단위 바운딩박스 인용</b>을 반환하도록 요구하는 멀티모달 문서지능 벤치마크",
-        "근거 없이 출처를 갖다붙이는 <b>'어트리뷰션 환각(attribution hallucination)'</b> 완화가 목표",
-        "RAG·문서 에이전트의 <b>검증 가능성</b>을 평가 기준으로 끌어올리는 흐름"
-      ],
-      "you": null,
-      "url": "https://datagalore.substack.com/p/top-ai-research-papers-may-2026",
-      "source": "pocketLab.ai (Top AI Papers)",
-      "_icon": "🔬",
-      "_section": "연구"
-    }
   }
 }
