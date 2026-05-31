@@ -98,5 +98,30 @@
       "_icon": "🔬",
       "_section": "연구"
     }
+  },
+  "c2": {
+    "id": "c2",
+    "date": "2026-05-31",
+    "slot": "pm",
+    "ts": "2026-05-31T22:39:53.721Z",
+    "item": {
+      "id": "c2",
+      "cat": "research",
+      "title": "MolmoAct2 — 오픈 비전·언어·행동(VLA) 모델",
+      "meta": "Top AI Papers · pocketLab",
+      "date_local": "2026-05",
+      "date_kst": "KST 5월",
+      "warn": false,
+      "bullets": [
+        "다중 신체(multi-embodiment) <b>VLA 파운데이션 모델</b>로 연속 조작 벤치마크 SOTA 달성, π0.5·GPT-5 등 상회",
+        "<b>적응형 깊이(adaptive-depth) 인식</b> 구조로 추론 지연을 줄여 실시간 폐루프 제어 지원",
+        "로봇·물리 에이전트로 LLM 역량을 확장하는 <b>임바디드 AI</b> 연구의 오픈소스 진전"
+      ],
+      "you": null,
+      "url": "https://datagalore.substack.com/p/top-ai-research-papers-may-2026",
+      "source": "pocketLab.ai (Top AI Papers)",
+      "_icon": "🔬",
+      "_section": "연구"
+    }
   }
 }
