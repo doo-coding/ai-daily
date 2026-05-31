@@ -123,5 +123,30 @@
       "_icon": "🏛",
       "_section": "정책 · 거버넌스"
     }
+  },
+  "p2": {
+    "id": "p2",
+    "date": "2026-05-31",
+    "slot": "pm",
+    "ts": "2026-05-31T22:42:00.217Z",
+    "item": {
+      "id": "p2",
+      "cat": "policy",
+      "title": "트럼프 행정부, 한때 거부한 AI 감독으로 선회",
+      "meta": "Fortune",
+      "date_local": "2026-05-06 (ET)",
+      "date_kst": "KST 5/7",
+      "warn": false,
+      "bullets": [
+        "앤트로픽의 신모델 <b>'Mythos'가 보안 취약점을 스스로 탐지·악용</b>하는 능력에 대한 안보 우려가 정책 전환 계기",
+        "주(州) 규제 선점·연방 일원화 갈등 속에 행정부가 <b>첨단 모델 감독</b> 카드를 다시 검토",
+        "프런티어 모델의 <b>사이버 공격 역량</b>이 규제 논의의 핵심 변수로 부상"
+      ],
+      "you": null,
+      "url": "https://fortune.com/2026/05/06/trump-administration-embraces-ai-oversight-policies-it-once-rejected-anthropic-mythos-caisi/",
+      "source": "Fortune",
+      "_icon": "🏛",
+      "_section": "정책 · 거버넌스"
+    }
   }
 }
