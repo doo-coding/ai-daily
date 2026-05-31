@@ -48,5 +48,30 @@
       "_icon": "🛠",
       "_section": "도구 · 개발"
     }
+  },
+  "m1": {
+    "id": "m1",
+    "date": "2026-05-31",
+    "slot": "pm",
+    "ts": "2026-05-31T11:36:22.655Z",
+    "item": {
+      "id": "m1",
+      "cat": "model",
+      "title": "앤트로픽, Claude Opus 4.8 공개",
+      "meta": "Anthropic",
+      "date_local": "2026-05-28 (PT)",
+      "date_kst": "KST 5/29",
+      "warn": false,
+      "bullets": [
+        "전작 4.7 대비 <b>에이전틱 코딩·다분야 추론·컴퓨터 사용·금융분석</b> 전반 향상, <b>SWE-Bench Pro 69.2%</b>로 GPT-5.5·Gemini 3.1 Pro 상회",
+        "불확실성을 스스로 표시하고 근거 없는 단정을 줄인 <b>'정직성(honesty)'</b> 개선 — 에이전트 작업 신뢰도 강화 의도",
+        "Claude Code에 <b>다이내믹 워크플로</b> 도입 — 단일 세션에서 수백 개 병렬 서브에이전트로 수십만 줄 규모 코드베이스 마이그레이션 수행, fast 모드는 2.5배 속도·3배 저렴"
+      ],
+      "you": "바이브코딩(Claude Code) 사용자 — 다이내믹 워크플로·fast 모드가 실작업 속도·비용에 직접 영향",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "source": "Anthropic",
+      "_icon": "🚀",
+      "_section": "모델 · 출시"
+    }
   }
 }
