@@ -48,5 +48,27 @@
       "_icon": "🛠",
       "_section": "도구 · 개발"
     }
+  },
+  "demo-m1": {
+    "id": "demo-m1",
+    "date": "2026-05-31",
+    "slot": "pm",
+    "ts": "2026-05-31T10:36:29.533Z",
+    "item": {
+      "id": "demo-m1",
+      "cat": "model",
+      "title": "데모 즐겨찾기 — Claude Opus 4.8",
+      "meta": "Anthropic",
+      "date_local": "2026-05-28 (PT)",
+      "date_kst": "KST 5/29",
+      "_section": "모델 · 출시",
+      "_icon": "🚀",
+      "bullets": [
+        "실시간 즐겨찾기 페이지 동작 확인용 데모",
+        "★ 누르면 이 카드가 사라짐"
+      ],
+      "url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "source": "Anthropic"
+    }
   }
 }
