@@ -178,12 +178,15 @@
   const save = () => { try { localStorage.setItem(KEY, JSON.stringify([...favs])); } catch(e){} };
   let favOnly = false;
 
-  // 중계(Worker)로 별표 상태 기록 — 배포 시에만 동작, 실패해도 UI는 정상(localStorage 우선)
+  // 즐겨찾기 쓰기 암호 — 이 기기에 한 번만 입력받아 localStorage 보관(소스엔 없음)
+  function favSecret(){ let s=""; try{ s=localStorage.getItem("ai_daily_fav_secret")||""; }catch(e){} if(!s){ s=(window.prompt("즐겨찾기 암호 (이 기기에 한 번만 입력)")||"").trim(); if(s){ try{localStorage.setItem("ai_daily_fav_secret",s);}catch(e){} } } return s; }
+  // 중계(Worker)로 별표 상태 기록 — 암호 동봉. 401(암호틀림)이면 저장암호 비우고 안내
   async function recordFav(id, on){
     if(!FAV_API) return;
     try{
-      await fetch(FAV_API, { method:"POST", headers:{"Content-Type":"application/json"},
-        body: JSON.stringify({ id, fav:on, date: DIGEST.date, slot: DIGEST.slot, item: ITEMS[id] || null }) });
+      const r = await fetch(FAV_API, { method:"POST", headers:{"Content-Type":"application/json"},
+        body: JSON.stringify({ id, fav:on, date: DIGEST.date, slot: DIGEST.slot, item: ITEMS[id] || null, secret: favSecret() }) });
+      if(r.status===401){ try{localStorage.removeItem("ai_daily_fav_secret");}catch(e){} alert("즐겨찾기 암호가 틀렸습니다. 다시 ★를 눌러 입력하세요."); }
     }catch(e){ /* 네트워크 실패 무시 */ }
   }
   // 다른 기기에서 누른 별표 동기화 — 배포 시에만
