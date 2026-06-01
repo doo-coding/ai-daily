@@ -38,6 +38,18 @@ try {
   });
   log(`검증 통과 — 섹션 ${data.sections.length}개 · 항목 ${itemCount}개`);
 
+  // --- 중복 제거: 이미 보낸 기사(output/seen.json) 제외 (한 번 나온 건 다시 안 나옴) ---
+  const seenPath = path.join(ROOT, "output", "seen.json");
+  let seen = [];
+  try { if (fs.existsSync(seenPath)) { const s = JSON.parse(fs.readFileSync(seenPath, "utf8")); if (Array.isArray(s)) seen = s; } } catch (e) { seen = []; }
+  const seenSet = new Set(seen);
+  const keyOf = it => (it.url && String(it.url).trim()) ? String(it.url).trim() : ("t:" + String(it.title || "").trim());
+  let keptCount = 0;
+  data.sections.forEach(s => { s.items = (s.items || []).filter(it => !seenSet.has(keyOf(it))); keptCount += s.items.length; });
+  data.sections = data.sections.filter(s => s.items.length > 0);
+  log(`중복 제거 — 새 항목 ${keptCount}개 (중복 ${itemCount - keptCount}개 제외)`);
+  if (keptCount === 0) throw new Error("새 기사 없음(모두 이미 보냄) — 발송 생략");
+
   // --- 날짜/슬롯으로 파일명 결정 ---
   const date = data.date || new Date().toISOString().slice(0, 10);
   const slot = (data.slot || "am").replace(/[^a-z0-9]/gi, "");
@@ -56,12 +68,24 @@ try {
   if (!favApi && fs.existsSync(urlFile)) favApi = fs.readFileSync(urlFile, "utf8").trim();
   if (favApi) log("즐겨찾기 중계 연결:", favApi); else log("중계 URL 없음 → localStorage 모드");
 
+  const escAttr = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  const ogTitle = escAttr(`AI 데일리 · ${date} ${slot}`);
+  const ogDesc = escAttr((data.oneline || "오늘의 AI·기술 뉴스 브리핑").replace(/<\/?b>/g, "").slice(0, 200));
   const html = tpl
     .replace("__DIGEST_DATA_B64__", b64)
-    .replace("__FAV_API_URL__", favApi);
+    .replace("__FAV_API_URL__", favApi)
+    .replace("__OG_TITLE__", () => ogTitle)
+    .replace("__OG_DESC__", () => ogDesc);
 
   fs.writeFileSync(outFile, html, "utf8");
   log("생성 완료:", outFile);
+
+  // 이번에 낸 기사 url(없으면 제목)을 seen.json 에 기록 → 다음부턴 제외
+  const newKeys = [];
+  data.sections.forEach(s => s.items.forEach(it => newKeys.push(keyOf(it))));
+  const merged = Array.from(new Set([...seen, ...newKeys]));
+  fs.writeFileSync(seenPath, JSON.stringify(merged), "utf8");
+  log(`seen.json 갱신 — 누적 ${merged.length}건`);
 
   // run.sh가 이 경로를 받아 텔레그램으로 보냄 → stdout에는 경로만
   process.stdout.write(outFile + "\n");
