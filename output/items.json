@@ -1,0 +1,358 @@
+{
+  "date": "2026-06-01",
+  "slot": "pm",
+  "date_line": "2026년 6월 1일 (월) · 저녁 · 18건 선별",
+  "kicker": "AI 데일리 · 자동 발송",
+  "footer_tag": "✈ via Telegram · 매일 07:00 · 19:00 자동 발송",
+  "oneline": "Anthropic이 $965B 밸류에이션으로 OpenAI를 추월하고 Claude Opus 4.8을 출시한 가운데, 내일 개막하는 Microsoft Build 2026에서는 Copilot 에이전트 GA와 Azure AI Foundry 정식 출시가 예정되어 AI 플랫폼 패권 경쟁이 본격화",
+  "sections": [
+    {
+      "icon": "🚀",
+      "name": "모델 · 출시",
+      "you": false,
+      "items": [
+        {
+          "id": "m1",
+          "cat": "model",
+          "title": "Anthropic, Claude Opus 4.8 출시 및 Mythos 곧 공개 예고",
+          "meta": "Anthropic · $965B 밸류에이션 펀딩 동시 발표",
+          "date_local": "2026-05-29 (ET)",
+          "date_kst": "KST 5/30",
+          "warn": false,
+          "bullets": [
+            "<b>Claude Opus 4.8</b> 출시 — 전작 대비 기만 행동·오용 협조 가능성을 낮춘 안전성 강화 모델로, 코딩·추론 성능 동시 개선",
+            "<b>Mythos</b> 클래스 모델 수 주 내 전체 사용자 공개 예정 — 취약점 탐지·체인 익스플로잇 등 사이버 역량에 특화된 첫 사례로 보안 업계 주목",
+            "함께 발표된 $65B 펀딩으로 밸류에이션 <b>$965B</b> 달성, OpenAI($852B)를 제치고 AI 스타트업 최고가 기록"
+          ],
+          "you": null,
+          "url": "https://fortune.com/2026/05/29/anthropic-raises-65-billion-at-record-965-billion-valuation-promises-mythos-ai-model-in-wide-release-in-coming-weeks-releases-claude-opus-4-8/",
+          "source": "Fortune"
+        },
+        {
+          "id": "m2",
+          "cat": "model",
+          "title": "Google Gemini 3.5 Pro, 6월 내 공개 확정 — Sundar Pichai 직접 약속",
+          "meta": "Google · I/O 2026 후속 로드맵",
+          "date_local": "2026-05-30 (PT)",
+          "date_kst": "KST 5/31",
+          "warn": false,
+          "bullets": [
+            "<b>Gemini 3.5 Flash</b>은 5/19 GA 전환 완료, Google 검색 AI Mode·Gemini 앱 기본 모델로 교체 — 입력 $1.50/1M 토큰",
+            "<b>Gemini 3.5 Pro</b>는 내부 테스트 및 Vertex 제한 프리뷰 단계, 2M 토큰 컨텍스트·Deep Think 추론·최상위 멀티모달 성능 목표",
+            "Pichai의 \"Give us until next month\" 발언으로 6월 출시 사실상 확약, Flash 대비 코딩·수학 추론 영역에서 큰 폭 향상 전망"
+          ],
+          "you": null,
+          "url": "https://codersera.com/blog/gemini-3-5-pro-launch-guide-2026/",
+          "source": "Coder's Era"
+        },
+        {
+          "id": "m3",
+          "cat": "model",
+          "title": "OpenAI, GPT-5.3-Codex 출시 — 에이전틱 코딩 전문 모델",
+          "meta": "OpenAI · GPT-5 계열 파생",
+          "date_local": "2026-05-31 (ET)",
+          "date_kst": "KST 6/1",
+          "warn": false,
+          "bullets": [
+            "Codex 훈련 스택과 GPT-5 기반 결합한 <b>에이전틱 코딩 특화 모델</b> — 기존 GPT-5.3 대비 <b>약 25% 빠른 출력 속도</b>",
+            "코딩 벤치마크 역대 최고 점수 갱신, 멀티스텝 디버깅·테스트 자동화·PR 생성 등 자율 개발 워크플로우에 최적화",
+            "GPT-4.5는 <b>6/27 ChatGPT 퇴역</b> 예정 — OpenAI가 GPT-5.x 계열로 포트폴리오 급속 재편 중"
+          ],
+          "you": null,
+          "url": "https://openai.com/index/introducing-gpt-5-5/",
+          "source": "OpenAI"
+        },
+        {
+          "id": "m4",
+          "cat": "model",
+          "title": "NVIDIA Nemotron 3 Nano Omni — 오픈소스 멀티모달 추론 모델 공개",
+          "meta": "NVIDIA · Apache 2.0 라이선스",
+          "date_local": "2026-05-31 (ET)",
+          "date_kst": "KST 6/1",
+          "warn": false,
+          "bullets": [
+            "비전·오디오·언어를 단일 모델로 통합한 <b>오픈 오므니모달 추론 모델</b> — 동급 오픈소스 대비 최대 <b>9배 처리량</b> 향상",
+            "소형(Nano) 폼팩터로 엣지·온디바이스 배포 최적화, Apache 2.0 라이선스로 상업적 활용 허용",
+            "Meta LLaMA 계열에 이어 NVIDIA도 오픈 모델 전략 강화 — GPU 판매와 생태계 락인을 동시에 노리는 투트랙 전략"
+          ],
+          "you": null,
+          "url": null,
+          "source": "NVIDIA"
+        }
+      ]
+    },
+    {
+      "icon": "🛠",
+      "name": "도구 · 개발",
+      "you": true,
+      "items": [
+        {
+          "id": "d1",
+          "cat": "dev",
+          "title": "Microsoft Build 2026 내일 개막 — Copilot Agents GA·Azure AI Foundry 전면 공개",
+          "meta": "Microsoft · 6/2~3 샌프란시스코",
+          "date_local": "2026-06-01 (PT)",
+          "date_kst": null,
+          "warn": false,
+          "bullets": [
+            "<b>GitHub Copilot Workspace GA</b> — 자연어로 버그·기능 설명 시 Copilot이 플랜 수립→다중 파일 수정→PR 오픈까지 자율 처리",
+            "<b>Azure AI Foundry</b> 정식 출시 — 텍스트·이미지·비디오·오디오 멀티모달 네이티브 지원, 파인튜닝·RAG 파이프라인 통합 플랫폼",
+            "자체 개발 <b>AI 코딩 모델</b> 공개 예정, GitHub Copilot 기반 모델을 외부 의존에서 자사 모델로 전환 — 비용 통제·기능 차별화 동시 추구"
+          ],
+          "you": "Claude Code 사용자라면 Copilot Workspace GA의 경쟁 구도 변화 주목 — 두 플랫폼의 자율 에이전트 수준 직접 비교 가능 시점",
+          "url": "https://windowsnews.ai/article/microsoft-build-2026-ai-agents-copilot-azure-ai-foundry-and-windows-local-ai.420861",
+          "source": "Windows News"
+        },
+        {
+          "id": "d2",
+          "cat": "dev",
+          "title": "Anthropic, 구독 플랜 개편 — Agent SDK·GitHub Actions 별도 크레딧 과금",
+          "meta": "Anthropic · 6/15 시행",
+          "date_local": "2026-05-31 (ET)",
+          "date_kst": "KST 6/1",
+          "warn": true,
+          "bullets": [
+            "6/15부터 <b>Agent SDK·GitHub Actions·서드파티 프레임워크</b> 등 프로그래밍 방식 사용을 기본 채팅 구독 한도에서 분리, API 요금 기준 월 크레딧 제도로 별도 청구",
+            "<b>Claude Sonnet 4·Opus 4</b> 모델은 동일일(6/15) API 퇴역 예정 — 자동화·에이전트 파이프라인 구축팀은 모델 교체 대응 필요",
+            "바이브코딩·에이전트 워크플로우 구축 비용이 표면화되는 구조 전환, 소규모 팀에서 예상치 못한 청구 급증 주의 필요"
+          ],
+          "you": "Claude Code·Agent SDK 사용 중이라면 6/15 전 청구 구조 확인 필수 — 무제한 플랜 전제로 구축한 자동화가 예산 초과할 수 있음",
+          "url": "https://www.infoworld.com/article/4171274/anthropic-puts-claude-agents-on-a-meter-across-its-subscriptions.html",
+          "source": "InfoWorld"
+        },
+        {
+          "id": "d3",
+          "cat": "dev",
+          "title": "Microsoft, Claude Code 연간 예산 소진으로 6/30 계약 종료",
+          "meta": "Microsoft 내부 · Cybernews 보도",
+          "date_local": "2026-05-30 (ET)",
+          "date_kst": "KST 5/31",
+          "warn": true,
+          "bullets": [
+            "Microsoft 내부팀이 연간 AI 예산을 수개월 만에 소진, <b>6/30 Claude Code 구독 전면 종료</b> 결정 — 사용량 폭증이 예산 계획을 앞지른 사례",
+            "Microsoft는 자체 GitHub Copilot Workspace로 대체 추진 중이나, 내부 개발자 커뮤니티의 Claude Code 의존도가 높아 전환 저항 예상",
+            "AI 코딩 도구의 폭발적 사용이 기업 비용 구조에 미치는 충격을 보여주는 사례 — 사용량 기반 과금 모델의 예산 가시성 문제 부각"
+          ],
+          "you": "공공·기관 AI 담당자라면 AI 코딩 도구 도입 시 사용량 캡·예산 상한 정책을 선제적으로 설계해야 함을 시사",
+          "url": "https://cybernews.com/ai-news/microsoft-claude-code-burn-yearly-ai-budget/",
+          "source": "Cybernews"
+        }
+      ]
+    },
+    {
+      "icon": "🔬",
+      "name": "연구",
+      "you": false,
+      "items": [
+        {
+          "id": "c1",
+          "cat": "research",
+          "title": "EXP-Bench — AI가 AI 연구 실험을 수행할 수 있는지 최초 정량 평가",
+          "meta": "arXiv · 2505.24785",
+          "date_local": "2026-05-30 (UTC)",
+          "date_kst": "KST 5/31",
+          "warn": false,
+          "bullets": [
+            "<b>EXP-Bench</b>는 AI 에이전트가 실제 AI 연구 실험(가설 설정→코드 작성→실행→결과 해석)을 얼마나 자율적으로 수행할 수 있는지를 정량 평가하는 최초의 표준 벤치마크",
+            "현재 최고 성능 에이전트도 복잡한 실험 설계·다변수 해석 단계에서 한계 노출 — 완전 자율 AI 연구자 실현까지 핵심 병목 구간 규명",
+            "PaperBench(ICML 논문 복제 평가)와 함께 'AI가 AI를 연구하는' 메타 연구 역량 평가 생태계가 빠르게 형성 중"
+          ],
+          "you": null,
+          "url": "https://arxiv.org/pdf/2505.24785",
+          "source": "arXiv"
+        },
+        {
+          "id": "c2",
+          "cat": "research",
+          "title": "PaperOrchestra — 멀티에이전트 자동 AI 논문 작성 프레임워크 공개",
+          "meta": "arXiv · 2604.05018",
+          "date_local": "2026-04-07 (UTC)",
+          "date_kst": "KST 4/8",
+          "warn": false,
+          "bullets": [
+            "<b>PaperOrchestra</b>는 복수의 AI 에이전트가 역할(검토자·저자·편집자)을 분담해 연구 논문 초안을 자동 생성하는 멀티에이전트 프레임워크",
+            "문헌 조사→실험 설계→결과 작성→참고문헌 정리까지 파이프라인 통합, 인간 수준 초안 품질에 근접했다는 자체 평가",
+            "AI 자동 저술 확산에 따른 학술 게재 시스템 신뢰성 논란 심화 예고 — 주요 AI 컨퍼런스들이 AI 생성 논문 검증 방침 재정비 중"
+          ],
+          "you": null,
+          "url": "https://arxiv.org/pdf/2604.05018",
+          "source": "arXiv"
+        },
+        {
+          "id": "c3",
+          "cat": "research",
+          "title": "2026년 신모델 출시 주기 2일에 1회로 단축 — 에이전틱 능력으로 전 업계 수렴",
+          "meta": "LLM Stats 집계",
+          "date_local": "2026-06-01 (UTC)",
+          "date_kst": null,
+          "warn": false,
+          "bullets": [
+            "2026년 상반기 기준 신규 LLM 출시 주기 <b>평균 2일에 1회</b>로 단축 — 2024년(주 1회) 대비 3배 이상 가속",
+            "2026년 출시된 모든 주요 모델이 '에이전틱 능력'을 핵심 차별점으로 내세우며, 단순 텍스트 생성에서 <b>멀티스텝 자율 실행</b>으로 패러다임 전환",
+            "모델 선택 복잡도 급증 — 벤치마크(AA Intelligence Index 등) 추적 서비스와 기업용 모델 평가 자동화 툴 수요 동반 증가"
+          ],
+          "you": null,
+          "url": "https://llm-stats.com/ai-news",
+          "source": "LLM Stats"
+        }
+      ]
+    },
+    {
+      "icon": "🏛",
+      "name": "정책 · 거버넌스",
+      "you": false,
+      "items": [
+        {
+          "id": "p1",
+          "cat": "policy",
+          "title": "미국 백악관, AI 국가정책 프레임워크 발표 — 연방 일원화 규제 청사진",
+          "meta": "White House · 2026-03-20",
+          "date_local": "2026-03-20 (ET)",
+          "date_kst": "KST 3/21",
+          "warn": false,
+          "bullets": [
+            "백악관이 <b>AI 국가정책 프레임워크 4페이지 청사진</b>을 의회에 제출 — ①아동 온라인 보호 ②AI 위해 방지 ③지재권 ④검열 방지 ⑤혁신 촉진 ⑥AI 인력 양성의 6대 목표",
+            "주(州) 단위 AI 법률을 연방 정책으로 흡수하려는 의도, <b>AI 소송 태스크포스</b> 설치해 연방 정책에 반하는 주법에 법적 대응 방침",
+            "EU AI Act 고위험 요건 지연·완화 논의와 맞물려, 미·EU 규제 경쟁이 글로벌 AI 기업 전략에 미치는 영향 주목"
+          ],
+          "you": "공공·기관 AI 업무 담당자라면 연방 프레임워크의 조달·공공 AI 활용 지침이 국내 정책 참고 모델로 채택될 가능성 검토 권고",
+          "url": "https://www.dlapiper.com/en-us/insights/publications/2026/03/white-house-releases-the-national-policy-framework-for-ai-key-points",
+          "source": "DLA Piper"
+        },
+        {
+          "id": "p2",
+          "cat": "policy",
+          "title": "콜로라도 AI 법 시행일 재연기 — 2027년 1월 1일로 확정",
+          "meta": "Colorado Legislature · 2026-03",
+          "date_local": "2026-03-31 (MT)",
+          "date_kst": "KST 4/1",
+          "warn": false,
+          "bullets": [
+            "미국 최초 포괄적 AI 규제법인 콜로라도 AI법이 당초 2/1 → 6/30 → <b>2027년 1월 1일</b>로 재차 시행일 연기",
+            "2026년 3월 워킹그룹 초안은 자동화 의사결정(ADMT) 규제 초점 재조정, 고위험 AI 범위 재정의 등 실질적 법 개편 작업 병행",
+            "캘리포니아 AI 투명성법·텍사스 책임 AI 거버넌스법 등이 2026년 발효되면서 주마다 상이한 규제에 기업 대응 비용 급증"
+          ],
+          "you": null,
+          "url": "https://www.cooley.com/news/insight/2026/2026-04-24-state-ai-laws-where-are-they-now",
+          "source": "Cooley LLP"
+        }
+      ]
+    },
+    {
+      "icon": "💰",
+      "name": "산업 · 자본",
+      "you": true,
+      "items": [
+        {
+          "id": "i1",
+          "cat": "money",
+          "title": "SpaceXAI, 6/12 IPO 목표 — 사상 최대 $75B 조달·$1.75T 밸류에이션",
+          "meta": "SpaceXAI · SEC S-1 제출 완료",
+          "date_local": "2026-05-28 (ET)",
+          "date_kst": "KST 5/29",
+          "warn": false,
+          "bullets": [
+            "SpaceX가 2/2 xAI 흡수합병 후 상장 추진, 주관사들이 <b>6월 12일</b>을 목표 상장일로 합의 — SEC S-1 이미 제출 완료",
+            "$75B 조달 목표는 사우디 아람코 IPO($29.4B) 기록을 2.5배 이상 뛰어넘는 사상 최대 규모, 밸류에이션 <b>$1.75조</b>는 전 세계 기업가치 10위권 수준",
+            "IPO 수익의 78%($58.5B)는 기존 주주 구주 매출로 충당 예정 — 실제 신주 조달분 제한적, Starlink·Grok 통합 비즈니스 모델 성장성에 투자자 초점"
+          ],
+          "you": "반도체·AI 인프라 투자자라면 SpaceXAI IPO 후 $75B 유동성이 AI 칩·데이터센터·위성 공급망에 재투자되는 연쇄 효과 주목",
+          "url": "https://fortune.com/2026/05/28/spacex-elon-musk-ipo-money/",
+          "source": "Fortune"
+        },
+        {
+          "id": "i2",
+          "cat": "money",
+          "title": "Anthropic, $965B 밸류에이션으로 OpenAI 추월 — AI 스타트업 최고가",
+          "meta": "Anthropic · $65B 라운드 마감",
+          "date_local": "2026-05-29 (ET)",
+          "date_kst": "KST 5/30",
+          "warn": false,
+          "bullets": [
+            "$65B 신규 라운드 마감으로 밸류에이션 <b>$965B</b> 확정 — OpenAI($852B)를 제치고 비상장 AI 기업 최고가 등극",
+            "연간 매출 런레이트가 5월 기준 <b>$47B</b> (2025년 말 $10B에서 반년 만에 4.7배 급증), Claude 시리즈 기업 도입 가속이 주요 동인",
+            "Q1 2026 글로벌 벤처 투자 $300B 중 OpenAI($122B)·Anthropic($30B)·xAI($20B) 등 프론티어 랩 4곳이 전체의 <b>65%($188B) 독식</b>"
+          ],
+          "you": "AI 섹터 투자자라면 Anthropic 밸류에이션이 $1T 임박한 상황에서 상장 타임라인 및 구주 유동성 창구 개설 여부 모니터링 필요",
+          "url": "https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html",
+          "source": "CNBC"
+        },
+        {
+          "id": "i3",
+          "cat": "money",
+          "title": "Q1 2026 글로벌 VC 투자 $300B 역대 최고 — AI가 80% 독식",
+          "meta": "Crunchbase · Q1 2026 집계",
+          "date_local": "2026-04-15 (ET)",
+          "date_kst": "KST 4/16",
+          "warn": false,
+          "bullets": [
+            "2026년 1분기 전 세계 스타트업 투자 총액 <b>$300B</b> — 분기 기준 역대 최고, AI 분야에 <b>$242B(80%)</b> 집중",
+            "역대 최대 벤처 라운드 5위 중 4건이 Q1 2026에 집중 — OpenAI $122B, Anthropic $30B, xAI $20B, Waymo $16B",
+            "프론티어 랩 대형 라운드가 전체 수치를 끌어올리는 구조, 시드·시리즈A 스타트업에는 자금이 덜 도달하는 양극화 심화"
+          ],
+          "you": null,
+          "url": "https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/",
+          "source": "Crunchbase"
+        }
+      ]
+    },
+    {
+      "icon": "🇰🇷",
+      "name": "한국",
+      "you": false,
+      "items": [
+        {
+          "id": "k1",
+          "cat": "korea",
+          "title": "한국, 반도체 특별법 통과 — 2조 원 펀딩은 2027년 가동",
+          "meta": "Korea TechDesk",
+          "date_local": "2026-05-31 (KST)",
+          "date_kst": null,
+          "warn": false,
+          "bullets": [
+            "국회가 <b>반도체 특별법</b> 통과 — 연구개발·설비투자·전문인력 지원 등 법적 근거 마련, 총 <b>2조 원</b> 규모 지원 펀드 조성",
+            "핵심 예산 집행은 <b>2027년부터</b> 시작 — 글로벌 반도체 경쟁 속에서 실효성 발휘까지 시간차 존재, 업계 아쉬움 표명",
+            "AI 데이터센터 수요 급증에 맞춰 HBM·NPU·PIM 등 AI 전용 반도체 R&D 지원을 최우선 과제로 명시"
+          ],
+          "you": null,
+          "url": "https://koreatechdesk.com/korea-semiconductor-special-act",
+          "source": "Korea TechDesk"
+        },
+        {
+          "id": "k2",
+          "cat": "korea",
+          "title": "법무부·과기부, AI·과학기술 글로벌 인재 TOP-Tier 비자 확대 — 6월 시행",
+          "meta": "서울경제 · 6/1 시행",
+          "date_local": "2026-05-31 (KST)",
+          "date_kst": null,
+          "warn": false,
+          "bullets": [
+            "6월부터 <b>TOP-Tier 비자</b> 발급 대상 확대 — Science/Nature 선정 논문 저자, 3국 특허 보유자, 세계 100위권 대학 소속 교수·연구자 포함",
+            "AI·반도체 분야 해외 석학과 고급 연구인력 국내 유치 가속화를 위한 비자 패스트트랙 도입, 기존 절차 대비 심사 기간 대폭 단축 예고",
+            "중국·미국 간 AI 인재 쟁탈전이 심화되는 시점에, 한국이 '중립 거점' 역할을 노리는 전략적 포지셔닝"
+          ],
+          "you": "공공 AI 업무 담당자라면 해외 AI 인재 채용·협력 연구 확대 시 신규 비자 트랙 활용 가능성 검토 권고",
+          "url": "https://en.sedaily.com/finance/2026/05/31/korea-expands-top-tier-visa-to-global-ai-and-science-talent",
+          "source": "서울경제"
+        },
+        {
+          "id": "k3",
+          "cat": "korea",
+          "title": "젠슨 황 방한 — 삼성·SK·현대차·LG 4대 그룹 총수와 HBM·피지컬 AI 협력 논의",
+          "meta": "Korea Herald",
+          "date_local": "2026-05-31 (KST)",
+          "date_kst": null,
+          "warn": false,
+          "bullets": [
+            "NVIDIA CEO 젠슨 황이 GTC 타이완·컴퓨텍스 참석 후 방한, <b>삼성·SK하이닉스·현대차·LG</b> 4대 그룹 수장과 HBM 공급·피지컬 AI 협력 회담 예정",
+            "삼성전자와의 <b>HBM4 공급 계약</b> 물량·납기 조율이 핵심 의제 — SK하이닉스 독점 공급 구도를 깨기 위한 삼성의 마지막 설득 기회로 평가",
+            "현대차·LG와는 로봇·자율주행 등 피지컬 AI 공동 개발 협력 논의 — NVIDIA Isaac 플랫폼 기반 국내 산업 자동화 가속 전망"
+          ],
+          "you": null,
+          "url": "https://www.koreaherald.com/article/10636097",
+          "source": "Korea Herald"
+        }
+      ]
+    }
+  ]
+}
