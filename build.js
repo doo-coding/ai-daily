@@ -44,11 +44,16 @@ try {
   try { if (fs.existsSync(seenPath)) { const s = JSON.parse(fs.readFileSync(seenPath, "utf8")); if (Array.isArray(s)) seen = s; } } catch (e) { seen = []; }
   const seenSet = new Set(seen);
   const keyOf = it => (it.url && String(it.url).trim()) ? String(it.url).trim() : ("t:" + String(it.title || "").trim());
+  const allSections = JSON.parse(JSON.stringify(data.sections));  // 필터 전 원본 백업
   let keptCount = 0;
   data.sections.forEach(s => { s.items = (s.items || []).filter(it => !seenSet.has(keyOf(it))); keptCount += s.items.length; });
   data.sections = data.sections.filter(s => s.items.length > 0);
-  log(`중복 제거 — 새 항목 ${keptCount}개 (중복 ${itemCount - keptCount}개 제외)`);
-  if (keptCount === 0) throw new Error("새 기사 없음(모두 이미 보냄) — 발송 생략");
+  if (keptCount < 6) {   // 새 기사 너무 적음(재실행/뉴스 적음) → 중복필터 건너뛰고 전체 발행 (빈 페이지 방지)
+    data.sections = allSections;
+    log(`새 항목 ${keptCount}개뿐 → 중복필터 건너뜀, 전체 ${itemCount}건 발행`);
+  } else {
+    log(`중복 제거 — 새 항목 ${keptCount}개 (중복 ${itemCount - keptCount}개 제외)`);
+  }
 
   // --- 날짜/슬롯으로 파일명 결정 ---
   const date = data.date || new Date().toISOString().slice(0, 10);
