@@ -1,0 +1,341 @@
+{
+  "date": "2026-06-01",
+  "slot": "pm",
+  "date_line": "2026년 6월 1일 (월) · 저녁 20:49 KST · 17건 선별",
+  "kicker": "AI 데일리 · 자동 발송",
+  "footer_tag": "✈ via Telegram · 매일 07:00 · 19:00 자동 발송",
+  "oneline": "SpaceX·xAI 합병 법인이 6월 8일 IPO 로드쇼를 앞두고 시장의 시선을 끌고 있으며, Anthropic·Google·OpenAI가 에이전트 코딩 성능을 대폭 끌어올린 새 모델을 잇달아 공개하며 AI 에이전트 시대 경쟁이 절정을 향하는 중",
+  "sections": [
+    {
+      "icon": "🚀",
+      "name": "모델 · 출시",
+      "you": false,
+      "items": [
+        {
+          "id": "m1",
+          "cat": "model",
+          "title": "Anthropic, Claude Opus 4.8 출시 — 코딩 벤치마크 개선·Dynamic Workflows 탑재",
+          "meta": "Anthropic / 2026-05-28 출시",
+          "date_local": "2026-05-28 (PT)",
+          "date_kst": "KST 5/28",
+          "warn": false,
+          "bullets": [
+            "<b>Claude Opus 4.8</b> 5월 28일 공개 — 코딩 에이전트 점수 64.3%→<b>69.2%</b>, 다학제 추론+도구 사용 54.7%→57.9%로 전작 대비 향상, 기존 Opus 4.7과 동일 가격 유지",
+            "신규 기능 <b>Dynamic Workflows</b> 도입 — Claude Code가 초대형 복잡 작업을 하위 단계로 분해해 장시간 자율 실행 가능, 수천 줄 규모 프로젝트의 무감독 처리 범위 확장",
+            "Fast Mode 비용 <b>3분의 1 수준으로 인하</b>하며 속도 2.5배 유지 — Pro·Max·Team·Enterprise 및 AWS·Google Cloud·Microsoft Foundry에서 즉시 사용 가능"
+          ],
+          "you": null,
+          "url": "https://www.anthropic.com/news/claude-opus-4-8",
+          "source": "Anthropic"
+        },
+        {
+          "id": "m2",
+          "cat": "model",
+          "title": "Google I/O 2026, Gemini 3.5 Flash 출시 — 에이전트·코딩 속도 4배",
+          "meta": "Google DeepMind / 2026-05-20 출시",
+          "date_local": "2026-05-20 (PT)",
+          "date_kst": "KST 5/21",
+          "warn": false,
+          "bullets": [
+            "I/O 2026에서 <b>Gemini 3.5 Flash</b> 공개 — 다른 최전선 모델 대비 출력 토큰 속도 4배 빠른 에이전트·코딩 특화 경량 모델",
+            "터미널 코딩 벤치마크 Terminal-Bench 2.1에서 <b>76.2%</b>, 실세계 에이전트 작업 평가 GDPval-AA에서 Elo 1656 달성 — 전작 Gemini 3.1 Pro 초과",
+            "Gemini 3.5 <b>Pro는 6월 출시 예정</b> — Gemini API·AI Studio·Android Studio·Google 검색 AI Mode 등 전 플랫폼에 통합 제공"
+          ],
+          "you": null,
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+          "source": "Google DeepMind"
+        },
+        {
+          "id": "m3",
+          "cat": "model",
+          "title": "OpenAI GPT-5.5 Instant, ChatGPT 기본 모델로 전환 — 에이전트 작업 최전선",
+          "meta": "OpenAI / 2026-05-05 출시",
+          "date_local": "2026-05-05 (ET)",
+          "date_kst": "KST 5/6",
+          "warn": false,
+          "bullets": [
+            "OpenAI가 <b>GPT-5.5 Instant</b>를 ChatGPT 기본 모델로 전환 — 4월 공개된 GPT-5.5의 빠른 응답 변형으로 에이전트 코딩·자율 도구 탐색 등 장거리 작업 대폭 강화",
+            "GPT-5.4는 범용 모델 최초로 <b>네이티브 컴퓨터 사용(Computer Use)</b> 기능 탑재 — AI가 브라우저·앱을 직접 조작해 복잡한 업무 워크플로 자동화, 1M 토큰 컨텍스트 지원",
+            "OpenAI Codex가 Terminal-Bench 2.0에서 <b>82.7%</b> 달성, 실제 소프트웨어 엔지니어링 작업에서 1,000건 이상 순차적 도구 호출 무감독 완료"
+          ],
+          "you": null,
+          "url": "https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/",
+          "source": "TechCrunch"
+        }
+      ]
+    },
+    {
+      "icon": "🛠",
+      "name": "도구 · 개발",
+      "you": true,
+      "items": [
+        {
+          "id": "d1",
+          "cat": "dev",
+          "title": "Claude Code, Dynamic Workflows로 초대형 프로젝트 자율 처리 지원",
+          "meta": "Anthropic / Opus 4.8 동시 출시",
+          "date_local": "2026-05-28 (PT)",
+          "date_kst": "KST 5/28",
+          "warn": false,
+          "bullets": [
+            "<b>Dynamic Workflows</b> 탑재 — 수천 줄 규모 코드베이스에서 Claude Code가 스스로 하위 목표를 분해·실행하며 인간 개입 없이 장시간 처리, 종전보다 훨씬 넓은 자율 작업 범위",
+            "사용자가 claude.ai에서 <b>'노력 수준'을 직접 설정</b> 가능 — 빠른 응답 우선 vs. 심층 분석 모드 선택해 작업 스타일 커스터마이즈",
+            "Fast Mode 비용 3분의 1 수준 인하, 속도 2.5배 유지 — 일상 코딩 작업의 비용 대비 효용 대폭 개선 전망"
+          ],
+          "you": "Claude Code(바이브코딩) 사용자에게 직결 — Dynamic Workflows로 멀티 파일·대규모 리팩터링을 수동 개입 최소화로 자동화 가능, Fast Mode 인하로 일상 코딩 단가 절감",
+          "url": "https://techcrunch.com/2026/05/28/anthropic-releases-opus-4-8-with-new-dynamic-workflow-tool/",
+          "source": "TechCrunch"
+        },
+        {
+          "id": "d2",
+          "cat": "dev",
+          "title": "JetBrains 설문: AI 코딩 도구 채택 임계점 돌파, Claude Code 급성장",
+          "meta": "JetBrains 개발자 설문 / 2026년 4월",
+          "date_local": "2026-04 (UTC)",
+          "date_kst": null,
+          "warn": false,
+          "bullets": [
+            "<b>Claude Code</b> 인지도 57%, 실사용률 18% — 빠른 확산 속도로 개발자 도구 시장에서 점유율 급격히 상승",
+            "GitHub Copilot은 인지도 76%·사용률 29%로 여전히 1위이나 전년 대비 <b>성장 정체</b> — 다수 경쟁자 난립으로 점유율 방어 과제 대두",
+            "Fortune 500 기업의 <b>78%</b>가 AI 코딩 도구를 생산 환경에 도입(2024년 42%에서 급증) — 기업 AI 개발 전환이 임계점을 넘어 일상화 국면 진입"
+          ],
+          "you": null,
+          "url": "https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work/",
+          "source": "JetBrains"
+        },
+        {
+          "id": "d3",
+          "cat": "dev",
+          "title": "Google, Gemini Enterprise Agent Platform 출시 — 기업용 멀티에이전트 인프라 공개",
+          "meta": "Google / I/O 2026",
+          "date_local": "2026-05-20 (PT)",
+          "date_kst": "KST 5/21",
+          "warn": false,
+          "bullets": [
+            "I/O 2026에서 <b>Gemini Enterprise Agent Platform</b> 출시 — 기업 환경 특화 에이전트 개발·배포 인프라로 내부 시스템 연동과 멀티에이전트 오케스트레이션 기능 제공",
+            "Google의 통합 플랫폼 브랜드 <b>'Antigravity'</b>로 Gemini API·AI Studio·Android Studio 결합 — 단일 생태계에서 모델 개발부터 배포까지 일원화",
+            "기업 내 AI 에이전트가 문서·스프레드시트·이메일 등 복잡한 업무 흐름 자동 처리 — Microsoft Azure AI Foundry·Amazon Bedrock과 기업 에이전트 인프라 시장 <b>3파전 구도</b>"
+          ],
+          "you": null,
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/innovations-from-google-io-26-on-google-cloud",
+          "source": "Google Cloud Blog"
+        }
+      ]
+    },
+    {
+      "icon": "🔬",
+      "name": "연구",
+      "you": false,
+      "items": [
+        {
+          "id": "r1",
+          "cat": "research",
+          "title": "AI가 직접 논문 작성 — PaperOrchestra 멀티에이전트 연구 자동화 공개",
+          "meta": "arXiv 2604.05018 / 2026년 4월",
+          "date_local": "2026-04 (UTC)",
+          "date_kst": null,
+          "warn": false,
+          "bullets": [
+            "<b>PaperOrchestra</b> 논문 공개 — 멀티에이전트가 아이디어 탐색·실험 설계·결과 분석·원고 작성을 단계별로 자율 수행하는 AI 연구 자동화 프레임워크",
+            "200개 이상 AI 컨퍼런스 논문을 역분해한 표준 벤치마크 <b>PaperWritingBench</b> 기반 평가 — 단일 LLM 방식 대비 구성 품질 우수",
+            "EXP-Bench(AI의 연구 실험 수행 능력 평가)·PaperBench(ICML 논문 재현 능력)와 함께 <b>'연구하는 AI'</b> 평가 체계 2026년 급격히 확립"
+          ],
+          "you": null,
+          "url": "https://arxiv.org/pdf/2604.05018",
+          "source": "arXiv"
+        },
+        {
+          "id": "r2",
+          "cat": "research",
+          "title": "에이전트 코딩 벤치마크 경쟁 심화 — Terminal-Bench 2.1·GDPval-AA 등장",
+          "meta": "업계 공통 / 2026년 상반기",
+          "date_local": "2026-05 (UTC)",
+          "date_kst": null,
+          "warn": false,
+          "bullets": [
+            "에이전트 코딩 성능 측정 기준이 <b>Terminal-Bench 2.1</b>(Gemini 3.5 Flash 76.2%)·Terminal-Bench 2.0(GPT-5.5 Codex 82.7%)으로 빠르게 업그레이드 — 벤치마크 인플레이션 심화",
+            "실세계 에이전트 작업 평가 기준 <b>GDPval-AA</b>·τ2-bench 등 새 도구 등장 — 고객 지원·데이터 분석·다단계 업무 처리 등 실용 에이전트 능력 측정에 초점",
+            "에이전트 코딩 벤치마크 점수가 모델 선택 핵심 기준으로 부상 — 단순 지식 평가(MMLU 등)에서 <b>장거리 자율 작업</b> 중심으로 AI 평가 패러다임 이동"
+          ],
+          "you": null,
+          "url": "https://www.marktechpost.com/2026/05/20/google-introduces-gemini-3-5-flash-at-i-o-2026-a-faster-and-cheaper-model-for-ai-agents-and-coding/",
+          "source": "MarkTechPost"
+        }
+      ]
+    },
+    {
+      "icon": "🏛",
+      "name": "정책 · 거버넌스",
+      "you": false,
+      "items": [
+        {
+          "id": "p1",
+          "cat": "policy",
+          "title": "콜로라도 AI법 대폭 수정·시행 연기 — 차별 방지 의무 삭제, 투명성 공시로 축소",
+          "meta": "미국 콜로라도주 / 2026-05-14 서명",
+          "date_local": "2026-05-14 (MT)",
+          "date_kst": "KST 5/15",
+          "warn": false,
+          "bullets": [
+            "콜로라도 주지사가 5월 14일 <b>SB 189</b>에 서명 — 2024년 통과된 콜로라도 AI법(SB 205)을 대폭 개정, 시행 시한을 기존 2026년 6월 30일에서 <b>2027년 1월 1일</b>로 재연기",
+            "핵심 의무 조항인 알고리즘 차별 방지·리스크 관리 프로그램·영향 평가 요구 삭제 — 규제 범위를 자동화 의사결정 관련 <b>투명성 공시</b> 중심으로 대폭 축소",
+            "AI 기업들의 로비와 트럼프 행정부 연방 선점 움직임이 복합 작용 — 미국 내 가장 포괄적 AI 규제법으로 평가받던 법안이 <b>골격만 남은</b> 형태로 후퇴"
+          ],
+          "you": null,
+          "url": "https://www.alstonprivacy.com/compliance-deadline-for-colorado-ai-act-delayed-until-june-30-2026/",
+          "source": "Alston & Bird"
+        },
+        {
+          "id": "p2",
+          "cat": "policy",
+          "title": "EU AI법 고위험 AI 의무 준수 D-62 — 8월 2일 시한, 기업 준비 비상",
+          "meta": "유럽연합 / 2026-08-02 발효",
+          "date_local": "2026-06-01 (CET)",
+          "date_kst": "KST 6/1",
+          "warn": true,
+          "bullets": [
+            "<b>EU AI Act</b> 고위험 AI 시스템 규정이 8월 2일 발효 예정 — 핵심 인프라·채용·교육·의료·금융 서비스 분야 AI에 투명성 요건 및 리스크 관리 프로그램 의무화",
+            "유럽위원회가 AI 생성 콘텐츠 라벨링 실천 규약을 <b>6월 중 확정</b> 예정 — 딥페이크·AI 생성 이미지 식별 의무 기준도 함께 공표",
+            "EU 시장 공급 국내외 기업 모두 적용 대상 — 미준수 시 전 세계 연간 매출의 최대 <b>3% 또는 1,500만 유로</b> 중 높은 금액 과징금"
+          ],
+          "you": null,
+          "url": "https://www.mindfoundry.ai/blog/ai-regulations-around-the-world",
+          "source": "MindFoundry"
+        },
+        {
+          "id": "p3",
+          "cat": "policy",
+          "title": "백악관, 연방 AI 입법 프레임워크 발표 — 주(州)법 선점·연방 단일화 추진",
+          "meta": "미국 백악관 / 2026-03-20 발표",
+          "date_local": "2026-03-20 (ET)",
+          "date_kst": "KST 3/21",
+          "warn": false,
+          "bullets": [
+            "트럼프 행정부가 3월 연방 AI 입법 프레임워크를 공표 — 연방기관이 국가 정책과 충돌하는 <b>주 AI 규제를 무력화</b>할 수 있는 연방 선점(preemption) 원칙 명시",
+            "미국 전역 난립한 주법 수십 개를 단일 연방 기준으로 통합하는 것이 목표 — 기업이 단일 규정만 준수하도록 규제 환경 단순화",
+            "콜로라도·캘리포니아·텍사스 등 주정부는 자체 규제 주권 수호 입장 — 연방 vs. 주 AI 거버넌스 권한 충돌이 <b>2026년 최대 정책 변수</b>로 부상"
+          ],
+          "you": null,
+          "url": "https://www.whitehouse.gov/releases/2026/03/president-donald-j-trump-unveils-national-ai-legislative-framework/",
+          "source": "백악관"
+        }
+      ]
+    },
+    {
+      "icon": "💰",
+      "name": "산업 · 자본",
+      "you": true,
+      "items": [
+        {
+          "id": "i1",
+          "cat": "money",
+          "title": "SpaceX·xAI 합병 법인, 6월 8일 IPO 로드쇼 돌입 — 1.75조 달러 상장 추진",
+          "meta": "SpaceX / 2026-05-20 S-1 제출",
+          "date_local": "2026-05-20 (ET)",
+          "date_kst": "KST 5/21",
+          "warn": false,
+          "bullets": [
+            "SpaceX와 xAI가 2월 합병 후 5월 20일 <b>S-1 공시</b> 완료 — 로드쇼 6월 8일 개시, 나스닥 'SPCX' 티커로 6월 12일 상장 목표, 모집 금액 최대 <b>750억 달러</b>",
+            "상장 평가액 <b>1.75조 달러(약 2,400조 원)</b> — 로켓·Starlink 위성 인터넷·Grok AI 서비스를 보유한 단일 상장법인으로 역대 최대 IPO 추진",
+            "소매 투자자 배정 비율을 역대 IPO 중 최고 수준으로 설정, 상장 후 소매 투자자 행사 <b>1,500명 초청</b> 예정 — 대중 참여 강조한 이색 상장 전략"
+          ],
+          "you": "반도체·기술 투자 관심자: xAI(Grok) AI 사업 가치와 Starlink 수익 합산 방식 검토, S-1 주요 리스크 요소 사전 확인 권장",
+          "url": "https://www.techstackipo.com/ipo/spacex",
+          "source": "TechStack IPO"
+        },
+        {
+          "id": "i2",
+          "cat": "money",
+          "title": "2026년 Q1 벤처 투자 사상 최대 — 3,000억 달러 중 80% AI 흡수",
+          "meta": "Crunchbase / 2026년 Q1 집계",
+          "date_local": "2026-04 (UTC)",
+          "date_kst": null,
+          "warn": false,
+          "bullets": [
+            "2026년 Q1 글로벌 스타트업 투자 총액 <b>3,000억 달러</b>, 6,000개사 유치 — 분기 기준 역대 최고치, 이 중 <b>80%(2,420억 달러)</b>가 AI 스타트업 집중",
+            "OpenAI 1,220억·Anthropic 300억·xAI 200억·Waymo 160억 달러 — 역대 최대 벤처 라운드 5위 중 4개를 이들 4사가 차지, <b>글로벌 VC의 65%</b> 흡수",
+            "Databricks 1,340억 달러 기업가치로 H2 2026 IPO 예정, OpenAI는 Q4 2026 기업공개 1조 달러 목표 — AI 메가 IPO <b>슈퍼사이클</b> 개막 신호"
+          ],
+          "you": null,
+          "url": "https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/",
+          "source": "Crunchbase"
+        },
+        {
+          "id": "i3",
+          "cat": "money",
+          "title": "AI 수요 폭증으로 반도체 시장 연간 1조 달러 시대 현실화",
+          "meta": "업계 / 2026년 전망",
+          "date_local": "2026-05 (UTC)",
+          "date_kst": null,
+          "warn": false,
+          "bullets": [
+            "AI 수요 급증으로 2026년 글로벌 반도체 시장이 사상 처음 <b>연간 1조 달러</b> 달성 전망 — HBM·CoWoS 패키징·전력 반도체 등 AI 인프라 전 주기 수혜",
+            "NVIDIA Blackwell·Rubin 플랫폼 수요 폭발로 CoWoS·HBM 공급 병목 지속 — 삼성·SK하이닉스·TSMC 모두 증설 투자 확대, <b>2026~2027년 자본지출 역대 최대</b>",
+            "데이터센터 전력 인프라·냉각 솔루션·전력 반도체까지 AI 연쇄 수요 확산 — AI 인프라 <b>전체 밸류체인</b>이 투자 테마로 부상"
+          ],
+          "you": null,
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=400056",
+          "source": "테크월드"
+        }
+      ]
+    },
+    {
+      "icon": "🇰🇷",
+      "name": "한국",
+      "you": false,
+      "items": [
+        {
+          "id": "k1",
+          "cat": "korea",
+          "title": "SK하이닉스, NVIDIA HBM4 물량 70% 확보 — Rubin 플랫폼 공급 주도",
+          "meta": "TrendForce / 2026년 상반기",
+          "date_local": "2026-05 (UTC)",
+          "date_kst": null,
+          "warn": false,
+          "bullets": [
+            "SK하이닉스가 NVIDIA Rubin 플랫폼용 <b>HBM4 공급량의 약 70%</b> 확보 — 세계 최초 HBM4 개발·양산 체제를 기반으로 엔비디아 최우선 공급사 지위 공고화",
+            "HBM4는 전작 HBM3E 대비 대역폭·전력 효율 대폭 개선 — AI 추론 서버 1대당 탑재 용량과 단가 모두 상승, SK하이닉스의 <b>2026년 HBM 매출 큰 폭 증가</b> 전망",
+            "삼성전자도 HBM4 양산 출하(11.8Gbps) 시작·HBM4E 커스텀 설계 6월 완성 목표 — NVIDIA뿐 아니라 Google·Meta용 커스텀 HBM <b>수주전 확대</b>"
+          ],
+          "you": "반도체 투자자: SK하이닉스 HBM4 점유율 70% 달성 여부와 삼성의 커스텀 HBM4E 양산 일정이 양사 하반기 실적 핵심 변수",
+          "url": "https://www.trendforce.com/news/2026/01/28/news-sk-hynix-reportedly-to-supply-about-two-thirds-of-nvidia-hbm4-samsung-targets-early-delivery/",
+          "source": "TrendForce"
+        },
+        {
+          "id": "k2",
+          "cat": "korea",
+          "title": "삼성전자, 2026년 HBM 생산 용량 50% 확대 — AI 수요 대응 총력",
+          "meta": "TrendForce / 2026년 전망",
+          "date_local": "2026-05 (UTC)",
+          "date_kst": null,
+          "warn": false,
+          "bullets": [
+            "삼성전자가 2026년 <b>HBM 생산 용량 50% 확대</b> 계획 — 월 약 25만 장(웨이퍼 기준) 목표, AI 학습용 HBM4 + 추론용 HBM4E 커스텀 물량 병행 대응",
+            "2월 HBM4 <b>11.8Gbps</b> 양산 출하 시작, 2026년 HBM 매출 전년 대비 3배 이상 확대 전망 — NVIDIA 외 Google·Meta 커스텀 HBM 수주 적극 추진",
+            "SK하이닉스와 달리 <b>표준·커스텀 투 트랙</b> 전략 — 커스텀 전담팀 250명 추가 충원해 초대형 AI 고객사 맞춤 설계 역량 강화"
+          ],
+          "you": null,
+          "url": "https://www.trendforce.com/news/2025/12/30/news-samsung-reportedly-plans-50-hbm-capacity-surge-in-2026-spotlight-on-hbm4/",
+          "source": "TrendForce"
+        },
+        {
+          "id": "k3",
+          "cat": "korea",
+          "title": "국산 AI 추론 칩 상용화 가속 — 리벨리온·퓨리오사AI·가비아 NPUaaS",
+          "meta": "업계 / 2026년 상반기",
+          "date_local": "2026-05 (UTC)",
+          "date_kst": null,
+          "warn": false,
+          "bullets": [
+            "<b>리벨리온</b>의 2세대 추론 칩 '리벨(REBEL)' 4개를 칩렛 결합한 '리벨 쿼드' 2026년 상반기 양산 예정 — <b>퓨리오사AI</b>도 HBM3 탑재 NPU로 1.5TB/s 대역폭 구현",
+            "가비아가 4월 국산 NPU 기반 클라우드 서비스 <b>'NPUaaS'</b> 출시 — 고가 GPU 인프라 직접 구축 없이 AI 추론 기능을 서비스 형태로 제공하는 국내 최초 사례",
+            "AI 반도체 시장 무게중심이 학습(Training)에서 <b>추론(Inference)</b>으로 이동하며 국산 칩 수요 확대 기대 — 전력 효율·비용 강점으로 국내 공공·기업 클라우드 시장 공략"
+          ],
+          "you": "공공 AI 담당자: 국산 NPU 기반 클라우드(NPUaaS)가 데이터 국내 보관 의무·GPU 수급난 대안으로 고려 가능",
+          "url": "https://www.dataeconomy.co.kr/news/articleView.html?idxno=35642",
+          "source": "한국데이터경제신문"
+        }
+      ]
+    }
+  ]
+}
