@@ -148,31 +148,5 @@
       "_icon": "🏛",
       "_section": "정책 · 거버넌스"
     }
-  },
-  "x1fed930dc016": {
-    "id": "x1fed930dc016",
-    "date": "2026-06-01",
-    "slot": "pm",
-    "ts": "2026-06-01T14:35:38.226Z",
-    "item": {
-      "id": "x1fed930dc016",
-      "cat": "money",
-      "title": "SpaceXAI, 6/12 IPO 목표 — 사상 최대 $75B 조달·$1.75T 밸류에이션",
-      "meta": "SpaceXAI · SEC S-1 제출 완료",
-      "date_local": "2026-05-28 (ET)",
-      "date_kst": "KST 5/29",
-      "warn": false,
-      "bullets": [
-        "SpaceX가 2/2 xAI 흡수합병 후 상장 추진, 주관사들이 <b>6월 12일</b>을 목표 상장일로 합의 — SEC S-1 이미 제출 완료",
-        "$75B 조달 목표는 사우디 아람코 IPO($29.4B) 기록을 2.5배 이상 뛰어넘는 사상 최대 규모, 밸류에이션 <b>$1.75조</b>는 전 세계 기업가치 10위권 수준",
-        "IPO 수익의 78%($58.5B)는 기존 주주 구주 매출로 충당 예정 — 실제 신주 조달분 제한적, Starlink·Grok 통합 비즈니스 모델 성장성에 투자자 초점"
-      ],
-      "you": "반도체·AI 인프라 투자자라면 SpaceXAI IPO 후 $75B 유동성이 AI 칩·데이터센터·위성 공급망에 재투자되는 연쇄 효과 주목",
-      "url": "https://fortune.com/2026/05/28/spacex-elon-musk-ipo-money/",
-      "source": "Fortune",
-      "_icon": "💰",
-      "_section": "산업 · 자본"
-    },
-    "memo": "1"
   }
 }
