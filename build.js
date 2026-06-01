@@ -42,18 +42,21 @@ try {
   const seenPath = path.join(ROOT, "output", "seen.json");
   let seen = [];
   try { if (fs.existsSync(seenPath)) { const s = JSON.parse(fs.readFileSync(seenPath, "utf8")); if (Array.isArray(s)) seen = s; } } catch (e) { seen = []; }
+  const keyOf = it => (it && it.url && String(it.url).trim()) ? String(it.url).trim() : ("t:" + String((it && it.title) || "").trim());
   const seenSet = new Set(seen);
-  const keyOf = it => (it.url && String(it.url).trim()) ? String(it.url).trim() : ("t:" + String(it.title || "").trim());
-  const allSections = JSON.parse(JSON.stringify(data.sections));  // 필터 전 원본 백업
+  // 이미 즐겨찾기한 기사도 제외 (favorites.json) — 저장한 건 새 다이제스트에 다시 안 띄움
+  try {
+    const fav = JSON.parse(fs.readFileSync(path.join(ROOT, "favorites.json"), "utf8"));
+    Object.values(fav || {}).forEach(r => { if (r && r.item) seenSet.add(keyOf(r.item)); });
+  } catch (e) {}
   let keptCount = 0;
   data.sections.forEach(s => { s.items = (s.items || []).filter(it => !seenSet.has(keyOf(it))); keptCount += s.items.length; });
   data.sections = data.sections.filter(s => s.items.length > 0);
-  if (keptCount < 6) {   // 새 기사 너무 적음(재실행/뉴스 적음) → 중복필터 건너뛰고 전체 발행 (빈 페이지 방지)
-    data.sections = allSections;
-    log(`새 항목 ${keptCount}개뿐 → 중복필터 건너뜀, 전체 ${itemCount}건 발행`);
-  } else {
-    log(`중복 제거 — 새 항목 ${keptCount}개 (중복 ${itemCount - keptCount}개 제외)`);
-  }
+  log(`중복·즐겨찾기 제외 후 새 항목 ${keptCount}개 (총 ${itemCount}개 중)`);
+  if (keptCount === 0) throw new Error("새 소식 없음(다 봤거나 즐겨찾기한 기사뿐) — 발송 생략");
+  // 즐겨찾기 id 충돌 방지: 기사별 고유(url 기반) id. m1/d2 재사용 때문에 새 글이 ★처럼 보이던 버그 수정
+  const _crypto = require("crypto");
+  data.sections.forEach(s => s.items.forEach(it => { it.id = "x" + _crypto.createHash("md5").update(keyOf(it)).digest("hex").slice(0, 12); }));
 
   // --- 날짜/슬롯/생성시각으로 파일명 결정 (매 실행 고유 URL → 덮어쓰기 방지) ---
   const date = data.date || new Date().toISOString().slice(0, 10);
