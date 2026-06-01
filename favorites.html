@@ -158,6 +158,10 @@
       <div class="body"><div class="body-in"><div class="body-pad">
         <ul class="blt">${bullets}</ul>${you}
         <div class="srcline">${src}</div>
+        <div class="memo-wrap" style="margin-top:10px">
+          <textarea class="memo-in" data-id="${esc(it.id)}" rows="2" placeholder="메모 — 왜 ★ 했나 / 궁금한 점" style="width:100%;box-sizing:border-box;background:var(--surface-hi);color:var(--ink);border:1px solid var(--border);border-radius:8px;padding:8px 10px;font-family:inherit;font-size:12.5px;line-height:1.5;resize:vertical">${esc(it.memo||"")}</textarea>
+          <div class="memo-status" style="font-size:10px;color:var(--ink-3);margin-top:3px;min-height:12px"></div>
+        </div>
       </div></div></div></article>`;
   }
 
@@ -168,6 +172,7 @@
     for (const r of records){
       const it = Object.assign({}, r.item || { title: r.id, bullets: ["(상세 정보 없음)"] });
       it.id = r.id;
+      it.memo = r.memo || "";
       const sec = it._section || "즐겨찾기", icon = it._icon || "★";
       if (!groups[sec]){ groups[sec] = { icon, name: sec, items: [] }; order.push(sec); }
       groups[sec].items.push(it);
@@ -185,6 +190,19 @@
       return `<section class="section"><div class="sec-head"><span class="ic">${esc(g.icon)}</span><span class="nm">${esc(g.name)}</span><span class="ln"></span><span class="ct">${g.items.length}</span></div>${g.items.map(cardHTML).join("")}</section>`;
     }).join("");
     document.querySelectorAll(".card").forEach((c,i)=> c.style.animationDelay = Math.min(i*32,500)+"ms");
+    // 메모 저장 (textarea 벗어날 때). fav:true + memo → Worker가 item 보존하고 memo만 갱신
+    document.querySelectorAll(".memo-in").forEach(t=>{
+      t.addEventListener("click", e=>e.stopPropagation());
+      t.addEventListener("change", async ()=>{
+        const id=t.dataset.id, memo=t.value;
+        const st=t.parentElement.querySelector(".memo-status"); st.textContent="저장 중…";
+        try{
+          const r=await fetch(FAV_API,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({id,fav:true,memo,secret:favSecret()})});
+          if(r.status===401){ try{localStorage.removeItem("ai_daily_fav_secret");}catch(e){} st.textContent="암호 필요 — 다시 입력 후 재시도"; return; }
+          st.textContent = r.ok ? "저장됨 ✓" : "저장 실패";
+        }catch(e){ st.textContent="저장 실패(네트워크)"; }
+      });
+    });
     document.querySelectorAll(".head").forEach(h=>{
       h.addEventListener("click", e=>{ if(e.target.closest(".star")) return; h.closest(".card").classList.toggle("open"); });
     });
