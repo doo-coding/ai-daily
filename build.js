@@ -62,6 +62,10 @@ try {
   const date = data.date || new Date().toISOString().slice(0, 10);
   const slot = (data.slot || "am").replace(/[^a-z0-9]/gi, "");
   const nowKST = new Date(Date.now() + 9*60*60*1000).toISOString().slice(11, 16);  // KST HH:MM
+  // 헤더(date_line)에 실제 생성시각 주입 — 모델이 넣는 시각은 부정확하므로 강제 (기존 'HH:MM 생성' 있으면 교체)
+  if (typeof data.date_line === "string" && data.date_line.trim()) {
+    data.date_line = data.date_line.replace(/\s*·?\s*\d{1,2}:\d{2}\s*생성\s*$/, "").trim() + ` · ${nowKST} 생성`;
+  }
   const outDir = path.join(ROOT, "output");
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
   const outFile = path.join(outDir, `ai-daily-${date}-${slot}-${nowKST.replace(":", "")}.html`);
