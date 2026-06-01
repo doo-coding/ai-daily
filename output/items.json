@@ -1,0 +1,358 @@
+{
+  "date": "2026-06-01",
+  "slot": "pm",
+  "date_line": "2026년 6월 1일 (월) · 저녁 · 18건 선별",
+  "kicker": "AI 데일리 · 자동 발송",
+  "footer_tag": "✈ via Telegram · 매일 07:00 · 19:00 자동 발송",
+  "oneline": "Anthropic이 $965B 기업가치로 OpenAI를 추월하며 역대 최대 사모 투자를 마무리했고, GitHub Copilot이 오늘부터 토큰 기반 과금으로 전환하며 에이전틱 AI 비용 위기가 현실화",
+  "sections": [
+    {
+      "icon": "🚀",
+      "name": "모델 · 출시",
+      "you": false,
+      "items": [
+        {
+          "id": "m1",
+          "cat": "model",
+          "title": "Anthropic, Claude Opus 4.8 출시 + 차세대 'Mythos' 수 주 내 배포 예고",
+          "meta": "Anthropic · 5/28 출시",
+          "date_local": "2026-05-28 (ET)",
+          "date_kst": "KST 5/29",
+          "warn": false,
+          "bullets": [
+            "<b>Claude Opus 4.8</b> 공개 — 코딩·지식 업무 전반 향상, 가격은 전작(Opus 4.7)과 동일하게 입력 $5·출력 $25 per 1M 토큰 유지",
+            "신규 <b>Fast Mode</b>로 속도 2.5배·비용 3분의 1 절감 — 수백 개 서브에이전트를 병렬 구동하는 '동적 워크플로(Dynamic Workflows)' 리서치 프리뷰 동시 공개",
+            "차세대 <b>Mythos 클래스 모델</b>을 '수 주 내' 배포 예고 — 고급 사이버보안 기능으로 악용 우려 있어 현재 제한된 기관에만 선공개 단계"
+          ],
+          "you": null,
+          "url": "https://www.anthropic.com/news/claude-opus-4-8",
+          "source": "Anthropic"
+        },
+        {
+          "id": "m2",
+          "cat": "model",
+          "title": "Google, Gemini 3.5 Pro 한정 프리뷰 — 2M 토큰 컨텍스트·6월 GA 임박",
+          "meta": "Google DeepMind · I/O 5/19 발표 후 Vertex 제한 공개",
+          "date_local": "2026-05-28 (PT)",
+          "date_kst": "KST 5/29",
+          "warn": false,
+          "bullets": [
+            "Sundar Pichai가 Google I/O에서 '다음 달 제공'을 약속한 <b>Gemini 3.5 Pro</b>가 일부 Vertex AI 엔터프라이즈 고객 대상 제한 프리뷰 진행 중 — 일반 출시(GA) 임박",
+            "현재 상용 프런티어 최대인 <b>2M 토큰 컨텍스트 창</b>과 Deep Think 추론 모드 탑재 예정 — Flash(1M)보다 2배 긴 문서·코드베이스 처리, 복잡한 에이전틱 워크로드 대응",
+            "Gemini 3.1 Pro($2/$12 per 1M) 기준 가격 책정 전망 — 멀티모달 이해·장문 추론에서 새 기준점 기대, Pro+ 급 성능 대중화 신호"
+          ],
+          "you": null,
+          "url": "https://codersera.com/blog/gemini-3-5-pro-launch-guide-2026/",
+          "source": "Codersera / Google DeepMind"
+        },
+        {
+          "id": "m3",
+          "cat": "model",
+          "title": "OpenAI GPT-5.5 Instant, ChatGPT 기본 모델 전환 완료 — GPT-4.5 6/27 은퇴",
+          "meta": "OpenAI · 5월 출시, 6월 전환",
+          "date_local": "2026-06-01 (ET)",
+          "date_kst": "KST 6/2",
+          "warn": false,
+          "bullets": [
+            "<b>GPT-5.5 Instant</b>가 GPT-5.3 Instant를 대체해 ChatGPT 기본 모델로 전환 — AIME 2025 수학 <b>81.2점</b>(전작 65.4점), MMMU-Pro 멀티모달 76점(전작 69.2점) 달성",
+            "<b>GPT-4.5</b>는 6월 27일 ChatGPT 은퇴, o3는 90일 유예 후 8월 26일 종료 예정 — 빠른 모델 세대교체 속도, 구버전 의존 워크플로 점검 필요",
+            "오늘(6/1)부터 <b>Trusted Access for Cyber</b> 개인 이용자에 고급 계정 보안 활성화 의무화 — 사이버 특화 최고 성능 모델 접근 강화 조건"
+          ],
+          "you": null,
+          "url": "https://help.openai.com/en/articles/9624314-model-release-notes",
+          "source": "OpenAI Help Center"
+        }
+      ]
+    },
+    {
+      "icon": "🛠",
+      "name": "도구 · 개발",
+      "you": true,
+      "items": [
+        {
+          "id": "d1",
+          "cat": "dev",
+          "title": "GitHub Copilot, 오늘부터 토큰 기반 AI Credits 과금 전환",
+          "meta": "GitHub · 6/1 시행",
+          "date_local": "2026-06-01 (PT)",
+          "date_kst": "KST 6/2",
+          "warn": false,
+          "bullets": [
+            "오늘(6/1)부터 <b>GitHub Copilot 월정액 플랜 전원 AI Credits(토큰 기반) 과금 전환</b> — 1 AI Credit = $0.01, 플랜 요금(Pro $10·Pro+ $39/월) 유지하되 크레딧 포함량에 따라 초과 시 추가 구매 필요",
+            "코드 자동완성·Next Edit 제안은 <b>모든 플랜 무제한 무료</b> 유지 — 에이전트·채팅 등 프리미엄 기능만 크레딧 차감, 소진 시 기존 '저가 모델 폴백' 더 이상 제공 안 함",
+            "<b>연간 플랜 가입자는 계약 만료 시까지 기존 방식 유지</b> — 어드민은 Budget Controls로 팀 단위 크레딧 상한 설정 가능, 예산 초과 방지 기능 신규 제공"
+          ],
+          "you": "Claude Code·GitHub Copilot 병용 중이라면 오늘부터 크레딧 소진 속도 모니터링 권장 — Settings > Billing에서 예산 상한 설정 가능",
+          "url": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
+          "source": "GitHub Blog"
+        },
+        {
+          "id": "d2",
+          "cat": "dev",
+          "title": "Uber, 2026년 AI 예산 4월에 소진 — Microsoft도 Claude Code 라이선스 대량 취소",
+          "meta": "Tom's Hardware / Fortune · 5/22",
+          "date_local": "2026-05-22 (ET)",
+          "date_kst": "KST 5/23",
+          "warn": true,
+          "bullets": [
+            "Uber가 <b>Claude Code</b>를 수천 명 엔지니어에 배포했다가 <b>연간 AI 예산을 4월에 전부 소진</b> — 엔지니어 1인당 월 평균 $150~250, 헤비 유저는 $500~2,000 청구",
+            "Microsoft는 5월 중순 내부 Claude Code 라이선스 대부분 취소 시작 — <b>Experiences & Devices 부문 6월 30일까지 전면 종료</b>, 'AI가 인간 직원 비용보다 비쌀 수 있다'는 내부 경보 현실화",
+            "Goldman Sachs 분석: 에이전틱 AI는 일반 채팅 대비 <b>토큰 소비량 최대 24배</b> 전망 — 단순 에이전트 5K~15K 토큰/태스크, 복잡한 멀티에이전트는 1M 토큰/태스크까지"
+          ],
+          "you": "Claude Code Opus 모델 헤비 유저라면 월 청구액 즉시 확인 권장 — Max Plan 또는 Usage 상한 설정으로 비용 통제 가능",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-costs-begin-to-bite-as-agents-may-increase-token-demand-by-24-times-says-goldman-sachs-report-uber-and-microsoft-among-companies-feeling-the-bite-of-tokenized-billing",
+          "source": "Tom's Hardware"
+        },
+        {
+          "id": "d3",
+          "cat": "dev",
+          "title": "에이전틱 AI 비용 재고 확산 — '토큰맥싱' 최적화 기법 수요 급증",
+          "meta": "Fortune / Let's Data Science · 5월",
+          "date_local": "2026-05-22 (ET)",
+          "date_kst": "KST 5/23",
+          "warn": false,
+          "bullets": [
+            "에이전틱 AI를 앞다퉈 도입한 기업들이 ROI보다 비용이 앞서자 <b>도입 속도 조절</b> — 에이전틱 시스템은 단순 챗봇 대비 토큰 소비 최대 1,000배, 총 청구액 급증",
+            "대응책으로 <b>'토큰맥싱(tokenmaxxing)'</b> 기법 수요 부상 — 프롬프트 압축·응답 캐싱·소규모 모델 라우팅 조합으로 비용 최소화, 관련 컨설팅·툴링 시장 성장",
+            "장기적으로 토큰 단가 하락 예상되지만 <b>에이전트 사용량 폭증이 단가 절감을 상쇄</b> — 기업 AI 전략에서 모델 선택만큼 비용 관리가 핵심 역량으로 부상"
+          ],
+          "you": null,
+          "url": "https://fortune.com/2026/05/22/microsoft-ai-cost-problem-tokens-agents/",
+          "source": "Fortune"
+        }
+      ]
+    },
+    {
+      "icon": "🔬",
+      "name": "연구",
+      "you": false,
+      "items": [
+        {
+          "id": "r1",
+          "cat": "research",
+          "title": "MLR-Bench — AI 연구 에이전트 평가 역대 최대 벤치마크 arXiv 공개",
+          "meta": "arXiv · 2026-05",
+          "date_local": "2026-05 (UTC)",
+          "date_kst": null,
+          "warn": false,
+          "bullets": [
+            "<b>MLR-Bench</b> arXiv 공개 — 오픈엔드 ML 연구 과제 201개로 구성된 역대 최대 AI 연구 에이전트 평가 벤치마크, 가설 설정부터 실험·보고서 작성까지 전 단계 자동 측정",
+            "최고 성능 에이전트도 복잡한 과제 성공률이 낮아 <b>\"AI는 아직 자율 연구자 수준에 미달\"</b>임을 정량적으로 입증 — 현재 AI 한계의 지표로 활용 가능",
+            "PaperBench·PaperOrchestra 등 유사 연구 자동화 벤치마크 동시 다발 등장 — <b>AI가 AI를 연구·개선하는 루프</b> 평가 체계 구축 가속, 과학 AI 시대 대비 기준 정립"
+          ],
+          "you": null,
+          "url": "https://arxiv.org/pdf/2505.19955",
+          "source": "arXiv"
+        },
+        {
+          "id": "r2",
+          "cat": "research",
+          "title": "Gemini 3.5 Flash GA — 전년도 Pro급 성능, 속도 4배·1M 컨텍스트",
+          "meta": "Google DeepMind · 5월 GA",
+          "date_local": "2026-05 (PT)",
+          "date_kst": null,
+          "warn": false,
+          "bullets": [
+            "Google <b>Gemini 3.5 Flash</b> 일반 출시 — 2025년 Gemini 3.1 Pro 수준 벤치마크 성능을 <b>4배 빠른 속도</b>로 구현, 가격 입력 $1.50·출력 $9.00 per 1M 토큰",
+            "<b>1M 토큰 컨텍스트</b> 지원 — 단일 호출로 장편 코드베이스·문서 전체 처리 가능, 응답 속도·비용 모두에서 가성비 새 기준점 제시",
+            "전년도 최상위 모델 성능이 이듬해 저가 빠른 모델로 내려오는 <b>프런티어 성능 인플레이션</b> 패턴 반복 확인 — 모델 선택 전략의 빠른 재검토 필요"
+          ],
+          "you": null,
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/",
+          "source": "Google DeepMind Blog"
+        },
+        {
+          "id": "r3",
+          "cat": "research",
+          "title": "OpenAI Codex, 인도 주간 사용자 27배 급증 — 글로벌 TOP 5 시장 진입",
+          "meta": "OpenAI 발표 · 6월",
+          "date_local": "2026-06-01 (ET)",
+          "date_kst": "KST 6/2",
+          "warn": false,
+          "bullets": [
+            "OpenAI 발표: <b>Codex 주간 활성 사용자가 인도에서 2026년 1월 이후 27배 성장</b> — 인도가 글로벌 TOP 5 시장으로 진입",
+            "영어·힌디어 혼용 코딩 환경에서 Codex 수요 폭발 — 인도 스타트업·IT 아웃소싱 업계의 <b>AI 코딩 도구 채택 가속</b> 신호",
+            "인도·동남아 등 신흥 시장이 AI 코딩 보급의 핵심 성장 거점으로 부상 — 고비용 서구 시장 대비 사용량 성장률 격차 확대, <b>글로벌 AI 이용 지형 변화</b>"
+          ],
+          "you": null,
+          "url": "https://llm-stats.com/ai-news",
+          "source": "LLM Stats / OpenAI"
+        }
+      ]
+    },
+    {
+      "icon": "🏛",
+      "name": "정책 · 거버넌스",
+      "you": false,
+      "items": [
+        {
+          "id": "p1",
+          "cat": "policy",
+          "title": "Colorado AI Act 대폭 수정 — 시행일 2027년 1월로 연기, 핵심 조항 완화",
+          "meta": "Colorado 주지사 서명 · 5/14",
+          "date_local": "2026-05-14 (MT)",
+          "date_kst": "KST 5/15",
+          "warn": false,
+          "bullets": [
+            "5월 14일 Jared Polis 주지사가 <b>SB 189 서명</b> — 원래 6월 30일 시행 예정이던 Colorado AI Act 발효 시점을 <b>2027년 1월 1일로 연기</b>",
+            "알고리즘 차별 방지 의무·위험관리 프로그램·영향 평가·AG 보고 등 기업 부담 핵심 조항 대폭 완화 — <b>투명성·공개 의무 중심</b>의 좁은 접근법으로 재설계",
+            "미국 최초 종합 AI 규제법이 시행 직전 후퇴한 사례 — 연방 vs. 州 AI 거버넌스 긴장이 법적 분쟁으로 격화 중, 기업의 AI 규제 대응 전략 재수립 필요"
+          ],
+          "you": null,
+          "url": "https://natlawreview.com/article/colorado-takes-major-step-towards-rewriting-its-ai-law-its-effective-date",
+          "source": "National Law Review"
+        },
+        {
+          "id": "p2",
+          "cat": "policy",
+          "title": "Wikipedia 편집자 800명, Wikimedia AI 관련 해고에 파업 예고",
+          "meta": "The Register · 5/30",
+          "date_local": "2026-05-30 (UTC)",
+          "date_kst": "KST 5/31",
+          "warn": false,
+          "bullets": [
+            "Wikimedia 재단이 편집자 도구 개발·유지 담당 <b>Community Tech 팀 전원 해고</b>(엔지니어 5명·관리자 1명) — AI 도구 전환 목적 의심",
+            "<b>800명 이상 자원봉사 편집자</b>가 집단 행동 서명 — 편집 파업·모금 배너 교체 등 압박 전략 논의, 실행 시 Wikipedia 서비스 품질 저하 가능성",
+            "해고된 엔지니어 중 일부가 <b>Wiki Workers United 노조</b> 창설 관련자 — 노조 탄압 의혹 고조, 오픈소스·공개 지식 커뮤니티의 AI 노동 갈등 첫 사례로 주목"
+          ],
+          "you": null,
+          "url": "https://www.theregister.com/software/2026/05/30/wikipedia-editors-plot-strike-and-banner-sabotage-after-wikimedia-layoffs/5248491",
+          "source": "The Register"
+        },
+        {
+          "id": "p3",
+          "cat": "policy",
+          "title": "트럼프, 국가 AI 입법 프레임워크 공개 — 州 규제 제한 포함",
+          "meta": "백악관 · 3/18~20",
+          "date_local": "2026-03-20 (ET)",
+          "date_kst": "KST 3/21",
+          "warn": false,
+          "bullets": [
+            "백악관이 <b>4페이지 국가 AI 정책 프레임워크</b> 발표 — 아동 온라인 보호·IP 보호·혁신 촉진·AI 인력 양성 등 6대 목표로 연방 단일화 접근 공식화",
+            "Marsha Blackburn 상원의원이 <b>TRUMP AMERICA AI Act 초안(291페이지)</b> 공개 — 트럼프 행정명령 성문화 + 혁신 저해 州 AI 법 제한 조항 포함",
+            "AG 주도 <b>AI 소송 태스크포스</b>가 문제 州법에 대한 연방 소송 조율 중 — 연방 vs. 州 AI 거버넌스 법적 분쟁 격화 전망, 글로벌 규제 수렴 방향에 영향"
+          ],
+          "you": null,
+          "url": "https://www.whitehouse.gov/releases/2026/03/president-donald-j-trump-unveils-national-ai-legislative-framework/",
+          "source": "백악관"
+        }
+      ]
+    },
+    {
+      "icon": "💰",
+      "name": "산업 · 자본",
+      "you": true,
+      "items": [
+        {
+          "id": "c1",
+          "cat": "money",
+          "title": "Anthropic $65B 유치·기업가치 $965B — OpenAI 추월, IPO 초읽기",
+          "meta": "TechCrunch / Fortune · 5/28",
+          "date_local": "2026-05-28 (ET)",
+          "date_kst": "KST 5/29",
+          "warn": false,
+          "bullets": [
+            "Altimeter·Sequoia·Capital Group 등 공동 주도 <b>Series H $65B 유치</b> — 기업가치 <b>$965B</b>(약 1,340조 원), OpenAI($852B) 추월해 세계 최고가 AI 스타트업 등극",
+            "5월 기준 연환산 매출 <b>$47B</b> — 2025년 말 $10B에서 5개월 만에 4.7배 성장, AI 기업 중 전례 없는 속도",
+            "<b>IPO 직전 마지막 사모 라운드</b>로 평가 — OpenAI의 9월 상장보다 먼저 시장 선점 목표, Mythos 모델 공개로 기술 모멘텀 극대화"
+          ],
+          "you": null,
+          "url": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/",
+          "source": "TechCrunch"
+        },
+        {
+          "id": "c2",
+          "cat": "money",
+          "title": "SpaceX+xAI 합병 법인 6/12 나스닥 상장 — 사상 최대 IPO($1.75T 목표)",
+          "meta": "Evalueserve / TechTimes · 5월",
+          "date_local": "2026-05-16 (ET)",
+          "date_kst": "KST 5/17",
+          "warn": false,
+          "bullets": [
+            "6월 4일 로드쇼 → 11일 가격 결정 → <b>12일 SPCX 티커로 나스닥 상장</b> 예정 — 목표 기업가치 <b>$1.75T</b>, 조달 목표 $75B(사상 최대 IPO, 사우디 아람코 $25.6B 초월)",
+            "SpaceX가 xAI를 $1.25T 규모 합병 흡수 — 2025년 합산 매출 $18.67B, <b>순손실 $4.94B</b>(xAI 현금 소진 $14B 반영), 궤도 데이터센터 장기 전략 무게 중심",
+            "상장 후 주요 지수 자동 편입 예정 — <b>S&P 500·나스닥 ETF 보유자도 자동 노출</b>, 국내 해외 직접 투자자 노출 경로 확인 필요"
+          ],
+          "you": "SPCX 상장 후 지수 편입 시 국내 ETF 간접 노출 발생 — 포트폴리오 비중 사전 점검 권장",
+          "url": "https://www.evalueserve.com/blog/june-ipo-poised-to-propel-spacex-into-a-trillion-dollar-plus-orbit/",
+          "source": "Evalueserve"
+        },
+        {
+          "id": "c3",
+          "cat": "money",
+          "title": "Q1 2026 글로벌 벤처 투자 $300B 돌파 — AI가 80% 독점, 역대 최고치",
+          "meta": "Crunchbase · Q1 결산",
+          "date_local": "2026-04 (ET)",
+          "date_kst": null,
+          "warn": false,
+          "bullets": [
+            "2026년 Q1 글로벌 스타트업 투자 <b>$300B(6,000개사)</b> 유치 — 전년 동기·전분기 대비 150%+ 급증, 역대 최고치 경신",
+            "AI가 전체 투자의 <b>80%($242B)</b> 차지 — OpenAI 단독 $122B(사상 최대 사모 라운드) 포함, AI 생태계로의 자본 집중 심화",
+            "스타트업 M&A 엑시트 $56.6B(Q1 기준 역대 3위) — Savvy Games의 ByteDance Moonton 인수($6B), Capital One의 Brex 인수($5.15B) 등 <b>대형 딜 가속</b>"
+          ],
+          "you": null,
+          "url": "https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/",
+          "source": "Crunchbase"
+        }
+      ]
+    },
+    {
+      "icon": "🇰🇷",
+      "name": "한국",
+      "you": false,
+      "items": [
+        {
+          "id": "k1",
+          "cat": "korea",
+          "title": "네이버·카카오, 에이전틱 AI 전환 가속 — 인프라 대규모 투자 속 수익화 지연 우려",
+          "meta": "Korea Times / Korea Herald · 2026",
+          "date_local": "2026-01-02 (KST)",
+          "date_kst": null,
+          "warn": false,
+          "bullets": [
+            "네이버: 2026년 GPU·AI 인프라에 <b>1조 원 이상 투자</b> 예정 — Q1 AI 쇼핑 에이전트, Q2 AI 검색탭·<b>Agent N for Business</b>(광고주 자동 최적화) 순차 출시",
+            "카카오: KakaoTalk 내 에이전트 AI <b>Kanana</b> 전면 출시 — 멜론·카카오맵·선물하기·예약 등 전 서비스 연동, 외부 파트너 오픈 에이전트 생태계 병행 구축",
+            "양사 모두 주가 목표가 하향 압박 속에서도 에이전틱 AI를 생존 전략으로 선택 — <b>상용화·수익화 지연</b> 리스크 vs. AI 네이티브 플랫폼 전환 기회 갈림길"
+          ],
+          "you": null,
+          "url": "https://www.koreatimes.co.kr/business/tech-science/20260102/naver-kakao-gear-up-for-agentic-ai-era-in-2026",
+          "source": "Korea Times"
+        },
+        {
+          "id": "k2",
+          "cat": "korea",
+          "title": "삼성·SK하이닉스 HBM4 생산 가속화 + HBM3E 가격 20% 인상",
+          "meta": "Digitimes / TrendForce · 2026",
+          "date_local": "2026 (KST)",
+          "date_kst": null,
+          "warn": false,
+          "bullets": [
+            "삼성전자·SK하이닉스가 <b>HBM4(6세대 고대역폭 메모리)</b> 양산을 2026년 초로 앞당겨 개시 — 삼성 생산 능력 50% 확대, SK하이닉스 인프라 투자 4배 이상 증액",
+            "<b>HBM3E 공급 단가 약 20% 인상</b> — NVIDIA H200·ASIC 수요 급증 대응, SK하이닉스 HBM 시장점유율 53%(삼성 35%) 유지 중",
+            "AI 데이터센터 확장과 함께 <b>CPO(공동 패키지 광학)</b> 수요 동반 상승 — 구리선 병목 해소 핵심 기술, 삼성도 대형 CPO 모듈 과제 수주"
+          ],
+          "you": "HBM 가격 인상·공급 확대 동시 추진 — 삼성전자·SK하이닉스 2026년 실적 전망 긍정적, 관련 종목 모멘텀 확인 권장",
+          "url": "https://www.digitimes.com/news/a20251226PD223/samsung-sk-hynix-production-hbm4-2026.html",
+          "source": "Digitimes"
+        },
+        {
+          "id": "k3",
+          "cat": "korea",
+          "title": "한국 정부, 공공기관 전면 AI 도입 — 2026년 AI 예산 9.9조원(전년 대비 3배)",
+          "meta": "과기정통부·행안부 · 2026",
+          "date_local": "2026 (KST)",
+          "date_kst": null,
+          "warn": false,
+          "bullets": [
+            "과기정통부·행안부 주도로 삼성SDS·네이버클라우드 AI를 보안 인프라에서 공동 활용하는 <b>범정부 AI 공통기반</b> 시범 운영 개시 — 전자결재·문서 작성·메일 요약에 생성 AI 적용, 향후 전 직원 2만 5,000명 확대 검토",
+            "2026년 정부 AI 예산 <b>9.9조 원</b>(2025년 3.3조 원 대비 3배) — ICT R&D 1.6조 원 포함, AI 반도체·6G·양자 투자 집중",
+            "246개 AI 응용제품 상용화 지원 '<b>AX-Sprint</b>' 7,540억 원 별도 편성 — 제조·농어업·국토교통 등 전 산업 AI 전환(AX) 가속"
+          ],
+          "you": "범정부 AI 공통기반 파일럿 참여 기관(과기부·행안부·식약처) 사례 선제 벤치마킹 권장 — 공공 AI 업무 종사자에게 직접 관련",
+          "url": "https://eiec.kdi.re.kr/policy/materialView.do?num=276426",
+          "source": "KDI 경제교육·정보센터"
+        }
+      ]
+    }
+  ]
+}
