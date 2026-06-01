@@ -1,11 +1,14 @@
 #!/usr/bin/env bash
 # AI 데일리 — 클라우드 루틴용 (리눅스/bash). run.ps1 의 리눅스 포팅.
 # 전제: 루틴 세션의 Claude 가 먼저 prompt.md 대로 웹검색해 output/items.json 작성.
-# 비밀/설정은 루틴 환경변수: TG_BOT_TOKEN, TG_CHAT_ID, PAGES_BASEURL, FAV_API_URL
+# 비밀/설정은 루틴 환경변수: AIDAILY_BOT_TOKEN, AIDAILY_CHAT_ID, PAGES_BASEURL, FAV_API_URL (TG_* 이름도 호환)
 # 사용: bash run.sh am   (또는 pm)
 set -euo pipefail
 SLOT="${1:-am}"
 HERE="$(cd "$(dirname "$0")" && pwd)"; cd "$HERE"
+# 공유 환경 호환: AIDAILY_* 또는 TG_* 둘 다 허용
+TG_BOT_TOKEN="${TG_BOT_TOKEN:-${AIDAILY_BOT_TOKEN:-}}"
+TG_CHAT_ID="${TG_CHAT_ID:-${AIDAILY_CHAT_ID:-}}"
 DATE="$(TZ=Asia/Seoul date +%Y-%m-%d)"
 
 ITEMS="output/items.json"
