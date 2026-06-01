@@ -1,0 +1,358 @@
+{
+  "date": "2026-06-02",
+  "slot": "am",
+  "date_line": "2026년 6월 2일 (화) · 아침 · 18건 선별",
+  "kicker": "AI 데일리 · 자동 발송",
+  "footer_tag": "✈ via Telegram · 매일 07:00 · 19:00 자동 발송",
+  "oneline": "<b>SpaceX IPO 로드쇼 D-2·OpenAI 하반기 상장 준비</b> 속 <b>GPT-5.3-Codex·Gemini 3.5 Flash</b> 연이어 출시되며 코딩 AI 경쟁이 최고조",
+  "sections": [
+    {
+      "icon": "🚀",
+      "name": "모델 · 출시",
+      "you": false,
+      "items": [
+        {
+          "id": "m1",
+          "cat": "model",
+          "title": "OpenAI, GPT-5.3-Codex 출시 — 코딩 에이전트 특화 최강 모델",
+          "meta": "OpenAI / 2026년 6월 공개",
+          "date_local": "2026-06-01 (ET)",
+          "date_kst": "KST 6/2",
+          "warn": false,
+          "bullets": [
+            "OpenAI가 <b>GPT-5.3-Codex</b>를 공개; Codex 코드 생성 스택과 GPT-5 언어 능력을 결합한 코딩 에이전트 전용 모델로 이전 모델 대비 약 <b>25% 빠른 응답 속도</b>와 주요 코딩 벤치마크 신기록 달성",
+            "범용 GPT-5.5가 창작·추론에 강점을 갖는 반면, Codex는 <b>멀티스텝 코드 작성·테스트 실행·디버깅을 한 사이클로 자율 처리</b>하는 에이전틱 코딩에 특화된 파생 모델",
+            "OpenAI는 GPT-5 계열로 모델 라인업을 통합 중이며, <b>GPT-4.5는 6월 27일 ChatGPT에서 퇴역</b> 예정"
+          ],
+          "you": null,
+          "url": "https://aiflashreport.com/model-releases.html",
+          "source": "AI Flash Report"
+        },
+        {
+          "id": "m2",
+          "cat": "model",
+          "title": "Claude Opus 4.8, AI Intelligence Index 1위 — SWE-bench 88.6%",
+          "meta": "AI Hub 종합 평가 / 2026년 6월 기준",
+          "date_local": "2026-06-01 (ET)",
+          "date_kst": "KST 6/2",
+          "warn": false,
+          "bullets": [
+            "<b>Claude Opus 4.8</b>이 Artificial Analysis Intelligence Index에서 <b>61.4점</b>으로 1위; GPT-5.5(60.2), Gemini 3.1 Pro(57), Grok 4.3(53) 순으로 최상위 4개 모델이 접전 중",
+            "코딩 벤치마크 <b>SWE-bench Verified 88.6%·SWE-bench Pro 69.2%</b>로 GPT-5.5(58.6%)를 크게 앞서 코딩 AI 왕좌 유지; Anthropic이 5월 말 출시 시 코드 생성·에이전트 작업을 핵심 강점으로 내세운 결과",
+            "ChatGPT는 지난 1년간 시장점유율 <b>약 25% 상실</b>; Gemini(14.4%)와 Claude(8.6%)가 기업 사용자 시장에서 빠르게 추격 중이라는 Techzine 분석"
+          ],
+          "you": "Claude Code(바이브코딩) 사용자라면 Opus 4.8이 현재 최상위 코딩 모델 — 복잡한 멀티스텝 에이전트 작업일수록 체감 효과가 큼",
+          "url": "https://overchat.ai/ai-hub/the-best-ai-model",
+          "source": "AI Hub / Overchat"
+        },
+        {
+          "id": "m3",
+          "cat": "model",
+          "title": "Google, Gemini 3.5 Flash 정식 출시 — 동급 대비 4배 빠른 속도·프론티어 수준 추론",
+          "meta": "Google / 2026년 6월 GA",
+          "date_local": "2026-06-01 (ET)",
+          "date_kst": "KST 6/2",
+          "warn": false,
+          "bullets": [
+            "<b>Gemini 3.5 Flash</b>가 정식 출시; 입력 <b>$1.50/백만 토큰·출력 $9/백만 토큰</b> 구조로 프론티어급 지능을 동급 대비 <b>4배 빠른 속도</b>로 제공해 고속 에이전트 파이프라인에 최적화",
+            "<b>1M 컨텍스트 윈도</b> 지원, Terminal-Bench 2.1 기준 76.2%로 Gemini 3.1 Pro를 코딩·에이전트 작업에서 추월; 가성비 모델이면서도 추론 능력을 갖춘 포지셔닝",
+            "Google이 가격·속도 경쟁력으로 <b>개발자 시장 공략을 강화</b>하는 신호로 해석되며, ChatGPT·Copilot 대비 Gemini 점유율 상승 추세와 맞물려 주목"
+          ],
+          "you": null,
+          "url": "https://www.techzine.eu/news/applications/141503/chatgpt-still-dominates-but-gemini-and-claude-are-gaining-ground/",
+          "source": "Techzine"
+        }
+      ]
+    },
+    {
+      "icon": "🛠",
+      "name": "도구 · 개발",
+      "you": true,
+      "items": [
+        {
+          "id": "d1",
+          "cat": "dev",
+          "title": "AI 코딩 도구 시장 2026년 128억 달러 — 에이전틱 워크플로 전환 본격화",
+          "meta": "Tech Insider 시장 조사 / 2026",
+          "date_local": "2026-06-01 (ET)",
+          "date_kst": "KST 6/2",
+          "warn": false,
+          "bullets": [
+            "2026년 AI 코딩 도구 시장이 <b>128억 달러(약 17.4조 원)</b>로 2024년(51억 달러) 대비 2.5배 이상 성장; 개발자 <b>90% 이상</b>이 적어도 하나의 AI 코딩 도구를 업무에 활용",
+            "2026년 핵심 변화는 코드 자동완성에서 <b>에이전틱 코딩(Agentic Coding)</b>으로의 전환 — 복잡한 작업을 하위 태스크로 분해하고 개발 도구를 직접 실행해 테스트·수정을 반복하는 완전 자율 워크플로가 주류화",
+            "<b>GitHub Copilot</b>이 점유율 37%로 선두; <b>Cursor·Codeium(Windsurf)·Amazon Q Developer·Gemini Code Assist</b>가 빠르게 영역 확대 중"
+          ],
+          "you": null,
+          "url": "https://tech-insider.org/ai-coding-tools-2026-transforming-software-development/",
+          "source": "Tech Insider"
+        },
+        {
+          "id": "d2",
+          "cat": "dev",
+          "title": "NVIDIA RTX Spark — ARM 기반 PC용 로컬 AI 칩 발표, Vera Rubin H2 배포 임박",
+          "meta": "NVIDIA / 2026년 6월 관련 보도",
+          "date_local": "2026-06-01 (ET)",
+          "date_kst": "KST 6/2",
+          "warn": false,
+          "bullets": [
+            "NVIDIA가 <b>RTX Spark</b>라는 ARM 기반 PC 전용 AI 칩을 발표; 데이터센터가 아닌 일반 PC에서 <b>로컬 AI 추론</b>을 가능하게 하는 소비자향 칩으로 클라우드 의존도 감소와 지연 시간 단축 효과를 목표",
+            "<b>Anthropic·OpenAI</b> 등 주요 AI 기업들이 해당 칩 설계에 깊숙이 관여했다고 알려졌으며, PC에서 대형 모델 일부를 직접 구동하는 온디바이스 AI 시대를 앞당기는 행보로 평가",
+            "별도로 발표된 <b>Vera Rubin 플랫폼</b>은 H2 2026 AWS·Google Cloud·Microsoft·OCI 배포를 앞두고 있으며, Blackwell 대비 <b>추론 5배·훈련 3.5배</b> 성능 향상 전망"
+          ],
+          "you": null,
+          "url": "https://www.newsx.com/tech-and-auto/nvidia-introduces-new-ai-technologies-rtx-spark-agentic-ai-vera-rubin-chip-and-more-check-details-and-future-plans-229010/",
+          "source": "NewsX / NVIDIA"
+        },
+        {
+          "id": "d3",
+          "cat": "dev",
+          "title": "2026년 AI 코드 에디터 3파전 — Copilot·Cursor·Codeium 경쟁 심화",
+          "meta": "Syncfusion / 개발자 설문 2026",
+          "date_local": "2026-05-01 (ET)",
+          "date_kst": "KST 5/2",
+          "warn": false,
+          "bullets": [
+            "2026년 AI 코드 에디터 시장은 <b>GitHub Copilot X(1위)·Cursor·Codeium(Windsurf)</b>이 삼각 경쟁 구도; Copilot은 VS Code·JetBrains 통합 강점, Cursor는 독립 IDE로 빠른 컨텍스트 이해, Windsurf는 에이전틱 자율 코딩에 집중",
+            "ChatGPT 코딩 활용 비율 28%, Gemini 8%, Claude 7% 순으로 채팅형 AI도 코딩 보조 도구로 광범위하게 사용되며 전문 에디터와 경계가 희미해지는 추세",
+            "에디터 선택 기준이 '코드 자동완성 정확도'에서 <b>'에이전트 자율도'</b>(복잡한 멀티스텝 작업 처리 능력)로 이동 중이며, 2026년 하반기에는 에이전트 심화 기능이 주요 경쟁 포인트로 부상 전망"
+          ],
+          "you": null,
+          "url": "https://www.syncfusion.com/blogs/post/ai-code-editors-2026",
+          "source": "Syncfusion"
+        }
+      ]
+    },
+    {
+      "icon": "🔬",
+      "name": "연구",
+      "you": false,
+      "items": [
+        {
+          "id": "r1",
+          "cat": "research",
+          "title": "PaperBench — AI 에이전트의 ICML 논문 재현 능력 종합 평가 벤치마크",
+          "meta": "OpenAI / arXiv:2504.01848",
+          "date_local": "2026-04-01 (ET)",
+          "date_kst": "KST 4/2",
+          "warn": false,
+          "bullets": [
+            "<b>PaperBench</b>는 AI 에이전트가 ICML 2024 Spotlight·Oral 논문 <b>20편</b>을 처음부터 재현할 수 있는지 평가하는 벤치마크로, 논문 기여 파악→코드 개발→실험 실행 전 과정을 평가 대상으로 삼음",
+            "현재 최고 성능 에이전트도 완전한 논문 재현에는 한계를 보이며, <b>'AI가 스스로 AI 연구를 수행할 수 있는가'</b>라는 근본 질문에 대한 엄밀한 측정 도구로 학계 주목",
+            "2026년 AI 연구 자동화 트렌드 속에서 <b>인간 연구자와 AI 에이전트의 협업 방식</b> 재정립이 핵심 의제로 부상; PaperBench는 그 격차를 정량화하는 데 기여"
+          ],
+          "you": null,
+          "url": "https://arxiv.org/pdf/2504.01848",
+          "source": "arXiv (OpenAI)"
+        },
+        {
+          "id": "r2",
+          "cat": "research",
+          "title": "SciNetBench — 1,860만 AI 논문 기반 문헌 검색 에이전트 평가 프레임워크",
+          "meta": "arXiv:2601.03260 / 2026년 1월",
+          "date_local": "2026-01-01 (ET)",
+          "date_kst": "KST 1/2",
+          "warn": false,
+          "bullets": [
+            "<b>SciNetBench</b>는 <b>1,863만 건</b>의 AI 논문 코퍼스를 기반으로 문헌 검색 에이전트가 저자·인용·연구 흐름 등 논문 간 관계(Scientific Network)를 얼마나 잘 파악하는지 체계적으로 평가하는 벤치마크",
+            "기존 벤치마크가 단순 키워드 매칭에 집중했다면, SciNetBench는 <b>연구 맥락·연구자 영향력·방법론 계보</b>까지 추적하는 관계 인식 능력을 측정",
+            "AI 논문 수 폭발적 증가 상황에서 <b>AI 에이전트를 이용한 방대한 문헌 탐색</b> 수요가 급증; 관련 평가 프레임워크의 중요성이 커지는 가운데 SciNetBench가 기준 역할을 자임"
+          ],
+          "you": null,
+          "url": "https://arxiv.org/pdf/2601.03260",
+          "source": "arXiv"
+        },
+        {
+          "id": "r3",
+          "cat": "research",
+          "title": "ELAIPBench — 전문가 수준 AI 논문 이해력 LLM 평가 벤치마크 등장",
+          "meta": "arXiv:2510.10549",
+          "date_local": "2025-10-01 (ET)",
+          "date_kst": "KST 10/2",
+          "warn": false,
+          "bullets": [
+            "<b>ELAIPBench</b>는 LLM이 AI 논문을 전문가 수준으로 읽고 해석할 수 있는지 평가하는 벤치마크로, 연구자들이 논문 리뷰·검토에 LLM을 활용하는 사례 급증에 대응해 등장",
+            "단순 요약이 아닌 <b>방법론의 정확한 이해·기술적 주장 검증·한계 파악</b> 등 심층 이해 능력을 측정하며, 현재 모델들이 전문가 수준에 미치지 못하는 영역을 구체적으로 드러냄",
+            "Semantic Scholar AI·Elicit 등 LLM 기반 논문 보조 도구가 확산되는 가운데, ELAIPBench는 이러한 <b>도구의 신뢰성을 평가하는 기준</b>으로도 활용 가능"
+          ],
+          "you": null,
+          "url": "https://arxiv.org/pdf/2510.10549",
+          "source": "arXiv"
+        }
+      ]
+    },
+    {
+      "icon": "🏛",
+      "name": "정책 · 거버넌스",
+      "you": false,
+      "items": [
+        {
+          "id": "p1",
+          "cat": "policy",
+          "title": "EU AI Act 고위험 준수 기한 16개월 연장 합의 — 2027년 12월로 유예",
+          "meta": "EU 이사회·유럽의회·집행위 3자 잠정 합의 / 2026.05.07",
+          "date_local": "2026-05-07 (CET)",
+          "date_kst": "KST 5/7",
+          "warn": false,
+          "bullets": [
+            "EU 이사회·유럽의회·집행위가 5월 7일 <b>EU AI Act 부속서 III 고위험 AI 시스템</b>(교육·채용·공공서비스·의료·금융 등) 준수 기한을 <b>2026년 8월 2일에서 2027년 12월 2일</b>로 16개월 연장하는 개정안에 잠정 합의",
+            "핵심 의무는 <b>적합성 평가·기술 문서 작성·CE 마킹·EU 데이터베이스 등록</b>이며, 법률 전문가들은 기한 연장에도 불구하고 '8월 2일을 구속력 있는 기한으로 준비하라'고 강력 권고",
+            "위반 시 최대 <b>글로벌 매출 3% 또는 1,500만 유로 중 높은 금액</b>이 과징금으로 부과 가능하며, EU 내 AI 제품·서비스를 운영하는 한국 기업도 적용 대상"
+          ],
+          "you": null,
+          "url": "https://www.insideprivacy.com/artificial-intelligence/eu-ai-act-update-timeline-relief-targeted-simplification-and-new-prohibitions/",
+          "source": "Inside Privacy (Covington)"
+        },
+        {
+          "id": "p2",
+          "cat": "policy",
+          "title": "백악관, AI 단일 연방 규제 프레임워크 의회 권고 — 50개 주법 선점 시도",
+          "meta": "White House / 2026년 3월 공개",
+          "date_local": "2026-03-01 (ET)",
+          "date_kst": "KST 3/2",
+          "warn": false,
+          "bullets": [
+            "트럼프 행정부가 <b>국가 AI 입법 프레임워크(National AI Legislative Framework)</b>를 공개하고 연방 단일 기준으로 <b>50개 주 개별 AI 법률을 선점(Preemption)</b>하는 방향의 입법을 의회에 권고",
+            "현재 콜로라도(6월 30일 시행)·텍사스 등 20개 이상 주가 독자 AI 법을 통과시켰거나 추진 중; 기업들이 주별 상이한 규정을 따라야 하는 복잡성 증가로 <b>산업계의 연방 통합 요구</b>가 커지는 상황",
+            "전문가들은 연방 선점 실현 시 <b>EU AI Act보다 느슨한 단일 기준</b>이 적용될 가능성이 높다고 분석; AI 안전 옹호 단체들은 반발 중"
+          ],
+          "you": null,
+          "url": "https://www.reedsmith.com/our-insights/blogs/viewpoints/102mnyd/decoding-the-2026-white-house-ai-blueprint-u-s-ai-policy-starts-to-take-shape/",
+          "source": "Reed Smith"
+        },
+        {
+          "id": "p3",
+          "cat": "policy",
+          "title": "콜로라도 AI법 D-28 — 미국 최초 포괄적 AI 규제 6월 30일 발효 임박",
+          "meta": "Colorado AI Act / 2026-06-30 발효",
+          "date_local": "2026-06-01 (MT)",
+          "date_kst": "KST 6/2",
+          "warn": false,
+          "bullets": [
+            "<b>콜로라도 AI법(Colorado AI Act)</b>이 6월 30일 발효 예정; 미국 최초의 포괄적 AI 규제로 교육·채용·의료·보험·법률 서비스 분야에서 <b>중대한 결정을 내리는 고위험 AI 시스템</b> 개발·배포자에게 위험 관리 프로그램·소비자 공시·알고리즘 차별 방지 의무 부과",
+            "최근 콜로라도 의회는 일부 조항을 <b>전면 개정</b>하는 법안을 통과시켜 기존법을 대체하는 형태로 개편했으며, 업계 부담 완화를 시도하면서도 핵심 고위험 AI 규정은 유지",
+            "콜로라도 모델이 확산되면 <b>다른 주들의 유사 입법 가속화</b>로 이어질 전망이며, 미국 내 AI 거버넌스의 분수령으로 평가"
+          ],
+          "you": null,
+          "url": "https://www.wsgr.com/en/insights/2026-year-in-preview-ai-regulatory-developments-for-companies-to-watch-out-for.html",
+          "source": "Wilson Sonsini"
+        }
+      ]
+    },
+    {
+      "icon": "💰",
+      "name": "산업 · 자본",
+      "you": true,
+      "items": [
+        {
+          "id": "i1",
+          "cat": "money",
+          "title": "SpaceX IPO 로드쇼 D-2 — 6월 4일 시작, 역대 최대 $75B 공모 예고",
+          "meta": "Nasdaq 상장 6월 12일 목표 / 티커 SPCX",
+          "date_local": "2026-06-01 (ET)",
+          "date_kst": "KST 6/2",
+          "warn": false,
+          "bullets": [
+            "<b>SpaceX</b>가 <b>6월 4일</b> IPO 로드쇼를 시작해 <b>6월 12일</b> Nasdaq 상장(티커 SPCX)을 목표로 추진; 공모 규모는 <b>약 750억 달러(~102조 원)</b>로 2019년 사우디 아람코를 제치고 <b>역대 세계 최대 IPO</b>가 될 전망",
+            "목표 기업가치 <b>1.75조 달러(~2,380조 원)</b>; 2월 Elon Musk의 xAI를 SpaceX가 인수합병해 Starlink 위성망·Grok AI·Falcon 로켓 시너지를 갖춘 복합 우주-AI 기업으로 재평가",
+            "Goldman Sachs는 2026년 미국 IPO 공모 규모가 <b>역대 최대 1,600억 달러</b>에 달할 것으로 예측; SpaceX·OpenAI·Anthropic 세 곳의 동시 IPO 추진이 AI 자본 시장 사이클의 정점을 형성 중"
+          ],
+          "you": "투자 관심 사용자에게 올해 최대 관전 포인트 — SpaceX 로드쇼 6/4 시작, 상장일 6/12 캘린더 등록 권장",
+          "url": "https://thehill.com/policy/technology/5892110-openai-spacex-anthropic-stock-market/",
+          "source": "The Hill / CNBC"
+        },
+        {
+          "id": "i2",
+          "cat": "money",
+          "title": "OpenAI, 하반기 IPO 본격화 — Goldman·Morgan Stanley 주관, 9월 상장 시나리오",
+          "meta": "IPO 목표 가치 $1T / 2026 Q3~Q4",
+          "date_local": "2026-05-22 (ET)",
+          "date_kst": "KST 5/23",
+          "warn": false,
+          "bullets": [
+            "OpenAI가 <b>Goldman Sachs·Morgan Stanley</b>를 주관사로 확정하고 비공개 IPO 투자설명서(S-1) 초안을 SEC에 제출 준비 중; <b>9월 상장</b>을 최단 시나리오로 검토",
+            "목표 기업가치 <b>약 1조 달러</b>이며, Anthropic(~9,650억 달러)과 함께 2026년 하반기 두 AI 거물의 동시 상장이 예정돼 <b>사상 최대 규모 AI IPO 이중주</b>가 될 가능성",
+            "전문가들은 SpaceX·OpenAI·Anthropic 3사가 동시에 수천억 달러를 시장에서 흡수하면 <b>AI IPO 수요 포화</b> 또는 '시장 정점 신호'가 될 수 있다고 경고"
+          ],
+          "you": null,
+          "url": "https://www.cnbc.com/2026/05/22/ipo-flurry-top-market-analysts-ai-spacex-musk-altman.html",
+          "source": "CNBC"
+        },
+        {
+          "id": "i3",
+          "cat": "money",
+          "title": "Anthropic, OpenAI 매출 추월 확정 — 월 $30B vs $25B 역전",
+          "meta": "AI 기업 밸류에이션 역전 / 2026년 5월 기준",
+          "date_local": "2026-05-29 (ET)",
+          "date_kst": "KST 5/30",
+          "warn": false,
+          "bullets": [
+            "<b>Anthropic</b>이 월간 매출 기준 <b>약 300억 달러</b>로 OpenAI(약 250억 달러)를 추월해 AI 서비스 시장 1위 사업자로 등극; 5월 65억 달러 추가 투자 유치 후 기업가치 <b>9,650억 달러</b>로 OpenAI를 밸류에이션에서도 앞섬",
+            "Anthropic의 성장 동력은 Claude API 기반 <b>엔터프라이즈 B2B 계약 확대</b>와 GitHub Copilot·Amazon Bedrock 등 파트너 생태계 확장; 개인 B2C보다 기업 고객 집중 전략이 수익성에서 유효했다는 분석",
+            "Mythos AI 모델(Claude 5급 추정)의 <b>수주 내 일반 출시 예고</b>와 IPO 비공개 서류 제출 임박 등 모멘텀이 이어지며 Anthropic이 2026년 AI 기업 가치 순위 재편 주도"
+          ],
+          "you": null,
+          "url": "https://tech-ish.com/2026/05/29/anthropic-now-worth-more-than-openai/",
+          "source": "Tech-ish"
+        }
+      ]
+    },
+    {
+      "icon": "🇰🇷",
+      "name": "한국",
+      "you": false,
+      "items": [
+        {
+          "id": "k1",
+          "cat": "korea",
+          "title": "삼성, HBM4 NVIDIA·AMD 6월 공식 공급 개시 — 최종 품질 테스트 통과",
+          "meta": "TrendForce / 삼성전자 / 2026년 6월",
+          "date_local": "2026-06-01 (ET)",
+          "date_kst": "KST 6/2",
+          "warn": false,
+          "bullets": [
+            "<b>삼성전자</b>가 NVIDIA·AMD의 최종 품질 테스트를 통과하고 <b>HBM4(5세대 고대역폭메모리)</b> 공식 납품을 6월부터 개시; HBM4는 HBM3E 대비 대역폭·전력 효율이 대폭 향상된 차세대 AI 메모리",
+            "SK하이닉스가 NVIDIA HBM4 수요의 약 <b>70%</b>를 납품하는 반면, 삼성은 나머지 물량을 확보해 하반기부터 점유율 격차 축소를 추진; Micron이 HBM 시장에서 삼성을 추월해 2위로 올라선 상황",
+            "삼성은 2026년 HBM 생산 능력을 <b>전년 대비 50%</b> 확대 중이며, NVIDIA Vera Rubin 플랫폼용 <b>16-Hi HBM4</b>(16단 적층) 공급 경쟁이 하반기 핵심 변수"
+          ],
+          "you": null,
+          "url": "https://www.tweaktown.com/news/109495/sk-hynix-samsung-and-micron-fighting-for-nvidia-supply-contracts-for-new-16-hi-hbm4-orders/index.html",
+          "source": "Tweaktown"
+        },
+        {
+          "id": "k2",
+          "cat": "korea",
+          "title": "SK하이닉스 HBM 점유율 62% 1위 — Micron이 삼성 제치고 2위 등극",
+          "meta": "Astute Group / 2026년 HBM 시장 분석",
+          "date_local": "2026-06-01 (ET)",
+          "date_kst": "KST 6/2",
+          "warn": false,
+          "bullets": [
+            "<b>SK하이닉스</b>가 2026년 HBM 시장에서 <b>점유율 62%</b>로 압도적 1위 유지; <b>Micron</b>이 삼성을 제치고 2위로 올라서는 이변 발생 — 삼성은 HBM4 품질 테스트 지연 여파로 점유율이 하락한 상태에서 반등 모색",
+            "<b>HBM 품귀 현상이 2028년까지 지속</b>될 전망이며, SK하이닉스 주가는 신고가를 경신하며 시가총액 <b>1조 달러 근접</b>; NVIDIA Vera Rubin용 16-Hi HBM4 수요가 하반기 공급 경쟁을 더욱 치열하게 만들 것으로 예상",
+            "SK하이닉스는 인프라 투자를 기존 계획 대비 <b>4배 이상</b> 늘리겠다고 발표했으며, HBM4 및 차세대 HBM4E 생산 라인을 동시에 확충 중"
+          ],
+          "you": "SK하이닉스·삼성 반도체 투자 관심자에게 2028년까지 HBM 공급 부족 구조는 장기 포지셔닝 근거 — 삼성 반등 가능성과 Micron 추격도 병행 모니터링 권장",
+          "url": "https://www.astutegroup.com/news/general/sk-hynix-holds-62-of-hbm-micron-overtakes-samsung-2026-battle-pivots-to-hbm4/",
+          "source": "Astute Group"
+        },
+        {
+          "id": "k3",
+          "cat": "korea",
+          "title": "네이버·카카오, 하반기 'AI 에이전트 수익화 전쟁' 개막",
+          "meta": "EBN / TechM / 2026년 하반기 전략",
+          "date_local": "2026-06-01 (KST)",
+          "date_kst": null,
+          "warn": false,
+          "bullets": [
+            "<b>네이버</b>는 2분기 <b>'AI 탭'</b>(통합검색 AI 에이전트) 출시와 네이버플러스 스토어 '쇼핑 AI 에이전트' 적용을 예고하며, 에이전트N을 중심으로 검색·쇼핑·지도·예약을 하나의 AI 경험으로 통합하는 전략 추진",
+            "<b>카카오</b>는 AI 에이전트 <b>'카나나(Kanana)'</b> 테스트를 지속하고 생성형 검색 기능을 갖춘 '카나나 서치'를 2분기 중 공개 예정; 커머스·결제·예약을 AI로 자동화해 플랫폼 체류 시간과 수익화를 동시에 강화하는 방향",
+            "양사 모두 2026년을 <b>에이전틱 AI 원년</b>으로 규정하고 단순 정보 제공을 넘어 '사용자 의도를 이해하고 행동을 대신 수행하는 에이전트'로의 전환을 핵심 전략으로 내세우며 하반기 수익화 모델 검증에 돌입"
+          ],
+          "you": null,
+          "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1710260",
+          "source": "EBN"
+        }
+      ]
+    }
+  ]
+}
