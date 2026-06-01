@@ -10,6 +10,7 @@ HERE="$(cd "$(dirname "$0")" && pwd)"; cd "$HERE"
 TG_BOT_TOKEN="${TG_BOT_TOKEN:-${AIDAILY_BOT_TOKEN:-}}"
 TG_CHAT_ID="${TG_CHAT_ID:-${AIDAILY_CHAT_ID:-}}"
 DATE="$(TZ=Asia/Seoul date +%Y-%m-%d)"
+TIME="$(TZ=Asia/Seoul date +%H:%M)"
 
 ITEMS="output/items.json"
 [ -f "$ITEMS" ] || { echo "[run] items.json 없음 — Claude가 먼저 생성해야 함"; exit 1; }
@@ -40,5 +41,5 @@ done
 # 4) 텔레그램 링크 전송
 curl -s "https://api.telegram.org/bot${TG_BOT_TOKEN}/sendMessage" \
   --data-urlencode "chat_id=${TG_CHAT_ID}" \
-  --data-urlencode "text=AI 데일리 · ${DATE} ${SLOT}
+  --data-urlencode "text=📰 AI 데일리 · ${DATE} ${SLOT} (${TIME} KST)
 ${URL}" >/dev/null && echo "[run] sent: link"
