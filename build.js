@@ -55,12 +55,13 @@ try {
     log(`중복 제거 — 새 항목 ${keptCount}개 (중복 ${itemCount - keptCount}개 제외)`);
   }
 
-  // --- 날짜/슬롯으로 파일명 결정 ---
+  // --- 날짜/슬롯/생성시각으로 파일명 결정 (매 실행 고유 URL → 덮어쓰기 방지) ---
   const date = data.date || new Date().toISOString().slice(0, 10);
   const slot = (data.slot || "am").replace(/[^a-z0-9]/gi, "");
+  const nowKST = new Date(Date.now() + 9*60*60*1000).toISOString().slice(11, 16);  // KST HH:MM
   const outDir = path.join(ROOT, "output");
   if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
-  const outFile = path.join(outDir, `ai-daily-${date}-${slot}.html`);
+  const outFile = path.join(outDir, `ai-daily-${date}-${slot}-${nowKST.replace(":", "")}.html`);
 
   // --- base64(UTF-8)로 주입 (따옴표/유니코드 이스케이프 문제 회피) ---
   const tpl = fs.readFileSync(TEMPLATE, "utf8");
@@ -74,7 +75,6 @@ try {
   if (favApi) log("즐겨찾기 중계 연결:", favApi); else log("중계 URL 없음 → localStorage 모드");
 
   const escAttr = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
-  const nowKST = new Date(Date.now() + 9*60*60*1000).toISOString().slice(11,16);
   const pageTitle = `AI 데일리 · ${date} ${slot} (${nowKST})`;
   const ogTitle = escAttr(`AI 데일리 · ${date} ${slot}`);
   const ogDesc = escAttr((data.oneline || "오늘의 AI·기술 뉴스 브리핑").replace(/<\/?b>/g, "").slice(0, 200));
