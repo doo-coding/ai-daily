@@ -69,9 +69,12 @@ try {
   if (favApi) log("즐겨찾기 중계 연결:", favApi); else log("중계 URL 없음 → localStorage 모드");
 
   const escAttr = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+  const nowKST = new Date(Date.now() + 9*60*60*1000).toISOString().slice(11,16);
+  const pageTitle = `AI 데일리 · ${date} ${slot} (${nowKST})`;
   const ogTitle = escAttr(`AI 데일리 · ${date} ${slot}`);
   const ogDesc = escAttr((data.oneline || "오늘의 AI·기술 뉴스 브리핑").replace(/<\/?b>/g, "").slice(0, 200));
   const html = tpl
+    .replace("__PAGE_TITLE__", pageTitle)
     .replace("__DIGEST_DATA_B64__", b64)
     .replace("__FAV_API_URL__", favApi)
     .replace("__OG_TITLE__", () => ogTitle)
