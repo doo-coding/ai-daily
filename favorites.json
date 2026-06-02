@@ -174,5 +174,31 @@
       "_section": "산업 · 자본"
     },
     "memo": "123"
+  },
+  "xaf313e13f1b5": {
+    "id": "xaf313e13f1b5",
+    "date": "2026-06-02",
+    "slot": "pm",
+    "ts": "2026-06-02T10:47:40.429Z",
+    "item": {
+      "id": "xaf313e13f1b5",
+      "cat": "dev",
+      "title": "Project Polaris — MS 자체 코딩 AI 모델, 8월부터 GitHub Copilot 기본값 대체",
+      "meta": "Microsoft · Build 2026 발표",
+      "date_local": "2026-06-02 (PT)",
+      "date_kst": "KST 6/2",
+      "warn": false,
+      "bullets": [
+        "<b>Project Polaris</b>는 Microsoft가 자체 개발한 코딩 특화 추론 모델 — 2026년 8월부터 GitHub Copilot에서 GPT-4 Turbo를 대체하는 기본 모델로 전환 예정",
+        "Polaris는 비용 효율 최적화에 초점 — Uber가 Claude Code 토큰 기반 요금으로 2026년 AI 예산 전체를 4개월 만에 소진한 사례가 MS의 자체 모델 전략 가속을 이끈 배경",
+        "기존 Claude·GPT 등 타사 모델도 Copilot 내 멀티모델 지원으로 병행 제공되지만, Polaris가 기본값으로 채택되면서 Microsoft의 AI 공급망 내재화 의도가 명확해짐"
+      ],
+      "you": "Claude Code 사용자라면 Copilot CLI 전환 동향 및 Project Polaris 성능 비교 주목 필요",
+      "url": "https://faq.com.tw/en/developer-tools/2026-06-01-microsoft-build-2026-mai-coding-models-en/",
+      "source": "FAQ.com / Microsoft Build 2026",
+      "_icon": "🛠",
+      "_section": "도구 · 개발"
+    },
+    "memo": ""
   }
 }
