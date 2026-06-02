@@ -1,0 +1,324 @@
+{
+  "date": "2026-06-03",
+  "slot": "am",
+  "date_line": "2026년 6월 3일 (수) · 아침 · 16건 선별",
+  "kicker": "AI 데일리 · 자동 발송",
+  "footer_tag": "✈ via Telegram · 매일 07:00 · 19:00 자동 발송",
+  "oneline": "<b>Microsoft Build 2026</b>에서 자체 추론 모델 <b>MAI-Thinking-1</b> 등 7종을 공개해 OpenAI 의존 탈피를 선언했고, <b>Anthropic</b>이 $965B 밸류로 SEC 비공개 IPO를 신청하며 AI 스타트업 조 달러 상장 레이스의 막이 열림",
+  "sections": [
+    {
+      "icon": "🚀",
+      "name": "모델 · 출시",
+      "you": false,
+      "items": [
+        {
+          "id": "m1",
+          "cat": "model",
+          "title": "Microsoft, MAI-Thinking-1 포함 7종 자체 모델 발표",
+          "meta": "Microsoft Build 2026, 2026-06-02",
+          "date_local": "2026-06-02 (ET)",
+          "date_kst": "KST 6/3",
+          "warn": false,
+          "bullets": [
+            "Microsoft AI 수퍼인텔리전스팀이 Build 2026에서 자사 최초 추론 모델 <b>MAI-Thinking-1</b>(35B 파라미터, 256K 컨텍스트)을 포함한 7종 자체 모델 패밀리 공개",
+            "MAI-Thinking-1은 외부 모델 증류 없이 상용 라이선스 데이터만으로 학습, 장문 추론·복잡한 멀티스텝 지시·코드 생성에 특화 — 현재 Microsoft Foundry 비공개 프리뷰",
+            "함께 공개된 <b>MAI-Code-1</b>(GitHub·VS Code 특화), <b>MAI-Voice-2</b>(15개 언어 추가), <b>MAI-Transcribe-1.5</b>(43개 언어 SOTA 정확도)로 OpenAI 의존 비용 구조 탈피 본격화"
+          ],
+          "you": null,
+          "url": "https://www.axios.com/2026/06/02/microsoft-debuts-scout-agent-homegrown-reasoning-model",
+          "source": "Axios"
+        },
+        {
+          "id": "m2",
+          "cat": "model",
+          "title": "OpenAI, GPT-4.5 6/27·o3 8/26 순차 종료 확정",
+          "meta": "OpenAI 공식 릴리스 노트",
+          "date_local": "2026-06-02 (PT)",
+          "date_kst": "KST 6/3",
+          "warn": true,
+          "bullets": [
+            "<b>GPT-4.5</b>는 6월 27일(30일 유예), <b>o3</b>는 8월 26일(90일 유예) ChatGPT 및 API에서 순차 서비스 종료 — OpenAI 공식 릴리스 노트 업데이트",
+            "GPT-5.5(Pro·Instant 포함) 시리즈가 차세대 주력 모델로 자리잡으면서 이전 세대 정리 가속화, 모델 라인업 간소화 추세 뚜렷",
+            "o3를 추론 파이프라인에 활용 중인 기업·개발자는 8월 26일 전까지 GPT-5.5 또는 대체 모델로 마이그레이션 계획 수립 필요"
+          ],
+          "you": null,
+          "url": "https://releasebot.io/updates/openai",
+          "source": "OpenAI (via Releasebot)"
+        }
+      ]
+    },
+    {
+      "icon": "🛠",
+      "name": "도구 · 개발",
+      "you": true,
+      "items": [
+        {
+          "id": "d1",
+          "cat": "dev",
+          "title": "GitHub Copilot 토큰 과금 6/1 시행 — 개발자 비용 10~50배 급등 반발",
+          "meta": "GitHub, 2026-06-01 적용",
+          "date_local": "2026-06-02 (ET)",
+          "date_kst": "KST 6/3",
+          "warn": true,
+          "bullets": [
+            "<b>GitHub Copilot</b> 전 플랜이 6월 1일부터 정액제에서 <b>AI Credits(입력·출력·캐시 토큰 기반)</b> 과금으로 전환 — Pro+ 플랜 사용자가 2시간 만에 월 쿼터 8% 소진 사례 보고",
+            "레딧·X에서 개발자 반발 폭발 — '월 $29→$750', '$50→$3,000' 비용 예측 사례 등장; 에이전틱 코딩 환경에서 단일 명령 하나가 컨텍스트 로딩·툴콜·멀티스텝 추론까지 유발해 비용 예측 사실상 불가",
+            "OpenAI Codex·Anthropic Claude·DeepSeek·로컬 오픈소스 모델로 이탈 움직임 증가 — 토큰 기반 AI 과금 표준화 시대의 첫 진통"
+          ],
+          "you": "Claude Code 사용자는 GitHub Copilot 대비 비용 구조가 다르지만, 토큰 소비 최적화(캐시 활용·컨텍스트 관리)의 중요성이 전 플랫폼으로 확산 중",
+          "url": "https://www.ghacks.net/2026/06/02/github-copilot-usage-based-billing-takes-effect-drawing-developer-backlash-over-rapid-credit-depletion/",
+          "source": "gHacks"
+        },
+        {
+          "id": "d2",
+          "cat": "dev",
+          "title": "Microsoft Build 2026 — Scout 에이전트·Agent Platform·Execution Containers 출시",
+          "meta": "Microsoft Build 2026, 2026-06-02",
+          "date_local": "2026-06-02 (ET)",
+          "date_kst": "KST 6/3",
+          "warn": false,
+          "bullets": [
+            "개인 업무 에이전트 <b>Microsoft Scout</b>가 Teams·Outlook 기반으로 회의 준비·일정 충돌·루틴 업무를 지시 없이 선제 처리 — Frontier 고객 대상 즉시 제공",
+            "<b>Microsoft Agent Platform</b>은 GitHub·Foundry·Teams를 통합한 에이전트 인프라; 기업 고유 데이터·지식을 AI에 주입하는 Microsoft IQ·Work IQ·Fabric IQ 컨텍스트 레이어 포함",
+            "<b>Microsoft Execution Containers</b>로 Windows OS 수준 에이전트 샌드박싱 지원 — 거버넌스·보안 요구사항 내에서 에이전트 자율 실행, 기업 AI 신뢰 문제 정면 대응"
+          ],
+          "you": null,
+          "url": "https://blogs.microsoft.com/blog/2026/06/02/microsoft-build-2026-be-yourself-at-work/",
+          "source": "Microsoft Blog"
+        },
+        {
+          "id": "d3",
+          "cat": "dev",
+          "title": "Surface RTX Spark Dev Box — ARM+Blackwell+128GB 통합 메모리 로컬 AI 개발 박스",
+          "meta": "Microsoft·NVIDIA 공동, Build 2026",
+          "date_local": "2026-06-02 (ET)",
+          "date_kst": "KST 6/3",
+          "warn": false,
+          "bullets": [
+            "NVIDIA Blackwell GPU·ARM CPU·<b>128GB 통합 메모리</b>를 단일 박스에 탑재 — 클라우드 없이 대형 언어 모델 로컬 실행 가능한 개발자 전용 하드웨어",
+            "Windows를 에이전틱 AI OS로 전환하는 <b>RTX Spark 플랫폼</b>의 핵심 기기; NVIDIA Computex 2026 발표 RTX Spark 슈퍼칩 라인업의 실제 제품화",
+            "로컬 구동으로 데이터 외부 전송 없이 모델 실행 가능 — 의료·법률·금융 등 데이터 컴플라이언스가 엄격한 규제 산업 개발자에게 유의미한 대안"
+          ],
+          "you": null,
+          "url": "https://www.tomsguide.com/news/live/microsoft-build-2026",
+          "source": "Tom's Guide"
+        }
+      ]
+    },
+    {
+      "icon": "🔬",
+      "name": "연구",
+      "you": false,
+      "items": [
+        {
+          "id": "r1",
+          "cat": "research",
+          "title": "NVIDIA Vera Rubin 전량 생산 돌입 — Blackwell 대비 5배 추론 성능",
+          "meta": "NVIDIA, 2026-06-01 발표",
+          "date_local": "2026-06-01 (PT)",
+          "date_kst": "KST 6/2",
+          "warn": false,
+          "bullets": [
+            "NVIDIA <b>Vera Rubin</b> 플랫폼이 예정보다 약 두 분기 앞당겨 전량 생산 완료 — <b>Rubin GPU</b>는 NVFP4 추론 <b>50 PFLOPs</b>(Blackwell의 5배), 학습 35 PFLOPs(3.5배) 성능",
+            "Vera CPU+Rubin GPU 2개를 단일 프로세서로 통합한 설계; 에이전틱 AI·고급 추론·MoE(전문가 혼합) 모델에 최적화, Blackwell 대비 메모리 대역폭도 대폭 확대",
+            "AWS·Google Cloud·Microsoft·OCI 등이 2026년 하반기 Vera Rubin 기반 클라우드 인스턴스 제공 예정 — AI 팩토리 세대 교체와 HBM4 수요 추가 자극"
+          ],
+          "you": null,
+          "url": "https://wccftech.com/nvidia-rubin-ai-chips-enter-full-production-well-ahead-of-schedule/",
+          "source": "WCCFTech"
+        },
+        {
+          "id": "r2",
+          "cat": "research",
+          "title": "ProjectionBench — LLM 과학적 가설 생성 능력 정량 평가 첫 벤치마크",
+          "meta": "arXiv, 2026-05-30",
+          "date_local": "2026-05-30 (UTC)",
+          "date_kst": "KST 5/31",
+          "warn": false,
+          "bullets": [
+            "<b>ProjectionBench</b>는 정보를 단계적으로 공개하며 LLM이 미지의 과학적 가설을 생성하는 능력을 측정 — 암기 기반 재현이 아닌 진짜 창의적 추론 역량을 평가하는 최초 표준",
+            "현재 최고 성능 모델도 근거에서 벗어난 새 가설 제시('혁신적 추론') 점수가 전반적으로 낮음 — LLM이 과학 연구 아이디어 생성에 실제 기여할 수 있는 수준인지 의문 제기",
+            "AI for Science 분야 평가 체계 표준화에 기여할 것으로 기대 — 연구 가속 AI 도구의 신뢰성 벤치마킹 기반 마련"
+          ],
+          "you": null,
+          "url": "https://arxiv.org/abs/2605.30284",
+          "source": "arXiv"
+        },
+        {
+          "id": "r3",
+          "cat": "research",
+          "title": "CLAIM-BENCH — LLM 과학 논문 주장·근거 추론 능력 새 벤치마크",
+          "meta": "arXiv, 2026-06",
+          "date_local": "2026-06 (UTC)",
+          "date_kst": null,
+          "warn": false,
+          "bullets": [
+            "<b>CLAIM-BENCH</b>는 LLM이 과학 논문의 주장(claim)과 근거(evidence)를 얼마나 정확히 연결·추론하는지 평가하는 전문 벤치마크 — 단순 QA가 아닌 논문 전체 독해 기반 심층 평가",
+            "최고 성능 LLM도 전문가 수준 과학 이해와 상당한 격차를 보임 — 특히 간접 증거로부터 주장을 도출하는 복합 추론 단계에서 두드러진 한계",
+            "AI 기반 논문 검토·연구 보조 도구의 신뢰성 평가 표준으로 자리잡을 전망 — AI for Science 투자 확대와 맞물려 주목"
+          ],
+          "you": null,
+          "url": "https://arxiv.org/pdf/2506.08235",
+          "source": "arXiv"
+        }
+      ]
+    },
+    {
+      "icon": "🏛",
+      "name": "정책 · 거버넌스",
+      "you": false,
+      "items": [
+        {
+          "id": "p1",
+          "cat": "policy",
+          "title": "미국 Colorado AI Act 6월 30일 시행 — 주(州) 최초 포괄적 고위험 AI 규제",
+          "meta": "Colorado 주 의회, 시행 예정",
+          "date_local": "2026-04-24 (MT)",
+          "date_kst": "KST 4/25",
+          "warn": false,
+          "bullets": [
+            "미국 콜로라도 주의 <b>Colorado AI Act</b>가 6월 30일 발효 — 자율주행·의료 진단·금융 신용평가 등 '고위험 AI' 개발·배포자에게 투명성 공개·영향 평가·이의 제기 절차 의무 부과",
+            "캘리포니아·텍사스 등 유사 법안을 준비 중인 주들이 콜로라도 모델을 참고 — 연방 규제 공백을 메우는 주 단위 AI 규제망이 본격 구축되는 첫 사례",
+            "트럼프 행정부는 주 AI 규제를 '혁신 저해'로 규정, AG 주도 소송 태스크포스 대응 준비 중 — 연방-주 AI 거버넌스 갈등이 6월 이후 법적 분쟁으로 격화 전망"
+          ],
+          "you": null,
+          "url": "https://www.cooley.com/news/insight/2026/2026-04-24-state-ai-laws-where-are-they-now",
+          "source": "Cooley"
+        },
+        {
+          "id": "p2",
+          "cat": "policy",
+          "title": "트럼프 AI 연방 입법 프레임워크 — 주정부와 정면 충돌 본격화",
+          "meta": "백악관, 2026-03-20 발표",
+          "date_local": "2026-03-20 (ET)",
+          "date_kst": "KST 3/21",
+          "warn": false,
+          "bullets": [
+            "백악관이 3월 발표한 AI 국가 입법 프레임워크는 아동 보호·지재권·혁신 촉진·AI 인력 육성 등 6대 목표를 설정, 연방법 단일화(state preemption)를 의회에 촉구",
+            "연방 검찰총장 주도 <b>AI 소송 태스크포스</b>가 1월 출범 — 콜로라도·캘리포니아 등 '혁신 저해' 주 AI 법안에 법적 이의 제기 예고, 연방-주 충돌 가시화",
+            "EU AI Act의 사전 규제 모델과 달리 미국은 '혁신 우선·사후 책임' 방향으로 가닥 — 글로벌 AI 거버넌스 이원화로 다국적 AI 기업의 규정 준수 복잡도 증가"
+          ],
+          "you": null,
+          "url": "https://www.vorys.com/publication-battle-for-ai-governance-white-houses-plan-to-centralize-ai-regulation-and-states-continuous-opposition",
+          "source": "Vorys"
+        }
+      ]
+    },
+    {
+      "icon": "💰",
+      "name": "산업 · 자본",
+      "you": true,
+      "items": [
+        {
+          "id": "f1",
+          "cat": "money",
+          "title": "Anthropic, SEC 비공개 IPO 신청 — $965B 밸류·연 run-rate $47B",
+          "meta": "Anthropic, 2026-06-01",
+          "date_local": "2026-06-01 (PT)",
+          "date_kst": "KST 6/2",
+          "warn": false,
+          "bullets": [
+            "<b>Anthropic</b>이 6월 1일 SEC에 비공개 IPO 신청서(Draft Registration Statement) 제출 — $65B 시리즈 H 조달 후 불과 1주일 만의 전격 결정으로 OpenAI에 선제",
+            "현재 기업 가치 <b>$965B</b>(약 1,300조 원), 연매출 run-rate <b>$47B</b>(연초 $9B 대비 5배 성장) — OpenAI($852B)를 제치고 미국 최대 AI 스타트업 등극",
+            "비공개 신청은 상장 2~3개월 전 단계; 정식 S-1 공개 후 상장까지 9월 목표, SpaceX·OpenAI와 함께 역대 최대 규모 AI 상장 3파전 구도"
+          ],
+          "you": "Anthropic 상장 시 Claude API 수익 구조·마진·고객 집중도 등이 S-1에 공개 — AI 관련 투자자는 공시 시점에 사업 체력 점검 필요",
+          "url": "https://www.nbcnews.com/business/corporations/anthropic-files-ipo-openai-rcna347897",
+          "source": "NBC News"
+        },
+        {
+          "id": "f2",
+          "cat": "money",
+          "title": "OpenAI IPO 비공개 신청 임박 — $1T 목표·9월 상장 추진",
+          "meta": "Axios, 2026-05-20",
+          "date_local": "2026-05-20 (ET)",
+          "date_kst": "KST 5/21",
+          "warn": false,
+          "bullets": [
+            "<b>OpenAI</b>가 골드만삭스·모건스탠리를 주관사로 수 일 내 SEC 비공개 IPO 신청 예정 — 목표 상장 시기는 2026년 9월 또는 4분기",
+            "목표 밸류에이션 <b>$1T 이상</b> — 3월 기준 $122B 펀딩 라운드에서 $852B 평가 후 추가 프리미엄 반영 기대",
+            "Anthropic의 선제 비공개 신청으로 'AI 빅2 동시 상장 레이스' 구도 형성 — 같은 시기 상장 시 기관 투자자 수요 배분 경쟁이 최대 변수"
+          ],
+          "you": null,
+          "url": "https://www.axios.com/2026/05/20/openai-ipo-spacex-musk",
+          "source": "Axios"
+        },
+        {
+          "id": "f3",
+          "cat": "money",
+          "title": "SpaceX IPO 로드쇼 6/8 예정 — $1.8T 밸류·xAI 기업가치 재평가 관심",
+          "meta": "Investing.com, 2026-06",
+          "date_local": "2026-05-28 (ET)",
+          "date_kst": "KST 5/29",
+          "warn": false,
+          "bullets": [
+            "<b>SpaceX</b>가 6월 8일경 기관 투자자 대상 IPO 로드쇼 예정 — 머스크의 xAI 사업 포함 우주·AI 통합 가치로 목표 밸류에이션 <b>$1.8T</b>",
+            "Q1 2026 순손실 <b>$4.28B</b>에도 Starlink 가입자 급증과 AI 데이터센터 수요로 수익성 개선 전망 지속 — 투자자들은 장기 성장 스토리에 베팅",
+            "Anthropic·OpenAI IPO 신청과 맞물려 2026년 하반기 기술 상장 물량 소화 여부가 관건 — 세 기업 합산 밸류 약 $3.8T의 전례 없는 IPO 물량"
+          ],
+          "you": null,
+          "url": "https://www.investing.com/analysis/the-trilliondollar-ipo-test-spacex-and-openai-face-public-markets-200680688",
+          "source": "Investing.com"
+        }
+      ]
+    },
+    {
+      "icon": "🇰🇷",
+      "name": "한국",
+      "you": false,
+      "items": [
+        {
+          "id": "k1",
+          "cat": "korea",
+          "title": "한국 정부, EUV 장비 승인 34일→9일 단축 — 삼성·SK하이닉스 fab 확장 가속",
+          "meta": "산업통상자원부, 2026-06-02",
+          "date_local": "2026-06-02 (KST)",
+          "date_kst": null,
+          "warn": false,
+          "bullets": [
+            "한국 산업부가 6월 2일 EUV 리소그래피 장비 국내 설치 승인 소요기간을 <b>34일 → 최단 9일</b>로 단축 발표 — 삼성전자 P5·SK하이닉스 M16 라인 증설 속도에 직접 영향",
+            "삼성이 ASML EUV 20대(10조 원+) 발주 완료, SK하이닉스가 투자액 4배 확대 계획을 발표한 시점과 맞물려 장비 도착~가동 지연을 최소화하는 정책적 지원",
+            "한국반도체산업협회도 즉각 환영 성명 발표 — AI 메모리(HBM4) 공급 경쟁에서 한국 기업의 납품 타임라인 단축 효과 기대"
+          ],
+          "you": "삼성·SK하이닉스 투자자는 HBM4 공급 타임라인 단축에 따른 2026 하반기 실적 가시성 개선 여부를 주목 — 규제 간소화가 양사 주가에 긍정적 촉매",
+          "url": "https://www.koreatimes.co.kr/amp/business/companies/20260602/govt-to-streamline-euv-equipment-approvals-for-chipmakers",
+          "source": "Korea Times"
+        },
+        {
+          "id": "k2",
+          "cat": "korea",
+          "title": "한국 대미 반도체 수출 651% 급증 — HBM·첨단 메모리 주도",
+          "meta": "SPTA Times Korea, 2026-06-01",
+          "date_local": "2026-06-01 (KST)",
+          "date_kst": null,
+          "warn": false,
+          "bullets": [
+            "5월 한국의 대미 반도체 수출이 전년 동기 대비 <b>651%</b> 폭증 — HBM·DDR5 등 AI 서버용 고부가 메모리가 수출 급증을 견인",
+            "D램·낸드플래시 가격이 전년 대비 최대 7배 상승, 코스피 내 삼성전자·SK하이닉스 합산 시총 비중이 <b>42.2%</b>로 역대 최고 — AI 수혜 집중도 극대화",
+            "글로벌 AI 서버·데이터센터 투자 확대가 한국 메모리 수출 호황의 직접 원인 — NVIDIA Vera Rubin 출하(2H 2026) 시 HBM4 수요 추가 폭증 전망"
+          ],
+          "you": null,
+          "url": "https://www.sptatimeskorea.com/post/%EC%A0%9C20260601-ti-01%ED%98%B8-2026%EB%85%84-6%EC%9B%94-1%EC%9D%BC-%EA%B8%80%EB%A1%9C%EB%B2%8C-%EB%B0%98%EB%8F%84%EC%B2%B4-%EC%82%B0%EC%97%85-%EA%B4%80%EB%A0%A8-%EC%A3%BC%EC%9A%94-%EB%89%B4%EC%8A%A4-%EC%9A%94%EC%95%BD",
+          "source": "SPTA Times Korea"
+        },
+        {
+          "id": "k3",
+          "cat": "korea",
+          "title": "SK하이닉스 HBM 점유율 62% — Micron이 삼성 제치고 2위 등극",
+          "meta": "Astute Group, 2026",
+          "date_local": "2026-05 (ET)",
+          "date_kst": "KST 5월",
+          "warn": false,
+          "bullets": [
+            "<b>SK하이닉스</b>가 HBM 전체 시장 점유율 <b>62%</b>를 유지하는 가운데, HBM3E 시장에서 <b>Micron</b>이 처음으로 삼성전자를 추월해 2위로 부상",
+            "2026년 하반기부터 경쟁의 축이 <b>HBM4(16-Hi 스택, 최대 256GB)</b>로 이동 — 삼성이 Nvidia Rubin 납품을 위해 P5 라인 증설 긴급 추진, SK하이닉스·Micron도 수주 경쟁 중",
+            "삼성·SK하이닉스·Micron 3사의 Nvidia Rubin 대상 HBM4 용량은 이미 완판 상태 — 공급 부족이 2~3년 지속될 것이라는 업계 전망"
+          ],
+          "you": null,
+          "url": "https://www.astutegroup.com/news/general/sk-hynix-holds-62-of-hbm-micron-overtakes-samsung-2026-battle-pivots-to-hbm4/",
+          "source": "Astute Group"
+        }
+      ]
+    }
+  ]
+}
