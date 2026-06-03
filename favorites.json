@@ -226,5 +226,31 @@
       "_section": "모델 · 출시"
     },
     "memo": ""
+  },
+  "xabafee41179a": {
+    "id": "xabafee41179a",
+    "date": "2026-06-04",
+    "slot": "am",
+    "ts": "2026-06-03T22:39:41.061Z",
+    "item": {
+      "id": "xabafee41179a",
+      "cat": "dev",
+      "title": "Microsoft, 에이전트 전용 OS 'Project Solara' 발표 — 앱 시대에서 에이전트 시대로",
+      "meta": "Microsoft Build 2026 / Engadget",
+      "date_local": "2026-06-02 (PT)",
+      "date_kst": "KST 6/3",
+      "warn": false,
+      "bullets": [
+        "<b>Project Solara</b>는 앱 대신 AI 에이전트가 구동되는 기기를 위한 MS의 새 플랫폼으로, 스마트 디스플레이와 웨어러블 사원증 배지 두 가지 레퍼런스 기기를 Build 2026에서 공개",
+        "Android 기반(MDEP)으로 구축돼 Microsoft 365 데이터·음성 입력·카메라 인식을 에이전트가 실시간 처리 — 엔터프라이즈 특화 에이전트 하드웨어 플랫폼",
+        "AccuWeather·Best Buy·CVS Health·Target 등이 수개월 내 파일럿 예정 — 에이전트 퍼스트 기기 생태계의 첫 상업화 시험대"
+      ],
+      "you": "Claude Code(바이브코딩) 다음 단계인 에이전트 퍼스트 하드웨어 생태계의 향방을 가늠하는 지표",
+      "url": "https://www.engadget.com/2185941/microsoft-announces-project-solara-its-take-on-an-ai-agent-platform/",
+      "source": "Engadget",
+      "_icon": "🛠",
+      "_section": "도구 · 개발"
+    },
+    "memo": ""
   }
 }
