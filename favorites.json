@@ -304,5 +304,31 @@
       "_section": "연구"
     },
     "memo": "HBM4E 12단\n무슨의미?"
+  },
+  "x41913b2a25e8": {
+    "id": "x41913b2a25e8",
+    "date": "2026-06-04",
+    "slot": "am",
+    "ts": "2026-06-03T22:43:49.703Z",
+    "item": {
+      "id": "x41913b2a25e8",
+      "cat": "policy",
+      "title": "EU AI Act, 8월 2일부터 고위험 AI 시스템 의무 전면 시행 — 기업 대응 시한 임박",
+      "meta": "EU 집행위원회 / Holland & Knight",
+      "date_local": "2026-04-01 (CET)",
+      "date_kst": "KST 4/2",
+      "warn": true,
+      "bullets": [
+        "<b>2026년 8월 2일</b>부터 EU AI Act 9~17조(공급자 의무)·26조(배포자 의무)가 발효 — 고위험 AI 시스템에 적합성 평가·기술 문서·CE 마킹·EU DB 등록 완료 필수",
+        "위반 시 최대 <b>€3,500만 또는 연 매출 7%</b>의 과징금 부과, 미국·한국 기업도 EU 시장 대상 서비스라면 동일 적용 대상",
+        "EU는 'AI Act Omnibus'로 일부 기한 연장을 검토했으나 입법화되지 않아 기업들은 8월 2일을 실질 데드라인으로 간주해야 하는 상황"
+      ],
+      "you": "공공·기관 AI 업무 종사자라면 고위험 AI 시스템 도입 시 EU 규정 준수 요건 점검 필요",
+      "url": "https://www.hklaw.com/en/insights/publications/2026/04/us-companies-face-eu-ai-acts-possible-august-2026-compliance-deadline",
+      "source": "Holland & Knight",
+      "_icon": "🏛",
+      "_section": "정책 · 거버넌스"
+    },
+    "memo": "2026년 8월 2일부터 EU AI Act 9~17조(공급자 의무)·26조(배포자 의무)가 발효\n\n가까운데\n이게 무엇이고 영향은\n국내도입 필요한지"
   }
 }
