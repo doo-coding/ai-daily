@@ -200,5 +200,31 @@
       "_section": "도구 · 개발"
     },
     "memo": "Uber가 Claude Code 토큰 기반 요금으로 2026년 AI 예산 전체를 4개월 만에 소진"
+  },
+  "x2a1129af1f97": {
+    "id": "x2a1129af1f97",
+    "date": "2026-06-04",
+    "slot": "am",
+    "ts": "2026-06-03T22:37:46.520Z",
+    "item": {
+      "id": "x2a1129af1f97",
+      "cat": "model",
+      "title": "Microsoft, MAI-Thinking-1 · MAI-Code-1-Flash 공개 — OpenAI 독립 선언",
+      "meta": "Microsoft Build 2026 / CNBC",
+      "date_local": "2026-06-02 (PT)",
+      "date_kst": "KST 6/3",
+      "warn": false,
+      "bullets": [
+        "<b>MAI-Thinking-1</b>은 OpenAI 데이터 없이 자체 훈련한 마이크로소프트 최초의 추론 모델로, 외부 의존 없는 AI 역량 내재화의 신호",
+        "<b>MAI-Code-1-Flash</b>는 5B 파라미터 코딩 모델로 GitHub Copilot 전 플랜에 순차 배포 시작 — 입력 토큰 $0.75/M으로 Claude Haiku 4.5 대비 우수한 벤치마크 성능 및 가격 효율",
+        "마이크로소프트가 OpenAI 의존을 줄이고 자체 모델 포트폴리오를 구축하는 전략적 전환점으로 AI 업계 평가"
+      ],
+      "you": null,
+      "url": "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html",
+      "source": "CNBC",
+      "_icon": "🚀",
+      "_section": "모델 · 출시"
+    },
+    "memo": ""
   }
 }
