@@ -278,5 +278,31 @@
       "_section": "도구 · 개발"
     },
     "memo": "NeurIPS 2026 포지션 페이퍼 트랙 예비 조사 결과, 969편 중 28.2%(273편)가 AI 감지 도구(Pangram) 기준 100% AI 생성 판정 \n\n뭔데 100퍼 돌렸대"
+  },
+  "x2efbd7ae0a62": {
+    "id": "x2efbd7ae0a62",
+    "date": "2026-06-04",
+    "slot": "am",
+    "ts": "2026-06-03T22:42:44.868Z",
+    "item": {
+      "id": "x2efbd7ae0a62",
+      "cat": "research",
+      "title": "Samsung, 세계 최초 HBM4E 12단 샘플 출하 — 차세대 AI 메모리 경쟁 선제 포지션",
+      "meta": "CNBC / Samsung, 2026-05-29",
+      "date_local": "2026-05-29 (ET)",
+      "date_kst": "KST 5/30",
+      "warn": false,
+      "bullets": [
+        "<b>HBM4E 12단</b>은 이전 HBM4 대비 성능 20% 이상 향상, 16Gbps 속도와 에너지 효율·발열 개선을 동시 달성한 글로벌 첫 양산 수준 샘플",
+        "삼성이 SK하이닉스보다 먼저 HBM4E 샘플을 주요 고객에 공급하면서 AI 메모리 수주 경쟁에서 기술 주도권 탈환 시도",
+        "Nvidia 차세대 Blackwell 후속 GPU 탑재 가능성이 핵심 관전 포인트 — 공급 확정 시 삼성전자 주가·파운드리 사업 전반에 긍정적 파급"
+      ],
+      "you": "반도체·투자 관심 독자에게 삼성-SK하이닉스 HBM 경쟁 구도 전환점",
+      "url": "https://www.cnbc.com/2026/05/29/samsung-hbm4e-chip-samples-ai-memory.html",
+      "source": "CNBC",
+      "_icon": "🔬",
+      "_section": "연구"
+    },
+    "memo": "HBM4E 12단\n무슨의미?"
   }
 }
