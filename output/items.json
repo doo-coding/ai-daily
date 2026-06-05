@@ -1,0 +1,324 @@
+{
+  "date": "2026-06-05",
+  "slot": "pm",
+  "date_line": "2026년 6월 5일 (금) · 저녁 · 16건 선별",
+  "kicker": "AI 데일리 · 자동 발송",
+  "footer_tag": "✈ via Telegram · 매일 07:00 · 19:00 자동 발송",
+  "oneline": "<b>Microsoft</b>가 OpenAI 독립 선언과 함께 자체 추론·코딩 모델 <b>MAI-Thinking-1·MAI-Code-1-Flash</b>를 공개했고, <b>SpaceX(SPCX)</b>가 역대 최대 규모 <b>$75B IPO</b> 로드쇼를 개시하며 $1.75조 기업가치 상장을 예고",
+  "sections": [
+    {
+      "icon": "🚀",
+      "name": "모델 · 출시",
+      "you": false,
+      "items": [
+        {
+          "id": "m1",
+          "cat": "model",
+          "title": "Microsoft, MAI-Thinking-1·MAI-Code-1-Flash 공개 — OpenAI 의존 탈피 선언",
+          "meta": "Microsoft Build 2026 / 자체 개발 추론·코딩 모델 첫 공개",
+          "date_local": "2026-06-02 (PT)",
+          "date_kst": "KST 6/3",
+          "warn": false,
+          "bullets": [
+            "<b>MAI-Thinking-1</b>은 OpenAI 데이터 없이 순수 자체 데이터로 학습한 35B 파라미터 추론 모델 — AIME 2025·2026 각각 97.0%·94.5% 기록으로 수학·과학 추론 최상위권 달성",
+            "5B 경량 코딩 모델 <b>MAI-Code-1-Flash</b>는 SWE-Bench Pro 51% 달성 — GitHub Copilot 프로덕션 harness로 직접 학습해 실제 에이전트 코딩 환경에 최적화",
+            "마이크로소프트의 전략은 Azure 내 OpenAI 의존도 축소와 <b>10배 비용 효율</b> 달성 — McKinsey 협업 정제 모델이 GPT-5.5 대비 우위를 보인 사례도 공개"
+          ],
+          "you": null,
+          "url": "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html",
+          "source": "CNBC"
+        },
+        {
+          "id": "m2",
+          "cat": "model",
+          "title": "Google, Gemini 3 Flash를 앱 기본 모델로 전환 — 2.5 계열 은퇴 일정 확정",
+          "meta": "Google Gemini / 차세대 모델 패밀리 전환",
+          "date_local": "2026-06 (UTC)",
+          "date_kst": "KST 6월",
+          "warn": false,
+          "bullets": [
+            "<b>Gemini 3 Flash</b>가 Gemini 앱의 새 기본 모델로 등극 — 이전 세대 Gemini 2.5 Flash 대비 차세대 성능을 고속으로 제공",
+            "Gemini 2.5 Pro·Flash·Flash-Lite의 공식 은퇴 시점이 <b>2026년 10월 16일</b>로 확정, 기업 개발자 마이그레이션 일정 대두",
+            "AI Ultra 구독자에게 <b>Gemini 2.5 Deep Think</b> 조기 접속 제공 — 복수의 병렬 사고 흐름을 동시 처리하는 심층 추론 기능 공개"
+          ],
+          "you": null,
+          "url": "https://gemini.google/release-notes/",
+          "source": "Google"
+        },
+        {
+          "id": "m3",
+          "cat": "model",
+          "title": "Anthropic, Claude Opus 4.8을 Max·Team·Enterprise 기본 모델로 전환",
+          "meta": "Anthropic / 6월 15일 에이전트 과금 체계 변경 예고",
+          "date_local": "2026-06 (UTC)",
+          "date_kst": "KST 6월",
+          "warn": false,
+          "bullets": [
+            "<b>Claude Opus 4.8</b>이 Max, Team Premium, Enterprise 유료 플랜 및 Anthropic API의 기본 모델로 설정 — `/effort xhigh` 명령으로 더 강도 높은 추론 활성화",
+            "Claude Code 최신 업데이트에서 <b>병렬 툴 호출 안정성</b> 향상 — Bash 명령 실패 시 동일 배치 내 다른 툴 호출을 취소하지 않고 독립 처리",
+            "<b>6월 15일</b>부터 Claude Agent SDK·GitHub Actions·서드파티 에이전트 사용이 구독 한도에서 분리, Pro $20·Max 5x $100·Max 20x $200의 별도 크레딧으로 전환 예정"
+          ],
+          "you": "Claude Code 바이브코딩 사용자라면 6/15 과금 체계 변경 전 에이전트 사용 패턴 점검 권장",
+          "url": "https://code.claude.com/docs/en/whats-new",
+          "source": "Anthropic"
+        }
+      ]
+    },
+    {
+      "icon": "🛠",
+      "name": "도구 · 개발",
+      "you": true,
+      "items": [
+        {
+          "id": "d1",
+          "cat": "dev",
+          "title": "MAI-Code-1-Flash, VS Code GitHub Copilot에 직접 통합 — 일반 배포 시작",
+          "meta": "Microsoft / GitHub Copilot Auto picker 연동",
+          "date_local": "2026-06-02 (PT)",
+          "date_kst": "KST 6/3",
+          "warn": false,
+          "bullets": [
+            "5B 파라미터 <b>MAI-Code-1-Flash</b>가 VS Code Copilot 개인 사용자 대상 순차 배포 개시 — Auto picker를 통해 일상적 코딩 태스크에 자동 라우팅",
+            "GitHub Copilot 프로덕션 harness로 직접 학습해 도구·환경과 상호작용하는 <b>에이전트 코딩 태스크</b>에서 동급 파라미터 대비 최고 성능",
+            "JetBrains 2026년 4월 조사: <b>Claude Code</b> 인지도 57%·실사용률 18%로 급상승 — GitHub Copilot 인지도 76%·사용률 29%, 성장세는 정체 국면"
+          ],
+          "you": "바이브코딩 환경에서 MAI-Code-1-Flash(Copilot)와 Claude Code를 직접 비교 시도 가능 — 에이전트 태스크 라우팅 방식 차이 주목",
+          "url": "https://microsoft.ai/news/introducingmai-code-1-flash/",
+          "source": "Microsoft AI"
+        },
+        {
+          "id": "d2",
+          "cat": "dev",
+          "title": "포춘500 78%, AI 코딩 도구 프로덕션 도입 — 에이전트형 워크플로가 새 표준",
+          "meta": "JetBrains Research / 2026 AI 개발자 도구 현황 조사",
+          "date_local": "2026-04 (UTC)",
+          "date_kst": "KST 4월",
+          "warn": false,
+          "bullets": [
+            "포춘500 기업의 <b>78%</b>가 AI 보조 개발을 프로덕션에 도입 완료 — 2024년 42% 대비 2년 만에 두 배 급증",
+            "2026년 핵심 패러다임은 <b>멀티스텝 에이전트 파이프라인</b> — 요구사항 분석부터 코드 생성·테스트·수정·배포까지 AI가 순차 처리하는 방식을 절반 이상 기업이 도입",
+            "컨텍스트 윈도우가 <b>20만~100만 토큰</b>으로 확장, 대규모 코드베이스 전체를 모델에 투입하는 방식이 표준으로 자리잡는 추세"
+          ],
+          "you": null,
+          "url": "https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work/",
+          "source": "JetBrains Research"
+        }
+      ]
+    },
+    {
+      "icon": "🔬",
+      "name": "연구",
+      "you": false,
+      "items": [
+        {
+          "id": "r1",
+          "cat": "research",
+          "title": "PaperBench — AI 에이전트가 ICML 논문을 처음부터 재현 가능한지 평가하는 벤치마크",
+          "meta": "OpenAI / arXiv 2504.01848",
+          "date_local": "2025-04 (UTC)",
+          "date_kst": "KST 2025/4월",
+          "warn": false,
+          "bullets": [
+            "<b>PaperBench</b>는 AI 에이전트가 ICML 2024 Spotlight·Oral 논문 20편을 코드베이스 구축부터 실험 실행까지 처음부터 재현할 수 있는지 측정하는 벤치마크",
+            "AI 연구 자동화 평가 벤치마크가 EXP-Bench·ELAIPBench 등으로 확산 — AI가 직접 AI 연구를 수행하는 능력의 체계적 측정 시도로 이어지는 추세",
+            "2026년 AI 평가의 핵심 이동 방향은 <b>단순 질답→실제 과학 실험 수행</b> — 에이전트 자율성과 정확성을 동시에 요구하는 벤치마크 급증"
+          ],
+          "you": null,
+          "url": "https://arxiv.org/pdf/2504.01848",
+          "source": "OpenAI / arXiv"
+        },
+        {
+          "id": "r2",
+          "cat": "research",
+          "title": "SWE-Bench Pro, 코딩 AI 성능 측정의 새 기준으로 부상 — 모델 간 치열한 경쟁",
+          "meta": "업계 / 코딩 에이전트 벤치마크 표준화",
+          "date_local": "2026-06 (UTC)",
+          "date_kst": "KST 6월",
+          "warn": false,
+          "bullets": [
+            "<b>SWE-Bench Pro</b>가 실제 소프트웨어 엔지니어링 과제(버그 수정·기능 구현) 해결 능력 측정 기준으로 확립 — Claude Opus 4.6과 MAI-Thinking-1이 상위권에서 경쟁",
+            "MAI-Code-1-Flash가 <b>5B 파라미터</b>로 SWE-Bench Pro 51% 달성 — 파라미터 규모 대비 효율성이 새 경쟁 지표로 부상, 클라우드 추론 비용 절감 기대",
+            "2026년 연구 화두는 <b>에이전트 자율성 평가</b> — 모델이 단순 답변을 넘어 복잡한 멀티스텝 작업을 완수하는 능력이 핵심 기준으로 굳어지는 추세"
+          ],
+          "you": null,
+          "url": "https://www.neowin.net/news/microsoft-unveils-mai-thinking-1-reasoning-and-mai-code-1-coding-models/",
+          "source": "Neowin / 업계 종합"
+        }
+      ]
+    },
+    {
+      "icon": "🏛",
+      "name": "정책 · 거버넌스",
+      "you": false,
+      "items": [
+        {
+          "id": "p1",
+          "cat": "policy",
+          "title": "트럼프 행정부, AI 혁신·보안 행정명령 서명 — 프런티어 모델 자발적 사전 공유 요구",
+          "meta": "백악관 / 6월 2일 행정명령",
+          "date_local": "2026-06-02 (ET)",
+          "date_kst": "KST 6/3",
+          "warn": false,
+          "bullets": [
+            "백악관이 <b>'AI 혁신·보안 촉진'</b> 행정명령에 서명 — 연방기관 사이버방어 AI 활용 가속화와 <b>프런티어 모델 자발적 규제 프레임워크</b> 수립 지시",
+            "AI 개발사는 신모델 출시 최대 <b>30일 전</b>에 정부에 조기 접근권을 자발적으로 제공 요청 — 강제 조항은 없고 안보 검토 협조 기대 방식",
+            "미국은 '경규제+빠른 배포' 철학을 명문화, EU의 고규제 노선과 대조를 이루며 글로벌 AI 거버넌스 분화 심화"
+          ],
+          "you": "공공·기관 AI 업무 종사자에게는 미국 프런티어 모델 규제 방향이 국내 정책 벤치마크로 직결",
+          "url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
+          "source": "White House / Inside Privacy"
+        },
+        {
+          "id": "p2",
+          "cat": "policy",
+          "title": "한국 공공AI법 시행 — 공공기관 AI·데이터 활용 법제화",
+          "meta": "과학기술정보통신부 / 행정안전부",
+          "date_local": "2026-01-29 (KST)",
+          "date_kst": null,
+          "warn": false,
+          "bullets": [
+            "1월 29일 통과한 <b>'인공지능 및 데이터기반행정 활성화에 관한 법률'(공공AI법)</b>이 공공기관의 AI·데이터 활용을 위한 법적 근거로 시행",
+            "공공기관 보유 데이터를 AI를 통해 효율적으로 연계·공동활용하는 체계를 법제화 — 정부 AI 서비스의 법적 근거 마련",
+            "2026년 정부 AI 관련 예산은 <b>9.9조원</b>으로 책정, 슈퍼컴 6호기(약 9,000장 GPU) 구축이 이달(6월) 완료 목표"
+          ],
+          "you": "공공·기관 AI 업무 담당자에게 직접 적용 — 공공AI법 시행에 따른 기관 내 데이터 AI 활용 거버넌스 재정비 시급",
+          "url": "https://www.law-lin.com/ko/newsletter/1433",
+          "source": "로린"
+        },
+        {
+          "id": "p3",
+          "cat": "policy",
+          "title": "EU AI Act 투명성 규정, 2026년 8월 발효 예정 — 합성 콘텐츠 워터마크 의무화",
+          "meta": "유럽연합 / AI Act 단계적 시행",
+          "date_local": "2026-06 (UTC)",
+          "date_kst": "KST 6월",
+          "warn": false,
+          "bullets": [
+            "EU AI Act의 <b>투명성 규정</b>이 오는 8월 발효 — AI 시스템 공급자는 사용자에게 AI 여부를 알리고 합성 콘텐츠에 <b>워터마크 표시 의무화</b>",
+            "AI 옴니버스 입법안의 정치적 합의가 5월 7일 도달 — 규정 간소화를 위한 개정안도 병행 추진 중",
+            "안전 필수 애플리케이션에 사용되는 AI 코딩 도구가 <b>고위험 AI</b>로 분류(2월 발효 조항), 추가 투명성·테스트 요건 부과로 기업 컴플라이언스 부담 증가"
+          ],
+          "you": null,
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+          "source": "European Commission"
+        }
+      ]
+    },
+    {
+      "icon": "💰",
+      "name": "산업 · 자본",
+      "you": true,
+      "items": [
+        {
+          "id": "f1",
+          "cat": "money",
+          "title": "SpaceX(SPCX), 역대 최대 $75B IPO 로드쇼 개시 — 6월 12일 나스닥 상장 목표",
+          "meta": "SpaceX / xAI 합병 후 사상 최대 공모 추진",
+          "date_local": "2026-06-04 (ET)",
+          "date_kst": "KST 6/5",
+          "warn": false,
+          "bullets": [
+            "SpaceX가 6월 4일 IPO 로드쇼 개시 — 나스닥 티커 <b>SPCX</b>로 6월 11일 가격 책정·6월 12일 첫 거래 예정, 목표 기업가치 <b>$1.75조(약 2,400조 원)</b>로 역대 최대 IPO",
+            "2월 xAI 합병(250B 주식 거래)으로 Elon Musk의 AI·우주 사업을 단일 주체로 통합 — xAI가 3.2B 매출을 올리면서도 14B를 소각, 합산 순손실 4.94B 발생",
+            "Starlink 위성 인프라 + Grok AI의 시너지가 핵심 투자 논리 — $75B 공모는 역대 IPO 단일 최대 규모 조달 목표"
+          ],
+          "you": "반도체·AI 투자자 관점에서 SPCX 상장은 AI 인프라(위성+AI) 융합 섹터의 새 벤치마크 — 상장 후 나스닥 100 편입 여부도 주목",
+          "url": "https://www.cnbc.com/2026/05/20/spacex-ipo-live-updates.html",
+          "source": "CNBC / TechTimes"
+        },
+        {
+          "id": "f2",
+          "cat": "money",
+          "title": "Cerebras(CBRS), 2026년 최대 AI 반도체 IPO — 상장 첫날 +68%로 $95B 시총 달성",
+          "meta": "Cerebras Systems / 5월 14일 나스닥 상장",
+          "date_local": "2026-05-14 (ET)",
+          "date_kst": "KST 5/15",
+          "warn": false,
+          "bullets": [
+            "AI 반도체 스타트업 <b>Cerebras</b>가 5월 14일 나스닥 상장(CBRS) — IPO가 185달러, 첫날 350달러로 출발해 <b>+68% 급등</b> 후 조정",
+            "공모 규모 <b>55.5억 달러</b>, 수요가 공급의 20배 초과 — 2026년 최대 기술 IPO 기록, 전년 대비 매출 76% 성장·순이익 8,800만 달러 흑자 전환",
+            "Nvidia GPU 대비 <b>웨이퍼 규모 칩 아키텍처</b>에 따른 속도·비용 우위를 경쟁력으로 내세워 AI 추론 가속기 시장의 대안으로 부상"
+          ],
+          "you": "AI 반도체 투자자라면 CBRS 상장 후 주가 흐름과 Nvidia(NVDA) 대비 밸류에이션 비교 주목 권장",
+          "url": "https://www.cnbc.com/2026/05/14/cerebras-cbrs-stock-trade-nasdaq-ipo.html",
+          "source": "CNBC / Yahoo Finance"
+        },
+        {
+          "id": "f3",
+          "cat": "money",
+          "title": "Anthropic, $65B 시리즈H 클로즈 — 기업가치 $965B으로 IPO 전초전",
+          "meta": "Anthropic / 5월 28일 공개",
+          "date_local": "2026-05-28 (PT)",
+          "date_kst": "KST 5/29",
+          "warn": false,
+          "bullets": [
+            "Anthropic이 <b>650억 달러 시리즈H</b> 라운드를 마감, 포스트머니 기업가치 <b>9,650억 달러</b>로 단독 AI 스타트업 중 최고치 기록",
+            "OpenAI의 1,220억 달러 사모 라운드(기업가치 8,520억 달러)를 넘어서는 기업가치 — IPO를 목전에 둔 양사 경쟁 구도 형성",
+            "Q1 2026 글로벌 벤처 투자액이 <b>3,000억 달러</b>로 사상 최고 분기를 기록하며 AI 투자 붐이 정점 우려와 공존"
+          ],
+          "you": "AI 스타트업 투자 관심 있다면 Anthropic·OpenAI IPO 일정과 락업 기간 모니터링 권장",
+          "url": "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/",
+          "source": "TechCrunch"
+        }
+      ]
+    },
+    {
+      "icon": "🇰🇷",
+      "name": "한국",
+      "you": false,
+      "items": [
+        {
+          "id": "k1",
+          "cat": "korea",
+          "title": "Nvidia Vera Rubin HBM4 — 삼성·SK하이닉스·마이크론 3사 공급 확정",
+          "meta": "Jensen Huang GTC 타이베이 2026 / 6월 1일 발표",
+          "date_local": "2026-06-01 (CST)",
+          "date_kst": "KST 6/2",
+          "warn": false,
+          "bullets": [
+            "Jensen Huang이 GTC 타이베이에서 차세대 AI 가속기 <b>Vera Rubin</b>의 HBM4 공급사로 <b>삼성전자·SK하이닉스·마이크론</b> 3사를 공식 확인",
+            "공급 비중은 <b>SK하이닉스 60~70%</b>·삼성전자 25~30%·마이크론이 나머지 추정 — 첫 고객 출하는 올 여름, 하반기 AWS·Google Cloud·Azure·Oracle 공급 예정",
+            "삼성전자는 Computex 2026에서 <b>HBM5</b>·열 관리·첨단 패키징 전략 발표, 차세대 메모리 경쟁에서 SK하이닉스 대비 격차 만회 추진"
+          ],
+          "you": "반도체 투자자 관점에서 HBM4 물량 배분이 삼성(005930)·SK하이닉스(000660) 단기 주가 촉매 — 하반기 출하 일정 모니터링이 핵심",
+          "url": "https://www.techtimes.com/articles/317539/20260602/nvidia-vera-rubin-enters-full-production-samsung-sk-hynix-micron-named-hbm4-suppliers.htm",
+          "source": "TechTimes"
+        },
+        {
+          "id": "k2",
+          "cat": "korea",
+          "title": "SK하이닉스, 5년 내 생산능력 2배 확대 — TSMC 전략 동맹 체결",
+          "meta": "SK그룹 / 최태원 회장 선언",
+          "date_local": "2026-06 (KST)",
+          "date_kst": null,
+          "warn": false,
+          "bullets": [
+            "최태원 SK그룹 회장이 AI 수요 폭발에 따른 글로벌 메모리 공급 부족을 배경으로 <b>5년 내 전체 생산능력 2배 확대</b> 계획을 공식 선언",
+            "대만 반도체·IT 공급망과의 전략 협력 강화, 특히 <b>TSMC와 전략 동맹</b>을 통한 첨단 패키징 공동 개발 추진",
+            "반도체 업계 응답자의 <b>54%</b>가 2026년 두 자릿수 매출 성장 전망, 66%가 설비투자 확대 계획 — HBM4 수혜 메모리 슈퍼사이클이 중심"
+          ],
+          "you": null,
+          "url": "https://news.skhynix.com/2026-market-outlook-focus-on-the-hbm-led-memory-supercycle/",
+          "source": "SK하이닉스 뉴스룸"
+        },
+        {
+          "id": "k3",
+          "cat": "korea",
+          "title": "한국 정부 AI 예산 9.9조원 + 슈퍼컴 6호기 6월 구축 완료 목표",
+          "meta": "과학기술정보통신부 / 대한민국 인공지능 행동계획",
+          "date_local": "2026-06 (KST)",
+          "date_kst": null,
+          "warn": false,
+          "bullets": [
+            "정부가 2026년 AI 관련 예산으로 <b>9.9조원</b>을 책정 — AI 파운데이션 모델 자체 개발·GPU 인프라·공공 AI 서비스 등 99개 실행과제 추진",
+            "슈퍼컴 6호기(<b>약 9,000장 GPU</b> 규모)가 이달(6월) 구축 완료를 목표로 추진 중 — 세계 10위권 자체 AI 모델 달성 목표",
+            "산업부는 <b>246개 AI 응용제품 개발</b>에 7,540억원을 지원하는 'AX-Sprint' 사업을 본격 추진, 공공AI법과 맞물려 공공기관 AI 전환 가속 전망"
+          ],
+          "you": "공공·기관 AI 업무 담당자에게는 AX-Sprint 사업 공고와 슈퍼컴 6호기 기반 연산 자원 접근 기회를 주목할 것",
+          "url": "https://www.xdnode.co.kr/insight/articles/2026-government-ai-infrastructure-programs",
+          "source": "엑스디노드"
+        }
+      ]
+    }
+  ]
+}
