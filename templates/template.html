@@ -95,7 +95,7 @@
   .blt{margin:0;padding:0;list-style:none;}
   .blt li{position:relative;padding:6px 0 6px 17px;font-size:13.5px;color:var(--ink-2);line-height:1.62;}
   .blt li::before{content:"";position:absolute;left:1px;top:13px;width:5px;height:5px;border-radius:50%;background:var(--gold);opacity:.6;}
-  .blt li b{color:var(--ink);font-weight:600;}
+  .blt li b{color:var(--gold-soft);font-weight:700;}
   .youline{margin-top:10px;font-size:12.5px;color:var(--gold-soft);background:rgba(235,169,64,.08);
     border-left:2px solid var(--gold);border-radius:0 7px 7px 0;padding:8px 11px;line-height:1.55;}
   .srcline{font-family:var(--mono);font-size:10px;color:var(--ink-3);margin-top:11px;}
@@ -169,8 +169,11 @@
           <ul class="blt">${bullets}</ul>${you}
           <div class="srcline">${it.url?`<a class="srclink" href="${esc(it.url)}" target="_blank" rel="noopener">출처 ▸ ${esc(it.source||"")} ↗</a>`:`출처 ▸ ${esc(it.source||"")}`}</div>
           <div class="memo-wrap" style="margin-top:11px;">
-            <textarea class="memo-in" data-id="${it.id}" rows="2" placeholder="📝 메모 — 입력 후 빈 곳을 누르면 저장" style="width:100%;box-sizing:border-box;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.14);border-radius:8px;color:inherit;font:inherit;font-size:13px;line-height:1.5;padding:7px 9px;resize:vertical;"></textarea>
-            <div class="memo-status" style="font-size:11px;opacity:.65;margin-top:3px;min-height:14px;"></div>
+            <textarea class="memo-in" data-id="${it.id}" rows="2" placeholder="📝 메모…" style="width:100%;box-sizing:border-box;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.14);border-radius:8px;color:inherit;font:inherit;font-size:13px;line-height:1.5;padding:7px 9px;resize:vertical;"></textarea>
+            <div style="display:flex;align-items:center;gap:9px;margin-top:6px;">
+              <button class="memo-save" data-id="${it.id}" title="메모 저장" style="flex:none;border:1px solid rgba(235,169,64,.45);background:rgba(235,169,64,.13);border-radius:11px;padding:5px 13px;font-size:15px;line-height:1;cursor:pointer;">💾</button>
+              <span class="memo-status" style="font-size:11px;opacity:.65;"></span>
+            </div>
           </div>
         </div></div></div>`;
       s.appendChild(card);
@@ -235,22 +238,27 @@
       if (favOnly) applyFav();
     });
   });
-  // 카드별 메모 저장 — 입력 후 포커스 벗어나면(change) Worker에 기록. 메모 저장 = ★ 자동
+  // 카드별 메모 — 💾 버튼을 눌러야 저장(의식적 저장). 저장 시 ★ 자동
   document.querySelectorAll(".memo-in").forEach(t => {
     t.addEventListener("click", e => e.stopPropagation());
     t.addEventListener("keydown", e => e.stopPropagation());
-    t.addEventListener("change", async () => {
-      const id = t.dataset.id, memo = t.value;
-      const st = t.parentElement.querySelector(".memo-status");
+  });
+  document.querySelectorAll(".memo-save").forEach(btn => {
+    btn.addEventListener("click", async (e) => {
+      e.stopPropagation();
+      const id = btn.dataset.id;
+      const wrap = btn.closest(".memo-wrap");
+      const t = wrap.querySelector(".memo-in"), st = wrap.querySelector(".memo-status");
+      const memo = t.value;
       if (!FAV_API) { st.textContent = "메모는 온라인 연결 시에만 저장됩니다"; return; }
       st.textContent = "저장 중…";
       try {
         const r = await fetch(FAV_API, { method:"POST", headers:{"Content-Type":"application/json"},
           body: JSON.stringify({ id, fav:true, memo, date:DIGEST.date, slot:DIGEST.slot, item: ITEMS[id]||null, secret: favSecret() }) });
-        if (r.status === 401) { try{localStorage.removeItem("ai_daily_fav_secret");}catch(e){} st.textContent = "암호 필요 — 다시 입력하세요"; return; }
+        if (r.status === 401) { try{localStorage.removeItem("ai_daily_fav_secret");}catch(e){} st.textContent = "암호 필요 — 다시 누르세요"; return; }
         if (!r.ok) { st.textContent = "저장 실패"; return; }
         st.textContent = "저장됨 ✓";
-        const c = t.closest(".card"), star = c.querySelector(".star");
+        const c = btn.closest(".card"), star = c.querySelector(".star");
         favs.add(id); if(star){ star.classList.add("on"); star.textContent="★"; } c.classList.add("fav");
         save(); document.getElementById("fnum").textContent = favs.size;
       } catch(e) { st.textContent = "저장 실패(네트워크)"; }
