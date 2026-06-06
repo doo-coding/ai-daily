@@ -382,5 +382,31 @@
       "_section": "연구"
     },
     "memo": "정렬문제? 이게뭐지"
+  },
+  "x99236cadc6f7": {
+    "id": "x99236cadc6f7",
+    "date": "2026-06-06",
+    "slot": "am",
+    "ts": "2026-06-06T01:11:35.440Z",
+    "item": {
+      "id": "x99236cadc6f7",
+      "cat": "money",
+      "title": "방산 AI 스타트업 벤처 투자 연간 최고치 — 상반기 $14.6B 돌파",
+      "meta": "Crunchbase, 6월",
+      "date_local": "2026-06-04 (PT)",
+      "date_kst": "KST 6/5",
+      "warn": false,
+      "bullets": [
+        "군사·안보·법집행 분야 스타트업이 2026년 상반기에만 <b>$14.6B(약 20조원)</b> 조달 — 역대 최고였던 2025년 연간 기록 $9.6B을 이미 돌파",
+        "Anduril을 필두로 방산 AI 스타트업의 <b>기업공개(IPO) 논의</b>가 본격화되며 투자자들의 엑시트 경로 탐색 가속",
+        "AI·자율 시스템 기반 국방 현대화가 글로벌 안보 환경 변화와 맞물리며 <b>방산 AI가 2026년 최대 벤처 투자 카테고리</b>로 부상"
+      ],
+      "you": null,
+      "url": "https://news.crunchbase.com/defense-tech/startup-venture-funding-all-time-record-ai-anduril/",
+      "source": "Crunchbase",
+      "_icon": "💰",
+      "_section": "산업 · 자본"
+    },
+    "memo": "Ipo개념 알아야\n\n방산  14.6  이건 미국기준??"
   }
 }
