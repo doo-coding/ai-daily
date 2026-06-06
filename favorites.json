@@ -330,5 +330,31 @@
       "_section": "정책 · 거버넌스"
     },
     "memo": ""
+  },
+  "x7e94a6cbdab2": {
+    "id": "x7e94a6cbdab2",
+    "date": "2026-06-06",
+    "slot": "am",
+    "ts": "2026-06-06T00:58:49.496Z",
+    "item": {
+      "id": "x7e94a6cbdab2",
+      "cat": "model",
+      "title": "Google DeepMind Gemma 4 12B — 노트북에서 구동하는 멀티모달 모델",
+      "meta": "Google DeepMind, 6월 4일",
+      "date_local": "2026-06-04 (PT)",
+      "date_kst": "KST 6/5",
+      "warn": false,
+      "bullets": [
+        "<b>Gemma 4 12B</b>는 통합 인코더-프리 멀티모달 모델로, <b>16GB RAM 노트북에서 로컬 구동</b> 가능 — 클라우드 GPU 없이 고성능 AI 추론 실현",
+        "구글의 <b>첫 중형 Gemma 모델로 오디오 입력을 기본 지원</b>하며, Multi-Token Prediction 드래프터 적용으로 응답 지연 시간 단축 목표",
+        "엣지 친화적 E4B와 대형 26B MoE 사이를 잇는 포지셔닝 — <b>프라이버시 중시 기업·개인 개발자</b>의 로컬 멀티모달 워크플로우 수요 정조준"
+      ],
+      "you": null,
+      "url": "https://hipther.com/latest-news/2026/06/04/112799/ai-dispatch-daily-trends-and-innovations-june-4-2026-samsung-google-deepmind-openai-microsoft-and-continuum/",
+      "source": "AI Dispatch / Google DeepMind",
+      "_icon": "🚀",
+      "_section": "모델 · 출시"
+    },
+    "memo": ""
   }
 }
