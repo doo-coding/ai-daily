@@ -434,5 +434,31 @@
       "_section": "산업 · 자본"
     },
     "memo": "이거 너무 안읽힘\n읽는다는게뭘까\n여기서 알고  가야하는건뭘까"
+  },
+  "x7eb7f254310b": {
+    "id": "x7eb7f254310b",
+    "date": "2026-06-06",
+    "slot": "am",
+    "ts": "2026-06-06T01:16:17.934Z",
+    "item": {
+      "id": "x7eb7f254310b",
+      "cat": "money",
+      "title": "AI 코드 도구 시장 2031년 $30B 전망 — Anthropic이 시장 선도",
+      "meta": "Mordor Intelligence / CNBC, 6월 1일",
+      "date_local": "2026-06-01 (ET)",
+      "date_kst": "KST 6/2",
+      "warn": false,
+      "bullets": [
+        "시장조사기관 Mordor Intelligence가 AI 코드 도구 시장이 연 <b>26% 성장률</b>로 현재 $9.3B에서 2031년 <b>$30B</b>에 달할 것으로 예측",
+        "Fortune 500의 <b>78%가 AI 지원 개발을 프로덕션에 적용</b> — 2024년 42%에서 급증하며 Anthropic이 Claude Code로 해당 시장 선두 점유",
+        "Microsoft·Google이 자체 코딩 모델로 추격에 나섰으나 Anthropic 격차 해소가 <b>'절대적으로 중요(absolutely critical)'</b>하다는 시장 평가 속 빅테크 3사 경쟁 격화"
+      ],
+      "you": null,
+      "url": "https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html",
+      "source": "CNBC",
+      "_icon": "💰",
+      "_section": "산업 · 자본"
+    },
+    "memo": "앤트로픽이 다 한다 ㅡ 수치 알아야겠다\n클로드코드 점유율"
   }
 }
