@@ -408,5 +408,31 @@
       "_section": "산업 · 자본"
     },
     "memo": "Ipo개념 알아야\n\n방산  14.6  이건 미국기준??"
+  },
+  "xfc89d890852d": {
+    "id": "xfc89d890852d",
+    "date": "2026-06-06",
+    "slot": "am",
+    "ts": "2026-06-06T01:14:44.362Z",
+    "item": {
+      "id": "xfc89d890852d",
+      "cat": "money",
+      "title": "휴머노이드 로봇 선도사 Series D — 기업가치 $48B, Amazon·BMW 공급 중",
+      "meta": "AI Funding Tracker, 6월",
+      "date_local": "2026-06-04 (PT)",
+      "date_kst": "KST 6/5",
+      "warn": false,
+      "bullets": [
+        "Amazon·Mercedes·BMW에 상용 휴머노이드 로봇을 납품 중인 선도 기업이 <b>Series D에서 $48B(약 65조원) 기업가치</b>로 투자 유치 — 2026년 섹터 최대 딜",
+        "2026년 휴머노이드 로봇 분야 전체 투자 규모는 <b>$20B 이상</b>으로 예상 — AI와 물리적 작업의 통합을 대표하는 '기술 폭발' 카테고리로 부상",
+        "대형 제조업체의 공급망 자동화 수요 급증으로 <b>AI 에이전트 + 로봇 결합</b>이 다음 산업 혁명 드라이버로 주목받으며 투자 집중"
+      ],
+      "you": null,
+      "url": "https://aifundingtracker.com/top-50-ai-startups/",
+      "source": "AI Funding Tracker",
+      "_icon": "💰",
+      "_section": "산업 · 자본"
+    },
+    "memo": "이거 너무 안읽힘\n읽는다는게뭘까\n여기서 알고  가야하는건뭘까"
   }
 }
