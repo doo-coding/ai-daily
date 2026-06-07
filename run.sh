@@ -27,7 +27,7 @@ node verify.js "$ITEMS" || true
 # 2) 발행: d/ 에 복사 후 main 에 push (favorites.json 충돌 대비 pull --rebase)
 mkdir -p d
 cp -f "$BUILT" "d/$FN"
-git add "d/$FN" output/seen.json output/recent.json
+git add "d/$FN" output/seen.json
 git -c user.email=ai-daily@local -c user.name=ai-daily commit -m "publish $FN" || true
 git pull --rebase origin main || true
 git push origin HEAD:main

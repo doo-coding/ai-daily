@@ -118,21 +118,6 @@ try {
   fs.writeFileSync(seenPath, JSON.stringify(merged), "utf8");
   log(`seen.json 갱신 — 누적 ${merged.length}건`);
 
-  // 같은 사건이 출처만 바꿔 반복되는 것 방지 — 최근 3일 발송 '제목' 목록을 남겨, 다음 실행에서 모델이 읽고 같은 사건을 제외한다
-  try {
-    const recentPath = path.join(ROOT, "output", "recent.json");
-    let recent = [];
-    try { if (fs.existsSync(recentPath)) { const r = JSON.parse(fs.readFileSync(recentPath, "utf8")); if (Array.isArray(r)) recent = r; } } catch (e) {}
-    const today = data.date || new Date().toISOString().slice(0, 10);
-    data.sections.forEach(s => s.items.forEach(it => recent.push({ title: String(it.title || "").replace(/<[^>]+>/g, "").trim(), date: today })));
-    const cutoff = new Date(Date.parse(today) - 3 * 864e5).toISOString().slice(0, 10);  // 최근 3일치만 유지
-    const seenT = new Set();
-    recent = recent.filter(r => r && r.date && r.date >= cutoff && r.title)
-                   .filter(r => { const k = r.date + "|" + r.title; if (seenT.has(k)) return false; seenT.add(k); return true; });
-    fs.writeFileSync(recentPath, JSON.stringify(recent), "utf8");
-    log(`recent.json 갱신 — 최근 3일 제목 ${recent.length}건(같은 사건 반복 차단용)`);
-  } catch (e) { log("recent.json 갱신 실패(무시):", e.message); }
-
   // run.sh가 이 경로를 받아 텔레그램으로 보냄 → stdout에는 경로만
   process.stdout.write(outFile + "\n");
 } catch (e) {
