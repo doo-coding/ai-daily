@@ -41,8 +41,29 @@ for i in $(seq 1 24); do
   sleep 8
 done
 
-# 4) 텔레그램 링크 전송
-curl -s "https://api.telegram.org/bot${TG_BOT_TOKEN}/sendMessage" \
-  --data-urlencode "chat_id=${TG_CHAT_ID}" \
-  --data-urlencode "text=📰 AI 데일리 · ${DATE} ${SLOT} (${TIME} KST)
-${URL}" >/dev/null && echo "[run] sent: link"
+# 4) 텔레그램 전송 — 미리보기 이미지(헤드리스 크로미움으로 라이브 URL 캡처)+링크.
+#    크로미움 없거나 캡처 실패하면 링크만 전송(절대 발송 자체는 안 깨지게 fail-safe).
+CAP="📰 AI 데일리 · ${DATE} ${SLOT} (${TIME} KST)
+${URL}"
+CHROME="$(command -v google-chrome-stable || command -v google-chrome || command -v chromium || command -v chromium-browser || true)"
+[ -z "$CHROME" ] && CHROME="$(ls /opt/pw-browsers/chromium-*/chrome-linux*/chrome 2>/dev/null | head -n1 || true)"
+PHOTO_SENT=0
+if [ -n "$CHROME" ]; then
+  if timeout 70 "$CHROME" --headless=new --disable-gpu --no-sandbox --hide-scrollbars \
+       --force-device-scale-factor=2 --window-size=480,1700 --virtual-time-budget=9000 \
+       --screenshot=preview.png "$URL" >/dev/null 2>&1 && [ -s preview.png ]; then
+    if curl -s "https://api.telegram.org/bot${TG_BOT_TOKEN}/sendPhoto" \
+         -F "chat_id=${TG_CHAT_ID}" -F "photo=@preview.png" -F "caption=${CAP}" >/dev/null; then
+      PHOTO_SENT=1; echo "[run] sent: photo+link"
+    fi
+  else
+    echo "[run] 미리보기 캡처 실패 → 링크만"
+  fi
+else
+  echo "[run] 크로미움 없음 → 링크만"
+fi
+if [ "$PHOTO_SENT" = "0" ]; then
+  curl -s "https://api.telegram.org/bot${TG_BOT_TOKEN}/sendMessage" \
+    --data-urlencode "chat_id=${TG_CHAT_ID}" \
+    --data-urlencode "text=${CAP}" >/dev/null && echo "[run] sent: link"
+fi
