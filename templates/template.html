@@ -98,14 +98,11 @@
   .blt li b{color:var(--gold-soft);font-weight:700;}
   .youline{margin-top:10px;font-size:12.5px;color:var(--gold-soft);background:rgba(235,169,64,.08);
     border-left:2px solid var(--gold);border-radius:0 7px 7px 0;padding:8px 11px;line-height:1.55;}
-  .hook{font-size:12px;color:var(--ink-2);margin-top:5px;line-height:1.4;}
+  .hook{display:block;font-size:12px;color:var(--ink-2);margin-top:5px;line-height:1.4;}
   .hook b{color:var(--gold-soft);font-weight:600;}
-  .why{margin-top:12px;background:rgba(79,196,188,.07);border-left:2px solid var(--teal);
-    border-radius:0 8px 8px 0;padding:9px 12px;line-height:1.58;}
-  .why-label{display:block;font-family:var(--mono);font-size:9px;font-weight:700;color:var(--teal);
-    opacity:.75;letter-spacing:.1em;text-transform:uppercase;margin-bottom:5px;}
-  .why-text{font-size:13px;color:var(--ink-2);}
-  .why-text b{color:#6ed3cc;font-weight:700;}
+  .why{margin-top:12px;background:rgba(235,169,64,.08);border:1px solid rgba(235,169,64,.2);
+    border-radius:10px;padding:9px 12px;font-size:13px;color:var(--ink-2);line-height:1.58;}
+  .why b{color:var(--gold-soft);font-weight:700;}
   .warn-badge{font-size:10px;font-weight:700;color:var(--gold);background:rgba(235,169,64,.15);
     border:1px solid rgba(235,169,64,.4);border-radius:4px;padding:1px 5px;margin-left:6px;
     letter-spacing:.02em;vertical-align:middle;}
@@ -167,7 +164,7 @@
       const cat = "c-" + (it.cat || "model");
       const warnBadge = it.warn ? ` <span class="warn-badge">⚠ 주의</span>` : "";
       const bullets = (it.bullets || []).map(b => `<li>${rich(b)}</li>`).join("");
-      const why = it.why ? `<div class="why"><span class="why-label">왜 중요한가</span><span class="why-text">${rich(it.why)}</span></div>` : "";
+      const why = it.why ? `<div class="why">💡 ${rich(it.why)}</div>` : "";
       const you = it.you ? `<div class="youline">${rich(it.you)}</div>` : "";
       const card = document.createElement("article");
       card.className = "card " + cat;
