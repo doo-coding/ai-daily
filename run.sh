@@ -21,6 +21,9 @@ BUILT="$(node build.js "$ITEMS" | tail -n1)"
 FN="$(basename "$BUILT")"
 echo "[run] built: $FN"
 
+# 1.5) 소프트 검증 — 출처 URL에 항목 수치가 있는지 로그만(발송 막지 않음). 봇차단/형식차로 오탐 가능 → 참고 신호.
+node verify.js "$ITEMS" || true
+
 # 2) 발행: d/ 에 복사 후 main 에 push (favorites.json 충돌 대비 pull --rebase)
 mkdir -p d
 cp -f "$BUILT" "d/$FN"
