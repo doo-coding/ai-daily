@@ -98,6 +98,17 @@
   .blt li b{color:var(--gold-soft);font-weight:700;}
   .youline{margin-top:10px;font-size:12.5px;color:var(--gold-soft);background:rgba(235,169,64,.08);
     border-left:2px solid var(--gold);border-radius:0 7px 7px 0;padding:8px 11px;line-height:1.55;}
+  .hook{font-size:12px;color:var(--ink-2);margin-top:5px;line-height:1.4;}
+  .hook b{color:var(--gold-soft);font-weight:600;}
+  .why{margin-top:12px;background:rgba(79,196,188,.07);border-left:2px solid var(--teal);
+    border-radius:0 8px 8px 0;padding:9px 12px;line-height:1.58;}
+  .why-label{display:block;font-family:var(--mono);font-size:9px;font-weight:700;color:var(--teal);
+    opacity:.75;letter-spacing:.1em;text-transform:uppercase;margin-bottom:5px;}
+  .why-text{font-size:13px;color:var(--ink-2);}
+  .why-text b{color:#6ed3cc;font-weight:700;}
+  .warn-badge{font-size:10px;font-weight:700;color:var(--gold);background:rgba(235,169,64,.15);
+    border:1px solid rgba(235,169,64,.4);border-radius:4px;padding:1px 5px;margin-left:6px;
+    letter-spacing:.02em;vertical-align:middle;}
   .srcline{font-family:var(--mono);font-size:10px;color:var(--ink-3);margin-top:11px;}
   footer{margin-top:30px;padding:16px 4px 0;border-top:1px solid var(--border);}
   footer p{font-size:11px;color:var(--ink-3);line-height:1.7;margin:0;}
@@ -154,19 +165,21 @@
     (sec.items || []).forEach(it => {
       ITEMS[it.id] = Object.assign({}, it, { _icon: sec.icon, _section: sec.name });
       const cat = "c-" + (it.cat || "model");
-      const warnCls = it.warn ? ' class="warn"' : "";
+      const warnBadge = it.warn ? ` <span class="warn-badge">⚠ 주의</span>` : "";
       const bullets = (it.bullets || []).map(b => `<li>${rich(b)}</li>`).join("");
+      const why = it.why ? `<div class="why"><span class="why-label">왜 중요한가</span><span class="why-text">${rich(it.why)}</span></div>` : "";
       const you = it.you ? `<div class="youline">${rich(it.you)}</div>` : "";
       const card = document.createElement("article");
       card.className = "card " + cat;
       card.dataset.id = it.id;
       card.innerHTML = `
         <div class="head"><span class="accent"></span><span class="htext">
-          <span class="htitle">${rich(it.title||"")}</span>
-          <span class="hmeta"><span${warnCls}>${esc(it.meta||"")}</span>${it.date_local?`<span class="when">${esc(it.date_local)}${it.date_kst?" · "+esc(it.date_kst):""}</span>`:""}</span>
+          <span class="htitle">${rich(it.title||"")}${warnBadge}</span>
+          ${it.meta?`<span class="hook">${rich(it.meta)}</span>`:""}
+          ${it.date_local?`<span class="hmeta"><span class="when">${esc(it.date_local)}${it.date_kst?" · "+esc(it.date_kst):""}</span></span>`:""}
         </span><button class="star">☆</button><span class="chev">▼</span></div>
         <div class="body"><div class="body-in"><div class="body-pad">
-          <ul class="blt">${bullets}</ul>${you}
+          <ul class="blt">${bullets}</ul>${why}${you}
           <div class="srcline">${it.url?`<a class="srclink" href="${esc(it.url)}" target="_blank" rel="noopener">출처 ▸ ${esc(it.source||"")} ↗</a>`:`출처 ▸ ${esc(it.source||"")}`}</div>
           <div class="memo-wrap" style="margin-top:11px;">
             <textarea class="memo-in" data-id="${it.id}" rows="2" placeholder="📝 메모…" style="width:100%;box-sizing:border-box;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.14);border-radius:8px;color:inherit;font:inherit;font-size:13px;line-height:1.5;padding:7px 9px;resize:vertical;"></textarea>
