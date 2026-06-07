@@ -58,6 +58,22 @@ try {
   const _crypto = require("crypto");
   data.sections.forEach(s => s.items.forEach(it => { it.id = "x" + _crypto.createHash("md5").update(keyOf(it)).digest("hex").slice(0, 12); }));
 
+  // 퀴즈 가공: ①②③ 보기번호 제거 + 정답 위치를 idx%4로 순환(요약기 정답 편향 보정) + 범위검증. 불량은 제거
+  let _qi = 0;
+  data.sections.forEach(s => s.items.forEach(it => {
+    const q = it.quiz;
+    const valid = q && Array.isArray(q.opts) && q.opts.length === 4 && Number.isInteger(q.ans) && q.ans >= 0 && q.ans < 4 && String(q.q || "").trim();
+    if (!valid) { it.quiz = null; return; }
+    const opts = q.opts.map(o => String(o).replace(/^\s*[①②③④⑤⑥0-9]+\s*[.)\]、:]?\s*/, "").trim());
+    const correct = opts[q.ans];
+    const distract = opts.filter((_, i) => i !== q.ans);
+    const target = _qi % 4;
+    const newOpts = []; let di = 0;
+    for (let p = 0; p < 4; p++) newOpts[p] = (p === target) ? correct : distract[di++];
+    it.quiz = { q: String(q.q).trim(), opts: newOpts, ans: target };
+    _qi++;
+  }));
+
   // --- 날짜/슬롯/생성시각으로 파일명 결정 (매 실행 고유 URL → 덮어쓰기 방지) ---
   const date = data.date || new Date().toISOString().slice(0, 10);
   const slot = (data.slot || "am").replace(/[^a-z0-9]/gi, "");

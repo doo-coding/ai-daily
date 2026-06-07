@@ -107,6 +107,16 @@
     border:1px solid rgba(235,169,64,.4);border-radius:4px;padding:1px 5px;margin-left:6px;
     letter-spacing:.02em;vertical-align:middle;}
   .srcline{font-family:var(--mono);font-size:10px;color:var(--ink-3);margin-top:11px;}
+  .quiz{margin-top:13px;background:rgba(79,196,188,.07);border:1px solid rgba(79,196,188,.28);border-radius:11px;padding:11px 12px;}
+  .quiz-q{font-size:13px;font-weight:600;color:var(--ink);line-height:1.5;margin-bottom:9px;}
+  .quiz-opts{display:grid;grid-template-columns:1fr 1fr;gap:7px;}
+  .quiz-opt{text-align:left;font-family:var(--sans);font-size:12.5px;line-height:1.4;color:var(--ink-2);background:var(--surface);border:1px solid var(--border);border-radius:9px;padding:9px 11px;cursor:pointer;transition:.14s;}
+  .quiz-opt:active{transform:scale(.97);}
+  .quiz-opt.correct{background:rgba(125,190,125,.18);border-color:var(--green);color:#cdeccd;}
+  .quiz-opt.wrong{background:rgba(224,122,155,.16);border-color:var(--rose);color:#f0c3d2;}
+  .quiz-opt:disabled{cursor:default;}
+  .quiz-fb{font-size:12px;margin-top:9px;min-height:15px;font-weight:600;}
+  .quiz-fb.ok{color:var(--green);}.quiz-fb.no{color:var(--rose);}
   footer{margin-top:30px;padding:16px 4px 0;border-top:1px solid var(--border);}
   footer p{font-size:11px;color:var(--ink-3);line-height:1.7;margin:0;}
   footer .tg{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:10px;color:var(--ink-3);
@@ -168,6 +178,12 @@
       const bullets = (it.bullets || []).map(b => `<li>${rich(b)}</li>`).join("");
       const why = it.why ? `<div class="why"><span style="flex:none">💡</span><span>${rich(it.why)}</span></div>` : "";
       const you = it.you ? `<div class="youline">${rich(it.you)}</div>` : "";
+      const quiz = (it.quiz && Array.isArray(it.quiz.opts) && it.quiz.opts.length === 4) ? `
+          <div class="quiz" data-ans="${it.quiz.ans}">
+            <div class="quiz-q">🧠 ${rich(it.quiz.q||"")}</div>
+            <div class="quiz-opts">${it.quiz.opts.map((o,i)=>`<button class="quiz-opt" data-i="${i}">${esc(o)}</button>`).join("")}</div>
+            <div class="quiz-fb"></div>
+          </div>` : "";
       const card = document.createElement("article");
       card.className = "card " + cat;
       card.dataset.id = it.id;
@@ -180,6 +196,7 @@
         <div class="body"><div class="body-in"><div class="body-pad">
           ${why}<ul class="blt">${bullets}</ul>${you}
           <div class="srcline">${it.url?`<a class="srclink" href="${esc(it.url)}" target="_blank" rel="noopener">출처 ▸ ${esc(it.source||"")} ↗</a>`:`출처 ▸ ${esc(it.source||"")}`}</div>
+          ${quiz}
           <div class="memo-wrap" style="margin-top:11px;">
             <textarea class="memo-in" data-id="${it.id}" rows="2" placeholder="📝 메모…" style="width:100%;box-sizing:border-box;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.14);border-radius:8px;color:inherit;font:inherit;font-size:13px;line-height:1.5;padding:7px 9px;resize:vertical;"></textarea>
             <div style="display:flex;align-items:center;gap:9px;margin-top:6px;">
@@ -274,6 +291,20 @@
         favs.add(id); if(star){ star.classList.add("on"); star.textContent="★"; } c.classList.add("fav");
         save(); document.getElementById("fnum").textContent = favs.size;
       } catch(e) { st.textContent = "저장 실패(네트워크)"; }
+    });
+  });
+  // 퀴즈 — 보기 클릭 시 정답(초록)/오답(빨강) 표시, 한 번만 채점
+  document.querySelectorAll(".quiz").forEach(qz => {
+    const ans = parseInt(qz.dataset.ans, 10);
+    const fb = qz.querySelector(".quiz-fb");
+    qz.querySelectorAll(".quiz-opt").forEach(btn => {
+      btn.addEventListener("click", e => {
+        e.stopPropagation();
+        const i = parseInt(btn.dataset.i, 10);
+        qz.querySelectorAll(".quiz-opt").forEach((b, j) => { b.disabled = true; if (j === ans) b.classList.add("correct"); });
+        if (i === ans) { fb.textContent = "정답! ✓"; fb.className = "quiz-fb ok"; }
+        else { btn.classList.add("wrong"); fb.textContent = "오답 — 정답은 초록색"; fb.className = "quiz-fb no"; }
+      });
     });
   });
   document.getElementById("openAll").addEventListener("click", () =>
