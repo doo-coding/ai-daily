@@ -100,8 +100,8 @@
     border-left:2px solid var(--gold);border-radius:0 7px 7px 0;padding:8px 11px;line-height:1.55;}
   .hook{display:block;font-size:12px;color:var(--ink-2);margin-top:5px;line-height:1.4;}
   .hook b{color:var(--gold-soft);font-weight:600;}
-  .why{margin-top:12px;background:rgba(235,169,64,.08);border:1px solid rgba(235,169,64,.2);
-    border-radius:10px;padding:9px 12px;font-size:13px;color:var(--ink-2);line-height:1.58;}
+  .why{margin-bottom:10px;background:rgba(235,169,64,.14);border:1px solid rgba(235,169,64,.3);
+    border-radius:10px;padding:9px 12px;font-size:13px;color:var(--ink);line-height:1.58;}
   .why b{color:var(--gold-soft);font-weight:700;}
   .warn-badge{font-size:10px;font-weight:700;color:var(--gold);background:rgba(235,169,64,.15);
     border:1px solid rgba(235,169,64,.4);border-radius:4px;padding:1px 5px;margin-left:6px;
@@ -176,7 +176,7 @@
           ${it.date_local?`<span class="hmeta"><span class="when">${esc(it.date_local)}${it.date_kst?" · "+esc(it.date_kst):""}</span></span>`:""}
         </span><button class="star">☆</button><span class="chev">▼</span></div>
         <div class="body"><div class="body-in"><div class="body-pad">
-          <ul class="blt">${bullets}</ul>${why}${you}
+          ${why}<ul class="blt">${bullets}</ul>${you}
           <div class="srcline">${it.url?`<a class="srclink" href="${esc(it.url)}" target="_blank" rel="noopener">출처 ▸ ${esc(it.source||"")} ↗</a>`:`출처 ▸ ${esc(it.source||"")}`}</div>
           <div class="memo-wrap" style="margin-top:11px;">
             <textarea class="memo-in" data-id="${it.id}" rows="2" placeholder="📝 메모…" style="width:100%;box-sizing:border-box;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.14);border-radius:8px;color:inherit;font:inherit;font-size:13px;line-height:1.5;padding:7px 9px;resize:vertical;"></textarea>
