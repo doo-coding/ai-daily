@@ -107,7 +107,12 @@
     border:1px solid rgba(235,169,64,.4);border-radius:4px;padding:1px 5px;margin-left:6px;
     letter-spacing:.02em;vertical-align:middle;}
   .srcline{font-family:var(--mono);font-size:10px;color:var(--ink-3);margin-top:11px;}
-  .quiz{margin-top:13px;background:rgba(79,196,188,.07);border:1px solid rgba(79,196,188,.28);border-radius:11px;padding:11px 12px;}
+  .quiz{display:none;margin-top:6px;background:rgba(79,196,188,.07);border:1px solid rgba(79,196,188,.28);border-radius:11px;padding:12px;}
+  .card.flip .detail{display:none;}
+  .card.flip .quiz{display:block;}
+  .quiz-go{margin-top:13px;font-family:var(--sans);font-size:13px;font-weight:600;color:var(--teal);background:rgba(79,196,188,.1);border:1px solid rgba(79,196,188,.35);border-radius:10px;padding:9px 14px;cursor:pointer;}
+  .quiz-go:active{transform:scale(.97);}
+  .quiz-back{font-family:var(--mono);font-size:11px;color:var(--ink-3);background:none;border:0;cursor:pointer;padding:0;margin-bottom:10px;display:block;}
   .quiz-q{font-size:13px;font-weight:600;color:var(--ink);line-height:1.5;margin-bottom:9px;}
   .quiz-opts{display:grid;grid-template-columns:1fr 1fr;gap:7px;}
   .quiz-opt{text-align:left;font-family:var(--sans);font-size:12.5px;line-height:1.4;color:var(--ink-2);background:var(--surface);border:1px solid var(--border);border-radius:9px;padding:9px 11px;cursor:pointer;transition:.14s;}
@@ -178,8 +183,11 @@
       const bullets = (it.bullets || []).map(b => `<li>${rich(b)}</li>`).join("");
       const why = it.why ? `<div class="why"><span style="flex:none">💡</span><span>${rich(it.why)}</span></div>` : "";
       const you = it.you ? `<div class="youline">${rich(it.you)}</div>` : "";
-      const quiz = (it.quiz && Array.isArray(it.quiz.opts) && it.quiz.opts.length === 4) ? `
+      const hasQuiz = it.quiz && Array.isArray(it.quiz.opts) && it.quiz.opts.length === 4;
+      const quizBtn = hasQuiz ? `<button class="quiz-go">🧠 퀴즈 풀기</button>` : "";
+      const quiz = hasQuiz ? `
           <div class="quiz" data-ans="${it.quiz.ans}">
+            <button class="quiz-back">← 돌아가기</button>
             <div class="quiz-q">🧠 ${rich(it.quiz.q||"")}</div>
             <div class="quiz-opts">${it.quiz.opts.map((o,i)=>`<button class="quiz-opt" data-i="${i}">${esc(o)}</button>`).join("")}</div>
             <div class="quiz-fb"></div>
@@ -194,9 +202,9 @@
           ${it.date_local?`<span class="hmeta"><span class="when">${fmtDate(it.date_local)}${it.date_kst?" · "+esc(it.date_kst):""}</span></span>`:""}
         </span><button class="star">☆</button><span class="chev">▼</span></div>
         <div class="body"><div class="body-in"><div class="body-pad">
+          <div class="detail">
           ${why}<ul class="blt">${bullets}</ul>${you}
           <div class="srcline">${it.url?`<a class="srclink" href="${esc(it.url)}" target="_blank" rel="noopener">출처 ▸ ${esc(it.source||"")} ↗</a>`:`출처 ▸ ${esc(it.source||"")}`}</div>
-          ${quiz}
           <div class="memo-wrap" style="margin-top:11px;">
             <textarea class="memo-in" data-id="${it.id}" rows="2" placeholder="📝 메모…" style="width:100%;box-sizing:border-box;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.14);border-radius:8px;color:inherit;font:inherit;font-size:13px;line-height:1.5;padding:7px 9px;resize:vertical;"></textarea>
             <div style="display:flex;align-items:center;gap:9px;margin-top:6px;">
@@ -204,6 +212,9 @@
               <span class="memo-status" style="font-size:11px;opacity:.65;"></span>
             </div>
           </div>
+          ${quizBtn}
+          </div>
+          ${quiz}
         </div></div></div>`;
       s.appendChild(card);
     });
@@ -293,6 +304,17 @@
       } catch(e) { st.textContent = "저장 실패(네트워크)"; }
     });
   });
+  // 퀴즈 — "풀기" 버튼 누르면 본문 숨고 퀴즈 표시(flip), "돌아가기"로 복귀
+  document.querySelectorAll(".quiz-go").forEach(b => b.addEventListener("click", e => {
+    e.stopPropagation(); b.closest(".card").classList.add("flip");
+  }));
+  document.querySelectorAll(".quiz-back").forEach(b => b.addEventListener("click", e => {
+    e.stopPropagation();
+    const c = b.closest(".card"); c.classList.remove("flip");
+    const qz = c.querySelector(".quiz");
+    qz.querySelectorAll(".quiz-opt").forEach(o => { o.disabled = false; o.classList.remove("correct", "wrong"); });
+    const fb = qz.querySelector(".quiz-fb"); if (fb) { fb.textContent = ""; fb.className = "quiz-fb"; }
+  }));
   // 퀴즈 — 보기 클릭 시 정답(초록)/오답(빨강) 표시, 한 번만 채점
   document.querySelectorAll(".quiz").forEach(qz => {
     const ans = parseInt(qz.dataset.ans, 10);
