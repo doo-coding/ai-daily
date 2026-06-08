@@ -64,7 +64,10 @@ try {
     const q = it.quiz;
     const valid = q && Array.isArray(q.opts) && q.opts.length === 4 && Number.isInteger(q.ans) && q.ans >= 0 && q.ans < 4 && String(q.q || "").trim();
     if (!valid) { it.quiz = null; return; }
-    const opts = q.opts.map(o => String(o).replace(/^\s*[①②③④⑤⑥0-9]+\s*[.)\]、:]?\s*/, "").trim());
+    // 보기 앞 번호 라벨만 제거(①② 또는 "1. " "2) "처럼 구두점+공백). '8.2%' 같은 실제 숫자 답은 건드리지 않음(공백 필수)
+    const opts = q.opts.map(o => String(o).replace(/^\s*(?:[①②③④⑤⑥⑦⑧⑨⑩]\s*|\d{1,2}[.)、]\s+)/, "").trim());
+    // 보기 4개가 서로 다르고 비어있지 않아야 함(중복/빈칸이면 불량 퀴즈 → 제거)
+    if (new Set(opts).size !== 4 || opts.some(o => !o)) { it.quiz = null; return; }
     const correct = opts[q.ans];
     const distract = opts.filter((_, i) => i !== q.ans);
     const target = _qi % 4;
