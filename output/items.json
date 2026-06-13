@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-07",
-  "slot": "am",
-  "date_line": "2026년 6월 7일 (일) · 아침 · 17건 선별",
+  "date": "2026-06-13",
+  "slot": "pm",
+  "date_line": "2026년 6월 13일 (토) · 저녁 · 17건 선별",
   "kicker": "AI 데일리 · 자동 발송",
   "footer_tag": "✈ via Telegram · 매일 07:00 · 19:00 자동 발송",
-  "oneline": "<b>DeepSeek 첫 외부 펀딩 $7.4B(밸류 $59B)</b>으로 중국 AI 자본 최대 기록을 경신한 가운데, <b>Microsoft Build 2026</b>에서 자체 MAI 모델군 7종 공개와 <b>Windows AI 에이전트 OS</b> 전환을 선언하며 글로벌 AI 플랫폼 경쟁이 한층 격화",
+  "oneline": "<b>SpaceX</b>가 나스닥 상장 첫날 <b>19% 급등</b>하며 사상 최대 IPO 기록을 세운 가운데, <b>Bezos의 Prometheus</b>도 $120억 투자로 '물리 세계 AI 엔지니어' 시대를 선언하며 AI 자본 대전이 절정으로 치닫는 중",
   "sections": [
     {
       "icon": "🚀",
@@ -14,38 +14,48 @@
         {
           "id": "m1",
           "cat": "model",
-          "title": "Claude Opus 4.8 출시 — 에이전트·코딩 성능 전면 강화",
-          "meta": "에이전트 세대가 바뀌었다 — 병렬 서브에이전트 수백 개 동시 실행",
-          "date_local": "2026-05-28 (PT)",
-          "date_kst": "KST 5/29",
+          "title": "구글 Gemini 3.5 Pro, 6월 GA 임박 — 200만 토큰·딥씽크 추론 모드",
+          "meta": "Flash 공개 한 달 만에 Pro 등장 — GPT-5.5·Claude Opus 4.8과 프런티어 삼파전 개막",
+          "date_local": "2026-06-06 (ET)",
+          "date_kst": "KST 6/7",
           "warn": false,
           "bullets": [
-            "Anthropic이 <b>Claude Opus 4.8</b>을 공개 — 브라우저 에이전트 벤치마크 Online-Mind2Web에서 <b>84%</b>를 기록해 현존 경쟁 모델 중 최고 수준의 에이전트 제어 능력 입증",
-            "<b>Dynamic Workflows</b>를 리서치 프리뷰로 도입 — Claude Code 단일 세션에서 <b>수백 개 병렬 서브에이전트를 자동 조율</b>해 대규모 코드베이스 리팩터링·테스트 작업의 완전 자동화 가능",
-            "기본 컨텍스트 <b>1M 토큰</b>, Fast Mode 적용 시 출력 속도 <b>최대 2.5배 향상</b> — 오정렬 행동 비율도 Opus 4.7 대비 대폭 감소해 장기 에이전트 작업 신뢰도 개선"
+            "구글이 <b>Gemini 3.5 Pro</b>의 6월 중 일반 공개(GA) 일정 확인 — 5월 I/O 발표 후 Vertex AI 일부 고객 한정 프리뷰 운영 중",
+            "<b>200만 토큰</b> 컨텍스트 창과 '딥씽크(Deep Think)' 추론 모드 탑재 — 기존 Ultra 등급을 흡수하는 최상위 모델로 포지셔닝, 멀티모달·최고난도 추론에 집중",
+            "GPT-5.5·Claude Opus 4.8과 기업·연구 워크로드 채택 경쟁 가시화 — 출시와 함께 <b>API 가격·성능 비교</b>가 도구 선택의 핵심 변수로 부상 전망"
           ],
-          "why": "단일 프롬프트 응답 수준을 넘어 <b>AI가 스스로 일을 나눠 진행하는 시대</b>로의 전환점 — 에이전트 자동화의 실용성이 <b>한 계단 올라섰다</b>.",
-          "you": "Dynamic Workflows로 Claude Code에서 병렬 서브에이전트 수백 개 실행 가능 — 바이브코딩 자동화 수준이 한 단계 상향",
-          "url": "https://www.anthropic.com/news/claude-opus-4-8",
-          "source": "Anthropic"
+          "why": "<b>Gemini 3.5 Pro</b> 정식 출시로 프런티어 AI 3강 구도 완성 — 개발자·기업의 공급망 재선택 압력이 높아지는 분기점",
+          "quiz": {
+            "q": "Gemini 3.5 Pro에 탑재되는 컨텍스트 창 크기는?",
+            "opts": ["50만 토큰", "100만 토큰", "200만 토큰", "500만 토큰"],
+            "ans": 2
+          },
+          "you": null,
+          "url": "https://www.techtimes.com/articles/317919/20260606/google-gemini-35-pro-nears-june-launch-2-million-token-context-deep-think-reasoning.htm",
+          "source": "TechTimes"
         },
         {
           "id": "m2",
           "cat": "model",
-          "title": "Microsoft, 자체 MAI 모델 7종 전격 공개",
-          "meta": "OpenAI 의존 끊으려는 MS의 승부수",
-          "date_local": "2026-06-02 (PT)",
-          "date_kst": "KST 6/3",
+          "title": "Apple WWDC 2026: Siri, Google Gemini AI로 전면 재탄생",
+          "meta": "연 $10억 구글 계약으로 Siri 재건 — Apple AI 독자 노선 포기 신호탄",
+          "date_local": "2026-06-08 (PT)",
+          "date_kst": "KST 6/9",
           "warn": false,
           "bullets": [
-            "<b>MAI 패밀리 7종</b>(추론·코딩·이미지·음성·전사 등)을 Build 2026에서 공개 — <b>OpenAI GPT-5.5 의존도를 줄이고</b> Azure 인프라 비용 절감을 노린 AI 모델 내재화 선언",
-            "추론 모델 <b>MAI-Thinking-1</b>은 코딩 벤치마크에서 Claude Opus 4.6에 필적하며 GPT-5.5 대비 <b>비용 효율 10배</b>를 내세워 엔터프라이즈 고객 유인",
-            "코딩 모델 <b>MAI-Code-1-Flash</b>는 자연어 설명만으로 앱 소스코드를 자동 생성 — Microsoft가 AI 모델 공급망 전체를 통제하는 <b>수직 통합 체계</b>로의 전환 본격화"
+            "Apple이 WWDC 2026에서 <b>Siri를 Google Gemini 기반</b>으로 전면 재구축 발표 — 연간 <b>$10억</b>을 구글에 지급하는 맞춤 1.2조 파라미터 LLM 도입",
+            "개발자용 <b>Foundation Models API 무료 개방</b> — App Store 누적 다운로드 200만 미만 앱에 무료 제공, Claude·Gemini·OpenAI 에이전트 통합 Swift SDK 함께 공개",
+            "<b>SiriKit 공식 Deprecated</b> 선언 — iOS 29(2028년 예정) 이전까지 지원 유지하나, 올 9월 iOS 27 출시 이후 신 Siri 경험에서 사실상 제외"
           ],
-          "why": "모델을 외부에서 사오던 빅테크가 직접 만들기 시작하면 <b>OpenAI의 수익 구조가 흔들리고</b>, AI 모델 공급 경쟁이 <b>가격 하락으로 이어질</b> 가능성이 높다.",
+          "why": "자체 LLM 개발을 포기하고 <b>Gemini를 AI 핵심 엔진</b>으로 채택한 결정은 Google의 모바일 AI 영향력을 지수적으로 확대하는 전환점",
+          "quiz": {
+            "q": "Apple이 새 Siri에 적용한 Gemini LLM의 파라미터 규모는?",
+            "opts": ["3000억", "7000억", "1.2조", "2조"],
+            "ans": 2
+          },
           "you": null,
-          "url": "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html",
-          "source": "CNBC"
+          "url": "https://www.business-standard.com/technology/tech-news/wwdc-2026-apple-unveils-siri-ai-gemini-powered-apple-intelligence-more-126060900042_1.html",
+          "source": "Business Standard"
         }
       ]
     },
@@ -57,56 +67,71 @@
         {
           "id": "d1",
           "cat": "dev",
-          "title": "Microsoft, Windows를 AI 에이전트 OS로 선언",
-          "meta": "앱 시대가 끝나고 에이전트 시대가 온다",
-          "date_local": "2026-06-02 (PT)",
-          "date_kst": "KST 6/3",
+          "title": "오픈소스 AI 코딩 에이전트 OpenCode, GitHub 스타 16만 돌파",
+          "meta": "모델 무관 설계로 Claude Code·Cursor 제치고 개발자 1위 — 출시 1년 만에 MAU 750만",
+          "date_local": "2026-06 (PT)",
+          "date_kst": null,
           "warn": false,
           "bullets": [
-            "Satya Nadella·Mustafa Suleyman이 <b>Windows를 AI 에이전트 OS</b>로 공식 선언 — 전통 앱 실행 환경에서 <b>에이전트 중심 플랫폼으로의 근본적 전환</b>을 명확히 표명",
-            "<b>Microsoft IQ</b> 통합 인텔리전스 레이어 출시 — Work IQ·Foundry IQ·Fabric IQ·Web IQ <b>4개 레이어</b>로 에이전트 지식 기반 연결",
-            "기업용 에이전트 격리 실행 환경 <b>MXC(Microsoft Execution Containers)</b> 프리뷰 공개 — <b>OS 수준의 격리</b>로 보안 사고 없이 대규모 에이전트 배포·관리 가능"
+            "터미널 기반 오픈소스 AI 코딩 에이전트 <b>OpenCode</b>가 GitHub 스타 <b>16만 개</b> 돌파·월간 활성 사용자 750만 명 기록 — 2025년 6월 출시 1년 만에 AI 코딩 도구 1위 등극",
+            "Claude·GPT-5·Gemini·Grok·Ollama 등 <b>75개 이상 AI 제공자</b>를 동일 인터페이스에서 전환 가능한 '모델 무관' 설계 — 특정 모델 종속 없이 비용·성능 최적화 가능",
+            "파일 읽기·코드 작성·명령 실행·테스트 반복 등 <b>멀티스텝 자율 작업</b> 처리 — 900명 이상 기여자, 13,000개 이상 커밋으로 빠른 기능 확장 중"
           ],
-          "why": "<b>Windows가 에이전트의 실행 환경</b>이 되면 기존 소프트웨어 산업 전체가 재편된다 — <b>앱 개발·UI 설계·보안 모델이 모두 다시 쓰여야</b> 할 가능성.",
-          "you": null,
-          "url": "https://visualstudiomagazine.com/articles/2026/06/02/at-build-2026-microsoft-sets-up-windows-as-an-os-for-ai-agents.aspx",
-          "source": "Visual Studio Magazine"
+          "why": "오픈소스·모델 불가지론 접근법이 유료 SaaS 코딩 에이전트를 빠르게 대체 중으로, <b>바이브코딩 도구 선택지</b>가 본격 다원화되는 전환점",
+          "quiz": {
+            "q": "OpenCode가 지원하는 AI 제공자 수는?",
+            "opts": ["20개 이상", "50개 이상", "75개 이상", "100개 이상"],
+            "ans": 2
+          },
+          "you": "바이브코딩(Claude Code) 사용자라면 모델을 자유롭게 교체할 수 있는 OpenCode를 대안 도구로 검토할 시점",
+          "url": "https://blog.logrocket.com/ai-dev-tool-power-rankings/",
+          "source": "LogRocket"
         },
         {
           "id": "d2",
           "cat": "dev",
-          "title": "Project Solara — 에이전트 상시 구동 Android 디바이스",
-          "meta": "스마트폰 이후 세 번째 폼팩터의 등장",
-          "date_local": "2026-06-02 (PT)",
-          "date_kst": "KST 6/3",
+          "title": "Chrome 안드로이드에 Gemini '자율 웹탐색' 6월 말 배포",
+          "meta": "AI가 사용자 대신 예약·비교·결제까지 — 에이전틱 브라우저의 첫 대규모 상용화",
+          "date_local": "2026-06 (PT)",
+          "date_kst": null,
           "warn": false,
           "bullets": [
-            "Microsoft가 <b>Project Solara</b>를 공개 — 전통 앱 대신 AI 에이전트가 상시 구동되는 <b>Android 기반 새로운 디바이스 카테고리</b>로, 스마트폰·PC 이후 세 번째 폼팩터 탄생",
-            "기기가 항상 켜진 상태로 <b>에이전트 태스크를 자율 수행</b> — 사용자 명령을 기다리는 기존 패러다임 대신 <b>백그라운드에서 사전 정의 작업</b>을 지속적으로 처리",
-            "<b>에이전트 퍼스트 디바이스</b>가 현실화될 경우 <b>앱 스토어·UI/UX 설계·보안 모델 전반이 재편</b>될 전망 — 개발자·플랫폼 사업자의 대응 전략 재검토 필요"
+            "구글이 Chrome 안드로이드에 Gemini 기반 '<b>auto browse</b>' 에이전트 탑재 — 사용자 지시 한 번으로 예약·비교·장바구니 작업을 자율 수행, 6월 말 순차 출시",
+            "RAM <b>4GB 이상</b>·Android 12 이상·영어(US) 기기 대상 우선 적용 — 구매·소셜 포스팅 등 민감 작업은 <b>사용자 최종 확인</b> 단계 유지",
+            "<b>Gemini 3.1</b> 기반 상시 어시스턴트·이미지 생성('Nano Banana')·auto browse 3종 패키지로 제공 — Google I/O 발표 이후 일반 사용자 앱 최초 적용"
           ],
-          "why": "에이전트가 항상 켜진 채 사람보다 먼저 정보를 처리하는 기기가 현실화되면, <b>사용자 인터페이스 자체가 사라지는 시나리오</b>를 앞당긴다.",
+          "why": "브라우저가 단순 뷰어에서 <b>자율 에이전트</b>로 전환되는 최초 대규모 배포로, 웹사이트 UX·SEO·전자상거래 전략 전반에 즉각적 영향 예상",
+          "quiz": {
+            "q": "Chrome Android Gemini auto browse 이용에 필요한 최소 RAM은?",
+            "opts": ["2GB", "3GB", "4GB", "6GB"],
+            "ans": 2
+          },
           "you": null,
-          "url": "https://blogs.microsoft.com/blog/2026/06/02/microsoft-build-2026-be-yourself-at-work/",
-          "source": "Microsoft Blog"
+          "url": "https://blog.google/products-and-platforms/products/chrome/bringing-chrome-ai-to-android/",
+          "source": "Google Blog"
         },
         {
           "id": "d3",
           "cat": "dev",
-          "title": "AI 코딩 도구 업무 사용률 18% 달성 — Claude Code 빠른 성장",
-          "meta": "AI 코딩 도구, 선택이 아닌 기본값",
-          "date_local": "2026-04 (UTC)",
-          "date_kst": "KST 4월",
+          "title": "Google NotebookLM, Gemini 3.5 탑재로 자율 연구 에이전트로 도약",
+          "meta": "문서 분석 도구에서 코드 실행·보고서 자동 생성 에이전트로 — 연구자 워크플로우 재정의",
+          "date_local": "2026-06-08 (PT)",
+          "date_kst": "KST 6/9",
           "warn": false,
           "bullets": [
-            "JetBrains 조사에서 <b>Claude Code</b> 인지도 57%·<b>업무 사용률 18%</b> 달성 — Cursor와 함께 멀티파일 리팩터링·디버깅·터미널 워크플로 분야 선두",
-            "전체 개발자의 <b>90%</b>가 매일 AI 도구를 사용, Fortune 500 기업 중 <b>78%</b>가 AI 지원 개발을 실 서비스에 적용 — 2024년 42% 대비 급격 상승",
-            "병목이 코딩에서 <b>인프라 배포·관리로 이동</b> — 개발자 76%가 인프라 복잡도로 인한 인지 과부하를 호소하며 <b>AI 인프라 자동화 도구</b> 수요 급증"
+            "구글이 <b>NotebookLM</b>에 Gemini 3.5와 에이전틱 프레임워크 '<b>Antigravity</b>' 탑재 — 소스 발견·코드 실행·웹 검색을 자율 수행하는 연구 에이전트로 전환",
+            "보안 클라우드 환경에서 <b>코드 직접 실행</b>과 데이터 분석 지원 — PDF·Excel·PowerPoint·그래프 등 <b>11가지 출력 형식</b>으로 보고서 자동 생성",
+            "Google AI Ultra 및 Workspace AI Expanded 고객 대상 <b>6월 8일</b>부터 글로벌 순차 배포 — 단순 읽기 도구에서 프로젝트 레포지토리를 스스로 구축하는 에이전트로 진화"
           ],
-          "why": "<b>90%</b>라는 숫자는 AI 코딩 도구가 이미 '보조 도구'가 아닌 <b>개발 환경의 기본값</b>이 됐다는 의미 — 아직 안 쓰고 있다면 <b>생산성 격차가 벌어지는</b> 시점.",
+          "why": "문서 수집·분석에서 산출물까지 <b>원스톱 자율 연구 루프</b>가 가능해져, 공공기관·연구자의 보고서 작성 및 데이터 분석 방식의 재설계를 요구",
+          "quiz": {
+            "q": "NotebookLM 업그레이드에서 지원하는 출력 형식 수는?",
+            "opts": ["5가지", "8가지", "11가지", "15가지"],
+            "ans": 2
+          },
           "you": null,
-          "url": "https://blog.jetbrains.com/research/2026/04/which-ai-coding-tools-do-developers-actually-use-at-work/",
-          "source": "JetBrains Research"
+          "url": "https://nokiapoweruser.com/google-notebooklm-gemini-3-5-upgrade-agentic-research/",
+          "source": "NPowerUser"
         }
       ]
     },
@@ -118,56 +143,48 @@
         {
           "id": "r1",
           "cat": "research",
-          "title": "ALE 벤치마크 — AI 에이전트의 실전 경제적 가치 측정",
-          "meta": "AI 능력을 숫자가 아닌 '돈이 되는가'로 측정",
-          "date_local": "2026-06 (UTC)",
-          "date_kst": "KST 6월",
+          "title": "CVPR 2026 최우수 논문: 동적 4D 장면 재구성 모델 'D4RT'",
+          "meta": "Google DeepMind·UCL·Oxford 팀, 단일 네트워크로 깊이·3D 트랙·카메라 자세 동시 출력",
+          "date_local": "2026-06-05 (PT)",
+          "date_kst": "KST 6/6",
           "warn": false,
           "bullets": [
-            "UC Berkeley 연구팀이 <b>ALE(Agents' Last Exam)</b>을 공개 — 실제 소프트웨어 환경에서 <b>장시간·다단계 전문 작업</b>을 수행하고 검증 가능한 산출물을 내놓는 에이전트 능력 측정",
-            "기존 정답률 기반 평가 대신 <b>경제적 가치 창출 여부</b>를 평가 기준으로 전환 — <b>'AI의 실제 업무 대체 가능성'</b>을 정량화하려는 시도",
-            "에이전트 벤치마크가 단순 지식 테스트에서 <b>장기 자율 작업 성공률</b>로 진화 — <b>기업·공공기관의 AI 도입 의사결정 근거</b>로 직접 활용 가능"
+            "<b>CVPR 2026</b> 최우수 논문에 구글 DeepMind·UCL·옥스퍼드 공동팀의 '<b>D4RT</b>' 선정 — 16,092편 제출·4,089편 채택 경쟁에서 수상",
+            "D4RT는 동영상에서 <b>깊이 맵·3D 트랙·카메라 자세</b>를 기존 별도 네트워크 없이 단일 인코더-디코더로 동시에 산출하는 동적 4D 장면 재구성 모델",
+            "한국 스타트업 <b>TelePIX</b>가 위성 영상 3D 재구성 논문으로 <b>준우수상(Runner-Up)</b> 수상 — 국내 AI 연구 수준이 컴퓨터비전 최고 학회에서 재차 인정"
           ],
-          "why": "벤치마크가 현실 업무 가치로 전환되면 <b>'어떤 일을 맡길 수 있나'</b>로 도입 판단이 바뀐다 — <b>공공기관 AI 도입 논거</b>로 활용 가능.",
+          "why": "로봇·자율주행·AR/VR 등 동적 환경 이해에서 <b>멀티태스크 단일 모델</b>의 실용 가능성을 입증한 이정표 논문으로, 관련 응용 제품화가 가속화될 전망",
+          "quiz": {
+            "q": "D4RT가 단일 네트워크로 동시에 출력하지 않는 것은?",
+            "opts": ["깊이 맵", "카메라 자세", "3D 트랙", "텍스처 맵"],
+            "ans": 3
+          },
           "you": null,
-          "url": null,
-          "source": "arXiv / LM Council"
+          "url": "https://www.newswise.com/articles/cvpr-2026-honors-the-year-s-most-innovative-computer-vision-and-ai-research",
+          "source": "Newswise"
         },
         {
           "id": "r2",
           "cat": "research",
-          "title": "QKV 통합으로 KV 캐시 메모리 50% 절감 연구",
-          "meta": "메모리를 반으로 줄이면 API 가격도 반이 된다",
-          "date_local": "2026-06 (UTC)",
-          "date_kst": "KST 6월",
+          "title": "Nature 게재 'HLE' 벤치마크 — 프런티어 AI도 정답률 20% 미만",
+          "meta": "전문가 수준 2,500문항에 최고 모델도 무력 — MMLU 이후 10년 만의 평가 패러다임 전환",
+          "date_local": "2026-06-04 (UTC)",
+          "date_kst": "KST 6/5",
           "warn": false,
           "bullets": [
-            "Transformer 자기주의 메커니즘의 Key·Value 프로젝션을 통합하는 <b>Q-K=V 아키텍처</b> 제안 — KV 캐시 메모리를 기존 대비 <b>50%</b> 절감하는 효과를 실험으로 입증",
-            "KV 캐시는 LLM 추론 시 GPU 메모리의 가장 큰 비중을 차지하는 구성요소 — 절반 감소 시 <b>같은 하드웨어로 두 배 긴 컨텍스트</b> 처리 또는 <b>배치 크기 확대</b> 가능",
-            "추론 메모리 효율화가 진전되면 <b>API 단가 인하</b>와 온디바이스 AI 배포 가속에 직결 — <b>엣지 디바이스에서의 LLM 실행</b> 현실화 가능성 한층 상승"
+            "<b>Humanity's Last Exam(HLE)</b>이 Nature 게재 — 수학·인문학·자연과학 등 수십 개 전문 분야에서 박사급 전문가가 출제한 <b>2,500개 문항</b>으로 구성",
+            "최고 성능 프런티어 모델들도 <b>정답률 20% 미만</b> 기록 — 기존 MMLU(대학생 수준)를 이미 포화시킨 AI의 진정한 추론 한계를 전문가 수준에서 측정",
+            "주관식·전문 계산·코드 포함 <b>멀티모달 문항</b> 구성 — LLM 암기가 아닌 실질 추론 능력을 평가하는 차세대 기준으로 업계 채택 가속화 전망"
           ],
-          "why": "KV 캐시 <b>50% 절감</b>은 같은 GPU로 <b>두 배 큰 맥락 처리</b>하거나 두 배 저렴하게 API를 운영할 수 있다는 뜻 — <b>비용이 AI 도입의 걸림돌인 조직</b>에 직접적 영향.",
+          "why": "AI 성능 지표가 '인간 대학생 수준 통과'에서 <b>'박사 전문가 수준 돌파'</b>로 이동하면서, 모델 개발 경쟁의 새로운 목표 지점이 설정됨",
+          "quiz": {
+            "q": "HLE 벤치마크의 총 문항 수는?",
+            "opts": ["500개", "1,000개", "2,500개", "5,000개"],
+            "ans": 2
+          },
           "you": null,
-          "url": null,
-          "source": "arXiv"
-        },
-        {
-          "id": "r3",
-          "cat": "research",
-          "title": "Microsoft Majorana 2 — 큐비트 신뢰도 1,000배 양자칩",
-          "meta": "MS, 2029년 상용 양자컴퓨터를 진짜로 목표로 잡았다",
-          "date_local": "2026-06-02 (PT)",
-          "date_kst": "KST 6/3",
-          "warn": false,
-          "bullets": [
-            "Microsoft가 <b>Majorana 2</b> 양자컴퓨팅 칩을 공개 — 이전 세대 대비 큐비트 신뢰도 <b>1,000배</b> 향상, 평균 수명 20초 달성해 <b>대규모 연산 오류 대폭 감소</b>",
-            "<b>위상학적 큐비트(Topological Qubit)</b> 방식 활용 — 기존 초전도 큐비트보다 <b>외부 노이즈에 강해</b> 별도 오류 수정 오버헤드 없이도 안정적 연산 가능",
-            "Microsoft는 <b>2029년 상업용 양자컴퓨터</b> 완성을 목표 — 실현 시 <b>신약 개발·암호화·물류 최적화</b> 분야에서 수십 년 걸리던 계산을 단시간 처리 전망"
-          ],
-          "why": "신뢰도 <b>1,000배 향상</b>이 실제 상용화로 이어지면 <b>현재 AI로도 풀지 못하는 최적화·시뮬레이션 문제</b>들이 풀리기 시작한다 — 투자 타임라인 안에 있는 기술.",
-          "you": null,
-          "url": "https://news.microsoft.com/build-2026/",
-          "source": "Microsoft Build 2026"
+          "url": "https://www.nature.com/articles/s41586-025-09962-4",
+          "source": "Nature"
         }
       ]
     },
@@ -179,56 +196,71 @@
         {
           "id": "p1",
           "cat": "policy",
-          "title": "EU AI법 'Digital Omnibus' 합의 — 16개월 유예·간소화",
-          "meta": "EU, AI 기업 숨통 틔워주며 규제 실효성 논란 재점화",
-          "date_local": "2026-05-07 (CET)",
-          "date_kst": "KST 5/7",
+          "title": "미국 '미국 AI 대법' 초안 공개 — 최초 연방 포괄 AI 법안",
+          "meta": "3년간 주법 동결 + 반기별 제3자 감사 의무 — 빅테크 환영 vs. 소비자단체 반발",
+          "date_local": "2026-06-04 (ET)",
+          "date_kst": "KST 6/5",
           "warn": false,
           "bullets": [
-            "EU 이사회·유럽의회·집행위가 <b>Digital Omnibus on AI</b> 잠정 합의 — EU AI법 시행 이후 첫 공식 개정안으로 <b>기업 부담 완화·의무 이행 유예</b>가 핵심",
-            "Annex III(고위험 AI) 의무 이행 시한을 2026년 8월에서 <b>2027년 12월로 16개월 연장</b> — 아울러 <b>딥페이크·CSAM 생성 AI 활용</b> 관련 신규 금지 행위 2종 추가",
-            "중소기업(SME) 정의를 AI법에 명문화하고 기술 서류·품질관리 요건 간소화 — <b>규제 샌드박스 우선 접근</b>을 소규모 사업자에게 보장해 혁신 생태계 위축 방지"
+            "미 하원 Obernolte·Trahan 의원이 <b>'미국 AI 대법(Great American AI Act)'</b> 269쪽 초안 공개 — 프런티어 AI 거버넌스·인력·사이버보안·연구 <b>4개 타이틀</b>로 구성된 미국 최초 연방 포괄 AI 규제 법안",
+            "대형 AI 개발사에 <b>반기별 제3자 감사</b>·안전 사고 정부 보고 의무 부과 — 동시에 AI 모델 개발 규제에 관한 주(州) 법률을 <b>3년간 선점(Preemption)</b>해 각 주 입법 동결",
+            "공공 의견 수렴 단계인 토론 초안 — 연방-주 규제 갈등 심화 전망이며 소비자·노동 단체의 강한 반대에 직면"
           ],
-          "why": "<b>16개월 유예</b>는 겉보기엔 완화지만, <b>2027년 말 의무 이행 시점</b>이 오면 요구가 한꺼번에 몰린다 — 지금 준비 안 하면 더 큰 충격.",
+          "why": "연방 단일 규제로 빅테크의 규제 불확실성 해소를 노리지만, <b>주 소비자 보호법 3년 동결 조항</b>이 최대 논쟁 포인트로 부상해 입법 실현까지 험로 예상",
+          "quiz": {
+            "q": "'미국 AI 대법' 초안이 제안하는 주(州) AI 규제 선점 기간은?",
+            "opts": ["1년", "2년", "3년", "5년"],
+            "ans": 2
+          },
           "you": null,
-          "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/05/07/artificial-intelligence-council-and-parliament-agree-to-simplify-and-streamline-rules/",
-          "source": "EU Council"
+          "url": "https://fedscoop.com/bipartisan-great-american-ai-act-draft-proposes-new-federal-ai-governance-framework/",
+          "source": "FedScoop"
         },
         {
           "id": "p2",
           "cat": "policy",
-          "title": "콜로라도 AI법 6월 30일 집행 — 미국 주정부 AI 규제 분수령",
-          "meta": "미국 최초 AI 고위험 집행, 6월 30일 D-데이",
-          "date_local": "2026-06-30 (MT)",
-          "date_kst": "KST 7/1",
-          "warn": true,
+          "title": "콜로라도 AI법, 6월 30일 시행 직전 대폭 개정 — 효력 2027년 1월로 연기",
+          "meta": "세계 최초 '고위험 AI' 포괄 주법이 빅테크 로비로 사실상 무력화",
+          "date_local": "2026-05-14 (MT)",
+          "date_kst": "KST 5/15",
+          "warn": false,
           "bullets": [
-            "미국 콜로라도주 AI법이 <b>6월 30일</b>부터 본격 집행 — 교육·고용·보건·주거·보험·법률 서비스 등 <b>6개 '고위험 AI' 영역</b> 배포 기업은 위험 관리·소비자 공시 의무 즉시 이행 필수",
-            "연방 입법 지연 속 <b>주정부가 구속력 있는 AI 규제의 주체</b>로 부상 — 콜로라도를 시작으로 <b>2026년 이후 복수 주의 AI법 시행</b>이 연쇄될 전망",
-            "고위험 AI 배포 기업은 알고리즘 차별 완화 의무와 함께 <b>감사·소비자 이의제기 절차</b>를 갖춰야 해 — 규정 미준수 시 <b>주 검찰·규제 당국의 직접 제재</b> 직면"
+            "콜로라도 주지사가 <b>SB 26-189</b>에 서명 — 2024년 제정된 콜로라도 AI법을 사실상 폐지하고 더 좁은 '<b>자동화 의사결정기술</b>' 규제로 대체",
+            "원래 법률은 고용·교육·금융·의료·보험 등 <b>고위험 AI</b> 개발·배포사에 알고리즘 차별 방지·소비자 공개 의무를 부과할 예정이었으나, 시행 6주 전 개정으로 <b>효력 2027년 1월로 연기</b>",
+            "같은 시기 미 연방 'AI 대법' 초안도 주법 3년 동결 제안 — <b>연방 vs. 주</b> AI 규제 갈등이 올해 핵심 정책 이슈로 확산"
           ],
-          "why": "연방 규제가 없는 미국에서 <b>주정부가 먼저 구속력 있는 집행</b>에 나섰다 — <b>한국 공공기관의 AI 도입 규정 수립</b>에도 참고 기준이 될 선례.",
+          "why": "세계 최초 포괄 AI 소비자 보호법의 후퇴는 <b>규제 불확실성이 지속</b>됨을 시사하며, AI 개발사에 단기 유리하지만 장기 신뢰 구축에는 역효과 우려",
+          "quiz": {
+            "q": "콜로라도 AI법 개정 후 새 효력 발생일은?",
+            "opts": ["2026년 6월 30일", "2026년 9월 1일", "2027년 1월 1일", "2027년 6월 1일"],
+            "ans": 2
+          },
           "you": null,
-          "url": "https://verifywise.ai/blog/state-of-ai-governance-regulations-united-states-2026",
-          "source": "VerifyWise / Cooley"
+          "url": "https://www.hunton.com/privacy-and-cybersecurity-law-blog/colorado-ai-act-amended-and-effective-date-delayed",
+          "source": "Hunton Andrews Kurth"
         },
         {
           "id": "p3",
           "cat": "policy",
-          "title": "백악관, AI 혁신·보안 행정명령 서명 — 규제 완화 기조",
-          "meta": "워싱턴 규제 완화 vs 각 주 강화 — 충돌 본격화",
-          "date_local": "2026-06-02 (ET)",
-          "date_kst": "KST 6/3",
+          "title": "한국 'AI 프라이버시 민·관 정책협의회' 공식 출범",
+          "meta": "AI기본법 시행 후 첫 민관 거버넌스 기구 — 에이전트·물리 AI 대응 분과 운영",
+          "date_local": "2026-06 (KST)",
+          "date_kst": null,
           "warn": false,
           "bullets": [
-            "트럼프 행정부가 <b>'AI 혁신·보안 촉진' 행정명령</b>에 서명 — <b>관료적 규제 부담을 줄이고</b> 민간 혁신 최우선 원칙을 표명",
-            "연방 차원의 <b>AI 국가정책 프레임워크(비구속적 권고안)</b>도 별도 발표 — 아동 안전·언론 자유·혁신·인력 준비 등 <b>6개 원칙</b>으로 주정부 규제와의 조율 추진",
-            "연방 규제 완화와 주정부 AI법 강화 사이의 충돌 심화 — <b>연방 vs 주 관할권</b> 갈등이 2026년 핵심 거버넌스 쟁점으로 부상하며 <b>기업 컴플라이언스 불확실성</b> 증가"
+            "정부가 '<b>2026 AI 프라이버시 민·관 정책협의회</b>'를 공식 출범 — 올해 1월 시행된 AI기본법 후속으로, 에이전트·피지컬 AI 확산 대응·데이터 처리·리스크 관리 <b>3개 분과</b> 운영",
+            "산업계·학계·시민단체 공동 참여 — <b>고영향 AI 사업자 설명 의무</b> 이행 가이드라인 마련 목표, Grok 등 생성 AI 콘텐츠 오남용 대응 <b>프라이버시 공동선언</b> 병행 채택",
+            "딥페이크·허위정보에 대한 <b>사업자 자율 규제 의무 강화</b>와 함께, AI기본법 제정 이후 첫 실질적 민관 거버넌스 기구 가동"
           ],
-          "why": "연방이 규제를 풀어도 주정부가 조이면 <b>기업은 50개 다른 규정을 따라야</b> 한다 — <b>미국 진출·협력을 고려하는 한국 AI 기업</b>에겐 복잡한 환경.",
-          "you": null,
-          "url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
-          "source": "White House"
+          "why": "AI기본법 시행 후 <b>실질적 거버넌스 기구</b>가 처음 가동되는 시점으로, 공공·민간 AI 서비스 사업자의 컴플라이언스 의무가 구체화되는 첫 신호",
+          "quiz": {
+            "q": "한국 AI 프라이버시 민·관 정책협의회의 분과 수는?",
+            "opts": ["2개", "3개", "4개", "5개"],
+            "ans": 1
+          },
+          "you": "공공기관 AI 담당자는 에이전트 AI 분과의 가이드라인 초안을 즉각 주목 — 고영향 AI 서비스 운영 기준에 직결",
+          "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156742576&call_from=rsslink",
+          "source": "대한민국 정책브리핑"
         }
       ]
     },
@@ -238,58 +270,96 @@
       "you": true,
       "items": [
         {
-          "id": "mo1",
+          "id": "f1",
           "cat": "money",
-          "title": "DeepSeek 첫 외부 펀딩 $7.4B — 밸류 $59B",
-          "meta": "중국 AI 자본 역대 최대 — VC 없이 컸던 DeepSeek이 처음 손 벌렸다",
-          "date_local": "2026-06-03 (ET)",
-          "date_kst": "KST 6/4",
+          "title": "SpaceX, 나스닥 상장 첫날 19% 급등 — 사상 최대 $750억 IPO 기록",
+          "meta": "AI 인프라 투자 붐의 집약체 — xAI 지분 보유로 'AI IPO 역사' 새로 씀",
+          "date_local": "2026-06-12 (ET)",
+          "date_kst": "KST 6/13",
           "warn": false,
           "bullets": [
-            "중국 AI 스타트업 <b>DeepSeek</b>이 창업 후 첫 외부 투자 유치 — Tencent·CATL·국가AI산업투자펀드 참여, <b>총액 $7.4B(약 10.3조 원)</b>으로 중국 스타트업 역대 최대 규모",
-            "기업 가치 <b>$59B</b>으로 책정 — 설립자 Liang Wenfeng이 직접 <b>약 40%를 출자</b>하며, 초기 VC 없이 자체 연구력으로 급성장한 DeepSeek의 자본 전략 전환점",
-            "단기 상업화보다 <b>오픈소스 AI 기초 연구</b>에 집중할 것을 투자자에게 공표 — V3·R1 모델로 글로벌 AI 지형을 흔든 뒤 <b>자본력 확보로 미·중 AI 경쟁</b> 한층 가열"
+            "<b>SpaceX(SPCX)</b>가 6월 12일 나스닥 상장, 공모가 <b>$135</b>에서 첫날 19% 급등해 <b>$160.95</b> 마감 — 사우디 아람코($294억, 2019년) 기록 경신한 <b>역사상 최대 IPO</b>($750억 조달)",
+            "상장 후 시가총액 <b>2조 달러</b> 돌파 — Elon Musk의 xAI 지분을 간접 보유해 '우주·AI 복합 투자 상품'으로 기관 자금 대규모 유입",
+            "같은 시기 <b>OpenAI S-1</b>도 비공개 제출, AI 최대 기업 2곳이 동시에 IPO 파이프라인 진입 — 2026년 하반기 <b>AI 기업 상장 파도</b> 본격 개막"
           ],
-          "why": "창업 이후 외부 자본 없이 글로벌을 흔들었던 DeepSeek가 <b>처음 돈을 받았다</b>는 건, 이제 미·중 AI 경쟁이 모델 품질을 넘어 <b>자본전으로 옮겨갔다</b>는 신호.",
+          "why": "SpaceX IPO 성공은 <b>AI 인프라 기업의 공모 시장 진입 가능성</b>을 실증했으며, 후속 AI 기업 상장 시 밸류에이션 기준점 역할 예정",
+          "quiz": {
+            "q": "SpaceX IPO 첫날 마감 주가는 공모가 대비 몇 % 상승했나?",
+            "opts": ["11%", "15%", "19%", "25%"],
+            "ans": 2
+          },
           "you": null,
-          "url": "https://www.bloomberg.com/news/articles/2026-06-03/deepseek-close-to-sealing-7-billion-funding-in-historic-ai-deal",
-          "source": "Bloomberg"
+          "url": "https://www.npr.org/2026/06/12/nx-s1-5855004/stock-ai-spacex-ipo-elon-musk",
+          "source": "NPR"
         },
         {
-          "id": "mo2",
+          "id": "f2",
           "cat": "money",
-          "title": "SpaceX, 6월 12일 나스닥 상장 — $1.77조 역대 최대 IPO",
-          "meta": "역대 최대 IPO, 6월 12일 나스닥 데뷔",
-          "date_local": "2026-06-03 (ET)",
-          "date_kst": "KST 6/4",
+          "title": "Bezos AI 스타트업 Prometheus, $120억 Series B — '물리 세계 AI 엔지니어' 선언",
+          "meta": "제조·항공·신약 설계를 AI로 자동화 — 베이조스가 직접 공동 CEO로 진두지휘",
+          "date_local": "2026-06-11 (ET)",
+          "date_kst": "KST 6/12",
           "warn": false,
           "bullets": [
-            "SpaceX가 나스닥에 티커 <b>SPCX</b>로 6월 12일 첫 거래 예정 — 공모가 <b>$135/주</b>로 5억 5,560만 주 발행, <b>조달 규모 $75B</b>으로 알리바바의 3배를 넘는 역대 최대 IPO",
-            "기업 가치 <b>$1.77T(약 2,465조 원)</b>으로 Tesla($1.6T)를 넘어 <b>미국 시가총액 7위</b> 진입 — 일론 머스크의 의결권 82% 이상 유지 구조",
-            "머스크는 2월 SpaceX와 <b>xAI를 합병</b>(합산 가치 $1.25T) — <b>AI·위성 인터넷(Starlink)·우주 발사를 통합</b>한 복합 기업으로 AI 투자 테마 연계 강화"
+            "Jeff Bezos 공동 CEO의 AI 스타트업 <b>Prometheus</b>가 Series B로 <b>$120억</b> 조달, 기업가치 <b>$410억</b> 확정 — JPMorgan·Goldman Sachs·BlackRock·DST Global 참여, 누적 투자 $180억 돌파",
+            "컴퓨팅·항공우주·자동차·첨단제조·신약개발 대상으로 '<b>인공 범용 엔지니어(Artificial General Engineer)</b>' 구축 목표 — 디자인에서 제조 공정까지 AI 자동화",
+            "직원 약 150명의 초기 단계 기업이 $410억 기업가치로 자금 조달 — <b>물리 AI·로보틱스</b> 분야 투자 과열 신호, 조달 자금 상당 부분을 AI 모델 훈련용 컴퓨팅 확보에 투입 예정"
           ],
-          "why": "<b>xAI 합병</b>으로 AI·우주·위성 사업이 하나의 주식에 묶인다 — <b>지금까지 없던 복합 투자 테마</b>가 탄생하면서 AI 포트폴리오 재편 압력이 커진다.",
-          "you": "역대 최대 IPO 수급 이벤트 — AI·우주 복합 테마 투자 전략 재검토 시점",
-          "url": "https://fortune.com/2026/06/03/spacex-ipo-share-price-index-funds-valuation-public/",
-          "source": "Fortune"
+          "why": "소프트웨어 AI를 넘어 <b>물리 세계 설계·제조 자동화</b>로의 도약을 베이조스가 직접 선도 — 제조업·반도체 설계 등 산업 전반 AI 침투 가속화 신호",
+          "quiz": {
+            "q": "Prometheus의 Series B 이후 기업가치(valuation)는?",
+            "opts": ["$100억", "$200억", "$300억", "$410억"],
+            "ans": 3
+          },
+          "you": null,
+          "url": "https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/",
+          "source": "TechCrunch"
         },
         {
-          "id": "mo3",
+          "id": "f3",
           "cat": "money",
-          "title": "Q1 2026 글로벌 AI 벤처 투자 $3,000억 사상 최대",
-          "meta": "AI가 벤처 투자의 80%를 빨아들이고 있다",
-          "date_local": "2026-06 (UTC)",
-          "date_kst": "KST 6월",
+          "title": "OpenAI, SEC에 비공개 S-1 제출 — $1조 밸류에이션 9월 IPO 목표",
+          "meta": "역사상 가장 비싼 AI 기업의 공모 — Goldman·Morgan Stanley 주관으로 AI 랩 IPO 시대 개막",
+          "date_local": "2026-06-09 (ET)",
+          "date_kst": "KST 6/10",
           "warn": false,
           "bullets": [
-            "2026년 1분기 글로벌 스타트업 벤처 투자가 <b>$3,000억(약 418조 원)</b>을 돌파 — 6,000개사에 집행됐으며 이 중 AI 스타트업이 <b>80%($2,420억)</b> 차지해 AI 집중화 심화",
-            "5월 한 달만으로도 <b>$920억</b> 투자로 역대 월간 2위 기록 — AI 인프라·에이전트·멀티모달 분야에 자본이 집중되며 <b>AI 붐의 지속성</b> 확인",
-            "방위·우주 스타트업 투자도 역대 최고치 경신 — AI와 국방의 융합이 VC 주요 테마로 부상하며 <b>AI 듀얼유즈 기술</b>에 대한 관심 급상승"
+            "<b>OpenAI</b>가 Goldman Sachs·Morgan Stanley·JPMorgan 주관으로 <b>비공개 S-1</b> 미 SEC 제출 — 목표 밸류에이션 <b>$1조</b>, 2026년 9~11월 상장 창 설정",
+            "비공개 S-1은 재무 정보를 규제 당국과만 공유하고 공모 직전 공개하는 방식 — 이번 제출로 <b>AI 랩이 실제 IPO 파이프라인에 진입</b>한 사실 공식 확인",
+            "SpaceX와 동시에 두 AI 대표 기업이 상장 절차 진행 — <b>AI IPO 역대 최대 파도</b>가 2026년 하반기 공모 시장의 핵심 이벤트로 부상"
           ],
-          "why": "<b>AI 아닌 스타트업</b>이 투자 유치 경쟁에서 극도로 불리해지는 환경 — AI 투자 쏠림이 <b>버블의 서막인지, 구조적 전환인지</b>가 2026년 하반기 최대 화두.",
+          "why": "OpenAI IPO는 AI 투자 열풍의 공모 시장 편입을 의미하며, <b>$1조 기업가치 검증</b> 여부가 전체 AI 섹터 밸류에이션의 앵커 역할",
+          "quiz": {
+            "q": "OpenAI가 목표하는 IPO 상장 시기는?",
+            "opts": ["2026년 7~8월", "2026년 9~11월", "2027년 1월", "2026년 12월"],
+            "ans": 1
+          },
           "you": null,
-          "url": "https://news.crunchbase.com/venture/record-breaking-funding-ai-global-q1-2026/",
-          "source": "Crunchbase"
+          "url": "https://www.techtimes.com/articles/317955/20260607/openai-targets-ipo-soon-september-850-billion.htm",
+          "source": "TechTimes"
+        },
+        {
+          "id": "f4",
+          "cat": "money",
+          "title": "NVIDIA, 수출 규제 우회해 中에 Vera CPU 8월 공급 추진",
+          "meta": "GPU 수출 봉쇄에 막힌 NVIDIA의 우회로 — 중국 AI 인프라 시장 재진입 시도",
+          "date_local": "2026-06-12 (ET)",
+          "date_kst": "KST 6/13",
+          "warn": false,
+          "bullets": [
+            "<b>NVIDIA</b>가 중국 고객에 Arm 기반 88코어 AI 전용 CPU '<b>Vera</b>'를 <b>8월</b>부터 공급 가능하다고 통보 — 대형 중국 클라우드 업체가 300대 이상 듀얼 Vera 서버 선주문 준비 중",
+            "미국 GPU 수출 규제로 H100·H200 판매가 봉쇄된 상황에서, CPU는 현행 규제 대상에서 제외 — <b>AI 인프라 오케스트레이션·메모리 관리</b> 역할로 포지셔닝",
+            "Jensen Huang이 '중국 시장 점유율이 사실상 0%로 추락'이라고 언급한 이후 첫 재진입 전략 — <b>소프트웨어 생태계·마이그레이션</b> 과제가 광범위 채택의 최대 변수"
+          ],
+          "why": "반도체 수출 통제의 공백을 <b>CPU로 우회하는 전략</b>은 미-중 기술 갈등 구도를 복잡하게 만들며, 중국 AI 인프라 독자 구축 속도에도 영향",
+          "quiz": {
+            "q": "NVIDIA Vera CPU의 코어 수는?",
+            "opts": ["48코어", "64코어", "88코어", "128코어"],
+            "ans": 2
+          },
+          "you": null,
+          "url": "https://www.tomshardware.com/pc-components/cpus/nvidia-offers-china-early-access-to-vera-cpus-as-h200-sales-stay-frozen",
+          "source": "Tom's Hardware"
         }
       ]
     },
@@ -301,56 +371,71 @@
         {
           "id": "k1",
           "cat": "korea",
-          "title": "SK하이닉스, 엔비디아 루빈 HBM4 물량 선점",
-          "meta": "엔비디아 루빈 메모리 독점 노리는 SK하이닉스",
-          "date_local": "2026-06 (KST)",
+          "title": "삼성전자, 구글 차세대 TPU '아이스피시' 2나노 생산 협력 논의",
+          "meta": "TSMC 독점 균열 신호탄 — 삼성 파운드리의 대형 AI칩 수주 가능성 부상",
+          "date_local": "2026-06-12 (KST)",
           "date_kst": null,
           "warn": false,
           "bullets": [
-            "SK하이닉스가 세계 최초로 <b>HBM4 개발·양산 체제</b>를 구축 — HBM3E 대비 <b>대역폭 2배·전력 효율 40% 향상</b>으로 엔비디아 차세대 플랫폼 '루빈(Rubin)' 물량 상당 부분 선점",
-            "2026년 <b>HBM4 점유율 70%</b> 목표로 생산 극대화 — HBM은 AI 가속기의 핵심 메모리로 <b>공급 경쟁력이 엔비디아와의 협상력</b>에 직결",
-            "삼성전자도 최고 속도 <b>11.8Gbps HBM4</b> 양산 출하를 2월 개시 — <b>HBM 매출을 전년 대비 3배 이상</b> 확대 목표로 국내 메모리 양강의 선점 경쟁 본격화"
+            "구글이 <b>10세대 TPU '아이스피시(Icefish)'</b>의 메모리 I/O 다이를 <b>삼성전자 2나노 공정</b>으로 생산하는 방안을 협의 중 — 메인 프로세서는 TSMC 1.4나노, 삼성은 I/O 다이 분담 구조",
+            "TSMC의 생산 능력이 NVIDIA 등 선주문으로 포화 상태에 달해 <b>공급망 이원화</b> 필요성 증가 — 구글의 삼성 발주가 삼성 파운드리의 AI칩 레퍼런스 수주 첫 사례가 될 전망",
+            "아이스피시는 <b>2028년 대량 생산</b> 예정 — 현재 협의 단계이며, 삼성 파운드리 사업의 AI 반도체 부문 회복을 가를 핵심 수주 건"
           ],
-          "why": "<b>HBM4 70% 점유율</b>이 현실화되면 엔비디아 AI 칩 수익의 상당 부분이 SK하이닉스로 흘러들어온다 — 반도체 투자자라면 <b>메모리 점유율이 주가의 핵심 변수</b>.",
-          "you": "HBM4 국내 양강 경쟁 가속 — 반도체 투자자라면 SK하이닉스·삼성전자 HBM 출하 실적 주목",
-          "url": "https://www.koreaherald.com/article/10633799",
-          "source": "코리아헤럴드"
+          "why": "<b>삼성 파운드리</b>가 TSMC 독점 체제에 균열을 내는 첫 AI 칩 수주 기회를 잡을 수 있어, 반도체 공급망 재편의 시금석이 될 전망",
+          "quiz": {
+            "q": "구글 아이스피시 TPU에서 삼성이 맡을 것으로 논의 중인 부분은?",
+            "opts": ["메인 프로세서", "메모리 I/O 다이", "HBM 스택", "패키징 전체"],
+            "ans": 1
+          },
+          "you": "삼성전자 파운드리 수주 성사 여부가 삼성 주가 및 국내 반도체 장비 생태계에 직결 — 반도체 투자자 필수 모니터링",
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=211639",
+          "source": "AI타임스"
         },
         {
           "id": "k2",
           "cat": "korea",
-          "title": "한국 150조원 공공성장펀드 — AI·반도체에 10.2조원 투입",
-          "meta": "AI·반도체 국가 베팅 — 150조원 중 10.2조원이 집중 투입",
+          "title": "리벨리온·퓨리오사AI, 국산 AI반도체 성능검증 'K-Perf' 통과",
+          "meta": "단일 카드로 1,200억 파라미터 모델 구동 — 국산 AI칩의 서비스 현장 투입 공식화",
           "date_local": "2026-06 (KST)",
           "date_kst": null,
           "warn": false,
           "bullets": [
-            "정부가 <b>150조원 공공성장펀드</b>를 조성해 AI·반도체·이차전지·바이오에 5년간 집중 투자 — AI에 <b>6조원</b>, 반도체에 4.2조원, 미래 모빌리티에 3.1조원 배분",
-            "AI·반도체 R&D 예산을 전년 대비 <b>30% 증액</b>해 8.6조원 편성 — <b>AI칩 개발에 1.27조원</b>, 차세대 메모리에 215.9억원, 화합물 반도체·패키징에 6,200억원 투입",
-            "2047년까지 <b>반도체 팹 10개소 신설·월 790만 장</b> 생산 능력 목표 — 총 <b>700조원 투자 계획</b>으로 글로벌 반도체 공급망 내 한국의 전략적 위치 강화 추진"
+            "과기부·IITP가 추진하는 국산 AI반도체 성능검증 체계 <b>K-Perf</b> 시범 검증에서 <b>리벨리온·퓨리오사AI</b> 제품 모두 수요 기업 요구 기준 충족",
+            "리벨리온 <b>R100</b>은 <b>1,200억 파라미터</b> 규모의 GPT-oss-120B 모델을 단일 카드에서 구동 — 퓨리오사AI는 LG AI연구원 '엑사원 4.0 32B'로 복수 레니게이드 연결 방식으로 검증",
+            "AI 챗봇·문서 검색·보고서 생성·대용량 문서 분석 등 <b>실제 서비스 환경</b> 기준으로 성능 측정 — 국산 AI칩의 공공·기업 서비스 현장 투입 가능성 공식 확인"
           ],
-          "why": "<b>5년간 확정 투입</b>되는 공공 자금은 기업 투자 유인과 함께, <b>공공기관 AI 사업 예산의 직접적 근거</b>가 된다.",
+          "why": "국산 AI칩이 글로벌 벤치마크가 아닌 <b>실서비스 환경 검증</b>을 통과함으로써, NVIDIA GPU 의존 탈피와 국내 AI 자립 인프라 구축의 현실적 경로가 열림",
+          "quiz": {
+            "q": "리벨리온 R100이 단일 카드에서 구동에 성공한 모델의 파라미터 규모는?",
+            "opts": ["700억", "1,000억", "1,200억", "1,500억"],
+            "ans": 2
+          },
           "you": null,
-          "url": "https://www.koreaherald.com/article/10640375",
-          "source": "코리아헤럴드"
+          "url": "https://www.e-focus.co.kr/news/articleView.html?idxno=3002077",
+          "source": "이포커스"
         },
         {
           "id": "k3",
           "cat": "korea",
-          "title": "정부, AI반도체 실증·상용화 지원 대폭 확대",
-          "meta": "정부가 국내 AI칩 스타트업 실전 테스트 기회를 열었다",
-          "date_local": "2026-06 (KST)",
+          "title": "SK하이닉스, HBM4 NVIDIA 인증 완료 — 다년 기술협력 MOU 체결",
+          "meta": "HBM 1위 독점 공급 구조를 HBM4에서도 굳히기 — Jensen Huang 방한으로 공식화",
+          "date_local": "2026-06-08 (KST)",
           "date_kst": null,
           "warn": false,
           "bullets": [
-            "과기부가 <b>AI반도체 실증·상용화 지원</b> 계획을 발표 — AI칩 스타트업·중소기업이 <b>실제 서비스 환경에서 제품을 테스트·검증</b>할 수 있는 기회를 정부 주도로 대폭 확대",
-            "데이터센터·클라우드·자율주행 등 분야별 <b>AI반도체 파일럿 프로젝트</b>를 신설해 국내 팹리스 기업의 <b>실전 레퍼런스 및 해외 판로</b> 확보 지원",
-            "AI·반도체·양자를 연계한 <b>NEXT 전략기술 다부처 로드맵</b> 실행 — <b>중복 투자 없이 기술 상용화 속도</b>를 높이는 국가 R&D 조정 체계 강화"
+            "NVIDIA CEO <b>Jensen Huang</b>이 방한해 <b>SK하이닉스</b>와 차세대 <b>HBM4</b> 다년간 기술협력 MOU 체결 — 3개 메모리 제조사 중 HBM4 공인 완료 확인",
+            "SK하이닉스는 HBM 시장 <b>53% 점유율</b> 1위 유지 — 2027년까지 생산 용량 <b>4배 이상</b> 확대를 위한 $150억 투자 계획 재확인",
+            "삼성·마이크론도 NVIDIA 16-Hi HBM4 발주 경쟁 중이나, <b>SK하이닉스의 선제 인증·MOU</b>로 HBM4 세대 공급망 주도권 선점"
           ],
-          "why": "<b>레퍼런스 없는 국내 팹리스 업체들</b>이 정부 지원으로 실제 데이터센터에서 검증받게 되면 <b>해외 진출 명분</b>도 함께 생긴다.",
+          "why": "SK하이닉스의 NVIDIA 독점 공급 구조가 HBM4 세대에서도 유지될 가능성이 높아지면서, <b>한국 메모리 반도체의 AI 공급망 핵심 지위</b>가 공고화될 전망",
+          "quiz": {
+            "q": "SK하이닉스의 현재 HBM 시장 점유율은?",
+            "opts": ["35%", "43%", "53%", "62%"],
+            "ans": 2
+          },
           "you": null,
-          "url": "https://m.korea.kr/news/pressReleaseView.do?newsId=156744252&pWise=mSub&pWiseSub=C6",
-          "source": "정책브리핑(과기부)"
+          "url": "https://www.tweaktown.com/news/109495/sk-hynix-samsung-and-micron-fighting-for-nvidia-supply-contracts-for-new-16-hi-hbm4-orders/index.html",
+          "source": "Tweaktown"
         }
       ]
     }
