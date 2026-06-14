@@ -100,6 +100,21 @@ try {
   if (!favApi && fs.existsSync(urlFile)) favApi = fs.readFileSync(urlFile, "utf8").trim();
   if (favApi) log("즐겨찾기 중계 연결:", favApi); else log("중계 URL 없음 → localStorage 모드");
 
+  // 요일별 강조색 — 앱 카테고리 색 재사용(비슷한 톤). --gold/--gold-soft/--gold-rgb만 바꾸면 모든 강조요소가 같이 바뀜
+  const ACCENTS = [
+    { n: "일", g: "#6FA8E0", s: "#9cc3ec", rgb: "111,168,224" },  // 0 일 = 블루
+    { n: "월", g: "#EBA940", s: "#f3c373", rgb: "235,169,64" },   // 1 월 = 골드(기존)
+    { n: "화", g: "#E08A5B", s: "#ecae8c", rgb: "224,138,91" },   // 2 화 = 코랄
+    { n: "수", g: "#E07A9B", s: "#ec9fba", rgb: "224,122,155" },  // 3 수 = 로즈
+    { n: "목", g: "#A593E0", s: "#c2b4ec", rgb: "165,147,224" },  // 4 목 = 바이올렛
+    { n: "금", g: "#4FC4BC", s: "#84d6d0", rgb: "79,196,188" },   // 5 금 = 틸
+    { n: "토", g: "#7DBE7D", s: "#a4d4a4", rgb: "125,190,125" },  // 6 토 = 그린
+  ];
+  const wd = new Date(Date.parse(date)).getUTCDay();  // date=YYYY-MM-DD(KST) → UTC 자정 파싱, 0=일
+  const ac = ACCENTS[Number.isNaN(wd) ? 1 : wd];
+  const accentStyle = `<style id="accent">:root{--gold:${ac.g};--gold-soft:${ac.s};--gold-rgb:${ac.rgb};}</style>`;
+  log(`요일 강조색: ${ac.n}요일 → ${ac.g}`);
+
   const escAttr = s => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
   const pageTitle = `AI 데일리 · ${date} ${slot} (${nowKST})`;
   const ogTitle = escAttr(`AI 데일리 · ${date} ${slot}`);
@@ -109,7 +124,8 @@ try {
     .replace("__DIGEST_DATA_B64__", b64)
     .replace("__FAV_API_URL__", favApi)
     .replace("__OG_TITLE__", () => ogTitle)
-    .replace("__OG_DESC__", () => ogDesc);
+    .replace("__OG_DESC__", () => ogDesc)
+    .replace("__ACCENT_OVERRIDE__", () => accentStyle);
 
   fs.writeFileSync(outFile, html, "utf8");
   log("생성 완료:", outFile);
