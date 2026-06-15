@@ -54,12 +54,30 @@ if [ -n "$OFF_BOT" ]; then
   OFFFILE="$(node build-offline.js "$BUILT" | tail -n1)" || OFFFILE=""
   if [ -n "$OFFFILE" ] && [ -f "$OFFFILE" ]; then
     OFFNAME="AI-Daily-${DATE}-${SLOT}.html"
+    # 접힌 상태 미리보기 이미지: 오프라인 파일(자기완결)을 로컬 렌더 → cert 문제 없음·한글 정상. 크로미움 없으면 이미지 생략.
+    IMG=""
+    CHROME="$(command -v google-chrome-stable || command -v google-chrome || command -v chromium || command -v chromium-browser || true)"
+    [ -z "$CHROME" ] && CHROME="$(ls /opt/pw-browsers/chromium-*/chrome-linux*/chrome 2>/dev/null | head -n1 || true)"
+    if [ -n "$CHROME" ]; then
+      N="$(node -e 'const fs=require("fs");const m=fs.readFileSync(process.argv[1],"utf8").match(/const __B64__ = "([^"]+)"/);let n=0;if(m){const d=JSON.parse(Buffer.from(m[1],"base64").toString());(d.sections||[]).forEach(s=>n+=(s.items||[]).length);}process.stdout.write(String(n||16))' "$BUILT")" || N=16
+      HGT=$((460 + N * 128))
+      if timeout 80 "$CHROME" --headless=new --disable-gpu --no-sandbox --hide-scrollbars \
+           --force-device-scale-factor=2 --window-size=470,${HGT} --virtual-time-budget=9000 \
+           --screenshot=collapsed.png "file://${OFFFILE}" >/dev/null 2>&1 && [ -s collapsed.png ]; then
+        IMG="collapsed.png"; echo "[run] 접힌 이미지 렌더 OK (${N}카드 ${HGT}px)"
+      else
+        echo "[run] 접힌 이미지 렌더 실패 — 파일만 전송"
+      fi
+    fi
     for UID in "${USER1:-}" "${USER2:-}"; do
       [ -n "$UID" ] || continue
+      [ -n "$IMG" ] && curl -s "https://api.telegram.org/bot${OFF_BOT}/sendPhoto" \
+        -F "chat_id=${UID}" -F "photo=@${IMG}" \
+        -F "caption=📰 AI 데일리 · ${DATE} ${SLOT} (${TIME} KST) — 접힌 미리보기" >/dev/null && echo "[run] offline image: ${UID}"
       curl -s "https://api.telegram.org/bot${OFF_BOT}/sendDocument" \
         -F "chat_id=${UID}" \
         -F "document=@${OFFFILE};filename=${OFFNAME}" \
-        -F "caption=📄 AI 데일리 오프라인 · ${DATE} ${SLOT} (${TIME} KST)" >/dev/null && echo "[run] offline sent: ${UID}"
+        -F "caption=전체 HTML(오프라인 저장용)" >/dev/null && echo "[run] offline file: ${UID}"
     done
   else
     echo "[run] 오프라인 빌드 실패 — 건너뜀"
