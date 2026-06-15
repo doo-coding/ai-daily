@@ -46,3 +46,22 @@ curl -s "https://api.telegram.org/bot${TG_BOT_TOKEN}/sendMessage" \
   --data-urlencode "chat_id=${TG_CHAT_ID}" \
   --data-urlencode "text=📰 AI 데일리 · ${DATE} ${SLOT} (${TIME} KST)
 ${URL}" >/dev/null && echo "[run] sent: link"
+
+# 5) 오프라인 HTML(메모·즐겨찾기 없음, 폰트 내장)을 2번째 봇으로 1:1 전송(sendDocument)
+#    환경변수(루틴): AI_NEWS7TO7_BOT(봇토큰), USER1·USER2(받는 사람 chat_id). 없으면 이 단계 건너뜀.
+OFF_BOT="${AI_NEWS7TO7_BOT:-}"
+if [ -n "$OFF_BOT" ]; then
+  OFFFILE="$(node build-offline.js "$BUILT" | tail -n1)" || OFFFILE=""
+  if [ -n "$OFFFILE" ] && [ -f "$OFFFILE" ]; then
+    OFFNAME="AI-Daily-${DATE}-${SLOT}.html"
+    for UID in "${USER1:-}" "${USER2:-}"; do
+      [ -n "$UID" ] || continue
+      curl -s "https://api.telegram.org/bot${OFF_BOT}/sendDocument" \
+        -F "chat_id=${UID}" \
+        -F "document=@${OFFFILE};filename=${OFFNAME}" \
+        -F "caption=📄 AI 데일리 오프라인 · ${DATE} ${SLOT} (${TIME} KST)" >/dev/null && echo "[run] offline sent: ${UID}"
+    done
+  else
+    echo "[run] 오프라인 빌드 실패 — 건너뜀"
+  fi
+fi
