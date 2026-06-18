@@ -497,5 +497,42 @@
       "_section": "연구"
     },
     "memo": "아니 이게 무슨소리야??? 벤치마크 자체가 문제였다니. 수많은 벤치마크 중 하나야 뭐야?"
+  },
+  "xaf889cafeea5": {
+    "id": "xaf889cafeea5",
+    "date": "2026-06-19",
+    "slot": "am",
+    "ts": "2026-06-18T23:52:20.261Z",
+    "item": {
+      "id": "xaf889cafeea5",
+      "cat": "policy",
+      "title": "Microsoft AI 수장 \"18개월 내 모든 사무직 AI 자동화\" — 전례 없이 구체적인 타임라인",
+      "meta": "AI 기업 최고위 임원이 공개 석상에서 처음 제시한 전면 자동화 타임라인",
+      "date_local": "2026-06-17 (ET)",
+      "date_kst": "KST 6/17",
+      "warn": false,
+      "bullets": [
+        "Microsoft AI 책임자 Mustafa Suleyman이 Fortune 인터뷰에서 <b>\"18개월 이내에 대부분의 사무직 업무가 AI에 의해 자동화될 것\"</b>이라고 예측, 업계 최고위 임원의 전례 없이 구체적인 타임라인 제시",
+        "Suleyman은 AI가 단순 반복을 넘어 <b>분석·판단·의사소통을 포함한 화이트칼라 전 영역</b>으로 확장될 것이라며, 지금이 인력 재교육에 투자해야 할 마지막 기회라고 강조",
+        "이 발언은 <b>G7 AI 일정과 미국 AI 법안 논의가 집중된 주</b>에 나와, 자동화 충격 완화를 위한 정책적 대응의 시급성을 부각"
+      ],
+      "why": "AI 기업 내부에서 <b>자동화가 더 이상 먼 미래의 이야기가 아님</b>을 공개적으로 인정한 것으로, 공공·기관 영역의 AI 전환 속도 계획을 재조정해야 한다는 신호",
+      "quiz": {
+        "q": "Mustafa Suleyman이 예측한 사무직 AI 자동화 타임라인은?",
+        "opts": [
+          "5년 이내",
+          "10년 이내",
+          "3년 이내",
+          "18개월 이내"
+        ],
+        "ans": 3
+      },
+      "you": null,
+      "url": "https://fortune.com/article/why-microsoft-ai-chief-mustafa-suleyman-predicts-ai-automation-18-months/",
+      "source": "Fortune",
+      "_icon": "🏛",
+      "_section": "정책 · 거버넌스"
+    },
+    "memo": ""
   }
 }
