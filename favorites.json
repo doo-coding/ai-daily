@@ -460,5 +460,42 @@
       "_section": "산업 · 자본"
     },
     "memo": "앤트로픽이 다 한다 ㅡ 수치 알아야겠다\n클로드코드 점유율"
+  },
+  "xe15297dcc6f1": {
+    "id": "xe15297dcc6f1",
+    "date": "2026-06-19",
+    "slot": "am",
+    "ts": "2026-06-18T23:52:05.248Z",
+    "item": {
+      "id": "xe15297dcc6f1",
+      "cat": "research",
+      "title": "Epoch AI, FrontierMath v2 공개 — 원본 문제 42%에서 오류 발견·수정",
+      "meta": "AI 수학 능력의 '금기준'이 되어야 할 벤치마크 자체에 체계적 오류가 있었다는 충격",
+      "date_local": "2026-06-12 (UTC)",
+      "date_kst": "KST 6/13",
+      "warn": true,
+      "bullets": [
+        "Epoch AI가 수학 AI 벤치마크 FrontierMath의 버전 2를 공개하며, <b>감사 결과 원본 문제의 42%에서 소규모이지만 치명적인 오류가 발견</b>돼 135개 수정·12개 삭제",
+        "수정 후 남은 문제는 <b>총 338개</b>로, Tier 1~3(현대 수학 전 분야 망라)와 Tier 4(수학자 수일 소요 난이도)로 구성",
+        "FrontierMath는 <b>OpenAI의 지원을 받아 개발</b>된 벤치마크로, 현재 최고 AI 모델들도 풀기 어려운 난이도를 유지하며 AI 수학 능력의 실질적 한계 측정 도구로 활용"
+      ],
+      "why": "<b>AI 능력을 판단하는 벤치마크 자체의 신뢰성이 흔들린 사례</b>로, 기존 모델 성능 비교 수치를 재검토해야 할 필요성을 제기하며 AI 평가 체계 전반의 감사 필요성 부각",
+      "quiz": {
+        "q": "FrontierMath v2에서 수정된 문제 수는?",
+        "opts": [
+          "42개",
+          "338개",
+          "135개",
+          "12개"
+        ],
+        "ans": 2
+      },
+      "you": null,
+      "url": "https://www.digitalapplied.com/blog/epoch-frontiermath-v2-error-corrected-ai-benchmark-analysis",
+      "source": "Digital Applied",
+      "_icon": "🔬",
+      "_section": "연구"
+    },
+    "memo": "아니 이게 무슨소리야??? 벤치마크 자체가 문제였다니. 수많은 벤치마크 중 하나야 뭐야?"
   }
 }
