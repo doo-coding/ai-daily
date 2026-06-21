@@ -571,5 +571,42 @@
       "_section": "산업 · 자본"
     },
     "memo": ""
+  },
+  "x7e498b094e27": {
+    "id": "x7e498b094e27",
+    "date": "2026-06-22",
+    "slot": "am",
+    "ts": "2026-06-21T22:53:46.599Z",
+    "item": {
+      "id": "x7e498b094e27",
+      "cat": "model",
+      "title": "ChatGPT 시장점유율 46.4% — 3.5년 만에 처음으로 과반 상실",
+      "meta": "절반 아래로 떨어진 ChatGPT, AI 어시스턴트 시장의 구조적 다극화",
+      "date_local": "2026-06-21 (ET)",
+      "date_kst": "KST 6/21",
+      "warn": false,
+      "bullets": [
+        "ChatGPT의 글로벌 AI 어시스턴트 시장 점유율이 <b>2022년 11월 출시 이후 처음으로 50% 아래인 46.4%</b>로 하락 — 2025년 초 약 70%에서 꾸준히 감소",
+        "<b>Gemini 27.7%, Claude 10.3%</b>가 2·3위 차지 — Perplexity·Copilot·Mistral 등도 지분을 나눠 가지는 다극화 구도로 재편",
+        "Fable 5 오프라인으로 Claude 점유율 성장이 제약받는 사이 <b>Gemini가 반사이익</b> — Google I/O 이후 Gemini 앱 사용자 수 역대 최고치 경신"
+      ],
+      "why": "OpenAI 독점에서 <b>3강 경쟁 체제로의 전환</b>이 수치로 확인되는 순간 — ChatGPT 중심이던 기업 AI 도입 전략 재검토 신호.",
+      "quiz": {
+        "q": "2026년 5월 말 기준 ChatGPT의 글로벌 AI 어시스턴트 시장 점유율은?",
+        "opts": [
+          "46.4%",
+          "42.1%",
+          "53.7%",
+          "58.9%"
+        ],
+        "ans": 0
+      },
+      "you": null,
+      "url": "https://unrot.co/blogs/ai-news-today-june-21-2026",
+      "source": "unrot.co",
+      "_icon": "🚀",
+      "_section": "모델 · 출시"
+    },
+    "memo": ""
   }
 }
