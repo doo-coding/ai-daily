@@ -49,11 +49,23 @@ try {
     const fav = JSON.parse(fs.readFileSync(path.join(ROOT, "favorites.json"), "utf8"));
     Object.values(fav || {}).forEach(r => { if (r && r.item) seenSet.add(keyOf(r.item)); });
   } catch (e) {}
-  let keptCount = 0;
-  data.sections.forEach(s => { s.items = (s.items || []).filter(it => !seenSet.has(keyOf(it))); keptCount += s.items.length; });
+  // 최근 3일 이내(발행일 date_local 기준)만 — 모델이 오래된 기사로 채워도 빌드에서 강제 제외(모델 무관)
+  const _today = data.date || new Date().toISOString().slice(0, 10);
+  const _cutoffMs = Date.parse(_today) - 3 * 864e5;  // 오늘 -3일
+  const _itemDateMs = it => { const m = String((it && it.date_local) || "").match(/\d{4}-\d{2}-\d{2}/); return m ? Date.parse(m[0]) : NaN; };
+  let _staleDropped = 0, keptCount = 0;
+  data.sections.forEach(s => {
+    s.items = (s.items || []).filter(it => {
+      if (seenSet.has(keyOf(it))) return false;               // 중복/즐겨찾기 제외
+      const d = _itemDateMs(it);
+      if (!Number.isNaN(d) && d < _cutoffMs) { _staleDropped++; return false; }  // 발행일이 3일보다 오래됨 → 제외
+      return true;
+    });
+    keptCount += s.items.length;
+  });
   data.sections = data.sections.filter(s => s.items.length > 0);
-  log(`중복·즐겨찾기 제외 후 새 항목 ${keptCount}개 (총 ${itemCount}개 중)`);
-  if (keptCount === 0) throw new Error("새 소식 없음(다 봤거나 즐겨찾기한 기사뿐) — 발송 생략");
+  log(`중복·즐겨찾기 + 3일 컷오프(오래된 ${_staleDropped}개 제외) 후 ${keptCount}개 (총 ${itemCount}개 중)`);
+  if (keptCount === 0) throw new Error("최근 3일 내 새 기사 없음 — 발송 생략");
   // 즐겨찾기 id 충돌 방지: 기사별 고유(url 기반) id. m1/d2 재사용 때문에 새 글이 ★처럼 보이던 버그 수정
   const _crypto = require("crypto");
   data.sections.forEach(s => s.items.forEach(it => { it.id = "x" + _crypto.createHash("md5").update(keyOf(it)).digest("hex").slice(0, 12); }));
