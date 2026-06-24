@@ -61,9 +61,12 @@ if [ -n "$OFF_BOT" ]; then
     if [ -n "$CHROME" ]; then
       N="$(node -e 'const fs=require("fs");const m=fs.readFileSync(process.argv[1],"utf8").match(/const __B64__ = "([^"]+)"/);let n=0;if(m){const d=JSON.parse(Buffer.from(m[1],"base64").toString());(d.sections||[]).forEach(s=>n+=(s.items||[]).length);}process.stdout.write(String(n||16))' "$BUILT")" || N=16
       HGT=$((460 + N * 128))
+      # 렌더 전용 사본: 콘텐츠가 뷰포트 폭을 꽉 채우게(좌우 여백 제거) + 배경 평탄화. 클라우드 크로미움이 --window-size를 무시해도 여백 안 생김
+      RENDER="$(pwd)/render.html"
+      node -e 'const fs=require("fs");let h=fs.readFileSync(process.argv[1],"utf8");h=h.replace("</head>","<style>.wrap{max-width:none!important}body::before,body::after{display:none!important}body{background:#0d0f14!important}</style></head>");fs.writeFileSync(process.argv[2],h)' "$OFFFILE" "$RENDER" 2>/dev/null || cp "$OFFFILE" "$RENDER"
       if timeout 80 "$CHROME" --headless=new --disable-gpu --no-sandbox --hide-scrollbars \
            --force-device-scale-factor=2 --window-size=470,${HGT} --virtual-time-budget=9000 \
-           --screenshot=collapsed.png "file://${OFFFILE}" >/dev/null 2>&1 && [ -s collapsed.png ]; then
+           --screenshot=collapsed.png "file://${RENDER}" >/dev/null 2>&1 && [ -s collapsed.png ]; then
         IMG="collapsed.png"; echo "[run] 접힌 이미지 렌더 OK (${N}카드 ${HGT}px)"
       else
         echo "[run] 접힌 이미지 렌더 실패 — 파일만 전송"
