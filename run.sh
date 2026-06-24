@@ -69,15 +69,15 @@ if [ -n "$OFF_BOT" ]; then
         echo "[run] 접힌 이미지 렌더 실패 — 파일만 전송"
       fi
     fi
-    for UID in "${USER1:-}" "${USER2:-}"; do
-      [ -n "$UID" ] || continue
+    for RCID in "${USER1:-}" "${USER2:-}"; do
+      [ -n "$RCID" ] || continue
       [ -n "$IMG" ] && curl -s "https://api.telegram.org/bot${OFF_BOT}/sendPhoto" \
-        -F "chat_id=${UID}" -F "photo=@${IMG}" \
-        -F "caption=📰 AI 데일리 · ${DATE} ${SLOT} (${TIME} KST) — 접힌 미리보기" >/dev/null && echo "[run] offline image: ${UID}"
+        -F "chat_id=${RCID}" -F "photo=@${IMG}" \
+        -F "caption=📰 AI 데일리 · ${DATE} ${SLOT} (${TIME} KST) — 접힌 미리보기" >/dev/null && echo "[run] offline image: ${RCID}"
       curl -s "https://api.telegram.org/bot${OFF_BOT}/sendDocument" \
-        -F "chat_id=${UID}" \
+        -F "chat_id=${RCID}" \
         -F "document=@${OFFFILE};filename=${OFFNAME}" \
-        -F "caption=전체 HTML(오프라인 저장용)" >/dev/null && echo "[run] offline file: ${UID}"
+        -F "caption=전체 HTML(오프라인 저장용)" >/dev/null && echo "[run] offline file: ${RCID}"
     done
   else
     echo "[run] 오프라인 빌드 실패 — 건너뜀"
