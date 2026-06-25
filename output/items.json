@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-24",
+  "date": "2026-06-25",
   "slot": "pm",
-  "date_line": "2026년 6월 24일 (수) · 저녁 · 8건 선별",
+  "date_line": "2026년 6월 25일 (목) · 저녁 · 13건 선별",
   "kicker": "AI 데일리 · 자동 발송",
   "footer_tag": "✈ via Telegram · 매일 07:00 · 19:00 자동 발송",
-  "oneline": "<b>Claude Fable 5</b>가 오늘부터 유료 전환되며 AI 구독 생태계가 재편되는 가운데, <b>SK하이닉스</b>는 어제 <b>25년 만에 삼성전자 시가총액을 역전</b>해 HBM 주도 메모리 패권 교체를 공식화했다.",
+  "oneline": "구글 <b>Gemini 2.5 Pro Deep Think</b>이 최강 모델 왕좌를 주장하며 등장했고, 코스피는 AI·반도체 과열 반작용으로 <b>910포인트(-9.99%) 폭락·서킷브레이커</b>를 기록한 뒤 하루 만에 반등",
   "sections": [
     {
       "icon": "🚀",
@@ -14,48 +14,71 @@
         {
           "id": "m1",
           "cat": "model",
-          "title": "Claude Fable 5, 무료 기간 종료 — 오늘부터 유료 크레딧 전환",
-          "meta": "약속한 13일 중 실제 무료 사용은 4~5일, 그 이유가 더 문제",
-          "date_local": "2026-06-23 (ET)",
+          "title": "구글, Gemini 2.5 Pro Deep Think 정식 출시",
+          "meta": "수학·과학 추론 1위 자처 — 2M 토큰에 자기 검증형 사고 추가",
+          "date_local": "2026-06-22 (PT)",
           "date_kst": "KST 6/23",
           "warn": false,
           "bullets": [
-            "Anthropic이 <b>6월 23일부터 Claude Fable 5를 유료 크레딧 소진 방식으로 전환</b>, Pro·Max·Enterprise 구독자는 무료 기간 종료 후 입력 <b>$10/M · 출력 $50/M 토큰</b> 요금 적용",
-            "무료 기간은 6월 9~22일(14일)로 공지됐으나 <b>미국 정부의 긴급 수출통제로 6월 12~18일 6일간 전면 차단</b>돼 실질 무료 사용은 4~5일에 불과",
-            "Anthropic 측은 '<b>영구 유료화가 아닌 용량 제약에 따른 임시 조치</b>'라며 구독 플랜 복원 계획을 예고했으나 구체 시점은 미공개"
+            "구글 <b>Gemini 2.5 Pro Deep Think</b>가 역대 최고 성능 모델로 정식 공개되며 수학·과학·일반 추론 벤치마크에서 타 최전선 모델을 앞서는 성적 기록, Google AI Ultra 구독자에게 우선 제공",
+            "즉답 대신 <b>다중 추론 경로를 탐색·자기 검증</b>한 뒤 응답하는 'Deep Think' 방식 채택, <b>200만 토큰 컨텍스트 윈도우</b>로 코드베이스 전체나 몇 시간 분량의 영상을 단일 세션에서 처리 가능",
+            "수학·과학 추론에서 Claude Fable 5를 상회하나, <b>SWE-bench 등 소프트웨어 엔지니어링</b> 지표에선 Fable 5가 여전히 우위 — 업무 유형에 따른 모델 선택 중요성 재확인"
           ],
-          "why": "역대 최고 성능의 모델이 출시 2주 만에 사실상 유료화되며, <b>AI 구독 경제의 지속가능성과 프런티어 접근 민주화</b> 논쟁이 가열됨",
+          "why": "<b>구글이 '추론 모드' 경쟁에서 Anthropic·OpenAI를 앞서는 벤치마크 결과</b>를 내면서, 공공기관이나 과학·수학 집약 업무의 AI 선택 기준이 다시 흔들릴 수 있음",
           "quiz": {
-            "q": "Claude Fable 5의 6월 23일 이후 API 가격(입력 기준)은?",
-            "opts": ["$5/M 토큰", "$10/M 토큰", "$15/M 토큰", "$20/M 토큰"],
+            "q": "Gemini 2.5 Pro Deep Think의 컨텍스트 윈도우 크기는?",
+            "opts": ["100만 토큰", "200만 토큰", "50만 토큰", "300만 토큰"],
             "ans": 1
           },
-          "you": "Claude Code 등 Fable 5 기반 도구를 사용 중이라면 크레딧 소진 속도 점검 필요",
-          "url": "https://www.developersdigest.tech/blog/claude-fable-5-june-22-deadline",
-          "source": "Developers Digest"
+          "you": null,
+          "url": "https://blog.google/products-and-platforms/products/gemini/gemini-2-5-deep-think/",
+          "source": "Google Blog"
         },
         {
           "id": "m2",
           "cat": "model",
-          "title": "Gemini 3.5 Pro, Vertex AI 한정 프리뷰 진행 중 — GA는 6월 말 목표",
-          "meta": "2M 토큰·Deep Think 무장, 6월 말 전면 공개 여부에 업계 주목",
+          "title": "Claude Fable 5 API 과금 재개 — 수출 통제 중단 후 첫 청구",
+          "meta": "한 달 만에 재가동된 청구서 — 가격은 Opus 4.8의 두 배",
+          "date_local": "2026-06-23 (ET)",
+          "date_kst": "KST 6/23",
+          "warn": false,
+          "bullets": [
+            "<b>2026년 6월 23일부터</b> Claude Fable 5 이용 시 입력 <b>토큰당 $10/백만, 출력 $50/백만</b>이 청구되기 시작해 종전 Opus 4.8($5/$25) 대비 가격이 2배로 상승",
+            "6월 12일 미국 정부의 <b>수출 통제 행정명령</b>으로 글로벌 접속이 차단됐다가 약 6일 만에 복구됐으나, 구독자들은 광고된 13일 이용 기간 중 <b>4~5일분의 무료 이용</b>만 받은 셈",
+            "Anthropic은 복구 후 별도 환불·보상 방침을 공표하지 않았으며, <b>개발자·기업 사용자들의 API 비용 계획 재조정</b>이 불가피한 상황"
+          ],
+          "why": "공공·기업 AI 서비스가 Claude API를 쓰는 경우 월간 비용이 두 배로 뛰어, <b>예산 통제가 중요한 기관 사용자</b>는 모델 선택을 재검토해야 할 수 있음",
+          "quiz": {
+            "q": "Claude Fable 5 API의 출력 토큰 가격(백만 토큰당)은?",
+            "opts": ["$25", "$30", "$50", "$100"],
+            "ans": 2
+          },
+          "you": "공공·기관 AI 서비스 예산 편성 시 Fable 5 API 비용이 Opus 4.8의 2배임을 반영 필요",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-23-2026",
+          "source": "Build Fast with AI"
+        },
+        {
+          "id": "m3",
+          "cat": "model",
+          "title": "Gemini 3.5 Pro, Vertex AI 엔터프라이즈 제한 프리뷰 돌입",
+          "meta": "구글 최신 범용 모델 — GA는 6월 말~7월 초 전망",
           "date_local": "2026-06-23 (PT)",
           "date_kst": "KST 6/24",
           "warn": false,
           "bullets": [
-            "<b>Google Gemini 3.5 Pro</b>가 현재 기업용 Vertex AI에서 한정 프리뷰 운영 중이며, 예측 시장은 <b>6월 30일 이전 GA(일반 공개) 확률을 약 50~55%</b>로 추산",
-            "확정된 스펙으로 <b>2M 토큰 컨텍스트 윈도우</b>(현 프런티어 최대), Deep Think 추론 모드(Ultra 구독 전용), 텍스트·이미지 멀티모달 지원 포함 예정",
-            "공식 모델 카드·벤치마크·가격은 미발표 상태이나 <b>입력 $15/M·출력 $60/M 토큰</b>으로 업계 추산(공식 미확정)"
+            "구글 차세대 <b>Gemini 3.5 Pro</b>가 Vertex AI 엔터프라이즈 제한 프리뷰에 진입, 애널리스트들은 <b>6월 23일~30일 사이 GA 전환</b>을 전망",
+            "2M 토큰 컨텍스트 윈도우를 유지하면서 <b>추론 정확도·에이전트 지시 따르기 성능</b>이 2.5 Pro 대비 향상된 것으로 알려져, Vertex AI 기반 기업 고객의 업그레이드 수요 기대",
+            "Gemini 2.5 Pro Deep Think(추론 특화)와 3.5 Pro(범용)가 동시 라인업으로 운영되면서, 기업 고객은 <b>최고 추론 성능 vs. 최신 범용 성능</b>의 선택지를 갖게 됨"
           ],
-          "why": "Fable 5 유료화로 최상위 무료 프런티어 공백이 생긴 시점에 <b>Gemini 3.5 Pro가 전면 공개되면 구독 경쟁 구도가 급변</b>할 수 있음",
+          "why": null,
           "quiz": {
-            "q": "Gemini 3.5 Pro의 예상 컨텍스트 윈도우 크기는?",
-            "opts": ["500K 토큰", "1M 토큰", "2M 토큰", "4M 토큰"],
-            "ans": 2
+            "q": "Gemini 3.5 Pro는 현재 어떤 단계에 있나?",
+            "opts": ["정식 출시(GA)", "제한 엔터프라이즈 프리뷰", "내부 테스트 단계", "발표 미정"],
+            "ans": 1
           },
           "you": null,
           "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-23-2026",
-          "source": "Build Fast With AI"
+          "source": "Build Fast with AI"
         }
       ]
     },
@@ -67,25 +90,78 @@
         {
           "id": "d1",
           "cat": "dev",
-          "title": "OpenAI Daybreak, GPT-5.5-Cyber·Codex Security·Patch the Planet로 확장",
-          "meta": "취약점 발견→검증→패치까지 AI가 자동 처리하는 방어 루프의 본격화",
+          "title": "오픈소스 AI 코딩 에이전트 OpenCode, GitHub 스타 16만·월 활성 개발자 750만 돌파",
+          "meta": "Cursor보다 빠른 성장 — 모델 벤더 락인 없는 CLI 에이전트",
+          "date_local": "2026-06 (ET)",
+          "date_kst": null,
+          "warn": false,
+          "bullets": [
+            "<b>OpenCode</b>는 CLI 기반 오픈소스 코딩 에이전트로, 75개 이상 AI 제공사 API 키를 직접 연결해 모델을 자유롭게 전환할 수 있는 <b>벤더 중립 설계</b>가 핵심 차별점",
+            "6월 기준 <b>GitHub 스타 16만 개, 월 활성 개발자 750만 명</b>을 달성해 Cursor가 동일 지표를 달성하는 데 걸린 기간보다 훨씬 빠른 채택 속도 기록",
+            "언어 서버 프로토콜(LSP) 연동으로 <b>컴파일러 오류를 실시간으로 모델에 피드백</b>해 자기 수정하는 기능이 상용 도구와의 차별화 포인트로 주목"
+          ],
+          "why": "<b>바이브코딩 워크플로</b>에서 모델 가격이 오를 때마다 제공사를 바꿔 쓸 수 있는 OpenCode는 비용 안전판이자 모델 비교 실험 도구로 활용 가능",
+          "quiz": {
+            "q": "OpenCode가 2026년 6월 기준 달성한 GitHub 스타 수는?",
+            "opts": ["5만 개", "10만 개", "16만 개", "25만 개"],
+            "ans": 2
+          },
+          "you": "모델 가격·성능이 빠르게 바뀌는 환경에서 바이브코딩 사용자에게 OpenCode의 벤더 중립 설계는 비용 제어와 모델 A/B 테스트에 직접 활용 가능",
+          "url": "https://www.abhs.in/blog/opencode-160k-github-stars-7-5m-developers-ai-coding-agent-june-2026",
+          "source": "Abhs.in / opencode.ai"
+        },
+        {
+          "id": "d2",
+          "cat": "dev",
+          "title": "OpenAI, 사이버보안 특화 GPT-5.5-Cyber 정식 출시",
+          "meta": "Daybreak 이니셔티브 본격화 — 빅테크 보안 인프라 8개사 우선 개방",
           "date_local": "2026-06-22 (ET)",
           "date_kst": "KST 6/23",
           "warn": false,
           "bullets": [
-            "OpenAI가 <b>Daybreak 사이버보안 이니셔티브를 확장</b>해 GPT-5.5-Cyber 전체 버전(신뢰 방어자 한정), <b>Codex Security 플러그인</b>(취약점 탐지·검증·자동 패치), Patch the Planet(Trail of Bits 협력 오픈소스 수정 이니셔티브)을 동시 발표",
-            "Codex Security는 3월 연구 프리뷰 이후 <b>3,000만+ 커밋·3만+ 코드베이스 스캔 완료, 70만+ 취약점이 자동 수정</b>된 것으로 집계",
-            "GPT-5.5-Cyber는 <b>CyberGym 벤치마크 85.6%</b>로 단일 모델 최고 기록(차점 GPT-5.5 81.8%, Claude Opus 4.7 73.1%)을 경신"
+            "OpenAI가 <b>GPT-5.5-Cyber</b>를 Daybreak 사이버보안 이니셔티브 정식 버전으로 출시, <b>CyberGym 85.6%·ExploitGym 39.5%</b> 달성으로 사이버보안 AI 벤치마크 신기록 경신",
+            "일반 API가 아닌 <b>Trusted Access for Cyber 프로그램</b>을 통해 심사된 기관에만 제공되며, Akamai·Cisco·Cloudflare·CrowdStrike·Fortinet·Oracle·Palo Alto Networks·Zscaler 8개 파트너 선정",
+            "취약점 탐지·패치 제안·침투 시뮬레이션에 최적화된 파인튜닝 적용으로, <b>일반 GPT-5.5와 별도의 보안 특화 모델</b>로 설계돼 보안 자동화 시장을 겨냥"
           ],
-          "why": "<b>공격과 방어 양쪽에서 AI가 동시에 무장되는 첫 본격 사이클</b>로, AI 보안 소프트웨어 시장의 급격한 지형 재편을 예고함",
+          "why": null,
           "quiz": {
-            "q": "OpenAI Codex Security가 3월 프리뷰 이후 자동 수정으로 처리한 취약점 건수는?",
-            "opts": ["7만 건 이상", "70만 건 이상", "300만 건 이상", "3,000만 건 이상"],
-            "ans": 1
+            "q": "GPT-5.5-Cyber의 CyberGym 벤치마크 점수는?",
+            "opts": ["72.3%", "79.8%", "85.6%", "91.2%"],
+            "ans": 2
           },
-          "you": "바이브코딩(Claude Code) 사용자라면 Codex Security 기반 취약점 자동 탐지·패치 기능이 개발 워크플로에 통합될 흐름에 주목",
-          "url": "https://openai.com/index/daybreak-securing-the-world/",
-          "source": "OpenAI"
+          "you": null,
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-24-2026",
+          "source": "Build Fast with AI"
+        }
+      ]
+    },
+    {
+      "icon": "🔬",
+      "name": "연구",
+      "you": false,
+      "items": [
+        {
+          "id": "r1",
+          "cat": "research",
+          "title": "Google DeepMind 핵심 연구원 2명 추가 이탈 — Anthropic 합류 예정",
+          "meta": "Jumper·Shazeer에 이은 연속 퇴장 — 구글 AI 인재 지도 흔들",
+          "date_local": "2026-06-24 (ET)",
+          "date_kst": "KST 6/25",
+          "warn": false,
+          "bullets": [
+            "Bloomberg에 따르면 구글 DeepMind의 AI 코딩 연구 핵심 인력 <b>Jonas Adler</b>와 모델 학습 전문가 <b>Alexander Pritzel</b>이 Anthropic으로 이직을 준비 중",
+            "6월 19~20일 AlphaFold 노벨상 수상자 <b>John Jumper의 Anthropic 합류, Noam Shazeer(트랜스포머 공동 창안)의 OpenAI 합류</b>에 이어, 2주 사이 구글은 최고급 AI 인력 최소 4명을 잃은 셈",
+            "Jumper 이탈 발표 당일 Alphabet 주가는 <b>장중 7.2% 급락</b>했으며, 이번 추가 이탈 소식으로 투자자들의 구글 AI 경쟁력 우려가 재점화"
+          ],
+          "why": "<b>최고급 연구 인력의 Anthropic·OpenAI 집결</b>은 단순 경쟁 구도 변화를 넘어, 차세대 모델과 과학 AI 역량의 무게 중심이 이동하고 있음을 시사",
+          "quiz": {
+            "q": "John Jumper 이탈 발표 당일 Alphabet 주가는 장중 최대 얼마나 하락했나?",
+            "opts": ["3.1%", "5.4%", "7.2%", "10.8%"],
+            "ans": 2
+          },
+          "you": null,
+          "url": "https://www.bloomberg.com/news/articles/2026-06-24/google-poised-to-lose-two-more-high-profile-ai-staffers-to-anthropic",
+          "source": "Bloomberg"
         }
       ]
     },
@@ -97,25 +173,25 @@
         {
           "id": "p1",
           "cat": "policy",
-          "title": "Five Eyes 정보동맹, 'AI 사이버공격 수개월 내 현실화' 공식 경고",
-          "meta": "서방 5개국 정보동맹이 가장 빠른 일정으로 AI 위협을 경고한 첫 사례",
-          "date_local": "2026-06-23 (ET)",
-          "date_kst": "KST 6/24",
-          "warn": true,
+          "title": "EU AI법 Article 50 투명성 의무 D-40 — 기업 마지막 준비 시간",
+          "meta": "8월 2일 AI 챗봇·딥페이크 표시 의무 발효 — 위반 시 연매출 최대 3%",
+          "date_local": "2026-06-24 (ET)",
+          "date_kst": "KST 6/25",
+          "warn": false,
           "bullets": [
-            "미국·영국·캐나다·호주·뉴질랜드 <b>Five Eyes 정보동맹이 'AI 기반 사이버공격이 수개월 내 실전 배치 수준으로 고도화될 것'이라고 공식 경고</b>하며 즉각적 패치 대응을 촉구",
-            "<b>오픈소스 소프트웨어의 미패치 취약점</b>이 AI 자동화 공격의 주요 진입로로 지목, OpenAI Patch the Planet 이니셔티브와의 연계 대응 필요성 부각",
-            "OpenAI Daybreak 확장 발표와 같은 날 공개되며 <b>정보기관과 민간 AI 기업의 사이버 방어 공조</b>가 처음으로 가시화"
+            "EU AI법 <b>Article 50 투명성 의무</b>가 2026년 8월 2일 발효, AI 챗봇 운영자는 '사용자가 AI와 대화 중'임을 명시하고 <b>딥페이크·AI 생성 미디어에 기계 판독 가능 워터마크</b>를 부착해야 함",
+            "미준수 시 <b>최대 €1,500만 또는 전 세계 연매출 3%</b> 과태료 부과 가능, 8월 2일 이전 출시된 기존 시스템은 <b>2026년 12월 2일까지 유예</b>",
+            "EU 집행위가 Article 50 지침 초안을 공개해 의견 수렴 중이고, 전문가 자문단의 자율 준수 강령(Code of Practice) 최종본도 이달 내 공개 예정"
           ],
-          "why": "AI 위협이 '예측' 단계에서 '수개월 내 경고' 단계로 격상됐으며, <b>공공 기관의 AI 보안 예산 확보와 취약점 대응 체계 긴급 재점검</b>이 필요한 시점",
+          "why": "<b>국내 AI 서비스도 EU 시장 서비스 대상이라면 8월 2일까지 준수 의무</b>가 생겨, 한국 공공·기업 AI 서비스 운영자의 즉각적인 법적 검토가 필요",
           "quiz": {
-            "q": "Five Eyes가 이번 경고에서 AI 공격의 주요 진입로로 지목한 것은?",
-            "opts": ["클라우드 API 인증 오남용", "오픈소스 미패치 취약점", "양자 암호화 우회 기법", "딥페이크 스피어피싱"],
+            "q": "EU AI법 Article 50 투명성 의무 발효 시점은?",
+            "opts": ["2026년 7월 1일", "2026년 8월 2일", "2026년 9월 1일", "2027년 1월 1일"],
             "ans": 1
           },
-          "you": "공공 AI 업무 담당자라면 오픈소스 의존 시스템의 취약점 점검 주기 단축과 패치 자동화 체계 도입 검토 권장",
-          "url": "https://www.techtimes.com/articles/318900/20260623/openai-daybreak-expands-patch-pipeline-five-eyes-warns-ai-attacks-are-months-away.htm",
-          "source": "TechTimes"
+          "you": "EU 시장에 AI 서비스를 제공하거나 계획 중인 공공기관·기업은 챗봇·AI 콘텐츠 표시 의무를 8월 2일까지 충족해야 함",
+          "url": "https://datamatters.sidley.com/2026/06/24/eu-ai-act-transparency-obligations-preparing-for-compliance-by-2-august-2026/",
+          "source": "Sidley Austin / Data Matters"
         }
       ]
     },
@@ -125,49 +201,49 @@
       "you": true,
       "items": [
         {
-          "id": "i1",
+          "id": "mo1",
           "cat": "money",
-          "title": "정부·공공 AI 플랫폼 Peregrine, Series D $2.5억 유치 — 기업가치 $68억",
-          "meta": "공공 데이터 사일로를 AI로 허무는 사업 모델이 연방·국제 시장으로 확장",
-          "date_local": "2026-06-23 (ET)",
-          "date_kst": "KST 6/24",
+          "title": "퀄컴, AI 칩 스타트업 Tenstorrent 최대 100억 달러에 인수 협상",
+          "meta": "RISC-V로 엔비디아 독점 깨겠다는 퀄컴의 승부수",
+          "date_local": "2026-06-24 (ET)",
+          "date_kst": "KST 6/25",
           "warn": false,
           "bullets": [
-            "<b>Peregrine가 Series D $2.5억(약 3,500억 원)을 유치해 기업가치 $68억</b>을 기록, 정부·공공 운영 AI 플랫폼 시장의 선두 주자로 부상",
-            "분산된 정부 데이터를 <b>권한 기반(permission-aware)으로 통합</b>해 공공안전·긴급대응 의사결정을 지원, 주·지방 정부에서 연방정부·국제 시장으로 확장 중",
-            "<b>AI 정부 소프트웨어 분야 단일 라운드 최대급 규모</b>로, 공공 AI 예산 집행 본격화 흐름을 반영"
+            "퀄컴이 <b>Jim Keller가 이끄는 AI 칩 설계사 Tenstorrent</b>를 <b>80억~100억 달러</b>에 인수하는 협상을 진행 중이라고 복수 매체가 보도, 뉴스 직후 퀄컴 주가가 4% 이상 상승",
+            "Tenstorrent는 개방형 <b>RISC-V 아키텍처 기반 AI 가속기</b>를 설계해 엔비디아 의존도를 낮추려는 데이터센터·엣지 고객에게 대안 제시, 2024년 말 <b>시리즈 D에서 기업가치 26억 달러</b> 달성",
+            "인수 성사 시 퀄컴은 모바일 칩을 넘어 <b>서버·데이터센터 AI 추론 시장</b>에 본격 진입, 엔비디아·AMD와의 3파전 구도 형성"
           ],
-          "why": "<b>2026년 공공 AI 예산이 본격 집행되며 B2G(정부 대상 서비스) 시장이 AI로 급속히 재편</b>되는 신호로, 국내 공공 AI 사업 모델 설계의 참고 사례",
+          "why": "<b>엔비디아 GPU 독점에 대한 대안 생태계</b>가 퀄컴이라는 대형 자본을 등에 업고 가속될 경우, 반도체 투자 포트폴리오 및 AI 인프라 비용 구조 전반에 중장기 영향 가능성",
           "quiz": {
-            "q": "이번 Series D 이후 Peregrine의 기업가치는?",
-            "opts": ["$3.5B", "$6.8B", "$9.5B", "$12B"],
-            "ans": 1
+            "q": "퀄컴의 Tenstorrent 인수 협상 가격 범위로 보도된 금액은?",
+            "opts": ["30억~50억 달러", "50억~70억 달러", "80억~100억 달러", "120억~150억 달러"],
+            "ans": 2
           },
-          "you": null,
-          "url": "https://techstartups.com/2026/06/23/venture-capital-startup-funding-roundup-june-23-2026/",
-          "source": "Tech Startups"
+          "you": "반도체·AI 인프라 투자자 입장에서 퀄컴의 RISC-V AI 칩 진입은 엔비디아 경쟁구도와 HBM 수요에 중장기적 영향",
+          "url": "https://www.theregister.com/systems/2026/06/16/qualcomm-said-to-be-circling-ai-chip-biz-tenstorrent-in-10b-risc-v-power-play/5256084",
+          "source": "The Register / TechTimes"
         },
         {
-          "id": "i2",
+          "id": "mo2",
           "cat": "money",
-          "title": "유럽 방산 AI 스타트업 Stark, €5억 투자 유치 — Sequoia·NATO 펀드 참여",
-          "meta": "NATO 펀드가 직접 베팅한 유럽 방산 AI, 지정학 위기가 자본을 부른다",
-          "date_local": "2026-06-23 (CET)",
-          "date_kst": "KST 6/24",
+          "title": "AI 헬스케어·핀테크 스타트업, 6월 24일 하루 시리즈 C 2건 대형 마감",
+          "meta": "금융·의료 AI 실전 배치로 벤처 자금 집중",
+          "date_local": "2026-06-24 (ET)",
+          "date_kst": "KST 6/25",
           "warn": false,
           "bullets": [
-            "유럽 방산 AI 스타트업 <b>Stark가 €5억(약 7,500억 원)의 대규모 투자를 유치</b>했으며, Sequoia·Founders Fund·<b>NATO Innovation Fund</b>·Air Street Capital·Döpfner Capital 등이 참여",
-            "<b>NATO Innovation Fund의 직접 투자</b>는 NATO가 AI 방위 기술 스타트업에 공식적으로 자본을 투입하는 드문 사례로, 유럽 방산 스타트업 생태계의 전환점으로 평가",
-            "미·유럽 간 방위비 갈등 심화 국면에서 <b>유럽 독자 방산 AI 역량 강화를 위한 민간 자본 유입</b>이 급증하는 추세를 반영"
+            "환자 접근성 자동화 AI 플랫폼 <b>Assort Health</b>가 Menlo Ventures·Lightspeed 등 참여로 <b>시리즈 C $1억 2,000만</b> 조달, 병원 예약·분류·사후 관리 자동화에 집중",
+            "금융기관 AI 의사결정 플랫폼 <b>Taktile</b>이 <b>Goldman Sachs 주도 시리즈 C $1억 1,000만</b> 유치, 신용 심사·사기 탐지 등 금융사 실시간 의사결정 자동화를 핵심 서비스로 제공",
+            "이날 10건의 AI 투자 라운드 중 <b>9건이 실제 의사결정·운영을 자동화하는 AI</b>여서, 2026년 AI 투자 흐름이 '생성→실행'으로 완전히 전환됐음을 재확인"
           ],
-          "why": "<b>지정학 리스크가 방산 AI 스타트업으로 유입되는 자본을 급속히 확대</b>시키며, 방산 AI는 2026년 가장 뜨거운 투자 카테고리 중 하나로 부상",
+          "why": null,
           "quiz": {
-            "q": "Stark 투자에 참여한 국제기구·정부 연계 펀드는?",
-            "opts": ["Sequoia", "Founders Fund", "NATO Innovation Fund", "Air Street Capital"],
+            "q": "Goldman Sachs가 주도한 Taktile의 시리즈 C 규모는?",
+            "opts": ["$5,000만", "$8,000만", "$1억 1,000만", "$2억"],
             "ans": 2
           },
           "you": null,
-          "url": "https://techstartups.com/2026/06/23/venture-capital-startup-funding-roundup-june-23-2026/",
+          "url": "https://techstartups.com/2026/06/24/venture-capital-startup-funding-roundup-june-24-2026/",
           "source": "Tech Startups"
         }
       ]
@@ -180,48 +256,71 @@
         {
           "id": "k1",
           "cat": "korea",
-          "title": "SK하이닉스, 25년 만에 삼성전자 시가총액 역전 — HBM 패권 교체 공식화",
-          "meta": "HBM에 올인한 25년의 집중이 삼성을 제친 날",
-          "date_local": "2026-06-22 (KST)",
+          "title": "코스피, AI 반도체 쏠림 반작용으로 6/23 역대급 폭락",
+          "meta": "하루 만에 910포인트 증발 — 삼전·SK하이닉스 12% 급락에 서킷브레이커",
+          "date_local": "2026-06-23 (KST)",
           "date_kst": null,
-          "warn": false,
+          "warn": true,
           "bullets": [
-            "6월 22일 SK하이닉스 주가가 <b>5.7% 급등</b>하며 시가총액 약 <b>208조 2,500억 원</b>으로 삼성전자(208조 1,300억 원)를 추월, <b>KOSPI 1위 지위를 25년 7개월 만에 교체</b>",
-            "SK하이닉스는 <b>글로벌 HBM 시장 점유율 약 61%</b>(마이크론 21%, 삼성 17%)로 AI 메모리 수요의 최대 수혜, 연초 대비 주가 상승률 <b>347%</b>로 삼성(192%)을 대폭 상회",
-            "삼성전자는 스마트폰·가전·디스플레이 등 사업 다각화로 AI 메모리 호황 수익이 희석됐으며, <b>HBM4 고객사 공급 지연</b> 이슈도 밸류에이션 프리미엄 손실의 배경으로 지목"
+            "6월 23일 코스피가 전일 대비 <b>910.71포인트(-9.99%)</b> 폭락해 8,203으로 마감, 역대 최대 하락폭을 기록하며 오후 2시 33분 <b>서킷브레이커(20분 거래 중단)</b> 발동",
+            "<b>SK하이닉스와 삼성전자가 각각 12% 이상 급락</b>해 코스피 시총의 약 절반을 차지하는 두 종목이 지수를 끌어내렸으며, MSCI 선진국 편입 재불발·레버리지 ETF 우려·연준 긴축 신호 등 3중 악재 동시 작용",
+            "이날 하루에만 <b>외국인 투자자 25억 달러 이상의 자금이 이탈</b>했으며, 필라델피아 반도체 지수도 8% 하락하는 등 글로벌 AI 칩 셀오프가 동반"
           ],
-          "why": "<b>AI 인프라 수요 쏠림이 HBM 전문 기업을 국내 최고 기업으로 만든 구조적 전환</b>으로, '선택과 집중' 전략의 가치를 증명한 반도체 역사의 이정표",
+          "why": "<b>AI·반도체 집중 투자의 과열 경보</b>로 시장이 해석했으며, 국내 AI 인프라 투자 계획과 반도체 기업 밸류에이션 재조정 여부를 주시해야 함",
           "quiz": {
-            "q": "SK하이닉스가 삼성전자를 제치고 KOSPI 시총 1위가 된 것은 몇 년 만인가?",
-            "opts": ["10년 만", "15년 만", "20년 만", "25년 만"],
-            "ans": 3
+            "q": "6월 23일 코스피 서킷브레이커가 발동된 시각은?",
+            "opts": ["오전 10시 15분", "오후 12시 00분", "오후 2시 33분", "오후 3시 15분"],
+            "ans": 2
           },
-          "you": "반도체·HBM 투자자 관점에서 SK하이닉스 HBM4 추가 공급 일정과 삼성전자의 반격 카드(HBM4E 등) 모니터링 권장",
-          "url": "https://en.sedaily.com/markets/2026/06/22/breaking-news-sk-hynix-overtakes-samsung-as-top-kospi",
-          "source": "서울경제 글로벌(Seoul Economic Daily)"
+          "you": "반도체·AI 투자자라면 이번 급락이 기초체력 변화인지 기술적 조정인지 구분하는 분석이 필요한 시점",
+          "url": "https://www.hankyung.com/article/2026062455646",
+          "source": "한국경제 / CNN Business"
         },
         {
           "id": "k2",
           "cat": "korea",
-          "title": "삼성전자, 업계 최초 온디바이스 AI 최적화 UFS 5.0 개발",
-          "meta": "스마트폰 AI 처리 속도를 2배로, 삼성의 낸드 시장 반격 포석",
-          "date_local": "2026-06-23 (KST)",
+          "title": "SK하이닉스, 장중 삼성전자 시총 사상 첫 역전 — 폭락의 도화선 됐다",
+          "meta": "코스피 1위 교체 전망이 오히려 과열 경보 신호로 읽힌 아이러니",
+          "date_local": "2026-06-22 (KST)",
           "date_kst": null,
           "warn": false,
           "bullets": [
-            "삼성전자가 <b>업계 최초로 온디바이스 AI 최적화 UFS(Universal Flash Storage) 5.0</b>을 개발했다고 23일 발표, 순차 읽기 속도 <b>10.8GB/s</b>로 기존 UFS 4.1 대비 약 2배 향상",
-            "9세대 V낸드(V9) 기반으로 <b>전력 효율을 전작 대비 40% 이상 개선</b>해 AI 추론 부하 시 발열·배터리 소모 문제를 동시 해결",
-            "올해 4분기부터 <b>플래그십 스마트폰·XR 헤드셋·AI 웨어러블</b>용 양산 시작 예정으로, HBM 경쟁에서 밀리던 삼성의 모바일 스토리지 반격 포석"
+            "6월 22일 장중 <b>SK하이닉스 시총이 삼성전자를 초과</b>하는 역사적 장면이 연출, 코스피 거래 사상 처음으로 메모리 AI 수혜주가 한국 최대 기업 자리를 하루 중 꿰찬 이정표",
+            "이 이정표가 오히려 <b>'AI 반도체 과열' 시그널로 읽히면서</b> 다음 거래일(6/23) 대규모 차익실현 매물이 쏟아지는 계기가 됐다고 시장 분석가들이 지적",
+            "SK하이닉스 <b>HBM4 공급 확대와 AI 데이터센터 투자 붐</b>이 주가를 끌어올렸으나, 가격·밸류에이션 부담이 한계에 이르렀다는 평가 속에 단기 조정 국면 진입"
           ],
-          "why": "HBM 경쟁에서 열세를 보이던 삼성이 <b>모바일 온디바이스 AI 저장장치 선점으로 반격</b>에 나서며, UFS 5.0이 차세대 AI 스마트폰 생태계의 핵심 부품으로 부상",
+          "why": "<b>한국 반도체 시장 구조 변화의 상징적 사건</b>이지만, 시총 역전이 자충수가 된 아이러니는 AI 투자 과열 시 언제든 반복될 수 있는 구조적 리스크를 보여줌",
           "quiz": {
-            "q": "삼성전자 UFS 5.0의 순차 읽기 속도는?",
-            "opts": ["5.4 GB/s", "7.2 GB/s", "10.8 GB/s", "14.4 GB/s"],
+            "q": "SK하이닉스가 장중 삼성전자 시총을 처음 넘어선 날짜는?",
+            "opts": ["2026년 6월 20일", "2026년 6월 21일", "2026년 6월 22일", "2026년 6월 23일"],
             "ans": 2
           },
           "you": null,
-          "url": "https://www.newspim.com/news/view/20260623000084",
-          "source": "뉴스핌"
+          "url": "https://www.newsspace.kr/news/article.html?no=14466",
+          "source": "뉴스스페이스 / 한국경제"
+        },
+        {
+          "id": "k3",
+          "cat": "korea",
+          "title": "코스피, 6/24 하루 만에 267포인트 반등 — 저가 매수세 유입",
+          "meta": "공황 다음 날 반등 — 마이크론 실적 앞두고 반도체 저점 인식 확산",
+          "date_local": "2026-06-24 (KST)",
+          "date_kst": null,
+          "warn": false,
+          "bullets": [
+            "6월 24일 코스피가 전일 대비 <b>267.18포인트(+3.26%)</b> 올라 8,471.02에 마감, 역대급 폭락 이틀째에 저가 매수세 유입으로 빠른 회복 연출",
+            "마이크론 실적 발표를 하루 앞두고 <b>메모리 반도체 저점 인식</b>이 확산, 기관·개인 투자자 중심으로 순매수 전환하고 외국인 자금 일부도 재유입",
+            "시장 전문가들은 <b>MSCI 선진국 편입 불발·레버리지 ETF 리스크</b>가 해소되지 않은 만큼 단기 변동성 재확대 가능성을 경고하며 안도 랠리로 단정 짓기 이르다고 평가"
+          ],
+          "why": null,
+          "quiz": {
+            "q": "6월 24일 코스피 종가 기준 반등폭과 등락률은?",
+            "opts": ["117포인트(+1.42%)", "187포인트(+2.28%)", "267포인트(+3.26%)", "340포인트(+4.14%)"],
+            "ans": 2
+          },
+          "you": null,
+          "url": "https://www.newspim.com/news/view/20260624000066",
+          "source": "뉴스핌 / 한국경제"
         }
       ]
     }
