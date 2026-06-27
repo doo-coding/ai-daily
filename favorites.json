@@ -608,5 +608,42 @@
       "_section": "모델 · 출시"
     },
     "memo": ""
+  },
+  "xa0ebde918b22": {
+    "id": "xa0ebde918b22",
+    "date": "2026-06-27",
+    "slot": "am",
+    "ts": "2026-06-27T00:36:42.654Z",
+    "item": {
+      "id": "xa0ebde918b22",
+      "cat": "model",
+      "title": "구글, Gemini 3.5 Pro 6월 출시 약속 불이행 — 7월로 연기",
+      "meta": "Sundar Pichai가 Google I/O에서 직접 확약한 기한을 지키지 못한 신뢰 훼손",
+      "date_local": "2026-06-24 (ET)",
+      "date_kst": "KST 6/25",
+      "warn": false,
+      "bullets": [
+        "<b>구글 CEO Sundar Pichai가 5월 Google I/O에서 직접 약속한</b> 6월 출시 기한을 지키지 못하고 Gemini 3.5 Pro 일반 출시가 7월로 연기, 6월 24일 기준 출시 6일 전임에도 서비스 미제공 상태",
+        "Gemini 3.5 Pro는 <b>200만 토큰 컨텍스트 창</b>과 '딥싱크(Deep Think)' 인지 모드를 탑재해 Claude Opus 4.8에 정면 도전하는 사양으로 업계 기대가 컸던 모델",
+        "출시 지연 발표와 같은 주에 <b>Google DeepMind 핵심 연구원 4명이 Anthropic·OpenAI로 이탈</b>하며 구글의 AI 실행력 전반에 대한 우려가 증폭"
+      ],
+      "why": "<b>CEO 공약 불이행과 인재 유출이 동시에 터진 구글</b> — AI 경쟁에서 '발표력'과 '실행력' 사이 간극이 공식화된 사건으로, 시장 신뢰도 손상 우려",
+      "quiz": {
+        "q": "Gemini 3.5 Pro가 탑재 예정인 컨텍스트 창 크기는?",
+        "opts": [
+          "200만 토큰",
+          "100만 토큰",
+          "50만 토큰",
+          "500만 토큰"
+        ],
+        "ans": 0
+      },
+      "you": null,
+      "url": null,
+      "source": "GuruFocus / TechTimes",
+      "_icon": "🚀",
+      "_section": "모델 · 출시"
+    },
+    "memo": ""
   }
 }
