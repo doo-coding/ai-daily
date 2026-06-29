@@ -1,10 +1,10 @@
 {
   "date": "2026-06-29",
-  "slot": "am",
-  "date_line": "2026년 6월 29일 (월) · 아침 · 11건 선별",
+  "slot": "pm",
+  "date_line": "2026년 6월 29일 (월) · 저녁 · 11건 선별",
   "kicker": "AI 데일리 · 자동 발송",
   "footer_tag": "✈ via Telegram · 매일 07:00 · 19:00 자동 발송",
-  "oneline": "<b>GPT-5.6 출시 연기</b>와 <b>구글 딥마인드 인재 4명 탈출</b>로 AI 패권 지형이 요동치는 가운데, 삼성·SK하이닉스는 오늘 <b>호남 최대 900조 원 반도체 클러스터</b>를 공식 선언했다.",
+  "oneline": "<b>OpenAI GPT-5.6 Sol</b>이 정부 승인 20개사만의 비공개 프리뷰로 등장한 가운데, 삼성·SK가 <b>4,755조원 메가프로젝트</b>를 동시 선언하며 한국을 'AI 연산 수출국'으로 전환하겠다는 의지를 천명한 하루.",
   "sections": [
     {
       "icon": "🚀",
@@ -14,71 +14,71 @@
         {
           "id": "m1",
           "cat": "model",
-          "title": "GPT-5.6, 6월 출시 전면 무산 — 7월로 연기 확정",
-          "meta": "Polymarket 83%→18% 붕괴, 3주 연속 지연의 배경",
-          "date_local": "2026-06-27 (ET)",
-          "date_kst": "KST 6/28",
+          "title": "OpenAI, GPT-5.6 'Sol·Terra·Luna' 3종 리미티드 프리뷰 개시",
+          "meta": "정부 승인 없이는 접근 불가한 프론티어 AI — 미국 AI 배포 통제의 새 틀",
+          "date_local": "2026-06-26 (ET)",
+          "date_kst": "KST 6/27",
           "warn": false,
           "bullets": [
-            "Polymarket의 '<b>GPT-5.6 6월 28일 출시</b>' 예측 확률이 한 주 만에 <b>83%에서 18%로 붕괴</b>, 6월 출시 창이 사실상 닫힘",
-            "지연 원인으로 <b>GPT-5.5 '고블린 사태' 보상 모델 재설계 검증 지연</b>, IPO 준비 중 조용한 기간(Quiet Period), 기업 API 테스트 이슈 등이 거론됨",
-            "GPT-5.6은 Sol·Terra·Luna 3종으로 구성되며 멀티 에이전트를 활용하는 <b>'Ultra' 최고 추론 모드</b>가 추가될 예정이나, 전체 일반 공개(GA)는 7월 이후로 전망"
+            "<b>OpenAI가 GPT-5.6 시리즈를 3단계로 분화</b>해 공개 — Sol(플래그십), Terra(GPT-5.5 대비 2배 저렴한 범용), Luna(초고속·저비용) 구성",
+            "현재는 <b>정부 승인을 받은 약 20개 기업에만 비공개 프리뷰</b> 제공 중이며, 일반 공개는 수 주 후 예정",
+            "Sol에는 '최대 추론' 모드와 서브에이전트를 병렬 동원하는 <b>울트라 모드</b>가 탑재돼 단일 에이전트의 복잡성 한계 돌파 시도"
           ],
-          "why": "<b>GPT-5.6과 Gemini 3.5 Pro가 동시 연기</b>되면서 6월 내 프런티어 신모델 공개가 없는 이례적 공백이 확정됐고, 당분간 Claude Opus 4.8이 성능 1위를 유지",
+          "why": "정부 승인 기업에만 초기 접근권을 부여하는 방식은 <b>AI 모델 배포가 국가 안보 자산으로 관리되는 새로운 단계</b>의 진입을 상징한다.",
           "quiz": {
-            "q": "GPT-5.6 6월 28일 출시에 대한 Polymarket 예측이 붕괴 직전 최고치에 달했던 확률은?",
-            "opts": ["63%", "73%", "83%", "91%"],
-            "ans": 2
+            "q": "GPT-5.6 Terra의 가격 경쟁력으로 카드에 언급된 내용은?",
+            "opts": ["GPT-5.5 대비 5배 저렴", "GPT-5.5 대비 2배 저렴", "GPT-4.5 대비 절반 가격", "무료 제공"],
+            "ans": 1
           },
           "you": null,
-          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-27-2026",
-          "source": "Build Fast with AI"
+          "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+          "source": "OpenAI"
         },
         {
           "id": "m2",
           "cat": "model",
-          "title": "Gemini 3.5 Pro GA 재연기 — Google, I/O 약속 2회 연속 미달성",
-          "meta": "2분기 출시 약속 두 번 어긴 구글, 개발자 신뢰 흔들",
-          "date_local": "2026-06-27 (PT)",
-          "date_kst": "KST 6/28",
+          "title": "xAI Grok 4.5 Beta, SpaceX·Tesla 내부 팀에 비공개 테스트 개시",
+          "meta": "1.5조 파라미터 V9 모델 등장 — 머스크 기업군을 AI 베타 테스트베드로 쓰는 독점 전략",
+          "date_local": "2026-06-28 (ET)",
+          "date_kst": "KST 6/29",
           "warn": false,
           "bullets": [
-            "<b>Gemini 3.5 Pro 일반 공개(GA)</b>가 6월 말 목표를 달성하지 못하고 7월로 재연기 — 현재 기업용 <b>Vertex AI 한정 프리뷰</b>만 운영 중",
-            "Google은 2025 I/O와 2026 I/O에서 각각 출시 시점을 공언했으나 <b>두 번 연속 마감을 지키지 못해</b> 개발자 커뮤니티에서 신뢰도 문제로 비화",
-            "확정된 스펙으로는 <b>200만 토큰 컨텍스트 윈도우</b>(현 프런티어 최대), Deep Think 추론 모드(Ultra 구독 전용) 포함 예정이나 공식 가격·벤치마크는 미발표"
+            "<b>Grok 4.5는 1.5조 파라미터 V9 아키텍처</b>로 구축돼 이전 Grok 4 V8-small 대비 약 3배 규모로 확장",
+            "현재는 <b>SpaceX·Tesla 소속 팀에만 비공개 베타</b>로 배포 중이며, 6월 28일 일론 머스크가 X를 통해 직접 공개",
+            "같은 날 xAI는 Grok Build에 <b>장기 자율 실행 모드 '/goal'</b>도 도입 — 복잡한 작업을 에이전트가 계획·실행·검증까지 완료"
           ],
-          "why": "GPT-5.6 연기와 맞물려 <b>프런티어 모델 경쟁 공백</b>이 당초 예상보다 길어지면서, 기존 모델 생태계와 오픈웨이트 모델 채택이 가속될 가능성",
+          "why": "머스크 계열사를 독점 테스트베드로 삼는 구조는 xAI가 <b>실 서비스 피드백을 경쟁사보다 먼저 학습</b>할 수 있는 구조적 우위이자 생태계 락인 심화다.",
           "quiz": {
-            "q": "Gemini 3.5 Pro에 확정된 컨텍스트 윈도우 크기는?",
-            "opts": ["50만 토큰", "100만 토큰", "150만 토큰", "200만 토큰"],
-            "ans": 3
+            "q": "Grok 4.5의 파라미터 규모는?",
+            "opts": ["5,000억", "1조", "1.5조", "3조"],
+            "ans": 2
           },
           "you": null,
-          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-27-2026",
-          "source": "Build Fast with AI"
+          "url": "https://cryptobriefing.com/xai-grok-4-5-v9-model-upgrade/",
+          "source": "CryptoBriefing"
         },
         {
           "id": "m3",
           "cat": "model",
-          "title": "GPT-4.5 ChatGPT에서 완전 은퇴 — GPT-4 세대 소비자 서비스 종료",
-          "meta": "30일 공지 후 조용히 막 내린 GPT-4 시대",
+          "title": "Google Gemini 3.5 Pro, 두 번째 I/O 출시 약속 불이행 — 6월 공개 포기",
+          "meta": "약속 두 번 어긴 Google — 인재 이탈 악재와 겹치며 AI 경쟁력에 투자자 물음표",
           "date_local": "2026-06-27 (ET)",
-          "date_kst": "KST 6/27",
-          "warn": false,
+          "date_kst": "KST 6/28",
+          "warn": true,
           "bullets": [
-            "<b>6월 27일</b>을 기점으로 ChatGPT에서 GPT-4.5 선택 옵션이 완전히 제거됐으며, 기존 대화는 자동으로 <b>GPT-5.5로 마이그레이션</b> 처리됨",
-            "API는 별도 정책에 따라 지원 유지되지만 <b>ChatGPT 인터페이스에서 GPT-4 세대 모델이 전멸</b> — 소비자 제품 기준 GPT-5 세대로의 완전 전환 완료",
-            "OpenAI는 동시에 <b>o3 모델도 8월 26일 추가 은퇴</b> 예정임을 예고, 레거시 모델 정리 작업을 90일 단위로 가속 중"
+            "Google이 <b>Gemini 3.5 Pro의 6월 내 공개 출시를 공식 포기</b>하며 I/O 2026에서 한 약속을 두 번째로 어기는 상황 발생",
+            "현재 모델은 <b>엔터프라이즈 프리뷰</b> 상태로만 제한 배포 중이며, 다음 공개 일정은 미확정",
+            "이번 주 <b>DeepMind 핵심 연구원 4명의 잇따른 이직</b>과 맞물려 Alphabet 시총 2,690억 달러 증발이라는 복합 악재로 이어짐"
           ],
-          "why": "ChatGPT의 <b>기본 추론 베이스라인이 GPT-5.5로 상향 평준화</b>되며 AI 모델 세대 교체 주기가 불과 수개월로 압축됐음을 확인",
+          "why": "반복된 출시 지연과 핵심 인재 유출이 동시에 부각되며, <b>Google AI의 실질적 경쟁력 후퇴</b>에 대한 시장의 의구심이 구체화되고 있다.",
           "quiz": {
-            "q": "GPT-4.5 은퇴 후 ChatGPT 기존 대화가 자동 전환된 모델은?",
-            "opts": ["GPT-5.4", "GPT-5.5", "GPT-5.6 Luna", "GPT-o3"],
+            "q": "Gemini 3.5 Pro의 6월 출시 불이행은 I/O 약속 기준 몇 번째인가?",
+            "opts": ["첫 번째", "두 번째", "세 번째", "이번이 처음"],
             "ans": 1
           },
           "you": null,
-          "url": "https://www.techradar.com/ai-platforms-assistants/chatgpt/openai-just-quietly-retired-the-last-of-the-gpt-4-models-and-it-feels-like-the-end-of-an-ai-era",
-          "source": "TechRadar"
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-27-2026",
+          "source": "Build Fast with AI"
         }
       ]
     },
@@ -90,48 +90,48 @@
         {
           "id": "d1",
           "cat": "dev",
-          "title": "DeepSeek V4 Flash, SWE-bench 79% 달성 — GPT-5.5 대비 약 150배 저렴",
-          "meta": "오픈웨이트 코딩 모델의 비용 혁명, 바이브코딩 환경 판도 변화",
-          "date_local": "2026-06-27 (UTC)",
+          "title": "ChatGPT GPT-4.5 모델 공식 은퇴, 기존 대화 GPT-5.5로 자동 이관",
+          "meta": "ChatGPT 모델 세대교체 완료 — GPT-4.x 시대의 공식 종료 신호",
+          "date_local": "2026-06-27 (ET)",
           "date_kst": "KST 6/28",
           "warn": false,
           "bullets": [
-            "<b>DeepSeek V4 Flash</b>가 소프트웨어 엔지니어링 벤치마크 SWE-bench Verified에서 <b>79%를 달성</b>, 불과 1년 전 최고 기록 수준의 코딩 성능을 오픈웨이트로 제공",
-            "출력 토큰 가격이 <b>$0.28/M</b>으로, GPT-5.5 출력 가격의 <b>약 150분의 1</b> 수준 — 대용량 코딩 에이전트 운영 비용을 사실상 소멸 수준으로 낮춤",
-            "OpenRouter 6월 보고서는 <b>GLM 5.2(중국 Zhipu AI)</b>가 Artificial Analysis 지능 지수에서 오픈웨이트 1위(51점)를 기록, 중국 오픈웨이트 모델들이 미국 프런티어와 <b>3~6개월 격차를 18개월째 유지</b>하며 추격 중임을 확인"
+            "<b>OpenAI가 6월 27일자로 ChatGPT에서 GPT-4.5를 퇴역</b>시켰으며, 사용자의 기존 대화는 GPT-5.5로 자동 이관",
+            "GPT-4.5는 출시 후 약 6개월 만에 <b>30일 일몰(sunset) 공지를 거쳐 종료</b>",
+            "이로써 ChatGPT 기본 라인업은 <b>GPT-5.5(범용)·GPT-5.5 Pro·o3(추론) 체계</b>로 단순화"
           ],
-          "why": "<b>클로즈드 모델 의존 없이도 산업급 코딩 에이전트를 구축</b>할 수 있는 조건이 갖춰지면서 AI 개발 생태계의 비용 구조가 근본적으로 재편 중",
+          "why": "GPT-4.x 계열의 공식 종료는 <b>API 의존 서비스의 마이그레이션 필요성</b>을 환기시키며, 앞으로 모델 교체 주기가 더 빨라질 것임을 예고한다.",
           "quiz": {
-            "q": "DeepSeek V4 Flash의 SWE-bench Verified 달성 점수는?",
-            "opts": ["63%", "71%", "85%", "79%"],
-            "ans": 3
+            "q": "ChatGPT에서 GPT-4.5의 기존 대화가 전환된 방식은?",
+            "opts": ["사용자 수동 전환 필요", "GPT-5.5로 자동 이관", "유료 플랜만 자동 이관", "신규 대화부터만 GPT-5.5 적용"],
+            "ans": 1
           },
-          "you": "Claude Code 대안으로 DeepSeek V4 Flash를 코딩 에이전트 파이프라인에 적용 시 운영 비용 대폭 절감 가능",
-          "url": "https://openrouter.ai/blog/insights/the-open-weight-models-that-matter-june-2026/",
-          "source": "OpenRouter Blog"
+          "you": null,
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-27-2026",
+          "source": "Build Fast with AI"
         },
         {
           "id": "d2",
           "cat": "dev",
-          "title": "Firmus + NVIDIA, 인도네시아 바탐섬 360MW AI 팩토리 착공 협약",
-          "meta": "동남아 AI 인프라 경쟁의 최대 베팅 — $300억 수익 목표",
-          "date_local": "2026-06-28 (ET)",
-          "date_kst": "KST 6/29",
+          "title": "OpenAI, Codex 에이전트 업무 혁신 데이터 공개 — 리서치 사용량 56배 급증",
+          "meta": "에이전트가 실제 업무를 얼마나 바꾸는지 OpenAI 내부 수치로 첫 공개",
+          "date_local": "2026-06-27 (ET)",
+          "date_kst": "KST 6/28",
           "warn": false,
           "bullets": [
-            "호주 AI 인프라 기업 <b>Firmus</b>와 싱가포르 DayOne이 인도네시아 바탐섬에 <b>NVIDIA DSX 기반 360MW AI 팩토리 캠퍼스</b>를 착공, 2027년 1분기 가동 목표",
-            "8년 파트너십에서 <b>Grace Blackwell·Vera Rubin GPU 17만 개</b>를 2028년까지 배치하며, 첫 6년간 <b>$250억~$300억 규모의 확약 오프테이크 계약</b>을 목표로 제시",
-            "멀티테넌트 방식 AI 네이티브 기업 대상으로 운영되며, NVIDIA 지원을 받은 Firmus는 지난 4월 Coatue 주도로 <b>$55억 기업가치에 $5억 조달</b>을 완료한 상태"
+            "OpenAI 보고서에 따르면 <b>리서치 부문 에이전트 사용량이 2025년 11월 대비 56배 증가</b>, 고객 지원 32배·엔지니어링 27배 순",
+            "전 직원의 <b>80% 이상이 '30분 초과' 작업을 에이전트에 의뢰</b>하며, 99퍼센타일 사용자는 하루 60시간 이상의 Codex 병렬 실행",
+            "비개발자 조직 사용자가 <b>2025년 8월 대비 189배 증가</b>해 법무·HR 등 비기술 직군으로 에이전트 확산 가속"
           ],
-          "why": "동남아가 <b>미·중 AI 지정학 경쟁 속 제3의 AI 인프라 거점</b>으로 부상하는 흐름 속에서, NVIDIA의 글로벌 파트너 전략이 분산 다극화 구도로 전환 중임을 시사",
+          "why": "공공기관 도입 검토 시 ROI 설득에 활용 가능한 실사례 수치로, <b>에이전트가 단순 보조 도구에서 핵심 업무 실행자로 전환됐음</b>을 수치로 입증한 보고서다.",
           "quiz": {
-            "q": "Firmus의 인도네시아 AI 팩토리 캠퍼스 목표 가동 시기는?",
-            "opts": ["2026년 4분기", "2027년 1분기", "2027년 3분기", "2028년 1분기"],
-            "ans": 1
+            "q": "OpenAI 보고서에서 비개발자 조직 사용자의 증가 배율(2025년 8월 대비)은?",
+            "opts": ["27배", "56배", "137배", "189배"],
+            "ans": 3
           },
-          "you": null,
-          "url": "https://www.bloomberg.com/news/articles/2026-06-28/ai-startup-firmus-to-build-indonesia-data-center-with-nvidia",
-          "source": "Bloomberg"
+          "you": "에이전트 도입을 검토하는 공공기관이라면 리서치 56배·비기술직 189배 실사례가 내부 설득 근거로 직접 활용 가능",
+          "url": "https://openai.com/index/how-agents-are-transforming-work/",
+          "source": "OpenAI"
         }
       ]
     },
@@ -143,25 +143,25 @@
         {
           "id": "r1",
           "cat": "research",
-          "title": "중국 오픈웨이트 모델, OpenRouter API 트래픽 60% 점령 — 18개월 만에 역전",
-          "meta": "2%에서 60%로, 개발자 생태계에서 조용히 완성된 중국 모델의 패권",
-          "date_local": "2026-06-27 (UTC)",
+          "title": "하이퍼스케일러 AI 인프라 지출 4,520억 달러, 수익화는 절반도 못 미쳐",
+          "meta": "AI 투자 규모와 매출 사이의 구조적 괴리 — 거품 논쟁이 숫자로 가시화",
+          "date_local": "2026-06-27 (ET)",
           "date_kst": "KST 6/28",
           "warn": false,
           "bullets": [
-            "<b>OpenRouter 6월 분석 보고서</b>에 따르면 중국 AI 모델 토큰 사용량이 플랫폼 전체의 <b>60%를 돌파</b> — 2024년 초 약 2%에서 18개월 만에 역전",
-            "MiniMax M2.5·Kimi K2.6·DeepSeek V4·GLM 5.2가 주도하며, <b>코딩 작업이 OpenRouter 전체 사용량의 50% 이상</b>을 차지하는 가장 빠른 성장 영역임을 확인",
-            "중국 모델들은 미국 프런티어와 <b>3~6개월의 성능 격차를 18개월째 유지</b>하며 추격 중이며, 비용은 미국 동급 모델 대비 10~20배 저렴한 수준"
+            "구글·MS·아마존·메타 등 하이퍼스케일러의 <b>2026년 합산 AI 인프라 지출이 약 4,520억 달러를 돌파</b>할 전망",
+            "MS는 AI 인프라에 <b>약 970억 달러를 지출</b>하면서 AI 관련 매출은 <b>약 370억 달러에 그쳐</b> 투자 대비 수익화 속도 지연 확인",
+            "업계 분석가들은 <b>ROI 임계점 도달에 2~3년이 더 필요</b>하다고 보며, 응용 서비스 확산 속도가 핵심 변수로 부상"
           ],
-          "why": "<b>AI 코딩 에이전트 워크플로우가 중국 오픈웨이트 모델 쪽으로 이동</b>하는 구조적 전환이 확인되며, 미국의 AI 거버넌스 정책이 역설적으로 오픈웨이트 생태계를 키우고 있다는 논의 부상",
+          "why": "수익화보다 수 배 빠른 지출 증가는 <b>AI 투자 사이클의 지속성과 반도체·데이터센터 수요 전망</b>에 가장 중요한 거시 신호다.",
           "quiz": {
-            "q": "OpenRouter에서 중국 모델 점유율이 2024년 초 약 2%에서 2026년 6월 기준 몇 %까지 성장했나?",
-            "opts": ["약 30%", "약 45%", "약 60%", "약 75%"],
-            "ans": 2
+            "q": "MS의 AI 관련 매출(약 370억 달러) 대비 AI 인프라 지출은?",
+            "opts": ["약 570억 달러", "약 970억 달러", "약 1,200억 달러", "약 1,500억 달러"],
+            "ans": 1
           },
           "you": null,
-          "url": "https://openrouter.ai/blog/insights/the-open-weight-models-that-matter-june-2026/",
-          "source": "OpenRouter Blog"
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-27-2026",
+          "source": "Build Fast with AI"
         }
       ]
     },
@@ -173,25 +173,25 @@
         {
           "id": "p1",
           "cat": "policy",
-          "title": "오스트리아, EU에 Anthropic 유치 촉구 — 미국 수출규제 대응 AI 주권 전략",
-          "meta": "Fable 5·Mythos 5 접근 차단에 맞서 유럽이 직접 AI 생태계 품기 나서",
-          "date_local": "2026-06-28 (CEST)",
-          "date_kst": "KST 6/29",
+          "title": "EU AI Act Article 50 D-35 — 챗봇·딥페이크 투명성 의무 8월 2일 시행",
+          "meta": "챗봇 AI 명시·딥페이크 라벨링 의무화 — 전 세계 AI 서비스의 대응 데드라인",
+          "date_local": "2026-06 (ET)",
+          "date_kst": "KST 2026-06",
           "warn": false,
           "bullets": [
-            "오스트리아 디지털화 담당 국무장관 <b>알렉산더 프뢸</b>이 EU 디지털 담당 집행부위원장 <b>헨나 비르쿠넨</b>에게 서한을 보내, Anthropic의 <b>'EU 내 전략적 설립 및 참여' 공동 모색</b>을 촉구",
-            "서한의 계기는 미국 상무부가 <b>Anthropic의 최신 모델 Fable 5·Mythos 5에 대한 외국 접근을 제한</b>한 수출통제 조치 — AI 주권 논쟁에 불을 붙인 사건",
-            "서한에서 '법적 확실성·시장 접근·자본·가치 체계'를 조건으로 제시하며 <b>미·중 의존 탈피를 위한 유럽형 AI 생태계</b> 구축 의지를 표명"
+            "<b>EU AI Act Article 50이 8월 2일부터 의무 적용</b> — 챗봇 상호작용 시 AI임을 명시해야 하고, 딥페이크·AI 생성 콘텐츠에는 기계 가독형 마킹 필수",
+            "위반 시 <b>전 세계 연간 매출의 3% 또는 최대 1,500만 유로</b> 중 큰 금액이 벌금으로 부과",
+            "EC가 2분기 내 자발적 준수 코드를 배포 예정이나, <b>8/2 이후에는 강제 집행이 가능</b>해지며 EU 사용자를 대상으로 하는 글로벌 서비스 전체에 적용"
           ],
-          "why": "<b>AI 접근 차단이 지정학 외교 협상 카드로 진화</b>하는 새로운 단계를 보여주며, Anthropic의 유럽 거점 확보 여부가 글로벌 AI 규제 구도를 재편할 핵심 변수로 부상",
+          "why": "EU 사용자를 대상으로 하는 국내 기관·기업의 AI 서비스도 즉시 적용 대상으로, <b>챗봇 'AI 명시' 기능 구현 완료 여부를 지금 당장 점검</b>해야 할 시점이다.",
           "quiz": {
-            "q": "오스트리아가 EU에 Anthropic 유치를 촉구한 직접적 계기는?",
-            "opts": ["EU AI법 전면 발효 준비", "미국의 Fable 5·Mythos 5 외국 접근 제한 조치", "Anthropic의 유럽 IPO 신청", "EU-US AI 협력 협약 결렬"],
+            "q": "EU AI Act Article 50 위반 시 부과 가능한 벌금 기준은?",
+            "opts": ["EU 매출 1% 또는 500만 유로", "전 세계 매출 3% 또는 1,500만 유로", "EU 매출 5% 또는 3,000만 유로", "전 세계 매출 3% 또는 3,000만 유로"],
             "ans": 1
           },
-          "you": "국내 공공기관 AI 도구 조달에서 미국 수출규제가 직접 영향을 미치는 사례 — 한국도 유사한 AI 주권 리스크에 노출될 수 있음",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-28/austria-lobbies-eu-to-host-anthropic-after-us-access-curbs",
-          "source": "Bloomberg"
+          "you": "공공 AI 서비스가 EU 사용자에게도 제공된다면, 8/2 이전 챗봇 'AI 명시' 기능 구현 완료 필요",
+          "url": "https://www.gtlaw.com/en/insights/2026/6/deepfakes-chatbots-ai-generated-text-european-commission-details-transparency-obligations-under-the-ai-act",
+          "source": "Greenberg Traurig"
         }
       ]
     },
@@ -201,73 +201,50 @@
       "you": true,
       "items": [
         {
-          "id": "i1",
+          "id": "c1",
           "cat": "money",
-          "title": "구글 딥마인드 스타 연구원 4명 이탈 — Alphabet 시총 약 $269B 증발",
-          "meta": "AI 인재 1인이 수십조 기업가치를 좌우하는 시대의 도래",
+          "title": "Alphabet 시총 2,690억 달러 증발 — DeepMind 핵심 연구원 6일 새 4명 이탈",
+          "meta": "AI 인재 이탈이 곧 시총 폭락으로 직결 — 빅테크 투자의 새 리스크 공식",
           "date_local": "2026-06-27 (ET)",
           "date_kst": "KST 6/28",
-          "warn": false,
+          "warn": true,
           "bullets": [
-            "6월 18~24일 6일 사이 <b>Noam Shazeer(Transformer 공동 발명자)→OpenAI</b>, <b>John Jumper(알파폴드 노벨상 수상)→Anthropic</b>, Jonas Adler·Alexander Pritzel(Gemini 핵심 연구원)→Anthropic까지 줄이탈",
-            "Alphabet 주가는 6월 22일 하루 약 7% 급락을 시작으로 <b>누적 시총 손실 약 $269B(약 370조 원)</b>을 기록 — 단일 이슈로는 최근 몇 년 최대 규모",
-            "시장은 이번 사태를 <b>'AI 핵심 연구자가 기업가치의 시장 측정 자산'</b>임을 확인한 사건으로 해석, 인재 보유 여부가 밸류에이션 핵심 변수로 굳어짐"
+            "6월 18~24일 사이 <b>Google DeepMind 핵심 연구원 4명이 경쟁사로 잇달아 이직</b>하며 업계 최대 규모의 비(非)실적 이유 주가 급락 촉발",
+            "<b>Alphabet 시가총액이 수일 만에 약 2,690억 달러 감소</b> — AI 분야 인재 이슈로는 역대 최대 규모 시총 손실로 꼽힘",
+            "Gemini 3.5 Pro 출시 연기·GPT-5.6 우위 인식과 겹치며 <b>Google AI 경쟁력에 대한 투자자 신뢰가 복합 균열</b>"
           ],
-          "why": "최고 AI 연구자 이탈이 <b>수십조 원 단위의 즉각적 시장 재평가를 유발</b>하는 선례가 확립되면서, AI 기업의 M&A·인재 계약 전략이 근본적으로 바뀔 전망",
+          "why": "핵심 연구자 이탈이 수십조 원의 시총 손실로 이어지는 현상은, <b>AI 기업 투자에서 인재 리텐션이 재무제표만큼 중요한 지표</b>임을 재확인했다.",
           "quiz": {
-            "q": "John Jumper 연구원이 구글 딥마인드를 떠나 합류한 기업은?",
-            "opts": ["OpenAI", "Meta AI", "Anthropic", "Mistral AI"],
+            "q": "DeepMind 연구원 이탈이 발생한 기간은?",
+            "opts": ["6월 1~10일", "6월 10~17일", "6월 18~24일", "6월 25~27일"],
             "ans": 2
           },
-          "you": "AI 기업 투자 시 핵심 연구자 유지 여부가 가장 중요한 기업가치 리스크 요인으로 부상",
-          "url": "https://fortune.com/2026/06/23/google-deepmind-ai-researcher-departures-raise-doubts-about-ability-to-win-the-ai-race-shazeer-jumper-eye-on-ai/",
-          "source": "Fortune"
+          "you": "반도체·AI 투자자라면 핵심 연구 인력 이탈을 실적 외 별도 리스크 지표로 모니터링할 필요",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-27-2026",
+          "source": "Build Fast with AI"
         },
         {
-          "id": "i2",
+          "id": "c2",
           "cat": "money",
-          "title": "Baidu 칩 부문 쿤룬신, 홍콩 IPO 목표 $500억 — 투자자에 칩 구매 의무 요구",
-          "meta": "중국 AI 반도체 자립의 최대 IPO 베팅, '칩 구매 연동 상장' 전례 없는 구조",
-          "date_local": "2026-06-28 (ET)",
-          "date_kst": "KST 6/29",
-          "warn": false,
-          "bullets": [
-            "<b>Baidu 산하 AI 칩 기업 쿤룬신(Kunlunxin)</b>이 홍콩 증시 상장을 통해 목표 기업가치 <b>500억 달러(약 69조 원)</b> 달성 추진 — 5월 추산치(약 128억 달러)의 4배 급상승",
-            "논란의 핵심은 IPO 투자자에게 <b>'보유 주식 가치의 3~7배에 해당하는 쿤룬신 칩 구매'를 참여 조건으로 요구</b>한 것 — BIS는 이를 '순환 자금 조달(circular financing)' 구조로 경고",
-            "<b>ByteDance가 채택 검토 중이며 Tencent는 이미 고객</b>으로 확보, 홍콩 상장과 별도로 상하이 STAR마켓 이중 상장도 추진 중"
-          ],
-          "why": "미국 반도체 수출통제 속 <b>중국 AI 칩 생태계 형성의 키스톤 IPO</b>로, '칩 구매 연동 상장'이라는 새로운 자본 구조가 글로벌 반도체 투자에 선례를 남길지 주목",
-          "quiz": {
-            "q": "쿤룬신이 IPO 투자자에게 부과한 이례적 조건은?",
-            "opts": ["스톡옵션 매각 2년 제한", "보유 주식 가치의 3~7배 칩 구매 의무", "중국 국내 투자자만 참여 허용", "상장 후 1년 이내 추가 지분 취득 금지"],
-            "ans": 1
-          },
-          "you": "중국 AI 칩 생태계가 독자 자본 구조로 성장하는 리스크와 기회를 반도체 투자 관점에서 주목 필요",
-          "url": "https://thenextweb.com/news/baidu-kunlunxin-ipo-50-billion-investors-buy-chips",
-          "source": "The Next Web"
-        },
-        {
-          "id": "i3",
-          "cat": "money",
-          "title": "OpenAI·Anthropic 가격 전쟁 전야 — 두 IPO 서사의 정면 충돌",
-          "meta": "수익성과 경쟁력 사이, AI 업계 가장 첨예한 딜레마",
+          "title": "OpenAI, GPT 토큰 단가 대폭 인하 검토 — 中 AI·Anthropic과 가격전쟁 임박",
+          "meta": "OpenAI의 IPO 전 가격 인하 카드 — 수익성 서사와 시장 점유율 사이의 딜레마",
           "date_local": "2026-06-27 (ET)",
           "date_kst": "KST 6/28",
           "warn": false,
           "bullets": [
-            "<b>OpenAI가 토큰 가격 대폭 인하를 검토 중</b>이라고 WSJ가 보도 — Anthropic의 Claude 생태계 장악에 맞서기 위한 선제적 조치",
-            "Anthropic의 연간 매출 런레이트가 4월 기준 <b>약 300억 달러(약 41조 원)로 OpenAI(약 240억 달러)를 추월</b>한 것으로 추산되며, Anthropic은 흑자 전환까지 완료",
-            "가격 인하는 두 회사 모두 추진 중인 IPO의 수익성 서사와 직접 충돌 — <b>OpenAI는 2026년 약 140억 달러 적자 전망</b> 속에서 출혈 경쟁 압박에 먼저 노출된 상황"
+            "OpenAI가 <b>GPT 계열 토큰 단가를 대폭 낮추는 방안을 내부 검토</b> 중으로, 직접적 배경은 OpenRouter 사용량의 <b>60%를 점한 중국 오픈웨이트 모델</b>의 약진",
+            "Anthropic과의 직접 가격 경쟁도 테이블에 올라 있으며, <b>가격 인하 시 연간 수십억 달러 매출 감소</b> 불가피",
+            "IPO를 앞두고 <b>수익성 서사 유지와 시장 점유율 방어</b>라는 두 목표 사이에서 갈등하는 구조"
           ],
-          "why": "<b>AI 모델 토큰 가격의 상품화(commoditization)</b>가 예상보다 빠르게 진행되며, 선도 두 기업의 IPO 전 가격 전쟁이 업계 수익 구조 전체를 흔들 수 있음",
+          "why": "가격 인하 현실화 시 API 단가가 낮아져 <b>공공·민간 AI 도입 장벽이 낮아지는 동시에</b>, AI 인프라 수혜주의 수익성 전망도 압박받는 양면 효과다.",
           "quiz": {
-            "q": "2026년 4월 기준 Anthropic의 추산 연간 매출 런레이트는?",
-            "opts": ["약 100억 달러", "약 180억 달러", "약 240억 달러", "약 300억 달러"],
-            "ans": 3
+            "q": "OpenAI가 가격 인하를 검토하게 된 직접적 배경으로 카드에 언급된 것은?",
+            "opts": ["Gemini 3.5 Pro 출시", "OpenRouter 사용량 60%를 점한 중국 오픈웨이트 모델", "GPT-5.6 출시 지연", "Anthropic Series H 투자 유치"],
+            "ans": 1
           },
-          "you": "국내 공공·기관 AI 도입 예산 관점에서 프런티어 AI API 가격 인하가 실질 비용 절감으로 이어질 가능성",
-          "url": "https://247wallst.com/investing/2026/06/26/openai-vs-anthropic-the-race-to-ipo-before-the-ai-hype-peaks-is-on/",
-          "source": "24/7 Wall St."
+          "you": "GPT API 단가 인하가 실현되면 공공 AI 서비스 운영비 절감에 직결 — 계약 갱신 타이밍 고려 권고",
+          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-27-2026",
+          "source": "Build Fast with AI"
         }
       ]
     },
@@ -279,25 +256,48 @@
         {
           "id": "k1",
           "cat": "korea",
-          "title": "삼성·SK하이닉스, 광주 서남권 최대 900조 반도체 클러스터 발표",
-          "meta": "한국 반도체 사상 최대 투자 선언 — 용인 조기 완공에 서남권 신거점 추가",
-          "date_local": "2026-06-28 (KST)",
+          "title": "삼성·SK, 4,755조원 메가프로젝트 동시 선언 — 한국 GDP 2배 규모 AI 투자",
+          "meta": "역대 최대 기업 투자 선언 — 한국을 AI 소비국에서 AI 연산 수출국으로 전환하는 10년 대계",
+          "date_local": "2026-06-29 (KST)",
           "date_kst": null,
           "warn": false,
           "bullets": [
-            "<b>삼성전자(300~400조 원)·SK하이닉스(400~500조 원)</b>가 전남·광주 지역에 반도체 전공정 팹 4~6기를 신설하는 서남권 클러스터에 최대 <b>900조 원</b>을 투자하기로 확정",
-            "동시에 <b>삼성은 용인팹 완공을 7년, SK하이닉스는 12년 앞당기기</b>로 결정 — 삼성전자는 광주(전공정)·아산(후공정) 투자를, SK그룹은 AI 데이터센터(울산·호남·강원) 투자를 추가",
-            "<b>이재명 대통령</b>이 6월 29일 청와대에서 '3대 메가 프로젝트 국민보고'를 열어 <b>이재용 삼성전자 회장·최태원 SK 회장</b>과 함께 공식 발표 예정"
+            "<b>삼성그룹 2,655조원 + SK그룹 2,100조원 합산 4,755조원</b>을 2035년까지 단계적 투자 — 정부 예산의 6.5배, 한국 연간 GDP의 약 2배",
+            "삼성은 호남(팹 6기 이상·425조)·충청(HBM 패키징·140조)·영남(로봇·60조) 3대 권역 청사진 공개, SK하이닉스는 <b>용인 클러스터 완공을 12년 앞당겨 2033년으로 단축</b>",
+            "이재명 대통령 '초격차', SK '한국에서 AI 미래 창출' 선언 — 양사 공통 키워드는 <b>AI 연산 수출국 전환</b>"
           ],
-          "why": "글로벌 AI 인프라 경쟁이 <b>국가 주도 반도체 클러스터 경쟁</b>으로 확장되는 흐름 속에서, 한국이 AI 메모리·패키징 생산 거점을 비수도권으로 다변화해 장기 공급 기반을 구축하는 포석",
+          "why": "삼성·SK의 동시 메가 발표는 <b>반도체 소부장·데이터센터 인프라 밸류체인 전반의 향후 10년 국내 수혜 지도를 사실상 확정</b>하는 이정표다.",
           "quiz": {
-            "q": "삼성전자가 용인팹 완공을 앞당기기로 결정한 기간은?",
-            "opts": ["3년", "5년", "7년", "12년"],
+            "q": "삼성·SK 합산 투자액은 한국 정부 예산의 몇 배인가?",
+            "opts": ["3배", "4.5배", "6.5배", "10배"],
             "ans": 2
           },
-          "you": "국내 AI 반도체 투자 인프라 확대가 공공·기관 AI 컴퓨팅 수요와 장기 공급망에 미치는 파급 효과 주목",
-          "url": "https://news.nate.com/view/20260628n16832",
-          "source": "서울경제 (네이트뉴스)"
+          "you": "반도체·AI 인프라 투자자라면 용인·호남·충청 클러스터 수혜 소부장·장비주 포트폴리오 점검 시점",
+          "url": "https://www.fnnews.com/news/202606291705529918",
+          "source": "파이낸셜뉴스"
+        },
+        {
+          "id": "k2",
+          "cat": "korea",
+          "title": "SK하이닉스, 용인 클러스터 완공 12년 단축·서남권 AI 메모리 벨트 신설",
+          "meta": "HBM 초격차 위해 생산거점 일정을 12년 앞당기는 SK하이닉스의 속도전",
+          "date_local": "2026-06-29 (KST)",
+          "date_kst": null,
+          "warn": false,
+          "bullets": [
+            "당초 2045년 완공 예정이던 <b>용인 클러스터 4번째 팹을 2033년으로 12년 앞당겨</b> 착공 일정 변경",
+            "<b>용인-청주-서남권을 잇는 'AI 메모리 생산벨트'</b> 구축 발표 — 서남권 신규 팹 포함한 반도체 부문 1,100조원 중장기 투자 계획",
+            "HBM4 양산 가속과 맞물려 <b>AI 가속기 수요 급증에 공급 능력으로 선제 대응</b>하는 전략적 의미"
+          ],
+          "why": "클러스터 완공 12년 단축은 HBM 수급 긴장이 2027~2028년까지 이어진다는 시장 전망과 맞닿아 있으며, <b>SK하이닉스 관련 소부장·패키징 밸류체인에 가장 직접적인 수혜 신호</b>다.",
+          "quiz": {
+            "q": "SK하이닉스가 용인 클러스터 4번째 팹 완공을 앞당긴 기간은?",
+            "opts": ["5년", "8년", "12년", "15년"],
+            "ans": 2
+          },
+          "you": "SK하이닉스 HBM4 공급망 가속화는 국내 AI 반도체 소부장·패키징 기업에 장기 수주 증가 예상",
+          "url": "https://www.newspim.com/news/view/20260629001327",
+          "source": "뉴스핌"
         }
       ]
     }
