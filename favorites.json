@@ -608,5 +608,42 @@
       "_section": "모델 · 출시"
     },
     "memo": ""
+  },
+  "xe42beeccabf0": {
+    "id": "xe42beeccabf0",
+    "date": "2026-06-28",
+    "slot": "pm",
+    "ts": "2026-06-29T05:28:32.272Z",
+    "item": {
+      "id": "xe42beeccabf0",
+      "cat": "model",
+      "title": "OpenAI, GPT-5.6 3종(Sol·Terra·Luna) 공개 — 미 정부 요청으로 '신뢰 파트너'만",
+      "meta": "차세대 프런티어 모델이 출시됐지만, 미 정부가 최초 공개 범위를 직접 제한한 전례 없는 상황",
+      "date_local": "2026-06-26 (ET)",
+      "date_kst": "KST 6/27",
+      "warn": false,
+      "bullets": [
+        "<b>OpenAI가 GPT-5.6 Sol·Terra·Luna 3종을 공개</b>했으나, 미국 정부 요청에 따라 신원이 공유된 소수 신뢰 파트너 기관에만 우선 접근 허용",
+        "Sol은 3종 중 최강 모델이며, 개인 신청 불가 — <b>수 주 내 일반 공개</b> 예정이라고 OpenAI가 밝힘",
+        "6월 2일 발표된 트럼프 행정부 AI 행정명령이 배경 — 신규 모델의 <b>출시 전 정부 공유 절차</b>를 업계가 처음으로 이행한 사례"
+      ],
+      "why": "<b>AI 모델 출시가 정부 사전 검토와 연동되는 새 관행</b>이 정착될 경우, 향후 글로벌 프런티어 모델 접근 방식 전반에 영향을 줄 수 있음",
+      "quiz": {
+        "q": "GPT-5.6 3종 중 가장 강력한 모델의 이름은?",
+        "opts": [
+          "Sol",
+          "Terra",
+          "Luna",
+          "Nova"
+        ],
+        "ans": 0
+      },
+      "you": null,
+      "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "source": "OpenAI",
+      "_icon": "🚀",
+      "_section": "모델 · 출시"
+    },
+    "memo": ""
   }
 }
