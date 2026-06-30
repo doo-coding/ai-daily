@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-30",
+  "date": "2026-07-01",
   "slot": "am",
-  "date_line": "2026년 6월 30일 (화) · 아침 · 7건 선별",
+  "date_line": "2026년 7월 1일 (수) · 아침 · 9건 선별",
   "kicker": "AI 데일리 · 자동 발송",
   "footer_tag": "✈ via Telegram · 매일 07:00 · 19:00 자동 발송",
-  "oneline": "<b>삼성·SK 총 4755조원</b> 역대 최대 국내 투자 확정과 <b>Anthropic-캘리포니아 주정부 Claude 계약</b>이 하루 만에 공개되면서, AI 인프라 경쟁과 공공 AI 도입 패러다임이 동시에 전환점을 맞음.",
+  "oneline": "<b>Anthropic이 Sonnet 5와 Claude Science를 동시 출시</b>하며 에이전트 AI 시장 주도권을 재확인했고, <b>한국 정부는 삼성·SK하이닉스와 800조 원($576B) AI 반도체 투자 계획</b>으로 글로벌 경쟁에 응전",
   "sections": [
     {
       "icon": "🚀",
@@ -14,48 +14,94 @@
         {
           "id": "m1",
           "cat": "model",
-          "title": "Claude Mythos 5 일부 복구 — 뤼트닉 상무장관 100개 기업 허가, Fable 5는 여전히 차단",
-          "meta": "2주 협상 끝에 미 정부가 '안전 기업' 목록을 발표하는 방식으로 최고 모델 접근권을 허가제로 전환",
-          "date_local": "2026-06-27 (ET)",
-          "date_kst": "KST 6/28",
+          "title": "Anthropic, Claude Sonnet 5 전격 출시",
+          "meta": "Opus 수준 에이전트 성능을 절반 가격에 — Claude Code 및 API 워크플로 즉시 전환 가능",
+          "date_local": "2026-06-30 (PT)",
+          "date_kst": "KST 7/1",
           "warn": false,
           "bullets": [
-            "<b>하워드 뤼트닉 미 상무장관</b>이 6월 27일 서한에 서명, <b>애플·구글·시스코·엔비디아·마이크로소프트 등 약 100개 신뢰 파트너(Project Glasswing 멤버·핵심 인프라 기업)</b>에 한해 Claude Mythos 5 수출 허가",
-            "허가 범위는 엄격히 제한 — <b>목록에 없는 조직과 일반 사용자는 여전히 접근 불가</b>이며, 사이버보안·핵심 인프라 분야 외 기업은 사실상 배제된 상태",
-            "<b>Claude Fable 5는 이번 서한에서 언급조차 없어</b> 수출통제 지속 — Anthropic은 '가능한 빨리 접근 복구를 위해 노력 중'이라고만 밝히며 공식 일정은 미정"
+            "<b>Anthropic이 6월 30일 Claude Sonnet 5를 출시</b>해 Free·Pro 플랜의 기본 모델로 전환 — 종전 Sonnet 4.6 대비 추론·코딩·도구 사용 전반에서 성능 향상",
+            "<b>도입 가격 입력 $2·출력 $10(100만 토큰당)</b>으로 Opus 4.8 대비 약 절반 수준, 8/31 이후엔 $3·$15로 전환 — 에이전트 워크플로를 저비용으로 확장 가능",
+            "<b>브라우저·터미널 조작, 장기 자율 실행</b> 등 에이전트 기능 대폭 강화 — 모델 ID `claude-sonnet-5`, AWS Bedrock·GitHub Copilot에도 단계적 배포"
           ],
-          "why": "<b>AI 모델 접근이 '기업 신뢰도 인증' 기반의 허가제로 구조화</b>되는 새 선례 — 특정 모델 사용 여부가 기업의 정부 등록 상태와 연동되는 시대가 시작됨",
+          "why": "<b>Fable 5 국제 차단이 지속</b>되는 상황에서 Claude Code 국제 사용자에게 즉시 쓸 수 있는 성능 향상 대안 등장",
           "quiz": {
-            "q": "Mythos 5 사용이 허가된 기업 수는 약 몇 개인가?",
-            "opts": ["20개", "50개", "100개", "무제한"],
-            "ans": 2
+            "q": "Claude Sonnet 5의 도입 기간(8/31까지) 출력 토큰 가격(100만 개당)은?",
+            "opts": ["$10", "$15", "$20", "$30"],
+            "ans": 0
           },
-          "you": "Claude Code·API 사용 기업이라면 목록 외 조직은 Fable 5·Mythos 5 모두 미사용 — 현재 범용 사용 가능 모델은 Opus 4.8·Sonnet 4.6·Haiku 4.5로 한정",
-          "url": "https://www.axios.com/2026/06/27/commerce-anthropic-mythos-restrictions-lift",
-          "source": "Axios"
+          "you": "Claude Code의 기본 모델이 Sonnet 5로 업그레이드 — 에이전트 태스크 비용 대폭 절감 예상",
+          "url": "https://www.anthropic.com/news/claude-sonnet-5",
+          "source": "Anthropic"
         },
         {
           "id": "m2",
           "cat": "model",
-          "title": "GPT-5.6 Sol·Terra·Luna 제한 프리뷰 개시 — 20개 정부 승인 파트너 선공개",
-          "meta": "출시 연기 논란 끝에 '정부 사전 공유 → 선별 파트너' 3단계 스테이지드 릴리스로 사실상 첫 출하",
-          "date_local": "2026-06-26 (ET)",
-          "date_kst": "KST 6/27",
+          "title": "Anthropic, 과학자 전용 AI 워크벤치 'Claude Science' 베타 출시",
+          "meta": "60개 이상 과학 DB를 하나의 환경으로 — IPO 앞 제약·생명공학 시장 공략 선언",
+          "date_local": "2026-06-30 (ET)",
+          "date_kst": "KST 7/1",
           "warn": false,
           "bullets": [
-            "OpenAI가 <b>GPT-5.6 Sol·Terra·Luna 세 모델을 동시 공개</b>하고 트럼프 6월 2일 행정명령에 따라 미 정부에 사전 공유 후 <b>약 20개 정부 승인 파트너에만 API 제공</b> — 일반 공개(GA)는 수주 후 예정",
-            "<b>Sol</b>(입력 $5·출력 $30/M 토큰): 코딩·보안·과학 연구용, Ultra 멀티에이전트 병렬 추론 모드로 Terminal-Bench 2.1에서 <b>91.9%</b> 기록 / <b>Terra</b>($2.50·$15): GPT-5.5 수준 성능에 2배 저렴 / <b>Luna</b>($1·$6): 요약·초안 등 경량 업무용",
-            "이번 릴리스로 <b>'정부 30일 선행 공유 → 제한 파트너 공개 → 일반 GA'</b>의 3단계 스테이지드 릴리스가 업계 표준으로 굳어지는 양상 — Claude·Gemini에도 적용 예상"
+            "<b>유전체학·단백질 구조·화학 등 60개 이상 과학 데이터베이스</b>를 통합한 연구 전용 AI 플랫폼 — 새 모델이 아닌 기존 Anthropic 모델 위에 구축된 워크벤치",
+            "<b>단백질 구조 예측·단일세포 분석·약물 분자 시뮬레이션</b> 등 생물학·화학 태스크 자동화 지원 — 결과물 전체 감사 추적 가능",
+            "<b>Pro·Max·Team·Enterprise 가입자에 베타 제공</b> — 최대 $3만 크레딧 지원하는 'AI for Science 프로젝트' 50개 선발(7/15까지 신청)"
           ],
-          "why": "<b>AI 모델 출시에 정부 검토 단계가 제도화</b>되면서 개발자·기업의 최신 모델 접근이 구조적으로 지연되고, 이는 오픈웨이트 모델 수요를 가속할 수 있음",
+          "why": "AI가 과학 연구의 실험 설계·데이터 분석 단계에 본격 진입하는 신호 — <b>제약·바이오 분야 AI 경쟁 가속</b>",
           "quiz": {
-            "q": "GPT-5.6 Luna의 입력 토큰 가격(1M 토큰 기준)은?",
-            "opts": ["$0.50", "$1", "$2.50", "$5"],
-            "ans": 1
+            "q": "Claude Science가 통합한 과학 데이터베이스 수는?",
+            "opts": ["60개 이상", "30개 이상", "100개 이상", "10개 이상"],
+            "ans": 0
           },
-          "you": "바이브코딩 비용 최적화 관점에서 GPT-5.6 Luna($1/M)와 Claude Sonnet 4.6 가격·성능 비교 후 GA 시점에 전환 검토 권장",
-          "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
-          "source": "OpenAI"
+          "you": null,
+          "url": "https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/",
+          "source": "TechCrunch"
+        },
+        {
+          "id": "m3",
+          "cat": "model",
+          "title": "Claude Fable 5 국제 이용 여전히 불가 — Mythos 5는 미국 100개 기관 한정 복원",
+          "meta": "수출통제로 국제 사용자 차단 지속 — Claude Code 해외 이용자 Sonnet 5 전환 필요",
+          "date_local": "2026-06-28 (ET)",
+          "date_kst": "KST 6/29",
+          "warn": true,
+          "bullets": [
+            "<b>6월 12일 미국 수출통제 지침으로 차단된 Fable 5·Mythos 5</b>의 국제 이용이 여전히 불가 — Claude Code 비미국 사용자는 Fable 5 이용 중단 상태 지속",
+            "<b>Mythos 5는 루트닉 상무장관 서한에 따라 미국 내 약 100개 기관(정부·포춘500 포함)에 방어적 사이버보안 목적으로만 제한 복원</b>",
+            "Fable 5는 복원 시점 미정 — <b>Polymarket에서 Fable 5 국제 복원 시점 예측 시장 활성화</b>되며 불확실성 지속"
+          ],
+          "why": "한국 포함 국제 Claude Code 사용자에게 <b>직접 영향</b> — Sonnet 5 전환으로 단기 대응 가능하나 Fable 5와의 성능 차이는 존재",
+          "quiz": {
+            "q": "Mythos 5가 제한적으로 복원된 대상은?",
+            "opts": ["미국 내 약 100개 기관", "전 세계 모든 기업", "미국 개인 가입자 전체", "EU 회원국 정부기관"],
+            "ans": 0
+          },
+          "you": "Claude Code 국제 사용자: Fable 5 차단 지속 중 — Sonnet 5가 현재 최선의 대안",
+          "url": "https://www.techtimes.com/articles/319213/20260628/claude-fable-5-still-offline-us-clears-mythos-5-critical-infrastructure.htm",
+          "source": "TechTimes"
+        },
+        {
+          "id": "m4",
+          "cat": "model",
+          "title": "Google Gemini 3.5 Pro, 6월 출시 무산 — 7월로 공식 연기",
+          "meta": "Polymarket 97% 확률 '미출시' 베팅 마감 — Google의 에이전트 코딩 격차 다시 드러남",
+          "date_local": "2026-06-30 (PT)",
+          "date_kst": "KST 7/1",
+          "warn": false,
+          "bullets": [
+            "<b>Google I/O(5/19)에서 '6월 출시' 약속한 Gemini 3.5 Pro</b>가 6/30 기준 일반 공개 미달성 확정 — Vertex AI 기업 프리뷰 상태 유지",
+            "<b>에이전트 장기 태스크에서 토큰 소비 과다·장기 성능 미흡</b>이 연기 사유 — 7월 출시로 전환해 조기 테스터 피드백 반영 예정",
+            "예측 시장 Polymarket에서 <b>'6/30 이전 출시 없음'에 97% 확률 베팅 마감</b> — DeepMind 핵심 인력 Anthropic 이탈과 맞물려 신뢰도 타격"
+          ],
+          "why": "Anthropic이 Sonnet 5·Claude Science를 동시 출시한 날 Google이 주요 모델을 또 연기해 <b>에이전트 AI 격차 심화 우려</b>",
+          "quiz": {
+            "q": "Gemini 3.5 Pro 출시 지연의 주요 사유는?",
+            "opts": ["에이전트 장기 태스크에서 토큰 소비 과다", "학습 데이터 부족", "법규 승인 미완료", "하드웨어 인프라 문제"],
+            "ans": 0
+          },
+          "you": null,
+          "url": "https://cryptobriefing.com/google-delays-gemini-35-pro-launch-to-july-2026/",
+          "source": "CryptoBriefing"
         }
       ]
     },
@@ -67,55 +113,48 @@
         {
           "id": "d1",
           "cat": "dev",
-          "title": "기업 AI 전략, '최고 모델 일괄 사용'에서 '업무별 비용 최적 라우팅'으로 전환",
-          "meta": "모델 가격이 폭락하자 정작 기업 AI 비용은 폭등 — 운용 설계가 새 경쟁력으로 부상",
-          "date_local": "2026-06-26 (ET)",
-          "date_kst": "KST 6/27",
-          "warn": false,
+          "title": "GitHub Copilot 사용량 기반 첫 정산 — 청구액 최대 50배 폭증 사례 속출",
+          "meta": "월 $29 예상이 $750+로 — 에이전트 코딩 워크플로 도입 개발자들에게 청구 충격",
+          "date_local": "2026-06-30 (PT)",
+          "date_kst": "KST 7/1",
+          "warn": true,
           "bullets": [
-            "기업 자동화 플랫폼 <b>Lindy CEO</b>가 공개 발표를 통해 Claude에서 <b>DeepSeek V4 Pro로 전환해 연간 수백만 달러 규모의 AI 비용을 절감</b>했다고 밝힘 — 성능 저하 없이 비용만 대폭 감축",
-            "<b>Uber·Coinbase·Walmart 등 대기업들이 직원별 AI 사용 상한선 도입</b> — Walmart는 '불필요한 반복 바이브코딩 차단'을 명시적 이유로 제시하며 토큰 비용 관리를 내부 규정으로 공식화",
-            "기업 전략이 <b>'고성능 클로즈드 모델 단일 사용'에서 '경량 작업은 오픈웨이트, 복잡 태스크는 프런티어 모델' 하이브리드 라우팅</b>으로 전환 — AI 운영 아키텍처가 새로운 경쟁력 요소로 부상"
+            "<b>6/1 시행된 GitHub Copilot 사용량 기반 과금</b>의 첫 월간 정산이 6/30 마감 — 에이전트 워크플로 사용자의 청구액이 최대 50배 상승 보고",
+            "<b>월 $29·$50 예상 비용이 $750·$3,000 수준으로 폭등</b>한 사례 다수 — AI 크레딧 소진 후 초과 사용 제어 미비가 원인",
+            "<b>코드 완성·다음 편집 제안은 계속 무제한 무료</b>지만 에이전트 실행·프리미엄 모델 사용은 토큰 기준 과금 — 월 지출 한도(spending budget) 설정 필수"
           ],
-          "why": "<b>오픈웨이트 모델이 기업 코딩·자동화 파이프라인에서 클로즈드 모델을 실질적으로 대체</b>하기 시작했음을 복수의 기업 사례가 동시에 확인 — AI 공급사 간 가격 경쟁을 더욱 가속할 신호",
+          "why": "에이전트 AI 코딩 도구의 비용 구조가 개발 팀 예산 계획을 <b>근본적으로 바꾸는 전환점</b>",
           "quiz": {
-            "q": "Lindy CEO가 Claude에서 전환한 모델은?",
-            "opts": ["Gemini Flash 2.0", "GPT-5.5 Terra", "DeepSeek V4 Pro", "Llama 4 Scout"],
-            "ans": 2
+            "q": "GitHub Copilot에서 계속 무제한 무료로 유지되는 기능은?",
+            "opts": ["코드 완성·다음 편집 제안", "에이전트 자율 실행", "프리미엄 모델 사용", "웹 검색 통합"],
+            "ans": 0
           },
-          "you": "Claude Code 기반 워크플로우에서도 반복·경량 작업은 DeepSeek V4 같은 저비용 모델로 분리하는 하이브리드 설계로 운영 비용 최적화 가능",
-          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026",
-          "source": "Build Fast with AI"
-        }
-      ]
-    },
-    {
-      "icon": "🔬",
-      "name": "연구",
-      "you": false,
-      "items": [
+          "you": "바이브코딩 사용자: Copilot 월 지출 한도 설정 및 모델별 토큰 단가 파악 즉시 권고",
+          "url": "https://github.blog/changelog/2026-06-01-updates-to-github-copilot-billing-and-plans/",
+          "source": "GitHub Blog"
+        },
         {
-          "id": "r1",
-          "cat": "research",
-          "title": "Anthropic 6월 경제 지수 — 사용자 35%, '12개월 내 AI가 대부분 업무 처리' 전망",
-          "meta": "AI 자동화를 '미래'로 보던 인식이 '12개월 내 현실'로 전환하는 속도가 예상을 뛰어넘는 중",
-          "date_local": "2026-06-26 (ET)",
-          "date_kst": "KST 6/27",
+          "id": "d2",
+          "cat": "dev",
+          "title": "Google, AI 코딩 스트라이크팀 재편 — Sergey Brin '에이전트 격차 긴급 해소' 내부 메모",
+          "meta": "5개월간 핵심 인재 6명 이탈에 이어 내부에서도 Anthropic에 뒤처졌다 공식 인정",
+          "date_local": "2026-06-30 (PT)",
+          "date_kst": "KST 7/1",
           "warn": false,
           "bullets": [
-            "Anthropic이 <b>약 9,700명 사용자 설문·사용 데이터를 연계 분석</b>한 6월 경제 지수 공개 — 응답자 <b>약 60%가 '1년 뒤 AI 자동화 비중이 지금보다 높을 것'으로 예측</b>하며 자동화 심화 기대를 표명",
-            "<b>35% 이상이 12개월 내 AI가 대부분 또는 거의 전부의 업무를 처리할 것</b>으로 기대 — 자동화가 '부분 보조'를 넘어 '주력 실행'으로 이행하는 임계점에 도달했음을 확인",
-            "<b>숙련 사용자가 신규 사용자보다 자동화 성과 훨씬 우위</b> — Claude 사용 경험이 쌓일수록 자동화 효과가 커지는 '학습 곡선' 격차가 시간이 갈수록 벌어지고 있음"
+            "<b>Google이 4월 구성한 AI 코딩 스트라이크팀의 범위를 확장</b>해 '미드트레이닝'(지시 조율 이전 단계) 포함 — Anthropic Claude Code에 뒤처진 에이전트 코딩 성능 추격 목적",
+            "공동창업자 <b>Sergey Brin이 내부 메모에서 '에이전트 실행 격차를 긴급히 해소해야'</b> 강조 — Google 자사 코드의 약 50%를 AI 생성, Anthropic은 근 100% 수준",
+            "<b>5개월간 존 점퍼(노벨상)·노암 샤저 등 DeepMind 핵심 연구원 6명이 Anthropic·OpenAI로 이탈</b> — Gemini 3.5 Pro 출시 연기와 맞물려 조직 위기감 고조"
           ],
-          "why": "AI 노동 대체가 '예측'에서 '경험'으로 전환하는 속도를 <b>Anthropic 자체 실사용 데이터로 처음 수치화</b>한 보고서 — 일자리·업무 구조 변화를 다루는 공공·기관 AI 정책에 실증 근거 제공",
+          "why": "빅테크 AI 코딩 경쟁에서 <b>Google이 방어적 위치임이 내부적으로 공식화</b>되며 Anthropic·OpenAI 주도 재편 가속",
           "quiz": {
-            "q": "Anthropic 6월 경제 지수 설문에서 12개월 내 AI가 대부분 업무를 처리할 것으로 기대한 비율은?",
-            "opts": ["약 15%", "약 25%", "약 35%", "약 50%"],
-            "ans": 2
+            "q": "Google의 AI 코딩 스트라이크팀이 새로 포함시킨 훈련 단계는?",
+            "opts": ["미드트레이닝", "프리트레이닝", "파인튜닝", "RLHF"],
+            "ans": 0
           },
           "you": null,
-          "url": "https://www.anthropic.com/research/economic-index-june-2026-report",
-          "source": "Anthropic Research"
+          "url": "https://www.techradar.com/ai-platforms-assistants/we-must-urgently-bridge-the-gap-googles-sergey-brin-says-gemini-is-behind-claude-in-one-important-ai-field-according-to-leaked-memo",
+          "source": "TechRadar"
         }
       ]
     },
@@ -127,25 +166,25 @@
         {
           "id": "p1",
           "cat": "policy",
-          "title": "Anthropic-캘리포니아 주정부 계약 — 전 주 기관에 Claude 50% 할인, 연방정부와 정반대 행보",
-          "meta": "연방정부가 '공급망 위협'으로 지정한 Anthropic을 가장 큰 주 정부가 전격 채택",
-          "date_local": "2026-06-29 (PDT)",
-          "date_kst": "KST 6/30",
+          "title": "EU 이사회, AI Act 옴니버스 개정 최종 승인 — 고위험 AI 의무 2027-2028로 유예",
+          "meta": "AI Act 고위험 의무 최대 2년 추가 유예 — EU 내 공공 AI 배포 계획 기관은 일정 재검토 필요",
+          "date_local": "2026-06-29 (CET)",
+          "date_kst": "KST 6/29",
           "warn": false,
           "bullets": [
-            "<b>개빈 뉴섬 캘리포니아 주지사와 Anthropic</b>이 6월 29일 주정부 AI 파트너십 최초 사례 계약에 서명 — 모든 주 기관 및 지방정부(시·카운티)가 Claude를 <b>정가 대비 50% 할인</b>가로 이용하며 교육·기술 지원도 무상 제공",
-            "계약에는 Claude 접근권 외 <b>직원 교육·기술 지원·워크플로우 설계 지원</b>도 포함 — DMV(차량국)는 고객 서비스, 캘리포니아 보건서비스부는 내부 업무 효율화에 이미 시범 운용 중",
-            "이는 트럼프 행정부가 Anthropic을 <b>'공급망 안보 위협'으로 분류해 국방부 계약을 전면 차단</b>한 것과 정면 대비 — 뉴섬은 'AI는 정부 업무를 대체하는 게 아니라 일 처리를 더 빠르고 효과적으로 도와야 한다'고 강조"
+            "<b>EU 이사회가 6월 29일 AI Act 간소화 패키지(옴니버스 VII)를 최종 승인</b> — 6/16 유럽의회 승인에 이어 입법 완료, 관보 게재 후 3일 내 발효",
+            "<b>독립 운영 고위험 AI(채용·신용·법집행·교육·국경관리 등 Annex III)의 의무 이행 기한이 2026년 8/2 → 2027년 12/2로 연장</b>",
+            "<b>규제 제품(의료기기·기계·차량 등 Annex I) 내 AI는 2028년 8/2까지 추가 유예</b> — AI 생성 콘텐츠 투명성 의무는 기한 단축해 2026년 12/2 적용"
           ],
-          "why": "<b>미 연방-주 정부 간 AI 정책 분열이 공식화</b>됐으며, Anthropic은 연방 배척에도 공공 부문 레퍼런스 확보에 성공 — IPO를 앞두고 정부 고객 포트폴리오 다변화 전략으로 해석",
+          "why": "한국 포함 글로벌 AI 기업의 유럽 고위험 AI 컴플라이언스 부담이 줄어들어 <b>공공 AI 사업 진입 기회 확대</b>",
           "quiz": {
-            "q": "캘리포니아-Anthropic 계약에서 Claude 이용 할인율은?",
-            "opts": ["20%", "30%", "40%", "50%"],
-            "ans": 3
+            "q": "EU AI Act 옴니버스로 독립 운영 고위험 AI(Annex III)의 의무 이행 새 기한은?",
+            "opts": ["2027년 12월 2일", "2026년 8월 2일", "2028년 8월 2일", "2027년 8월 2일"],
+            "ans": 0
           },
-          "you": "공공기관 AI 도입에서 '정부 차원 구독 계약'이 단가를 대폭 낮추는 모델로 주목 — 국내 공공 AI 조달에서도 유사한 파트너십 계약 방식 도입 검토 시사점 제공",
-          "url": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
-          "source": "TechCrunch"
+          "you": "공공 AI 사업 담당자: EU 시장 연계 AI 시스템의 컴플라이언스 일정을 개정 기한에 맞춰 재조정 필요",
+          "url": "https://ieu-monitoring.com/editorial/eu-council-gives-final-approval-to-ai-act-simplification-under-omnibus-vii/1244434",
+          "source": "INSIGHT EU MONITORING"
         }
       ]
     },
@@ -155,27 +194,27 @@
       "you": true,
       "items": [
         {
-          "id": "i1",
+          "id": "c1",
           "cat": "money",
-          "title": "AI 자본, '모델 빌더'에서 '추론 인프라'로 이동 — Baseten $13B 평가에 $1.5B 조달",
-          "meta": "ChatGPT 수요가 클수록 '만드는 것'보다 '서빙하는 것'이 돈이 된다는 시장의 판단",
-          "date_local": "2026-06-27 (ET)",
-          "date_kst": "KST 6/28",
+          "title": "AI 기업들 $10억 직업 전환 기금 'RAISE US' 출범 — AI 일자리 감소 87,714건 보고",
+          "meta": "AI를 만든 기업이 AI가 빼앗는 일자리 대책 기금을 만든 역설적 구도",
+          "date_local": "2026-06-30 (ET)",
+          "date_kst": "KST 7/1",
           "warn": false,
           "bullets": [
-            "AI 추론 플랫폼 <b>Baseten</b>이 Altimeter·Conviction·Spark Capital 주도 <b>시리즈 F로 $1.5B를 조달, 기업가치 $13B 확정</b> — 전년 대비 매출 약 20배 성장, 하루 10억 건 추론 처리, 87개 클러스터·18개 클라우드 운영",
-            "투자자들은 <b>OpenAI가 연간 약 $140B 적자를 내는 상황에서</b> 오히려 '모델을 빠르고 저렴하게 서비스하는' 추론 레이어 기업에 더 높은 수익성을 기대 — 클로즈드·오픈웨이트 모델 수렴이 서빙 플랫폼의 기회를 확대 중",
-            "추론 인프라 자본 집중이 가속하며 <b>AI 투자 생태계가 '프런티어 모델 개발'과 '대규모 저비용 서빙' 두 축으로 분화</b> — 전자는 소수 거대 투자, 후자는 다수 성장 투자로 양극화"
+            "<b>OpenAI·Anthropic·Amazon·Microsoft가 후원하는 비영리 RAISE US</b>가 6/25 출범 — 초당적 구조로 $5억 이상 확보, 목표 $10억",
+            "<b>6/30 보도 기준 올해 미국 내 AI 직접 기인 일자리 감소 87,714건</b> — 기술 업종 전체 해고 중 56%가 AI·자동화 기인(TechTimes 집계)",
+            "<b>재취업·임금 보험·직업 전환 지원</b> 등 근로자 중심 재훈련 프로그램 설계 — 유타·아칸소·메릴랜드·코네티컷 4개 주 파일럿 시작"
           ],
-          "why": "<b>AI 인프라 투자 중심이 학습 단계에서 추론 단계로 이동</b>하는 구조적 전환이 자본 시장에서 명확해지고 있어, 반도체·인프라 투자 전략에 직접 영향",
+          "why": "AI 산업이 스스로 일으킨 고용 충격에 책임을 지기 시작했다는 신호이자, <b>IPO를 앞두고 사회적 신뢰를 선제 확보</b>하려는 행보",
           "quiz": {
-            "q": "Baseten의 시리즈 F 이후 기업가치(Post-money valuation)는?",
-            "opts": ["$8B", "$10B", "$13B", "$20B"],
-            "ans": 2
+            "q": "RAISE US의 최종 목표 자금 규모는?",
+            "opts": ["$10억", "$5억", "$50억", "$100억"],
+            "ans": 0
           },
-          "you": "추론 인프라 수요 급증은 HBM·고속 메모리 수요와 직결 — 삼성·SK하이닉스 투자 관점에서 추론 클러스터 확장 속도 모니터링 권장",
-          "url": "https://asanify.com/blog/news/inference-compute-funding-june-27-2026/",
-          "source": "Asanify (AI News Digest)"
+          "you": null,
+          "url": "https://www.techtimes.com/articles/319342/20260630/ai-cuts-87714-jobs-while-its-makers-fund-1-billion-worker-retraining-push.htm",
+          "source": "TechTimes"
         }
       ]
     },
@@ -187,25 +226,25 @@
         {
           "id": "k1",
           "cat": "korea",
-          "title": "삼성·SK, 총 4755조원 국내 투자 확정 — 호남 팹 4기·용인 완공 최대 12년 앞당김",
-          "meta": "한국 기업 역대 최대 투자 패키지 확정으로 AI 메모리 슈퍼사이클과 국가 반도체 전략이 한 몸으로 묶임",
+          "title": "이재명 대통령, 삼성·SK하이닉스와 800조 원($576B) AI 반도체 투자 계획 발표",
+          "meta": "한국 역대 최대 산업 투자 — HBM 세계 1위 지위 수성과 AI 인프라 패권 확보 선언",
           "date_local": "2026-06-29 (KST)",
           "date_kst": null,
           "warn": false,
           "bullets": [
-            "이재명 대통령 주재 '3대 메가 프로젝트 국민보고회'에서 <b>삼성전자 2655조원 + SK그룹 2100조원, 합계 4755조원</b>의 국내 투자 계획 공식 확정 — 국가 예산의 약 6.5배 규모",
-            "호남 서남권에 <b>양사 800조원 투자, 메모리 팹 4기(삼성 2기·SK 2기) 구축</b> 예정 — 동시에 경기 용인 클러스터는 <b>삼성 7년·SK 12년 앞당겨</b> 완공 가속",
-            "SK그룹은 반도체 외에도 <b>AI 데이터센터(울산·호남·강원) 1000조원</b>을 포함한 2100조원 투자를 공표 — 발표 직후 <b>코스피는 장중 8500선을 회복</b>"
+            "<b>이재명 대통령이 6월 29일 삼성전자·SK하이닉스 수장과 함께 800조 원 반도체 투자 계획 발표</b> — 호남 지역에 각사 2개 팹 신설, 충청 패키징 클러스터 81조 원 포함",
+            "<b>'반도체·피지컬 AI·AI 데이터센터'를 3대 메가프로젝트로 지정</b> — '어느 나라보다 빠르게 AI 핵심 요소를 확보해야 한다' 강조",
+            "SK하이닉스의 <b>HBM4 점유율 약 70% 전망(UBS)</b>을 기반으로 AI 수요 폭증 대응 — 나스닥 ADR 상장(7/10 예정)을 통해 최대 45조 원 자금 조달 병행"
           ],
-          "why": "글로벌 AI 인프라 수요 폭증에 대응한 <b>국가 주도 반도체·AI 클러스터 전략</b>이 구체화되면서 한국의 AI 메모리·패키징 공급 거점이 수도권에서 비수도권으로 다변화하는 구조적 전환 확인",
+          "why": "글로벌 AI 인프라 투자 경쟁에서 <b>한국이 HBM·패키징 중심 공급망 지배력</b>을 공고히 하려는 국가 차원 선제 대응",
           "quiz": {
-            "q": "이번 발표에서 호남 서남권에 투자되는 금액과 구축할 팹 수는?",
-            "opts": ["400조원·2기", "800조원·4기", "900조원·6기", "1100조원·8기"],
-            "ans": 1
+            "q": "한국 정부가 지정한 '3대 메가프로젝트'에 포함되지 않는 것은?",
+            "opts": ["양자컴퓨터", "반도체", "피지컬 AI", "AI 데이터센터"],
+            "ans": 0
           },
-          "you": "삼성·SK의 대규모 메모리 팹 확장은 중장기 HBM·AI 메모리 공급 증가로 이어져 AI 추론 인프라 비용 구조에도 영향 — 반도체 투자 관점에서 팹 착공 일정과 수율 추이 주목",
-          "url": "https://www.fnnews.com/news/202606291503225912",
-          "source": "파이낸셜뉴스"
+          "you": "반도체·HBM 투자자: 삼성·SK하이닉스 800조 원 계획과 SK하이닉스 나스닥 ADR 상장(7/10)에 주목",
+          "url": "https://www.cnn.com/2026/06/29/business/south-korea-ai-investment-samsung-skhynix",
+          "source": "CNN Business"
         }
       ]
     }
