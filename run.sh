@@ -82,6 +82,13 @@ if [ -n "$OFF_BOT" ]; then
         -F "document=@${OFFFILE};filename=${OFFNAME}" \
         -F "caption=전체 HTML(오프라인 저장용)" >/dev/null && echo "[run] offline file: ${RCID}"
     done
+    # 그룹방(GROUP_HTML)에는 오프라인 HTML 파일만 전송(이미지·링크 없이). 봇이 그 그룹에 들어가 있어야 함
+    if [ -n "${GROUP_HTML:-}" ]; then
+      curl -s "https://api.telegram.org/bot${OFF_BOT}/sendDocument" \
+        -F "chat_id=${GROUP_HTML}" \
+        -F "document=@${OFFFILE};filename=${OFFNAME}" \
+        -F "caption=📄 AI 데일리 · ${DATE} ${SLOT} (${TIME} KST)" >/dev/null && echo "[run] offline file → group: ${GROUP_HTML}"
+    fi
   else
     echo "[run] 오프라인 빌드 실패 — 건너뜀"
   fi
