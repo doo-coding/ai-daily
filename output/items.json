@@ -1,10 +1,10 @@
 {
-  "date": "2026-06-30",
-  "slot": "am",
-  "date_line": "2026년 6월 30일 (화) · 아침 · 7건 선별",
+  "date": "2026-07-25",
+  "slot": "pm",
+  "date_line": "2026년 7월 25일 (토) · 저녁 · 8건 선별",
   "kicker": "AI 데일리 · 자동 발송",
   "footer_tag": "✈ via Telegram · 매일 07:00 · 19:00 자동 발송",
-  "oneline": "<b>삼성·SK 총 4755조원</b> 역대 최대 국내 투자 확정과 <b>Anthropic-캘리포니아 주정부 Claude 계약</b>이 하루 만에 공개되면서, AI 인프라 경쟁과 공공 AI 도입 패러다임이 동시에 전환점을 맞음.",
+  "oneline": "<b>Anthropic이 Claude Opus 5를 절반 가격에 공개</b>하고, 이재명 대통령이 샌프란시스코 AI 서밋에서 빅테크와 <b>9500억달러 한국 AI 협약</b>을 전격 체결한 하루",
   "sections": [
     {
       "icon": "🚀",
@@ -14,48 +14,30 @@
         {
           "id": "m1",
           "cat": "model",
-          "title": "Claude Mythos 5 일부 복구 — 뤼트닉 상무장관 100개 기업 허가, Fable 5는 여전히 차단",
-          "meta": "2주 협상 끝에 미 정부가 '안전 기업' 목록을 발표하는 방식으로 최고 모델 접근권을 허가제로 전환",
-          "date_local": "2026-06-27 (ET)",
-          "date_kst": "KST 6/28",
+          "title": "Anthropic, Claude Opus 5 출시 — Fable 5급 성능을 절반 가격에",
+          "meta": "최고급 성능을 $5/$25/M 토큰에 제공하며 실무 AI의 가성비 기준을 다시 씀",
+          "date_local": "2026-07-24 (ET)",
+          "date_kst": "KST 7/25",
           "warn": false,
           "bullets": [
-            "<b>하워드 뤼트닉 미 상무장관</b>이 6월 27일 서한에 서명, <b>애플·구글·시스코·엔비디아·마이크로소프트 등 약 100개 신뢰 파트너(Project Glasswing 멤버·핵심 인프라 기업)</b>에 한해 Claude Mythos 5 수출 허가",
-            "허가 범위는 엄격히 제한 — <b>목록에 없는 조직과 일반 사용자는 여전히 접근 불가</b>이며, 사이버보안·핵심 인프라 분야 외 기업은 사실상 배제된 상태",
-            "<b>Claude Fable 5는 이번 서한에서 언급조차 없어</b> 수출통제 지속 — Anthropic은 '가능한 빨리 접근 복구를 위해 노력 중'이라고만 밝히며 공식 일정은 미정"
+            "Anthropic이 7월 24일 <b>Claude Opus 5</b>를 출시, 입력 $5·출력 $25/M토큰으로 Opus 4.8과 동일 가격이지만 Fable 5(최고급 모델)에 필적하는 성능 제공",
+            "코딩 벤치마크 <b>Frontier-Bench v0.1 SOTA</b> 달성, <b>ARC-AGI 3</b>에서 차순위 모델 대비 3배 높은 점수, Zapier AutomationBench 통과율은 차순위 대비 약 1.5배",
+            "컴퓨터 사용(OSWorld 2.0)에서 <b>Fable 5를 약 1/3 비용으로 동등하게 수행</b>하며 에이전틱 자동화 비용 절감, 유기화학 등 과학 연구 작업에서도 Opus 4.8 대비 10.2%p 향상"
           ],
-          "why": "<b>AI 모델 접근이 '기업 신뢰도 인증' 기반의 허가제로 구조화</b>되는 새 선례 — 특정 모델 사용 여부가 기업의 정부 등록 상태와 연동되는 시대가 시작됨",
+          "why": "<b>최고급 성능과 중간 가격대의 격차가 좁혀지면서</b> 기업·개발자가 비용 타협 없이 Opus 5를 기본 모델로 채택할 수 있는 분기점",
           "quiz": {
-            "q": "Mythos 5 사용이 허가된 기업 수는 약 몇 개인가?",
-            "opts": ["20개", "50개", "100개", "무제한"],
-            "ans": 2
+            "q": "Claude Opus 5의 ARC-AGI 3 성과로 올바른 것은?",
+            "opts": [
+              "차순위 모델 대비 3배 높은 점수",
+              "Fable 5 대비 1/3 비용으로 동급 수행",
+              "Frontier-Bench v0.1에서 만점",
+              "Zapier AutomationBench 통과율 3배"
+            ],
+            "ans": 0
           },
-          "you": "Claude Code·API 사용 기업이라면 목록 외 조직은 Fable 5·Mythos 5 모두 미사용 — 현재 범용 사용 가능 모델은 Opus 4.8·Sonnet 4.6·Haiku 4.5로 한정",
-          "url": "https://www.axios.com/2026/06/27/commerce-anthropic-mythos-restrictions-lift",
-          "source": "Axios"
-        },
-        {
-          "id": "m2",
-          "cat": "model",
-          "title": "GPT-5.6 Sol·Terra·Luna 제한 프리뷰 개시 — 20개 정부 승인 파트너 선공개",
-          "meta": "출시 연기 논란 끝에 '정부 사전 공유 → 선별 파트너' 3단계 스테이지드 릴리스로 사실상 첫 출하",
-          "date_local": "2026-06-26 (ET)",
-          "date_kst": "KST 6/27",
-          "warn": false,
-          "bullets": [
-            "OpenAI가 <b>GPT-5.6 Sol·Terra·Luna 세 모델을 동시 공개</b>하고 트럼프 6월 2일 행정명령에 따라 미 정부에 사전 공유 후 <b>약 20개 정부 승인 파트너에만 API 제공</b> — 일반 공개(GA)는 수주 후 예정",
-            "<b>Sol</b>(입력 $5·출력 $30/M 토큰): 코딩·보안·과학 연구용, Ultra 멀티에이전트 병렬 추론 모드로 Terminal-Bench 2.1에서 <b>91.9%</b> 기록 / <b>Terra</b>($2.50·$15): GPT-5.5 수준 성능에 2배 저렴 / <b>Luna</b>($1·$6): 요약·초안 등 경량 업무용",
-            "이번 릴리스로 <b>'정부 30일 선행 공유 → 제한 파트너 공개 → 일반 GA'</b>의 3단계 스테이지드 릴리스가 업계 표준으로 굳어지는 양상 — Claude·Gemini에도 적용 예상"
-          ],
-          "why": "<b>AI 모델 출시에 정부 검토 단계가 제도화</b>되면서 개발자·기업의 최신 모델 접근이 구조적으로 지연되고, 이는 오픈웨이트 모델 수요를 가속할 수 있음",
-          "quiz": {
-            "q": "GPT-5.6 Luna의 입력 토큰 가격(1M 토큰 기준)은?",
-            "opts": ["$0.50", "$1", "$2.50", "$5"],
-            "ans": 1
-          },
-          "you": "바이브코딩 비용 최적화 관점에서 GPT-5.6 Luna($1/M)와 Claude Sonnet 4.6 가격·성능 비교 후 GA 시점에 전환 검토 권장",
-          "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
-          "source": "OpenAI"
+          "you": "Claude Code에서 Opus 5를 기본 모델로 활용 시 Fable 5 수준 성능을 절반 가격에 — 바이브코딩 비용 구조 최적화에 직결",
+          "url": "https://www.anthropic.com/news/claude-opus-5",
+          "source": "Anthropic"
         }
       ]
     },
@@ -67,55 +49,30 @@
         {
           "id": "d1",
           "cat": "dev",
-          "title": "기업 AI 전략, '최고 모델 일괄 사용'에서 '업무별 비용 최적 라우팅'으로 전환",
-          "meta": "모델 가격이 폭락하자 정작 기업 AI 비용은 폭등 — 운용 설계가 새 경쟁력으로 부상",
-          "date_local": "2026-06-26 (ET)",
-          "date_kst": "KST 6/27",
+          "title": "AMD·Cerebras, 분산 AI 추론 솔루션 공동 발표 — 와트당 처리량 5배 목표",
+          "meta": "프롬프트 처리와 토큰 생성을 분리하는 이종 칩 결합 — Nvidia 단독 구도에 첫 균열",
+          "date_local": "2026-07-23 (ET)",
+          "date_kst": "KST 7/24",
           "warn": false,
           "bullets": [
-            "기업 자동화 플랫폼 <b>Lindy CEO</b>가 공개 발표를 통해 Claude에서 <b>DeepSeek V4 Pro로 전환해 연간 수백만 달러 규모의 AI 비용을 절감</b>했다고 밝힘 — 성능 저하 없이 비용만 대폭 감축",
-            "<b>Uber·Coinbase·Walmart 등 대기업들이 직원별 AI 사용 상한선 도입</b> — Walmart는 '불필요한 반복 바이브코딩 차단'을 명시적 이유로 제시하며 토큰 비용 관리를 내부 규정으로 공식화",
-            "기업 전략이 <b>'고성능 클로즈드 모델 단일 사용'에서 '경량 작업은 오픈웨이트, 복잡 태스크는 프런티어 모델' 하이브리드 라우팅</b>으로 전환 — AI 운영 아키텍처가 새로운 경쟁력 요소로 부상"
+            "<b>AMD Helios 랙스케일 시스템</b>이 대용량 컨텍스트·프롬프트 처리를, <b>Cerebras Wafer-Scale Engine</b>이 초저지연 토큰 생성을 담당하는 역할 분산 추론 구조를 7월 23일 Advancing AI 2026 컨퍼런스에서 공동 발표",
+            "두 시스템 결합 시 <b>와트당 토큰 처리량 최대 5배</b> 향상 목표, 에이전트·로봇·소프트웨어 개발 등 응답 속도가 수익에 직결되는 응용에 특화 설계",
+            "<b>H2 2026 Cerebras Cloud</b> 우선 제공 예정으로, AMD가 Anthropic $50억 투자·MI450 공급 계약 발표 이틀 만에 추론 생태계 구축까지 본격화"
           ],
-          "why": "<b>오픈웨이트 모델이 기업 코딩·자동화 파이프라인에서 클로즈드 모델을 실질적으로 대체</b>하기 시작했음을 복수의 기업 사례가 동시에 확인 — AI 공급사 간 가격 경쟁을 더욱 가속할 신호",
+          "why": "<b>GPU 단일 벤더 구도를 이종 칩 결합으로 깨는 첫 대형 파트너십</b>으로, AI 추론 인프라의 비용·성능 경쟁이 새 국면에 진입",
           "quiz": {
-            "q": "Lindy CEO가 Claude에서 전환한 모델은?",
-            "opts": ["Gemini Flash 2.0", "GPT-5.5 Terra", "DeepSeek V4 Pro", "Llama 4 Scout"],
-            "ans": 2
-          },
-          "you": "Claude Code 기반 워크플로우에서도 반복·경량 작업은 DeepSeek V4 같은 저비용 모델로 분리하는 하이브리드 설계로 운영 비용 최적화 가능",
-          "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-29-2026",
-          "source": "Build Fast with AI"
-        }
-      ]
-    },
-    {
-      "icon": "🔬",
-      "name": "연구",
-      "you": false,
-      "items": [
-        {
-          "id": "r1",
-          "cat": "research",
-          "title": "Anthropic 6월 경제 지수 — 사용자 35%, '12개월 내 AI가 대부분 업무 처리' 전망",
-          "meta": "AI 자동화를 '미래'로 보던 인식이 '12개월 내 현실'로 전환하는 속도가 예상을 뛰어넘는 중",
-          "date_local": "2026-06-26 (ET)",
-          "date_kst": "KST 6/27",
-          "warn": false,
-          "bullets": [
-            "Anthropic이 <b>약 9,700명 사용자 설문·사용 데이터를 연계 분석</b>한 6월 경제 지수 공개 — 응답자 <b>약 60%가 '1년 뒤 AI 자동화 비중이 지금보다 높을 것'으로 예측</b>하며 자동화 심화 기대를 표명",
-            "<b>35% 이상이 12개월 내 AI가 대부분 또는 거의 전부의 업무를 처리할 것</b>으로 기대 — 자동화가 '부분 보조'를 넘어 '주력 실행'으로 이행하는 임계점에 도달했음을 확인",
-            "<b>숙련 사용자가 신규 사용자보다 자동화 성과 훨씬 우위</b> — Claude 사용 경험이 쌓일수록 자동화 효과가 커지는 '학습 곡선' 격차가 시간이 갈수록 벌어지고 있음"
-          ],
-          "why": "AI 노동 대체가 '예측'에서 '경험'으로 전환하는 속도를 <b>Anthropic 자체 실사용 데이터로 처음 수치화</b>한 보고서 — 일자리·업무 구조 변화를 다루는 공공·기관 AI 정책에 실증 근거 제공",
-          "quiz": {
-            "q": "Anthropic 6월 경제 지수 설문에서 12개월 내 AI가 대부분 업무를 처리할 것으로 기대한 비율은?",
-            "opts": ["약 15%", "약 25%", "약 35%", "약 50%"],
-            "ans": 2
+            "q": "AMD·Cerebras 솔루션에서 초저지연 토큰 생성을 담당하는 컴포넌트는?",
+            "opts": [
+              "Cerebras Wafer-Scale Engine",
+              "AMD Helios 랙스케일 시스템",
+              "Anthropic Instinct MI450 GPU",
+              "Nvidia H200 클러스터"
+            ],
+            "ans": 0
           },
           "you": null,
-          "url": "https://www.anthropic.com/research/economic-index-june-2026-report",
-          "source": "Anthropic Research"
+          "url": "https://newsroom.amd.com/news/aai-2026-cerebras-inference/",
+          "source": "AMD Newsroom"
         }
       ]
     },
@@ -127,25 +84,30 @@
         {
           "id": "p1",
           "cat": "policy",
-          "title": "Anthropic-캘리포니아 주정부 계약 — 전 주 기관에 Claude 50% 할인, 연방정부와 정반대 행보",
-          "meta": "연방정부가 '공급망 위협'으로 지정한 Anthropic을 가장 큰 주 정부가 전격 채택",
-          "date_local": "2026-06-29 (PDT)",
-          "date_kst": "KST 6/30",
+          "title": "EU AI법 8월 2일 투명성 의무 발효 8일 전 — 챗봇 고지·딥페이크 표시 의무화",
+          "meta": "세계 최초 구속력 있는 AI 규제가 8일 앞으로 — 챗봇 서비스 전반에 즉각 적용",
+          "date_local": "2026-07-24 (CET)",
+          "date_kst": "KST 7/25",
           "warn": false,
           "bullets": [
-            "<b>개빈 뉴섬 캘리포니아 주지사와 Anthropic</b>이 6월 29일 주정부 AI 파트너십 최초 사례 계약에 서명 — 모든 주 기관 및 지방정부(시·카운티)가 Claude를 <b>정가 대비 50% 할인</b>가로 이용하며 교육·기술 지원도 무상 제공",
-            "계약에는 Claude 접근권 외 <b>직원 교육·기술 지원·워크플로우 설계 지원</b>도 포함 — DMV(차량국)는 고객 서비스, 캘리포니아 보건서비스부는 내부 업무 효율화에 이미 시범 운용 중",
-            "이는 트럼프 행정부가 Anthropic을 <b>'공급망 안보 위협'으로 분류해 국방부 계약을 전면 차단</b>한 것과 정면 대비 — 뉴섬은 'AI는 정부 업무를 대체하는 게 아니라 일 처리를 더 빠르고 효과적으로 도와야 한다'고 강조"
+            "<b>EU AI법 Article 50(투명성 의무)</b>가 8월 2일 발효, 챗봇 상호작용 시 AI임을 사용자에게 반드시 고지하고 AI 생성 콘텐츠에 <b>기계가독형 워터마킹</b>·딥페이크 명시 표기 의무화",
+            "위반 시 <b>최대 €1500만 또는 전 세계 연매출 3%</b> 중 높은 금액 과징금, 유럽 AI 오피스와 17개 회원국 관할 당국이 집행 권한 보유",
+            "6월 EU 의회 승인으로 고위험 AI 시스템 준수 기한은 2027년 12월로 연장됐으나, <b>챗봇·GPAI 모델 투명성 의무는 원래 일정대로 8월 2일 적용</b>"
           ],
-          "why": "<b>미 연방-주 정부 간 AI 정책 분열이 공식화</b>됐으며, Anthropic은 연방 배척에도 공공 부문 레퍼런스 확보에 성공 — IPO를 앞두고 정부 고객 포트폴리오 다변화 전략으로 해석",
+          "why": "<b>사실상 전 세계 AI 서비스를 겨냥한 강제 규제의 첫 시행</b>으로, 한국에서 EU에 AI 서비스를 수출하거나 조달하는 기업·기관 모두 즉각적인 컴플라이언스 점검 필요",
           "quiz": {
-            "q": "캘리포니아-Anthropic 계약에서 Claude 이용 할인율은?",
-            "opts": ["20%", "30%", "40%", "50%"],
-            "ans": 3
+            "q": "EU AI법 8월 2일 발효 조항에서 챗봇 서비스에 부과되는 핵심 의무는?",
+            "opts": [
+              "AI임을 사용자에게 반드시 고지",
+              "고위험 AI 시스템 전면 서비스 중단",
+              "GPAI 모델 오픈소스 전환",
+              "딥페이크 서비스 완전 금지"
+            ],
+            "ans": 0
           },
-          "you": "공공기관 AI 도입에서 '정부 차원 구독 계약'이 단가를 대폭 낮추는 모델로 주목 — 국내 공공 AI 조달에서도 유사한 파트너십 계약 방식 도입 검토 시사점 제공",
-          "url": "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
-          "source": "TechCrunch"
+          "you": "공공·기관 AI 서비스에서 EU 조달·수출 연계 시 챗봇 공개 의무부터 즉시 점검 필요",
+          "url": "https://aiweekly.co/alerts/european-commission-sets-august-2-ai-transparency-deadline",
+          "source": "AI Weekly / European Commission"
         }
       ]
     },
@@ -157,25 +119,86 @@
         {
           "id": "i1",
           "cat": "money",
-          "title": "AI 자본, '모델 빌더'에서 '추론 인프라'로 이동 — Baseten $13B 평가에 $1.5B 조달",
-          "meta": "ChatGPT 수요가 클수록 '만드는 것'보다 '서빙하는 것'이 돈이 된다는 시장의 판단",
-          "date_local": "2026-06-27 (ET)",
-          "date_kst": "KST 6/28",
+          "title": "Stripe, AI 모델 중개 플랫폼 OpenRouter 인수 협상 — 기업 가치 약 100억달러",
+          "meta": "결제 공룡 Stripe의 AI 인프라 도박 — '모델 라우팅'이 다음 플랫폼 전쟁터로",
+          "date_local": "2026-07-24 (ET)",
+          "date_kst": "KST 7/25",
           "warn": false,
           "bullets": [
-            "AI 추론 플랫폼 <b>Baseten</b>이 Altimeter·Conviction·Spark Capital 주도 <b>시리즈 F로 $1.5B를 조달, 기업가치 $13B 확정</b> — 전년 대비 매출 약 20배 성장, 하루 10억 건 추론 처리, 87개 클러스터·18개 클라우드 운영",
-            "투자자들은 <b>OpenAI가 연간 약 $140B 적자를 내는 상황에서</b> 오히려 '모델을 빠르고 저렴하게 서비스하는' 추론 레이어 기업에 더 높은 수익성을 기대 — 클로즈드·오픈웨이트 모델 수렴이 서빙 플랫폼의 기회를 확대 중",
-            "추론 인프라 자본 집중이 가속하며 <b>AI 투자 생태계가 '프런티어 모델 개발'과 '대규모 저비용 서빙' 두 축으로 분화</b> — 전자는 소수 거대 투자, 후자는 다수 성장 투자로 양극화"
+            "<b>Stripe</b>가 AI 모델 중개 플랫폼 <b>OpenRouter</b>를 약 <b>100억달러</b>에 인수하는 협상을 진행 중이라고 WSJ·Axios가 7월 24일 보도, 이미 OpenRouter의 결제 인프라를 처리하는 Stripe의 수직 통합 행보",
+            "OpenRouter는 개발자·기업이 OpenAI·Anthropic·Meta 등 75개 이상 LLM을 단일 API로 비교·전환할 수 있는 플랫폼으로, 5월 펀딩 당시 기업 가치 <b>13억달러</b>에서 협상가는 약 <b>8배 급등</b>",
+            "인수 성사 시 Stripe는 결제 인프라를 넘어 AI 모델 접근의 핵심 관문을 장악하게 되며, 협상은 현재 진행 중으로 결과는 유동적"
           ],
-          "why": "<b>AI 인프라 투자 중심이 학습 단계에서 추론 단계로 이동</b>하는 구조적 전환이 자본 시장에서 명확해지고 있어, 반도체·인프라 투자 전략에 직접 영향",
+          "why": "<b>AI 모델이 빠르게 범용화·가격 하락</b>하면서 '어떤 모델을 어떻게 라우팅하느냐'가 새로운 플랫폼 권력으로 부상하는 구조적 전환을 상징",
           "quiz": {
-            "q": "Baseten의 시리즈 F 이후 기업가치(Post-money valuation)는?",
-            "opts": ["$8B", "$10B", "$13B", "$20B"],
-            "ans": 2
+            "q": "WSJ 보도 기준 Stripe의 OpenRouter 인수 협상가는?",
+            "opts": [
+              "약 100억달러",
+              "약 13억달러",
+              "약 60억달러",
+              "약 300억달러"
+            ],
+            "ans": 0
           },
-          "you": "추론 인프라 수요 급증은 HBM·고속 메모리 수요와 직결 — 삼성·SK하이닉스 투자 관점에서 추론 클러스터 확장 속도 모니터링 권장",
-          "url": "https://asanify.com/blog/news/inference-compute-funding-june-27-2026/",
-          "source": "Asanify (AI News Digest)"
+          "you": null,
+          "url": "https://www.axios.com/2026/07/24/stripe-openrouter-merger-ai-currency",
+          "source": "Axios / WSJ"
+        },
+        {
+          "id": "i2",
+          "cat": "money",
+          "title": "AI 추론 칩 스타트업 Etched, $300M 조달 — SK하이닉스 전략 투자 참여",
+          "meta": "GPU 없는 추론 칩이 $10.3B 클럽 입성 — SK하이닉스의 AI 칩 생태계 지분 확보",
+          "date_local": "2026-07-23 (ET)",
+          "date_kst": "KST 7/23",
+          "warn": false,
+          "bullets": [
+            "AI 추론 전용 칩 스타트업 <b>Etched</b>가 Sequoia 주도 Series C로 <b>3억달러</b> 조달, 기업 가치 <b>103억달러</b>로 7개월 만에 두 배 이상 상승하며 Sequoia 주도 Series C 역대 최고 기업 가치 기록",
+            "<b>SK하이닉스</b>가 Andreessen Horowitz·Jane Street와 함께 전략적 투자자로 참여, 트랜스포머 전용 추론 칩 '소크라테스'의 메모리 아키텍처에 대한 산업적 신뢰 부여",
+            "Etched는 이미 <b>10억달러 규모의 추론 칩 선주문</b>을 확보한 상태로, Nvidia 독주에 도전하는 GPU 없는 추론 인프라 대안으로 부상"
+          ],
+          "why": "<b>SK하이닉스가 HBM 공급을 넘어 AI 칩 설계 스타트업에 직접 지분</b>을 확보하면서, 한국 반도체 기업의 AI 밸류체인 수직 통합 전략이 본격화",
+          "quiz": {
+            "q": "Etched Series C에 전략적 투자자로 참여한 한국 반도체 기업은?",
+            "opts": [
+              "SK하이닉스",
+              "삼성전자",
+              "DB하이텍",
+              "SK텔레콤"
+            ],
+            "ans": 0
+          },
+          "you": "SK하이닉스의 Etched 전략 투자 — 반도체·투자 관심 독자에게 HBM을 넘어선 AI 칩 생태계 진입의 핵심 신호",
+          "url": "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
+          "source": "TechCrunch"
+        },
+        {
+          "id": "i3",
+          "cat": "money",
+          "title": "AMD, Anthropic에 최대 $50억 투자·MI450 GPU 2기가와트 공급 계약",
+          "meta": "Nvidia 독주를 끊으려는 AMD의 역대 최대 배팅 — Anthropic이 AMD 칩 생태계를 공식 인증",
+          "date_local": "2026-07-22 (ET)",
+          "date_kst": "KST 7/23",
+          "warn": false,
+          "bullets": [
+            "<b>AMD</b>가 AI 스타트업 <b>Anthropic</b>에 <b>최대 50억달러(약 7.3조원)</b>를 단계적으로 투자하고, Anthropic은 AMD <b>Instinct MI450</b> GPU를 탑재한 Helios 랙스케일 시스템을 수십조원 규모로 구매하는 순환 파트너십 체결",
+            "Anthropic이 배치할 MI450 GPU는 총 <b>2기가와트</b> 규모이며 첫 1GW는 2027년 상반기 가동 목표, AMD ROCm 소프트웨어를 Claude 모델에 최적화하는 엔지니어링 협업도 병행",
+            "GPU 추론 칩 시장을 사실상 독점하던 Nvidia에 대한 <b>가장 구체적인 대형 대안</b>이 공식화된 사례로, AI 칩 공급망 다변화의 분수령"
+          ],
+          "why": "<b>Anthropic이 AMD 칩 생태계를 전면 채택</b>함으로써 '프런티어 AI = Nvidia'라는 공식이 깨지고, AI 인프라 비용 경쟁이 새 국면에 진입",
+          "quiz": {
+            "q": "AMD-Anthropic 계약에서 Anthropic이 배치할 AMD GPU 총 규모는?",
+            "opts": [
+              "최대 2기가와트",
+              "최대 500메가와트",
+              "최대 1기가와트",
+              "최대 5기가와트"
+            ],
+            "ans": 0
+          },
+          "you": null,
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1292/amd-and-anthropic-announce-strategic-partnership-to-deploy-up-to-2-gigawatts-of-amd-instinct-mi450-series-gpus",
+          "source": "AMD IR / CNBC"
         }
       ]
     },
@@ -187,25 +210,58 @@
         {
           "id": "k1",
           "cat": "korea",
-          "title": "삼성·SK, 총 4755조원 국내 투자 확정 — 호남 팹 4기·용인 완공 최대 12년 앞당김",
-          "meta": "한국 기업 역대 최대 투자 패키지 확정으로 AI 메모리 슈퍼사이클과 국가 반도체 전략이 한 몸으로 묶임",
-          "date_local": "2026-06-29 (KST)",
+          "title": "이재명 대통령 '샌프란시스코 AI 선언' — 빅테크와 9500억달러 협약 체결",
+          "meta": "한국이 글로벌 AI 인프라 공급망으로 공식 편입된 날 — 의향서가 아닌 공급 계약",
+          "date_local": "2026-07-25 (KST)",
           "date_kst": null,
           "warn": false,
           "bullets": [
-            "이재명 대통령 주재 '3대 메가 프로젝트 국민보고회'에서 <b>삼성전자 2655조원 + SK그룹 2100조원, 합계 4755조원</b>의 국내 투자 계획 공식 확정 — 국가 예산의 약 6.5배 규모",
-            "호남 서남권에 <b>양사 800조원 투자, 메모리 팹 4기(삼성 2기·SK 2기) 구축</b> 예정 — 동시에 경기 용인 클러스터는 <b>삼성 7년·SK 12년 앞당겨</b> 완공 가속",
-            "SK그룹은 반도체 외에도 <b>AI 데이터센터(울산·호남·강원) 1000조원</b>을 포함한 2100조원 투자를 공표 — 발표 직후 <b>코스피는 장중 8500선을 회복</b>"
+            "이재명 대통령이 7월 25일 미국 샌프란시스코 AI 서밋에서 <b>'샌프란시스코 AI 선언'</b>을 발표하고 <b>젠슨 황(NVIDIA)·샘 올트먼(OpenAI)·다리오 아모데이(Anthropic)·혹탄(Broadcom)</b> CEO와 연쇄 면담",
+            "<b>SK하이닉스</b>가 NVIDIA 등에 <b>7500억달러(약 1088조원)</b> 규모 메모리 반도체 공급 계약, <b>삼성전자</b>가 Broadcom과 <b>2000억달러(약 290조원)</b> 반도체 협력 추진으로 총 <b>9500억달러</b> 협약 성사",
+            "5기가와트 규모 AI 데이터센터 구축 협력 포함, 샘 올트먼은 현장에서 <b>\"AI 혁명, 한국 없었으면 불가능했을 것\"</b>이라고 발언"
           ],
-          "why": "글로벌 AI 인프라 수요 폭증에 대응한 <b>국가 주도 반도체·AI 클러스터 전략</b>이 구체화되면서 한국의 AI 메모리·패키징 공급 거점이 수도권에서 비수도권으로 다변화하는 구조적 전환 확인",
+          "why": "<b>단순 의향서를 넘어 제품 공급 계약 중심</b>의 협약으로, 한국 반도체 산업이 글로벌 AI 인프라 슈퍼사이클의 핵심 공급망으로 공식 자리매김",
           "quiz": {
-            "q": "이번 발표에서 호남 서남권에 투자되는 금액과 구축할 팹 수는?",
-            "opts": ["400조원·2기", "800조원·4기", "900조원·6기", "1100조원·8기"],
-            "ans": 1
+            "q": "샌프란시스코 AI 서밋에서 SK하이닉스가 체결한 메모리 공급 계약 규모는?",
+            "opts": [
+              "7500억달러",
+              "9500억달러",
+              "2000억달러",
+              "5000억달러"
+            ],
+            "ans": 0
           },
-          "you": "삼성·SK의 대규모 메모리 팹 확장은 중장기 HBM·AI 메모리 공급 증가로 이어져 AI 추론 인프라 비용 구조에도 영향 — 반도체 투자 관점에서 팹 착공 일정과 수율 추이 주목",
-          "url": "https://www.fnnews.com/news/202606291503225912",
-          "source": "파이낸셜뉴스"
+          "you": "SK하이닉스·삼성전자 대형 수주 확정 — 반도체·투자 관심 독자에게 밸류에이션 재평가 트리거",
+          "url": "https://www.mt.co.kr/politics/2026/07/25/2026072514091997565",
+          "source": "머니투데이"
+        },
+        {
+          "id": "k2",
+          "cat": "korea",
+          "title": "SK하이닉스, 7월 29일 2Q 실적 발표 — 영업이익 64조원 역대 최대 전망",
+          "meta": "HBM 슈퍼사이클이 수치로 확인되는 날 — 영업이익률 80%대 현실화 여부 주목",
+          "date_local": "2026-07-24 (KST)",
+          "date_kst": null,
+          "warn": false,
+          "bullets": [
+            "SK하이닉스가 오는 <b>7월 29일</b> 2026년 2분기 실적 발표 예정, 증권가 컨센서스는 매출 <b>83조9000억원</b>·영업이익 <b>64조원</b>으로 전년 동기 대비 영업이익 약 <b>597%</b> 급증 전망",
+            "영업이익률 전망 <b>76~80%</b>로 1분기(72%) 대비 상승, 반도체 기업 사상 최고 수준의 이익률에 도달할 경우 글로벌 시장에서 이례적 사례로 기록",
+            "<b>HBM 출하량 점유율 62%</b>로 시장 1위 유지, AI 데이터센터 수요 급증과 DRAM·NAND 가격 동반 상승이 동반 호재로 작용"
+          ],
+          "why": "<b>AI 메모리 슈퍼사이클이 구체적 수치로 확인</b>되는 분기점으로, HBM 전략의 마진 보상력을 가늠하는 리트머스 테스트이자 2026년 하반기 투자 심리의 나침반",
+          "quiz": {
+            "q": "증권가 컨센서스 기준 SK하이닉스 2분기 2026 영업이익 전망치는?",
+            "opts": [
+              "약 64조원",
+              "약 37조원",
+              "약 83조원",
+              "약 100조원"
+            ],
+            "ans": 0
+          },
+          "you": null,
+          "url": "https://v.daum.net/v/xH9g0F5TXL",
+          "source": "블로터 / 스톡플러스"
         }
       ]
     }
