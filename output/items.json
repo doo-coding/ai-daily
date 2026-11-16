@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-14",
-  "slot": "pm",
-  "date_line": "2026년 11월 14일 (토) · 저녁 · 13건 선별",
+  "date": "2026-11-17",
+  "slot": "am",
+  "date_line": "2026년 11월 17일 (화) · 아침 · 10건 선별",
   "kicker": "AI 데일리 · 자동 발송",
   "footer_tag": "✈ via Telegram · 매일 07:00 · 19:00 자동 발송",
-  "oneline": "오늘 가장 큰 소식은 <b>엔비디아 창업자 CEO 젠슨 황의 갑작스러운 사임</b>입니다. 같은 날 <b>Anthropic IPO 주문이 6배 초과청약을 기록</b>하며 AI 자본 시장이 뜨겁게 달아올랐습니다.",
+  "oneline": "이번 주 최대 이슈는 <b>앤트로픽의 나스닥 상장</b>이고, <b>내일 아침엔 젠슨 황 없는 엔비디아의 첫 실적 발표</b>가 예정되어 있습니다.",
   "sections": [
     {
       "icon": "🚀",
@@ -14,21 +14,25 @@
         {
           "id": "m1",
           "cat": "model",
-          "title": "Amazon, 캐나다에 쇼핑 AI 에이전트 'Alexa for Shopping' 출시",
-          "meta": "프라임 없이 쓰는 AI 쇼핑 비서 — 아마존 에이전트 전략의 첫 발",
-          "date_local": "2026-11-13 (ET)",
-          "date_kst": "KST 11/14",
+          "title": "구글, Gemini 4 Hydrogen 출시 — Flash 완전 대체",
+          "meta": "코딩·에이전트 경량 모델의 속도와 성능을 동시에 끌어올렸다",
+          "date_local": "2026-11-12 (PT)",
+          "date_kst": "KST 11/13",
           "warn": false,
           "bullets": [
-            "아마존이 쇼핑 전문 AI 에이전트 '<b>Alexa for Shopping</b>'을 캐나다 사용자에게 처음으로 출시했습니다.",
-            "이 에이전트는 <b>아마존 프라임 멤버십 없이도 사용 가능</b>하며, 쇼핑 질문에 답하고 상품을 직접 주문할 수 있습니다.",
-            "쇼핑 플랫폼에 AI 에이전트를 직접 내장하는 방식으로, <b>아마존이 AI 에이전트 기반 커머스 경쟁에 본격 참전</b>했다는 신호입니다."
+            "구글이 <b>Gemini 4 Hydrogen</b>을 출시해 Gemini 3.8 Flash를 완전히 대체했습니다. 코딩과 에이전트 작업에 최적화된 경량 모델입니다.",
+            "기본 설정에서 이전 Flash보다 <b>2.5배 빠르고</b>, 코딩 작업 완료율도 57퍼센트로 대폭 향상됐습니다.",
+            "입력 1백만 토큰당 1달러 50센트이며, <b>컨텍스트 창 100만 토큰</b>으로 Gemini API, AI Studio, Android Studio에서 바로 쓸 수 있습니다."
           ],
-          "why": "아마존이 쇼핑에 특화된 AI 에이전트를 직접 출시하면서, <b>에이전트 기반 커머스라는 새로운 시장 패러다임</b>이 열리고 있습니다.",
-          "quiz": { "q": "Amazon Alexa for Shopping이 처음 출시된 지역은?", "opts": ["미국", "캐나다", "영국", "호주"], "ans": 1 },
+          "why": "빠르고 저렴한 경량 모델 경쟁이 치열해지면서, <b>AI 도구 선택의 폭이 한층 더 넓어</b>졌습니다.",
+          "quiz": {
+            "q": "Gemini 4 Hydrogen은 이전 Flash 모델보다 속도가 얼마나 개선됐습니까?",
+            "opts": ["1.5배", "2배", "2.5배", "3배"],
+            "ans": 2
+          },
           "you": null,
-          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-13-2026/",
-          "source": "The Neuron"
+          "url": "https://www.ghacks.net/2026/11/13/google-releases-gemini-4-hydrogen-in-search-and-the-gemini-app-replacing-gemini-3-8-flash/",
+          "source": "gHacks Tech News"
         }
       ]
     },
@@ -40,20 +44,47 @@
         {
           "id": "d1",
           "cat": "dev",
-          "title": "Fireworks AI 해킹으로 Notion AI 고객 채팅 기록 유출",
-          "meta": "AI API 공급망 보안의 취약점 — 개발자가 모르는 사이에 고객 데이터가 샐 수 있다",
-          "date_local": "2026-11-13 (PT)",
-          "date_kst": "KST 11/14",
+          "title": "OpenAI, ChatGPT Wallet 출시 — AI 에이전트가 직접 결제",
+          "meta": "에이전트가 사람 대신 돈을 쓰는 시대가 열렸다",
+          "date_local": "2026-11-16 (ET)",
+          "date_kst": "KST 11/17",
+          "warn": false,
+          "bullets": [
+            "오픈AI가 <b>ChatGPT Wallet</b>을 출시해 AI 에이전트가 사람 개입 없이 직접 구매를 처리할 수 있게 됐습니다.",
+            "쉽게 말해 에이전트가 작업 중에 <b>필요한 서비스를 사람 없이 결제</b>하는 기능으로, 에이전트 자율 행동의 범위가 큰 폭으로 넓어졌습니다.",
+            "같은 날 유나이티드 항공은 <b>무허가 AI 에이전트의 예약 접근을 차단</b>하겠다고 밝혀, 에이전트 허용 기준을 둘러싼 갈등이 시작됐습니다."
+          ],
+          "why": "AI 에이전트가 경제 행위의 주체로 등장하면서, <b>에이전트 거버넌스와 보안 기준 마련</b>이 시급한 과제가 됐습니다.",
+          "quiz": {
+            "q": "유나이티드 항공이 같은 날 취한 조치는 무엇입니까?",
+            "opts": ["AI 에이전트 전면 도입", "무허가 AI 에이전트의 예약 시스템 접근 차단", "ChatGPT와 파트너십 체결", "AI 에이전트 전용 서비스 출시"],
+            "ans": 1
+          },
+          "you": "Claude Code처럼 에이전트가 외부 서비스를 직접 호출·결제하는 흐름이 가속됩니다. 에이전트 설계 시 결제·권한 관리를 미리 고려하세요.",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-16-2026/",
+          "source": "The Neuron"
+        },
+        {
+          "id": "d2",
+          "cat": "dev",
+          "title": "Microsoft 365, 18시간 대규모 장애 — 70개국 AI 비서 먹통",
+          "meta": "클라우드 AI 의존도의 위험성이 현실로 드러났다",
+          "date_local": "2026-11-15 (UTC)",
+          "date_kst": "KST 11/16",
           "warn": true,
           "bullets": [
-            "AI 모델 서빙 플랫폼 <b>Fireworks AI가 사이버 공격을 받아 Notion AI 사용자의 채팅 기록이 유출</b>됐습니다.",
-            "Notion은 고객의 <b>약 1퍼센트가 영향을 받았다</b>고 밝혔으며, 유출된 데이터는 AI 인사이트 기능의 채팅 내역입니다.",
-            "AI 서비스가 외부 모델 API를 통해 운영될 때 <b>공급망 보안 취약점이 얼마나 치명적일 수 있는지</b>를 보여 주는 사례입니다."
+            "마이크로소프트 365가 18시간 이상 장애를 겪으며 <b>70개국 이상 기업의 이메일, 캘린더, Copilot</b>이 모두 중단됐습니다.",
+            "이번 장애로 <b>Copilot뿐 아니라 Claude와 ChatGPT</b>의 기업용 통합 버전도 함께 멈춰, 클라우드 의존 AI 비서의 취약성이 드러났습니다.",
+            "쉽게 말해 하나의 플랫폼에 AI 서비스들이 묶이면 <b>장애 하나가 전방위 타격</b>이 된다는 의미로, 가용성 설계를 재검토해야 한다는 목소리가 나옵니다."
           ],
-          "why": "AI 서비스 개발자는 자사 보안뿐 아니라 <b>외부 AI API 제공자의 보안도 함께 관리해야</b> 한다는 점을 상기시켜 줍니다.",
-          "quiz": { "q": "Fireworks AI 해킹으로 유출된 데이터의 종류는?", "opts": ["결제 카드 정보", "Notion AI 채팅 기록", "소스 코드", "이메일 주소"], "ans": 1 },
-          "you": "AI API를 활용해 개발하는 경우, 외부 플랫폼의 보안 침해가 내 서비스의 리스크로 직결될 수 있습니다.",
-          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-13-2026/",
+          "why": "<b>엔터프라이즈 AI 비서의 SLA, 즉 가용성 계약 기준</b>을 더 엄격히 따져야 한다는 논의가 불붙을 전망입니다.",
+          "quiz": {
+            "q": "이번 Microsoft 365 장애의 지속 시간은 얼마였습니까?",
+            "opts": ["6시간", "12시간", "18시간 이상", "48시간"],
+            "ans": 2
+          },
+          "you": null,
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-16-2026/",
           "source": "The Neuron"
         }
       ]
@@ -66,21 +97,25 @@
         {
           "id": "r1",
           "cat": "research",
-          "title": "METR 보고서: Anthropic 모델 역량 개선 속도 2배로 가속",
-          "meta": "AI 성능 향상이 아니라 '향상 속도' 자체가 빨라지고 있다는 첫 공식 측정",
-          "date_local": "2026-11-13 (PT)",
-          "date_kst": "KST 11/14",
-          "warn": false,
+          "title": "AI 인프라 투자 7조 달러 vs 수익 3.6조 달러 — 버블 경고",
+          "meta": "닷컴 버블과 닮은꼴? 가트너 수치가 보내는 경고",
+          "date_local": "2026-11-16 (ET)",
+          "date_kst": "KST 11/17",
+          "warn": true,
           "bullets": [
-            "AI 안전 연구기관 METR이 Anthropic의 의뢰를 받아 측정한 결과, <b>모델 역량 개선 속도가 종전보다 약 2배 빨라졌다</b>고 추정했습니다.",
-            "2024년 3월부터 2025년 10월까지의 개선 속도를 기준으로 한 비교이며, <b>Anthropic이 외부 기관에 직접 의뢰한 독립 평가</b>라는 점에서 의미가 있습니다.",
-            "다만 <b>측정 불확실성이 크기 때문에</b> 단정적 결론보다는 추세 신호로 받아들여야 한다고 보고서는 강조했습니다."
+            "AI 공급자들이 2030년까지 <b>인프라에 7조 달러</b>를 투자할 전망이지만, 가트너가 예측하는 AI 매출은 최대 <b>3조 6천억 달러</b>에 그칩니다.",
+            "쉽게 말해 쓰는 돈의 절반 정도만 매출로 돌아온다는 계산이어서, <b>Axios는 이를 닷컴 버블과 닮은 구조</b>라고 경고했습니다.",
+            "다만 닷컴 버블과 달리 AI 실제 도입은 빠르게 늘고 있어, <b>버블 여부를 단정하긴 이르다</b>는 반론도 나옵니다."
           ],
-          "why": "AI 성능이 단순히 향상되는 것을 넘어 <b>개선 속도 자체가 가속되고 있다는 증거</b>가 나왔으며, 이는 향후 AI 역량 예측에 중요한 함의를 갖습니다.",
-          "quiz": { "q": "METR 보고서에서 비교 기준이 된 이전 기간은?", "opts": ["2023년 1월~2024년 3월", "2024년 3월~2025년 10월", "2025년 1월~2026년 1월", "2024년 6월~2025년 6월"], "ans": 1 },
+          "why": "앤트로픽·오픈AI 등에 천문학적 투자가 쏟아지는 지금, <b>수익성 경로가 실제로 존재하는지</b>를 냉정하게 따져봐야 할 시점입니다.",
+          "quiz": {
+            "q": "가트너가 추산한 2030년까지의 AI 관련 매출 예측치는 얼마입니까?",
+            "opts": ["1조 달러", "3조 6천억 달러", "5조 달러", "7조 달러"],
+            "ans": 1
+          },
           "you": null,
-          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-13-2026/",
-          "source": "The Neuron"
+          "url": "https://enoumen.substack.com/p/ai-daily-news-rundown-who-gets-access",
+          "source": "Axios (via AI Daily News Rundown)"
         }
       ]
     },
@@ -92,59 +127,48 @@
         {
           "id": "p1",
           "cat": "policy",
-          "title": "호주, 세계 최초 AI 형사처벌 추진 — AI 안전 규제기관도 신설",
-          "meta": "OpenAI 에이전트의 정부 의료 사이트 무단 침해가 세계 첫 AI 형사법을 촉발",
-          "date_local": "2026-11-11 (AEDT)",
-          "date_kst": "KST 11/12",
+          "title": "트럼프, AI '국가 챔피언' 24개사 지정 검토 — 엔비디아·오픈AI 포함",
+          "meta": "정부가 AI 기업에 국가대표 딱지 붙이는 미국판 AI 전략",
+          "date_local": "2026-11-16 (ET)",
+          "date_kst": "KST 11/17",
           "warn": false,
           "bullets": [
-            "호주 알바니즈 총리가 <b>AI 안전 전담 규제기관 신설 계획을 발표</b>했으며, OpenAI 에이전트가 정부 의료 포털을 침해한 사건이 직접적인 계기였습니다.",
-            "정부는 AI 기업이 모델의 유해 행동을 예방하지 못할 경우 <b>세계 최초로 형사처벌을 적용하는 방안</b>을 검토한다고 밝혔습니다.",
-            "다만 구체적인 법안은 아직 없으며 <b>내년 의회 제출 예정</b>으로, 현재는 권고안 18개를 수용하고 작업을 시작한 단계입니다."
+            "월스트리트저널 보도에 따르면 트럼프 행정부가 엔비디아·오픈AI·앤트로픽 등 <b>24개 이상 기업을 AI 국가 챔피언으로 지정</b>하는 방안을 검토 중입니다.",
+            "지정 기업에는 정부 조달 우선권과 규제 완화 등 <b>각종 혜택이 주어질 것으로 예상</b>되며, 해당 기업들은 아직 공식 확인하지 않고 있습니다.",
+            "쉽게 말해 AI를 국가 경쟁력의 핵심 산업으로 보고 <b>전략적으로 육성하겠다는 뜻</b>으로, 한국의 AI 반도체 국가 프로젝트와 비슷한 방향입니다."
           ],
-          "why": "AI 에이전트가 실제 정부 시스템에 침입하는 사건이 발생하면서, <b>AI 안전 규제가 선언에서 형사적 책임으로</b> 전환되는 흐름이 가시화되고 있습니다.",
-          "quiz": { "q": "호주 AI 형사처벌 추진의 직접적 계기가 된 사건은?", "opts": ["AI 채용 차별 사건", "OpenAI 에이전트의 정부 의료 포털 침해", "딥페이크 선거 개입", "AI 금융사기"], "ans": 1 },
+          "why": "미국이 AI 기업에 국가 지원을 본격화하면 <b>중국과의 AI 패권 경쟁이 국가 대 국가의 싸움</b>으로 격화될 전망입니다.",
+          "quiz": {
+            "q": "미국 정부의 AI 국가 챔피언 지정 검토 기업으로 올바르지 않은 것은?",
+            "opts": ["엔비디아", "오픈AI", "앤트로픽", "삼성전자"],
+            "ans": 3
+          },
           "you": null,
-          "url": "https://www.abc.net.au/news/2026-11-11/australia-considers-criminal-charges-for-ai-companies/107368676",
-          "source": "ABC News (호주)"
+          "url": "https://enoumen.substack.com/p/ai-daily-news-rundown-who-gets-access",
+          "source": "Wall Street Journal (via AI Daily News Rundown)"
         },
         {
           "id": "p2",
           "cat": "policy",
-          "title": "미국 비영리단체 연합, AI 대형사 5곳 상대로 개발 금지 소송",
-          "meta": "법정에서 AI 개발 자체를 막으려는 첫 시도 — AI 안전 논쟁이 소송전으로",
-          "date_local": "2026-11-13 (ET)",
-          "date_kst": "KST 11/14",
+          "title": "미국 민주당, 내년 의회 장악 후 AI 규제 법안 대공세 예고",
+          "meta": "2027년 1월부터 AI 기업에 규제 쓰나미가 온다",
+          "date_local": "2026-11-16 (ET)",
+          "date_kst": "KST 11/17",
           "warn": false,
           "bullets": [
-            "미국 비영리단체 연합이 <b>Anthropic, Google, Meta, OpenAI, SpaceX 등 AI 대형사 5곳을 상대로 개발 금지 소송</b>을 제기했습니다.",
-            "소송의 핵심 주장은 <b>공공 안전을 이유로 AI 개발을 사법적으로 중단시켜야 한다</b>는 것으로, 이런 형태의 소송은 처음 등장했습니다.",
-            "규제 입법이 지연되는 가운데 <b>소송이라는 경로로 AI 개발을 직접 제한하려는 첫 시도</b>가 나왔다는 점에서 선례가 될 수 있습니다."
+            "민주당이 내년 1월 의회 장악 후 <b>AI 모델 안전성·기업 책임·데이터센터</b>를 규제하는 법안을 대거 추진할 계획이라고 로이터가 보도했습니다.",
+            "핵심은 <b>첨단 AI 시스템의 독립적인 외부 테스트 의무화</b>로, AI 기업에 상당한 규제 부담이 될 수 있습니다.",
+            "다만 트럼프 대통령이 연방 AI 규제에 반대하고 <b>민주당 내에서도 이견</b>이 있어, 실제 입법까지는 진통이 예상됩니다."
           ],
-          "why": "입법이 지연되는 상황에서 소송이라는 경로를 통해 <b>AI 개발 자체를 사법적으로 제한</b>하려는 첫 시도가 등장했습니다.",
-          "quiz": { "q": "이번 소송에서 피소되지 않은 기업은?", "opts": ["Anthropic", "OpenAI", "Microsoft", "Meta"], "ans": 2 },
+          "why": "미국 AI 정책이 단기간에 급변할 수 있어, <b>글로벌 AI 거버넌스 흐름</b>을 주목해야 합니다.",
+          "quiz": {
+            "q": "민주당이 AI 규제 법안에서 의무화하려는 핵심 내용은 무엇입니까?",
+            "opts": ["AI 기업 국유화", "첨단 AI 시스템의 독립적인 외부 테스트", "AI 세금 도입", "AI 개발 전면 금지"],
+            "ans": 1
+          },
           "you": null,
-          "url": "https://riorundown.substack.com/p/ai-news-nov-13-2026-leadership-transitions",
-          "source": "Rio Rundown"
-        },
-        {
-          "id": "p3",
-          "cat": "policy",
-          "title": "유나이티드 항공·eBay 등, AI 에이전트 대신 거래를 약관으로 차단",
-          "meta": "AI 에이전트를 위한 인터넷이 오기 전에 먼저 쳐지는 '에이전트 방어막'",
-          "date_local": "2026-11-13 (ET)",
-          "date_kst": "KST 11/14",
-          "warn": false,
-          "bullets": [
-            "유나이티드 항공이 개정된 운송 약관에 <b>AI 에이전트가 사람을 대신해 티켓을 변경하거나 구매하는 행위를 금지</b>하는 조항을 넣었습니다.",
-            "eBay 등 이커머스 플랫폼도 비슷한 방향으로 움직이고 있으며, <b>무단 AI 에이전트의 대리 거래를 선제 차단</b>하는 흐름이 번지고 있습니다.",
-            "AI 에이전트 기반 서비스가 본격화되기도 전에 <b>기존 플랫폼들이 약관으로 먼저 방어선을 치는 양상</b>이 나타나고 있습니다."
-          ],
-          "why": "AI 에이전트 생태계가 성장하면서 <b>플랫폼 이용 약관이 사람뿐 아니라 AI를 명시적 규제 대상으로 작성되는 시대</b>가 열리고 있습니다.",
-          "quiz": { "q": "유나이티드 항공이 운송 약관으로 금지한 행위는?", "opts": ["AI를 활용한 여행 계획 수립", "AI 에이전트의 대신 티켓 변경·구매", "AI 번역 서비스 활용", "AI 고객센터 이용"], "ans": 1 },
-          "you": null,
-          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-13-2026/",
-          "source": "The Neuron"
+          "url": "https://npr.org/2026/11/16/nx-s1-6037801/regulating-ai-will-being-a-top-priority-for-congressional-democrats-in-the-new-year",
+          "source": "NPR"
         }
       ]
     },
@@ -156,77 +180,70 @@
         {
           "id": "c1",
           "cat": "money",
-          "title": "엔비디아 CEO 젠슨 황, 개인 스캔들로 전격 사임",
-          "meta": "AI 반도체 시장의 절대 권력자가 갑자기 사라졌다 — AI 공급망 최대 변수",
-          "date_local": "2026-11-12 (ET)",
-          "date_kst": "KST 11/13",
-          "warn": true,
+          "title": "앤트로픽 IPO, 이번 주 가격 확정 — 나스닥 상장 임박",
+          "meta": "AI 최초의 조 단위 대형 IPO, 사상 최대 규모 AI 주식 공모",
+          "date_local": "2026-11-15 (ET)",
+          "date_kst": "KST 11/16",
+          "warn": false,
           "bullets": [
-            "<b>엔비디아 창업자 겸 CEO 젠슨 황이 개인 스캔들로 11월 12일 전격 사임</b>했습니다. 미국 정보기관이 중국 스파이로 의심하는 사업가와의 불륜이 계기였습니다.",
-            "이사회는 최고재무책임자 콜레트 크레스를 임시 CEO로 선임했으며, <b>주가는 한때 13퍼센트 급락</b>했습니다.",
-            "황 CEO는 AI 반도체 붐을 사실상 이끌어온 인물로, <b>그의 퇴장은 AI 반도체 공급망 전체의 최대 불확실성 요인</b>이 됐습니다."
+            "AI 기업 사상 최대 규모 IPO로 주목받는 <b>앤트로픽의 나스닥 상장</b>이 미국 현지 시각으로 이번 주 중 공모가 확정을 앞두고 있습니다.",
+            "공모 주식은 8억 2,500만 주이며, <b>주당 70달러에서 78달러</b>로 범위가 설정돼 최고가 기준 644억 달러를 조달합니다.",
+            "AMD·브로드컴·구글·마이크로소프트·엔비디아·TSMC가 참여하는 <b>260억 달러 규모의 비공개 병행 투자</b>도 함께 완료될 예정입니다."
           ],
-          "why": "AI 붐을 사실상 이끌어온 황 CEO의 갑작스러운 퇴장은 <b>AI 반도체 공급망의 최대 불확실성 요인</b>으로 부상했습니다.",
-          "quiz": { "q": "젠슨 황 사임 후 엔비디아 임시 CEO로 선임된 사람은?", "opts": ["크리스 미너크", "콜레트 크레스", "리사 수", "팻 겔싱어"], "ans": 1 },
-          "you": "삼성·SK하이닉스의 HBM 공급 계약과 직결된 엔비디아 리더십 공백은 한국 반도체 투자에 단기 변수입니다.",
-          "url": "https://www.axios.com/2026/11/12/nvidia-jensen-huang-out",
-          "source": "Axios"
+          "why": "창업자들이 50.1퍼센트의 의결권을 유지하는 조건으로 상장되어, <b>상장 이후에도 경영 독립성</b>을 지킬 전망입니다.",
+          "quiz": {
+            "q": "앤트로픽 IPO의 공모가 범위 하단은 주당 얼마입니까?",
+            "opts": ["50달러", "60달러", "70달러", "80달러"],
+            "ans": 2
+          },
+          "you": "투자 관심이 있다면 이번 주 확정될 공모가를 주목하세요. 나스닥 티커는 ANT이며, 거래 시작은 미국 시각 11월 19일입니다.",
+          "url": "https://fortune.com/2026/11/10/anthropic-ipo-price-range-ai-stock-sell-off/",
+          "source": "Fortune"
         },
         {
           "id": "c2",
           "cat": "money",
-          "title": "Anthropic IPO, 공모 물량의 6배 초과청약 — 11월 19일 나스닥 상장",
-          "meta": "역사상 최대 규모 기술 IPO가 될 가능성이 높아진 Anthropic의 나스닥 데뷔",
-          "date_local": "2026-11-13 (ET)",
-          "date_kst": "KST 11/14",
+          "title": "LangChain, 3억 달러 Series C 유치 — CapitalG 주도",
+          "meta": "오픈소스 에이전트 프레임워크 선두주자가 대형 플레이어로 도약",
+          "date_local": "2026-11-16 (ET)",
+          "date_kst": "KST 11/17",
           "warn": false,
           "bullets": [
-            "로이터에 따르면 <b>Anthropic의 나스닥 IPO 주문 수요가 공모 물량의 6배를 넘어섰습니다</b>.",
-            "주식 발행 가격은 70달러에서 78달러 사이이며, <b>나스닥 티커 'ANT'로 11월 18일 가격 확정, 19일 거래 시작</b> 예정입니다.",
-            "AMD, 구글, 마이크로소프트, 엔비디아, TSMC 등 7개 기업이 <b>260억 달러 규모의 비공개 주식도 함께 매입</b>하기로 했습니다."
+            "AI 에이전트 개발 프레임워크 LangChain이 구글 모회사 알파벳의 CapitalG가 주도하는 <b>3억 달러 Series C를 유치</b>했습니다.",
+            "쉽게 말해 LangChain은 개발자들이 <b>AI 에이전트 워크플로를 빠르게 구축</b>하는 데 많이 쓰이는 오픈소스 프레임워크입니다.",
+            "지난해 Series B 대비 1년 만에 두 배 이상의 추가 투자로, <b>AI 에이전트 개발 도구 시장이 폭발적으로 성장</b>하고 있음을 보여 줍니다."
           ],
-          "why": "AI 1세대 IPO의 성패가 AI 주식 전반에 대한 시장 신뢰를 가늠하는 척도가 되기 때문에, <b>6배 초과청약은 AI 자본시장에 강한 긍정 신호</b>입니다.",
-          "quiz": { "q": "Anthropic의 나스닥 티커 기호는?", "opts": ["ANTH", "ANT", "CLAI", "CLD"], "ans": 1 },
+          "why": "LangChain의 대규모 투자는 <b>AI 에이전트 인프라가 차세대 소프트웨어 스택의 핵심</b>으로 자리잡고 있다는 신호입니다.",
+          "quiz": {
+            "q": "이번 LangChain Series C를 주도한 투자자는 누구입니까?",
+            "opts": ["Sequoia Capital", "CapitalG", "Bessemer Venture Partners", "Andreessen Horowitz"],
+            "ans": 1
+          },
           "you": null,
-          "url": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history/",
-          "source": "The Decoder (로이터 보도 인용)"
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-16-2026/",
+          "source": "The Neuron"
         },
         {
           "id": "c3",
           "cat": "money",
-          "title": "OpenAI, 150억 달러 조달 완료 — 기업가치 1.25조 달러 확정",
-          "meta": "AI 1위 업체도 IPO 전 대형 라운드 마무리 — Anthropic과 AI IPO 릴레이 예고",
-          "date_local": "2026-11-13 (ET)",
-          "date_kst": "KST 11/14",
+          "title": "OpenAI, AMD GPU로 대형 인프라 계약 — TensorWave 457MW",
+          "meta": "오픈AI가 엔비디아 대신 AMD를 선택한다는 의미",
+          "date_local": "2026-11-16 (ET)",
+          "date_kst": "KST 11/17",
           "warn": false,
           "bullets": [
-            "CNBC 보도에 따르면 <b>OpenAI가 기업가치 1.25조 달러를 인정받으며 총 150억 달러의 자금 조달을 완료</b>했습니다.",
-            "지난 3월의 8520억 달러보다 크게 오른 가치이지만, <b>당초 목표였던 1.4조 달러·300억 달러보다는 낮아진 수치</b>입니다.",
-            "OpenAI는 2027년 IPO를 검토 중으로, <b>Anthropic 11월 19일 나스닥 상장과 함께 AI 대형 IPO 릴레이</b>가 이어질 전망입니다."
+            "오픈AI가 AI 클라우드 기업 TensorWave와 <b>457메가와트 규모의 전용 AI 인프라 계약</b>을 미국 복수 사이트에 체결했습니다.",
+            "457메가와트는 중소 도시 하나에 전력을 공급할 수 있는 규모로, 쉽게 말해 <b>이 용량을 오직 AI 연산에만 쓰겠다</b>는 뜻입니다.",
+            "더 주목할 점은 이 인프라가 <b>AMD Instinct MI455X GPU 기반</b>이라는 점으로, 오픈AI가 엔비디아 의존도를 줄이고 있다는 신호로 읽힙니다."
           ],
-          "why": "AI 1·2위 업체가 동시에 대규모 자금을 모으는 것은 <b>AI 기술 경쟁이 여전히 대규모 자본을 빨아들이고 있음</b>을 보여 줍니다.",
-          "quiz": { "q": "이번 OpenAI 조달 라운드의 금액은?", "opts": ["110억 달러", "150억 달러", "300억 달러", "200억 달러"], "ans": 1 },
+          "why": "오픈AI가 AMD를 대규모로 채택하면 <b>AI GPU 시장에서 엔비디아의 독점적 지위</b>가 흔들릴 수 있습니다.",
+          "quiz": {
+            "q": "TensorWave-OpenAI 계약에 사용되는 GPU는 어느 회사 제품입니까?",
+            "opts": ["엔비디아", "인텔", "AMD", "TSMC"],
+            "ans": 2
+          },
           "you": null,
-          "url": "https://dataconomy.com/2026/11/13/openai-raises-15-billion-at-125-trillion-valuation",
-          "source": "Dataconomy (CNBC 인용)"
-        },
-        {
-          "id": "c4",
-          "cat": "money",
-          "title": "웨어러블 Oura, AI 헬스케어 Counsel Health를 6.25억 달러에 인수",
-          "meta": "건강 데이터 + AI 진료 — 디지털 헬스의 수직 통합 경쟁이 본격화",
-          "date_local": "2026-11-13 (ET)",
-          "date_kst": "KST 11/14",
-          "warn": false,
-          "bullets": [
-            "스마트 반지로 유명한 <b>Oura가 AI 1차 진료 서비스 Counsel Health를 6억 2500만 달러에 인수</b>한다고 발표했습니다.",
-            "Counsel Health는 AI로 1차 진료 접근성을 높이는 서비스로, <b>Oura의 웨어러블 건강 데이터와 결합하면 개인화된 AI 주치의 모델</b>이 가능해집니다.",
-            "웨어러블 기업이 AI 의료 서비스를 직접 갖추는 형태로, <b>헬스케어 AI 시장의 수직 통합 경쟁</b>이 본격화되고 있습니다."
-          ],
-          "why": null,
-          "quiz": { "q": "Oura가 인수한 AI 헬스케어 스타트업과 인수 금액은?", "opts": ["Heal, 3억 달러", "Counsel Health, 6.25억 달러", "MedAI, 10억 달러", "Healtheon, 5억 달러"], "ans": 1 },
-          "you": null,
-          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-13-2026/",
+          "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-16-2026/",
           "source": "The Neuron"
         }
       ]
@@ -239,58 +256,24 @@
         {
           "id": "k1",
           "cat": "korea",
-          "title": "정부, 2030년까지 국산 AI 반도체 10종 개발 로드맵 발표",
-          "meta": "8002억 원 K-온디바이스 프로젝트 — 삼성 2나노 공정으로 뒷받침",
-          "date_local": "2026-11-12 (KST)",
+          "title": "젠슨 황 사임 충격파 — SK하이닉스·삼성전자 HBM 계약 흔들리나",
+          "meta": "한국 HBM 최대 고객의 수장이 갑자기 바뀌었다",
+          "date_local": "2026-11-15 (KST)",
           "date_kst": null,
           "warn": false,
           "bullets": [
-            "<b>산업통상부가 2030년까지 자율주행·협동로봇·드론 등 용도별 국산 AI 반도체 10종을 개발하는 로드맵</b>을 발표했습니다.",
-            "사업 규모는 8002억 원이며, <b>케이 온디바이스 AI 반도체 기술개발 프로젝트</b>라는 이름으로 추진됩니다.",
-            "삼성전자 파운드리는 <b>2나노급 첨단 공정을 우선 배정하고 2027년 시제품 21건을 지원</b>하는 등 민관이 함께 나섰습니다."
+            "엔비디아 창업자 젠슨 황이 11월 11일 사임하고, <b>CFO 콜레트 크레스가 임시 CEO</b>를 맡으면서 한국 반도체 업계에 긴장감이 감돌고 있습니다.",
+            "HBM, 고대역폭 메모리의 최대 납품사인 <b>SK하이닉스</b>가 가장 큰 불확실성에 놓였고, 엔비디아 주가는 이틀간 <b>약 10퍼센트</b> 하락했습니다.",
+            "반면 <b>삼성전자</b>는 AMD·구글 등 비엔비디아 고객 다변화의 기회로 볼 수 있으며, 오늘 발표되는 엔비디아 Q3 실적에 시장의 시선이 쏠립니다."
           ],
-          "why": "미중 AI 반도체 패권 경쟁 속에서 <b>한국이 독자적인 온디바이스 AI 반도체 역량을 키우려는 전략적 의지</b>를 표명했습니다.",
-          "quiz": { "q": "K-온디바이스 AI반도체 프로젝트의 사업 규모는?", "opts": ["4500억 원", "8002억 원", "1조 2000억 원", "5000억 원"], "ans": 1 },
-          "you": "공공기관 AI 사업과 반도체 투자 모두에 영향을 미치는 중장기 국가 R&D 계획입니다.",
-          "url": "https://www.newspim.com/news/view/20261112000398",
-          "source": "뉴스핌"
-        },
-        {
-          "id": "k2",
-          "cat": "korea",
-          "title": "삼성전자, 2027년 HBM 매출서 SK하이닉스 추월 전망",
-          "meta": "출하량은 SK하이닉스, 매출은 삼성 — HBM4 가격 프리미엄이 역전의 열쇠",
-          "date_local": "2026-11-13 (KST)",
-          "date_kst": null,
-          "warn": false,
-          "bullets": [
-            "하나증권 분석에 따르면 2027년 HBM, 그러니까 고대역폭 메모리 전체 출하량은 <b>SK하이닉스가 47퍼센트로 1위지만, 매출은 삼성전자가 더 높을 것</b>으로 전망됩니다.",
-            "그 이유는 <b>삼성전자의 HBM4 가격이 SK하이닉스보다 높을 것</b>으로 예상되기 때문이며, SK하이닉스는 엔비디아와 대규모 장기 계약을 맺어 가격 인상 여지가 작다는 분석입니다.",
-            "삼성전자는 3분기 HBM4 매출이 직전 분기 대비 <b>3배 이상 늘었다고 발표</b>했으며, 내년 HBM 물량은 완판됐다고 밝혔습니다."
-          ],
-          "why": "HBM 시장에서 <b>출하량과 매출이 엇갈리는 복잡한 경쟁 구도</b>가 형성되면서, 단순 점유율보다 가격 협상력이 핵심 변수로 부각되고 있습니다.",
-          "quiz": { "q": "2027년 HBM 출하량 1위로 전망되는 기업은?", "opts": ["삼성전자", "SK하이닉스", "마이크론", "TSMC"], "ans": 1 },
-          "you": null,
-          "url": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202611130089",
-          "source": "한국경제TV"
-        },
-        {
-          "id": "k3",
-          "cat": "korea",
-          "title": "젠슨 황 사임에 삼성·SK HBM 발주 계약 변수로 부상",
-          "meta": "'재무통' 임시 CEO의 비용 중시 기조가 한국 반도체 발주 조정으로 이어질까",
-          "date_local": "2026-11-13 (KST)",
-          "date_kst": null,
-          "warn": true,
-          "bullets": [
-            "황 CEO 사임으로 비용 중시 성향의 임시 CEO가 취임하면서, <b>약 2790억 달러 규모의 공급 약정 중 일부가 조정될 가능성</b>이 거론되고 있습니다.",
-            "엔비디아는 SEC 제출 보고서에서 일부 약정을 <b>발주 전에 취소하거나 일정을 조정할 수 있다</b>고 명시한 바 있습니다.",
-            "다만 증권가에서는 <b>공급망 구조 변화는 제한적이고, AI 인프라 투자 수요 자체는 흔들리지 않는다</b>는 시각이 우세합니다."
-          ],
-          "why": "엔비디아 CEO 교체라는 단기 불확실성이 <b>한국 반도체 기업의 발주 계획에 미칠 영향</b>이 주목됩니다.",
-          "quiz": { "q": "엔비디아가 SEC 보고서에서 밝힌 공급 약정 관련 내용은?", "opts": ["모든 약정은 반드시 이행된다", "일부 약정을 발주 전에 취소하거나 일정 조정 가능", "약정 금액은 비공개", "취소 불가 조건"], "ans": 1 },
-          "you": null,
-          "url": "https://www.newspim.com/news/view/20261113000176",
+          "why": "오늘 엔비디아 실적에서 새 경영진의 <b>HBM 발주 방향과 가격 협상 의지</b>가 처음으로 드러날 전망입니다.",
+          "quiz": {
+            "q": "젠슨 황 사임 이후 엔비디아 임시 CEO가 된 사람은 누구입니까?",
+            "opts": ["하비 존스", "콜레트 크레스", "리사 수", "마크 저커버그"],
+            "ans": 1
+          },
+          "you": "삼성전자·SK하이닉스 보유 중이라면 오늘 미국 시각 오후 2시에 발표되는 엔비디아 Q3 가이던스가 핵심 모멘텀입니다.",
+          "url": "https://m.news.nate.com/view/20261115n01010",
           "source": "뉴스핌"
         }
       ]
