@@ -3,6 +3,7 @@
 # 전제: 루틴 세션의 Claude 가 먼저 prompt.md 대로 웹검색해 output/items.json 작성.
 # 비밀/설정은 루틴 환경변수: AIDAILY_BOT_TOKEN, AIDAILY_CHAT_ID, PAGES_BASEURL, FAV_API_URL (TG_* 이름도 호환)
 # 사용: bash run.sh am   (또는 pm)
+# 텔레그램 발송은 전부 조용히 보내기(disable_notification=true, 2026-11-22 사용자 요청).
 set -euo pipefail
 SLOT="${1:-am}"
 HERE="$(cd "$(dirname "$0")" && pwd)"; cd "$HERE"
@@ -44,6 +45,7 @@ done
 # 4) 텔레그램 링크 전송 (미리보기 이미지는 클라우드 인증서 문제로 깨져서 제거 — 링크만)
 curl -s "https://api.telegram.org/bot${TG_BOT_TOKEN}/sendMessage" \
   --data-urlencode "chat_id=${TG_CHAT_ID}" \
+  -d "disable_notification=true" \
   --data-urlencode "text=📰 AI 데일리 · ${DATE} ${SLOT} (${TIME} KST)
 ${URL}" >/dev/null && echo "[run] sent: link"
 
@@ -75,17 +77,17 @@ if [ -n "$OFF_BOT" ]; then
     for RCID in "${USER1:-}" "${USER2:-}"; do
       [ -n "$RCID" ] || continue
       [ -n "$IMG" ] && curl -s "https://api.telegram.org/bot${OFF_BOT}/sendPhoto" \
-        -F "chat_id=${RCID}" -F "photo=@${IMG}" \
+        -F "chat_id=${RCID}" -F "disable_notification=true" -F "photo=@${IMG}" \
         -F "caption=📰 AI 데일리 · ${DATE} ${SLOT} (${TIME} KST) — 접힌 미리보기" >/dev/null && echo "[run] offline image: ${RCID}"
       curl -s "https://api.telegram.org/bot${OFF_BOT}/sendDocument" \
-        -F "chat_id=${RCID}" \
+        -F "chat_id=${RCID}" -F "disable_notification=true" \
         -F "document=@${OFFFILE};filename=${OFFNAME}" \
         -F "caption=전체 HTML(오프라인 저장용)" >/dev/null && echo "[run] offline file: ${RCID}"
     done
     # 그룹방(GROUP_HTML)에는 오프라인 HTML 파일만 전송(이미지·링크 없이). 봇이 그 그룹에 들어가 있어야 함
     if [ -n "${GROUP_HTML:-}" ]; then
       curl -s "https://api.telegram.org/bot${OFF_BOT}/sendDocument" \
-        -F "chat_id=${GROUP_HTML}" \
+        -F "chat_id=${GROUP_HTML}" -F "disable_notification=true" \
         -F "document=@${OFFFILE};filename=${OFFNAME}" \
         -F "caption=📄 AI 데일리 · ${DATE} ${SLOT} (${TIME} KST)" >/dev/null && echo "[run] offline file → group: ${GROUP_HTML}"
     fi
