@@ -1,64 +1,11 @@
 {
-  "date": "2026-11-22",
+  "date": "2026-11-23",
   "slot": "am",
-  "date_line": "2026년 11월 22일 (일) · 아침 · 10건 선별",
+  "date_line": "2026년 11월 23일 (월) · 아침 · 7건 선별",
   "kicker": "AI 데일리 · 자동 발송",
   "footer_tag": "✈ via Telegram · 매일 07:00 · 19:00 자동 발송",
-  "oneline": "오늘 아침 최대 뉴스는 <b>Anthropic이 나스닥에 첫 상장</b>하며 프론티어 AI 기업 역사상 첫 IPO를 기록한 것입니다. <b>엔비디아도 분기 매출 1,158억 달러</b>로 예상치를 대폭 웃돌았지만, 창업자 젠슨 황의 사임 여파가 계속되고 있습니다.",
+  "oneline": "오늘 아침 가장 큰 소식은 <b>Anthropic이 역대 최대 규모 813억 달러 IPO를 완료</b>했고, Anthropic 연구원이 <b>Claude와 함께 165년 된 리만 가설 증명을 완성했다</b>는 주장이 커뮤니티 검증을 통과한 것입니다.",
   "sections": [
-    {
-      "icon": "🚀",
-      "name": "모델 · 출시",
-      "you": false,
-      "items": [
-        {
-          "id": "m1",
-          "cat": "model",
-          "title": "OpenAI, 에이전트용 GPT-6.2 2종 동시 출시",
-          "meta": "에이전트 비용을 4분의 1로 낮춘 OpenAI의 경량·고성능 듀얼 출시",
-          "date_local": "2026-11-17 (ET)",
-          "date_kst": "KST 11/18",
-          "warn": false,
-          "bullets": [
-            "OpenAI가 <b>GPT-6.2 Astra와 GPT-6.2 Sol</b> 두 모델을 동시에 공개했습니다.",
-            "Astra는 장시간 에이전트 작업에, Sol은 <b>일상 코딩과 에이전트 연동</b>에 최적화된 모델입니다.",
-            "Sol의 입력 가격은 토큰 백만 개당 2달러로, <b>Astra의 4분의 1 수준</b>이라 비용 부담이 크게 줄었습니다."
-          ],
-          "why": "AI 에이전트를 대규모로 운용하는 비용이 획기적으로 낮아져, <b>기업용 자동화 도입</b>이 더욱 빨라질 전망입니다.",
-          "quiz": {
-            "q": "GPT-6.2 Sol의 입력 가격은 Astra 대비 어느 수준입니까?",
-            "opts": ["10분의 1", "4분의 1", "절반", "같은 가격"],
-            "ans": 1
-          },
-          "you": null,
-          "url": "https://dev.to/alexmercedcoder/ai-weekly-gpt-62-gemini-4-hydrogen-nvidia-shake-up-11h9",
-          "source": "DEV Community"
-        },
-        {
-          "id": "m2",
-          "cat": "model",
-          "title": "Google, 경량 모델 Gemini 4 Neon 공개",
-          "meta": "11월 한 달에 세 번째 — Google의 Gemini 4 패밀리 완성",
-          "date_local": "2026-11-18 (PT)",
-          "date_kst": "KST 11/19",
-          "warn": false,
-          "bullets": [
-            "Google DeepMind가 <b>Gemini 4 Neon</b>을 공개했습니다. Gemini 4 패밀리 중 가장 가볍고 빠른 모델입니다.",
-            "Neon은 빠른 코딩과 에이전트 워크플로에 맞춰 설계됐으며, <b>일상 작업의 고속 처리</b>에 초점을 뒀습니다.",
-            "11월 한 달에만 Google은 Carbon, Hydrogen, Neon 등 <b>Gemini 4 모델을 세 차례 연달아 출시</b>했습니다."
-          ],
-          "why": "Google이 경량 모델을 잇달아 선보이면서, <b>에이전트 비용 경쟁</b>이 한층 치열해지고 있습니다.",
-          "quiz": {
-            "q": "11월 중 Google이 Gemini 4 패밀리로 출시한 모델 수는?",
-            "opts": ["1종", "2종", "3종", "4종"],
-            "ans": 2
-          },
-          "you": null,
-          "url": "https://llmgateway.io/timeline",
-          "source": "LLM Gateway"
-        }
-      ]
-    },
     {
       "icon": "🛠",
       "name": "도구 · 개발",
@@ -67,25 +14,25 @@
         {
           "id": "d1",
           "cat": "dev",
-          "title": "Microsoft, 자체 MAI Code 2를 GitHub Copilot에 탑재",
-          "meta": "OpenAI 의존 끊으려는 Microsoft의 코딩 AI 승부수",
-          "date_local": "2026-11-17 (PT)",
-          "date_kst": "KST 11/18",
+          "title": "Claude Code, 기업 Admin Console 직접 연동",
+          "meta": "대기업·공공기관이 Claude를 도입할 때 보안·정책을 한곳에서 관리하는 길이 열렸습니다.",
+          "date_local": "2026-11-21 (UTC)",
+          "date_kst": "KST 11/21",
           "warn": false,
           "bullets": [
-            "Microsoft가 Ignite 2026에서 자체 개발 모델 <b>MAI Code 2</b>를 GitHub Copilot에 적용했습니다.",
-            "Microsoft 발표에 따르면 MAI Code 2는 <b>Claude Opus 5.5 성능의 96퍼센트를 비용의 5퍼센트</b>로 구현한다고 합니다.",
-            "이번에 코딩·보안·이미지·음성 등 <b>특화 AI 모델 6종</b>을 동시에 공개하며 프론티어 진출을 선언했습니다."
+            "Claude Code 버전 2.1.330부터 <b>Anthropic 엔터프라이즈 Admin Console과 직접 연동</b>되어, 기업의 조직 정책과 클라우드 공급업체 설정을 자동으로 적용합니다.",
+            "조직 관리자가 <b>한 화면에서 Claude Code 사용 정책을 통제</b>하고, 커스텀 게이트웨이나 클라우드 라우팅도 중앙에서 설정할 수 있게 됐습니다.",
+            "쉽게 말해, 개별 개발자가 환경을 따로 설정하던 방식에서 <b>IT·보안 팀이 전사 정책을 한 번에 적용하는 방식</b>으로 전환됩니다."
           ],
-          "why": "Microsoft가 자체 모델로 GitHub Copilot을 채우기 시작하면서, <b>OpenAI 의존도 축소</b>가 현실화되고 있습니다.",
+          "why": "공공기관이나 대기업에서 Claude Code를 도입하려면 보안 정책 준수가 선결 조건인데, <b>이 업데이트가 그 장벽을 크게 낮춰</b> 줍니다.",
           "quiz": {
-            "q": "Microsoft MAI Code 2가 GitHub Copilot에 탑재된 행사 이름은?",
-            "opts": ["Build 2026", "Ignite 2026", "GTC 2026", "CES 2026"],
-            "ans": 1
+            "q": "Claude Code 2.1.330의 새 엔터프라이즈 기능이 연동되는 대상은 무엇입니까?",
+            "opts": ["Anthropic 엔터프라이즈 Admin Console", "Microsoft Azure AD", "Google Workspace", "GitHub Enterprise"],
+            "ans": 0
           },
-          "you": "Claude Code 대안으로 GitHub Copilot MAI Code 2가 부상했습니다. 바이브코딩 도구 선택 시 비교 검토가 필요합니다.",
-          "url": "https://www.axios.com/2026/11/17/microsoft-ai-models-openai-anthropic-ignite",
-          "source": "Axios"
+          "you": "Claude Code 사용자라면 사내 도입 제안 근거로 이 업데이트를 활용하세요.",
+          "url": "https://github.com/Chestnuts-Sisyphus/gittok/issues/2065",
+          "source": "AI CLI Tools Digest (GitHub)"
         }
       ]
     },
@@ -97,55 +44,25 @@
         {
           "id": "r1",
           "cat": "research",
-          "title": "OpenAI, 신약 개발 AI 평가 MedChemBench 공개",
-          "meta": "AI가 진짜 신약 연구자 역할을 할 수 있는지 처음으로 측정하는 벤치마크",
-          "date_local": "2026-11-20 (ET)",
+          "title": "Claude 도움으로 165년 난제 리만 가설 증명 주장",
+          "meta": "수학 역사상 가장 유명한 미해결 문제를 AI가 함께 풀었다는 주장이 나왔습니다.",
+          "date_local": "2026-11-21 (UTC)",
           "date_kst": "KST 11/21",
           "warn": false,
           "bullets": [
-            "OpenAI가 <b>MedChemBench</b>를 발표했습니다. AI 모델이 분자 구조를 해석하고 신약 후보를 선별하는 능력을 평가하는 벤치마크입니다.",
-            "기존 의학 벤치마크가 의학 지식을 테스트한다면, MedChemBench는 <b>초기 약물 개발의 실제 연구 과정</b>을 평가합니다.",
-            "별도 발표한 <b>BioBasicsBench</b>는 AI 에이전트가 습식 실험 데이터를 처리하는 능력 100가지를 측정합니다."
+            "Anthropic 수학자 Levent Alpöge가 <b>약 6주간 Claude와 협업</b>해 리만 가설 증명을 완성했다고 주장하며, 17만 5천여 개의 Lean 4 파일로 된 형식 증명을 11월 20일 공개했습니다.",
+            "Lean 커뮤니티와 Mathlib 커뮤니티가 <b>11월 21일 공동 성명으로 증명의 정확성을 확인</b>했으며, Lean 커널을 비롯한 여러 증명 검사기가 이를 채택했습니다.",
+            "다만 <b>사람이 읽을 수 있는 증명 본문은 아직 미공개</b>이고, 수학계 전문가들의 비공식 검토가 계속 진행 중이어서 최종 판단까지는 시간이 걸릴 전망입니다."
           ],
-          "why": "AI가 신약 개발 초기 단계를 대신할 수 있다면, <b>제약·바이오 R&D 비용과 기간</b>이 획기적으로 줄 수 있습니다.",
+          "why": "리만 가설은 1859년에 제시된 이후 단 한 번도 증명되지 않은 문제로, <b>증명이 확정되면 소수 분포와 암호학 등 수학·컴퓨터과학 전반에 큰 영향</b>을 미칩니다.",
           "quiz": {
-            "q": "MedChemBench가 평가하는 AI의 주요 능력은 무엇입니까?",
-            "opts": ["의학 시험 문제 풀기", "신약 후보 분자 선별과 해석", "의료 영상 진단", "환자 차트 요약"],
+            "q": "Lean·Mathlib 커뮤니티가 증명의 정확성을 공식 확인한 날짜는 언제입니까?",
+            "opts": ["11월 20일", "11월 21일", "11월 22일", "11월 17일"],
             "ans": 1
           },
           "you": null,
-          "url": "https://openai.com/research/index/",
-          "source": "OpenAI"
-        }
-      ]
-    },
-    {
-      "icon": "🏛",
-      "name": "정책 · 거버넌스",
-      "you": false,
-      "items": [
-        {
-          "id": "c1",
-          "cat": "policy",
-          "title": "미국 상무부, 대중국 AI 칩 수출 규제 대폭 강화",
-          "meta": "중국 기업이 해외 클라우드로 우회하던 길도 완전히 차단",
-          "date_local": "2026-11-16 (ET)",
-          "date_kst": "KST 11/17",
-          "warn": false,
-          "bullets": [
-            "미국 상무부가 중국 본사 기업이면 해외 법인에도 <b>Nvidia·AMD AI 칩을 수출할 때 허가</b>가 필요하도록 강화했습니다.",
-            "더불어 해외 데이터센터가 중국 기업에 AI 연산을 제공하려면 <b>90일 이내에 미국 수출 허가</b>를 받아야 합니다.",
-            "중국 상무부는 즉시 반발하며 <b>보복 조치를 경고</b>했고, Nvidia와 AMD 주가는 각각 3~5퍼센트 하락했습니다."
-          ],
-          "why": "중국이 클라우드 우회로를 통해 미국 AI 칩을 조달하던 경로가 막히면서, <b>중국 AI 개발 속도</b>에 직접적인 영향이 예상됩니다.",
-          "quiz": {
-            "q": "해외 데이터센터가 중국 기업에 AI 연산을 제공하려면 미국 허가 취득 기한은?",
-            "opts": ["30일", "60일", "90일", "180일"],
-            "ans": 2
-          },
-          "you": null,
-          "url": "https://thenextweb.com/news/us-nvidia-amd-china-subsidiary-chip-curbs",
-          "source": "The Next Web"
+          "url": "https://phys.org/news/2026-11-anthropic-claude-math-greatest-riddle.html",
+          "source": "Phys.org / Scientific American"
         }
       ]
     },
@@ -155,73 +72,50 @@
       "you": true,
       "items": [
         {
-          "id": "p1",
+          "id": "c1",
           "cat": "money",
-          "title": "Anthropic, 나스닥 상장 — 프론티어 AI 기업 첫 IPO",
-          "meta": "AI 거품인가 혁명인가 — 시장이 처음으로 프론티어 AI 기업에 공식 값을 매겼다",
-          "date_local": "2026-11-19 (ET)",
-          "date_kst": "KST 11/20",
+          "title": "Anthropic, 역대 최대 규모 813억 달러 IPO 완료",
+          "meta": "AI 산업이 본격적인 공개 투자 시장으로 진입한 역사적 사건입니다.",
+          "date_local": "2026-11-22 (ET)",
+          "date_kst": "KST 11/22",
           "warn": false,
           "bullets": [
-            "Anthropic이 11월 19일 나스닥에 티커 <b>ANT</b>로 상장해, 공모가 83달러에서 첫날 17퍼센트 오른 97달러로 마감했습니다.",
-            "Nvidia·AMD·MS 등 주요 빅테크가 IPO 가격으로 <b>총 260억 달러의 사전 주식 매입</b>을 약정했습니다.",
-            "상장 다음 날인 20일에는 주가가 <b>약 10퍼센트 하락</b>해 88달러대로 내려앉으며 기술주 전반 매도세와 함께 출렁였습니다."
+            "Anthropic이 주당 <b>83달러, 980만 주를 발행해 약 813억 달러</b>, 우리 돈 약 110조 원을 조달하며 역대 최대 IPO 기록을 세웠습니다. 나스닥 티커는 ANT입니다.",
+            "상장 첫날 주가는 <b>111달러 50센트로 출발해 IPO 가격 대비 34퍼센트 높게 시작</b>했고, 종가는 97달러 17센트로 17퍼센트 오른 채로 거래를 마쳤습니다.",
+            "다음 날 차익 실현 매물이 나오면서 약 <b>9퍼센트 하락해 85달러 선</b>에서 거래됐지만, IPO 발행가 위에서는 유지되고 있습니다."
           ],
-          "why": "프론티어 AI 기업이 처음으로 공개 시장의 검증을 받으면서, <b>AI 기업 가치 평가 기준</b>이 업계 전반에 형성되기 시작했습니다.",
+          "why": "Anthropic 상장은 AI 산업이 공개 주식 시장으로 진입했음을 알리는 신호이며, <b>향후 OpenAI 등 주요 AI 기업 IPO의 기준점</b>이 될 전망입니다.",
           "quiz": {
-            "q": "Anthropic의 나스닥 티커는 무엇입니까?",
-            "opts": ["ANTH", "CLAI", "ANT", "AIBC"],
-            "ans": 2
+            "q": "Anthropic의 IPO 주당 발행 가격은 얼마입니까?",
+            "opts": ["83달러", "97달러", "111달러", "78달러"],
+            "ans": 0
           },
-          "you": "Anthropic Claude의 기업가치가 공식 시장에서 확인됐습니다. 공공 AI 사업 예산 협상 시 참고 지표로 활용할 수 있습니다.",
-          "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/",
-          "source": "TechCrunch"
+          "you": "AI 주식 투자에 관심 있으시면 나스닥 티커 ANT의 흐름을 주목하세요.",
+          "url": "https://en.wowtale.net/2026/11/22/236120/",
+          "source": "CNBC / Forbes / WOWTALE"
         },
         {
-          "id": "p2",
+          "id": "c2",
           "cat": "money",
-          "title": "Nvidia, 분기 매출 1,158억 달러 — 젠슨 황 복귀 불가 확인",
-          "meta": "숫자는 완벽했지만, 사람이 문제였다",
-          "date_local": "2026-11-17 (PT)",
-          "date_kst": "KST 11/18",
+          "title": "Amazon, 이스라엘 AI 스타트업 Decart 70억 달러 인수 추진",
+          "meta": "AI 에이전트 기술 확보를 위한 빅테크 대형 M&A 경쟁이 가속화됩니다.",
+          "date_local": "2026-11-22 (ET)",
+          "date_kst": "KST 11/22",
           "warn": false,
           "bullets": [
-            "Nvidia가 2027 회계연도 3분기 매출로 <b>1,158억 달러</b>를 기록해, 애널리스트 예상치를 약 70억 달러 웃돌았습니다.",
-            "데이터센터 부문은 <b>전년 동기 대비 110퍼센트 성장</b>한 1,076억 달러, 4분기 가이던스는 1,300억 달러입니다.",
-            "실적 발표 자리에서 이사회 의장은 젠슨 황 전 CEO의 <b>복귀는 없다</b>고 밝혔으며, Colette Kress CFO가 임시 CEO를 맡고 있습니다."
+            "파이낸셜타임스 보도에 따르면 <b>Amazon이 이스라엘 AI 스타트업 Decart를 현금·주식·성과급 합산 최대 약 75억 달러</b>에 인수하는 협상이 마무리 단계라고 합니다.",
+            "Decart는 <b>AI 에이전트 추론과 멀티모달 작업</b>에 특화된 기술을 보유하고 있으며, 올해 5월 기준 기업 가치는 약 40억 달러였습니다.",
+            "앞서 Anthropic이 약 60억 달러에 Decart 인수를 추진하다 올해 9월 무산된 뒤, <b>Amazon이 더 높은 금액으로 협상에 나선 것</b>이어서 AI 에이전트 기술 쟁탈전이 M&A 시장으로 확산되고 있음을 보여 줍니다."
           ],
-          "why": "Nvidia AI 반도체 수요는 여전히 폭발적이지만, 창업자의 갑작스러운 사임은 <b>중장기 리더십 불확실성</b>으로 남아 있습니다.",
+          "why": "Amazon이 에이전트 AI 기술을 AWS에 추가하면 <b>Microsoft·Google과의 클라우드 AI 경쟁이 한층 치열해질</b> 전망입니다.",
           "quiz": {
-            "q": "Nvidia 2027 회계연도 3분기 데이터센터 매출은 얼마입니까?",
-            "opts": ["760억 달러", "1,076억 달러", "1,158억 달러", "1,300억 달러"],
-            "ans": 1
-          },
-          "you": "Nvidia 반도체 수요 호황이 한국 HBM 수급에 직결됩니다. 투자 관점에서 엔비디아 공급망 모니터링이 중요합니다.",
-          "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/",
-          "source": "Nvidia IR"
-        },
-        {
-          "id": "p3",
-          "cat": "money",
-          "title": "Deutsche Telekom, Mistral AI에 1억 유로 투자",
-          "meta": "유럽 소버린 AI의 첫 진지한 투자 — 독일 공공·산업용 LLM 구축 시동",
-          "date_local": "2026-11-19 (ET)",
-          "date_kst": "KST 11/20",
-          "warn": false,
-          "bullets": [
-            "독일 최대 통신사 Deutsche Telekom의 투자 부문 T.Capital Tech Fund가 <b>Mistral AI 시리즈 D에 1억 유로</b>를 투자했습니다.",
-            "Mistral의 이번 시리즈 D는 총 30억 유로 규모이며, <b>Mistral 기업가치는 210억 유로 이상</b>으로 평가됩니다.",
-            "양사는 Telekom의 소버린 인프라와 Mistral 프론티어 모델을 결합해 <b>독일 공공기관과 규제 산업 전용 AI</b>를 개발할 계획입니다."
-          ],
-          "why": "유럽 통신사가 프론티어 AI 스타트업과 손잡으면서, <b>주권 AI(Sovereign AI) 구축 경쟁</b>이 본격화되고 있습니다.",
-          "quiz": {
-            "q": "Deutsche Telekom의 이번 Mistral 투자액은 얼마입니까?",
-            "opts": ["5천만 유로", "1억 유로", "3억 유로", "10억 유로"],
-            "ans": 1
+            "q": "Decart의 2026년 5월 기준 기업 가치는 얼마입니까?",
+            "opts": ["40억 달러", "60억 달러", "75억 달러", "30억 달러"],
+            "ans": 0
           },
           "you": null,
-          "url": "https://www.telekom.com/en/newsroom/latest-updates/media-information/2026/11/deutsche-telekom-advances-sovereign-ai-in-germany",
-          "source": "Deutsche Telekom"
+          "url": "https://www.techrepublic.com/article/news-amazon-decart-ai-acquisition-talks/",
+          "source": "Financial Times / TechRepublic"
         }
       ]
     },
@@ -233,48 +127,71 @@
         {
           "id": "k1",
           "cat": "korea",
-          "title": "HBM4 가격 내년 2배 상승 전망 — TrendForce",
-          "meta": "HBM 공급 부족이 가격 폭등으로 이어지며 삼성·SK 호황 가시화",
-          "date_local": "2026-11-18 (KST)",
+          "title": "무디스, 삼성·SK하이닉스 2027년 AI 메모리 호황 지속 전망",
+          "meta": "글로벌 신용평가사 무디스가 국내 반도체 양대 기업에 중장기 청신호를 켰습니다.",
+          "date_local": "2026-11-22 (KST)",
           "date_kst": null,
           "warn": false,
           "bullets": [
-            "시장조사기관 TrendForce에 따르면, HBM4의 기가바이트당 단가가 <b>올해 2.05달러에서 내년 3~5.5달러</b>로 오를 전망입니다.",
-            "차세대 HBM4E는 단가가 <b>5달러 이상</b>에서 논의되고 있으며, 고부가가치 메모리로서 가격 프리미엄이 뚜렷합니다.",
-            "고객사가 요청한 HBM 물량은 SK하이닉스의 공급 가능량보다 <b>약 두 배 많은 상황</b>으로, 공급 부족이 계속될 전망입니다."
+            "무디스는 <b>삼성전자와 SK하이닉스 모두 2027년에도 AI 메모리 반도체 생산 능력을 확대</b>하고 시장 경쟁력을 강화하면서 실적 성장세를 이어갈 것으로 전망했습니다.",
+            "핵심 근거는 <b>AI 서비스 확산으로 고대역폭 메모리, 그러니까 HBM 수요가 계속 늘어나는 반면 공급 확대는 제한적</b>이라는 점입니다. 쉽게 말해 수요가 공급을 웃도는 구조입니다.",
+            "다만 대중국 AI 반도체 수출 규제 강화와 <b>메모리 가격 담합 집단소송 각하 신청 기각</b>은 단기 불확실 요인으로 남아 있습니다."
           ],
-          "why": "AI 연산 수요가 꺾이지 않는 한 HBM 단가 상승이 계속돼, <b>삼성전자와 SK하이닉스의 메모리 수익성</b>이 더욱 개선될 전망입니다.",
+          "why": "국내 반도체 투자자에게는 무디스의 긍정 전망이 단기 주가 약세 국면에서 <b>중장기 보유를 뒷받침하는 근거</b>가 될 수 있습니다.",
           "quiz": {
-            "q": "TrendForce 전망에서 올해 HBM4의 기가바이트당 단가는 얼마입니까?",
-            "opts": ["1.05달러", "1.50달러", "2.05달러", "3.00달러"],
-            "ans": 2
+            "q": "무디스가 AI 메모리 호황 지속을 전망한 핵심 이유는 무엇입니까?",
+            "opts": ["AI 수요 증가에 반해 공급 확대가 제한적", "AI 수요 증가로 공급이 수요를 초과", "미국 반도체 보조금 대폭 확대", "중국 시장 의존도 급감"],
+            "ans": 0
           },
-          "you": "반도체 투자 관점에서 HBM4 가격 급등은 삼성·SK하이닉스 수익 전망에 긍정적 신호입니다.",
-          "url": "https://zdnet.co.kr/view/?no=20261118120439",
-          "source": "ZDNet Korea"
+          "you": "반도체·투자에 관심 있으시면 삼성전자·SK하이닉스 중장기 보유 전략 근거로 활용하세요.",
+          "url": "https://m.news.nate.com/view/20261122n02336",
+          "source": "네이트 뉴스"
         },
         {
           "id": "k2",
           "cat": "korea",
-          "title": "SK하이닉스 HBM4, 4분기에 HBM3E 매출 첫 추월 전망",
-          "meta": "세대 교체 가속 — HBM4가 HBM3E를 넘어서는 역사적 분기",
-          "date_local": "2026-11-16 (KST)",
+          "title": "수능 D-1, 국민의힘 'AI 부정행위 간담회' 개최",
+          "meta": "국가 최대 시험을 앞두고 AI 부정행위가 사회적 의제로 부상했습니다.",
+          "date_local": "2026-11-22 (KST)",
           "date_kst": null,
           "warn": false,
           "bullets": [
-            "LS증권 분석에 따르면, <b>SK하이닉스의 HBM4 출하량과 매출이 4분기에 처음으로 HBM3E를 앞설 것</b>으로 예상됩니다.",
-            "SK하이닉스는 HBM4 증산을 위해 <b>청주 P&T6 공장</b>을 추가 생산기지로 검토하며, 내년 상반기 장비 반입을 목표로 합니다.",
-            "빠른 세대 교체 속에서, <b>삼성전자와 SK하이닉스 간 HBM4 조기 양산 경쟁</b>이 더욱 치열해지고 있습니다."
+            "국민의힘이 11월 22일 수능 수험생과 학부모, 교육 관계자를 불러 <b>AI 부정행위 문제를 논의하는 간담회</b>를 열었습니다.",
+            "올해 처음 도입된 국가자격시험 AI 감지 시스템에서 <b>부정행위 6건이 적발</b>된 것이 계기가 됐으며, 시험장에서의 AI 허용 범위와 단속 기준이 핵심 쟁점입니다.",
+            "쉽게 말해 <b>시험장 안에서 AI를 써도 되는지가 명확하지 않은 상황</b>이라, 처벌 기준과 기술적 대응 방안을 마련해야 한다는 목소리가 커지고 있습니다."
           ],
-          "why": "HBM 세대 교체가 예상보다 빠르게 진행되면서, <b>HBM4 조기 양산 성공 여부</b>가 삼성과 SK하이닉스의 경쟁을 가르는 핵심이 됐습니다.",
+          "why": "AI 활용 능력이 중요해지는 시대에, <b>평가 체계가 AI를 어떻게 허용하거나 제한할지를 제도적으로 정립</b>해야 하는 과제입니다.",
           "quiz": {
-            "q": "LS증권 전망에서 SK하이닉스 HBM4가 HBM3E를 처음 추월하는 시점은?",
-            "opts": ["2026년 2분기", "2026년 3분기", "2026년 4분기", "2027년 1분기"],
-            "ans": 2
+            "q": "올해 국가자격시험 AI 감지 시스템에서 적발된 부정행위 건수는 몇 건입니까?",
+            "opts": ["4건", "6건", "10건", "1건"],
+            "ans": 1
           },
           "you": null,
-          "url": "https://www.fnnews.com/news/202611161601369417",
-          "source": "파이낸셜뉴스"
+          "url": null,
+          "source": "KBS 뉴스"
+        },
+        {
+          "id": "k3",
+          "cat": "korea",
+          "title": "금감원, AI로 불법 사금융 계약 무효 신청 심사 도입",
+          "meta": "금융 소비자 보호에 AI를 활용한 공공기관 도입 사례입니다.",
+          "date_local": "2026-11-22 (KST)",
+          "date_kst": null,
+          "warn": false,
+          "bullets": [
+            "금융감독원이 <b>AI 시스템을 도입해 불법 사금융 계약 무효 신청을 자동으로 심사</b>하는 체계를 운영하기 시작했습니다.",
+            "지금까지는 담당자가 서류를 하나하나 검토해야 했지만, <b>AI가 계약서와 증빙 자료를 분석해 위법 여부를 먼저 가려냄으로써</b> 처리 속도가 빨라질 전망입니다.",
+            "불법 사금융은 금리 상한 초과나 불법 추심 등을 포함하며, <b>공공기관의 AI 도입이 금융 소비자 보호 분야로 확산</b>되고 있음을 보여 줍니다."
+          ],
+          "why": "관공서가 민원 처리에 AI를 적용한 초기 사례 중 하나로, <b>행정 효율과 소비자 보호를 동시에 노리는 방향</b>입니다.",
+          "quiz": {
+            "q": "금감원이 AI로 심사하기 시작한 주요 업무는 무엇입니까?",
+            "opts": ["불법 사금융 계약 무효 신청 심사", "주식 불공정거래 탐지", "보험금 사기 조사", "은행 대출 승인"],
+            "ans": 0
+          },
+          "you": "공공·기관 AI 업무 종사자라면 국내 공공 AI 도입 레퍼런스로 활용하세요.",
+          "url": null,
+          "source": "AI 뉴스 다이제스트 (Nov 22)"
         }
       ]
     }
